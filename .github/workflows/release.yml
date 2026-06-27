@@ -37,34 +37,14 @@ jobs:
       - name: Run lint
         run: make -C build lint
 
-      # Prepare output directory (so smoke always has files to test)
-      - name: Prepare output directory
-        run: |
-          mkdir -p build/out/{cn_dicts,en_dicts,opencc,lua/cold_word_drop,build}
-          cp src/config/default.yaml src/config/squirrel.yaml src/config/weasel.yaml build/out/
-          cp src/config/symbols_v.yaml src/config/symbols_caps_v.yaml build/out/
-          cp src/config/custom_phrase.txt build/out/
-          cp src/schema/*.yaml build/out/
-          cp src/dict/*.dict.yaml build/out/
-          cp src/dict/cn/*.yaml build/out/cn_dicts/
-          cp src/dict/en/en.dict.yaml src/dict/en/en_ext.dict.yaml build/out/en_dicts/
-          cp src/dict/en/cn_en*.txt build/out/en_dicts/
-          cp -r src/lua/* build/out/lua/
-          cp src/opencc/emoji.json src/opencc/emoji.txt src/opencc/others.txt build/out/opencc/
-          cp src/recipes/recipe.yaml build/out/
-          cp LICENSE build/out/
-          touch build/out/build/.gitkeep
-
-      # Build (optional, triggered by [build] in commit or workflow_dispatch)
+      # Build (required: generates build/out/ with sorted/deduped dicts, emoji, cn_en, etc.)
       - name: Setup Go
-        if: ${{ contains(github.event.head_commit.message, ' [build]') || github.event_name == 'workflow_dispatch' }}
         uses: actions/setup-go@v5
         with:
           go-version: 1.22
 
       - name: Build
         id: build
-        if: ${{ contains(github.event.head_commit.message, ' [build]') || github.event_name == 'workflow_dispatch' }}
         run: make -C build build
 
       # Smoke
