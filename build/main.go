@@ -264,7 +264,7 @@ func verifyOutput() {
 		}
 		content := string(data)
 		// 检查是否以 BOM 开头
-		if len(content) > 0 && content[0] == '\ufeff' {
+		if len(data) >= 3 && data[0] == 0xEF && data[1] == 0xBB && data[2] == 0xBF {
 			log.Printf("BOM DETECTED: %s", f)
 		}
 		// 检查是否有空行在 YAML header 和标记之间
