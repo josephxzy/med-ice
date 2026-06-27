@@ -1,4 +1,4 @@
-﻿-- wrap utf8.sub(str,head_index, tail_index)
+-- wrap utf8.sub(str,head_index, tail_index)
 -- wrap string.split(str,sp,sp1)
 --      string.utf8_len = utf8.len
 --      string.utf8_offset= utf8.offset

@@ -1,4 +1,4 @@
-﻿# Rime table
+# Rime table
 # coding: utf-8
 #@/db_name	cn_en_ziguang.txt
 #@/db_type	tabledb

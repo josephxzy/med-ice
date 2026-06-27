@@ -1,4 +1,4 @@
-﻿-- 日期时间，可在方案中配置触发关键字。
+-- 日期时间，可在方案中配置触发关键字。
 
 local convert_num = require("convert_ar_num_to_zh").convert
 local convert_digits = require("convert_ar_num_to_zh").digits

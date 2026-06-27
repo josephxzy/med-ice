@@ -1,4 +1,4 @@
-﻿{
+{
 	"name": "Chinese to Emoji",
 	"segmentation": {
 		"type": "mmseg",

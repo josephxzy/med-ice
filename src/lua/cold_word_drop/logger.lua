@@ -1,4 +1,4 @@
-﻿-- runLog.lua
+-- runLog.lua
 -- Copyright (C) 2023 yaoyuan.dou <douyaoyuan@126.com>
 
 local M = {}

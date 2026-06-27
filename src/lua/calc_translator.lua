@@ -1,4 +1,4 @@
-﻿-- 计算器插件
+-- 计算器插件
 -- author: https://github.com/ChaosAlphard
 -- contributor: https://github.com/DeepChirp
 local calc = {}

@@ -1,4 +1,4 @@
-﻿std = "lua54"
+std = "lua54"
 
 globals = {
   "Candidate",

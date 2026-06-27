@@ -1,4 +1,4 @@
-﻿# Med-Ice (med-ice)
+# Med-Ice (med-ice)
 
 > 本项目基于 **[雾凇拼音 (rime-ice)](https://github.com/iDvel/rime-ice)** 改编，按照 LGPL-3.0 许可证重新分发。
 > 原始作者：**[Dvel](https://github.com/iDvel)**

@@ -1,4 +1,4 @@
-﻿-- 词条隐藏、降频
+-- 词条隐藏、降频
 -- 在 engine/processors 增加 - lua_processor@*cold_word_drop.processor
 -- 在 engine/filters 增加 - lua_filter@*cold_word_drop.filter
 -- 在 key_binder 增加快捷键：

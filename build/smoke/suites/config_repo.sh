@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 
 run_config_repo_suite() {
   local suite_name="$1"

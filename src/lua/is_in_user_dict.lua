@@ -1,4 +1,4 @@
-﻿-- 根据是否在用户词典，在 comment 上加上一个星号 *
+-- 根据是否在用户词典，在 comment 上加上一个星号 *
 -- 在 engine/filters 增加 - lua_filter@*is_in_user_dict
 -- 在方案里写配置项：
 -- is_in_user_dict: true     为输入过的内容加星号

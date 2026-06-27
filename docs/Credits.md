@@ -1,4 +1,4 @@
-﻿# Credits
+# Credits
 
 字表和词库：
 

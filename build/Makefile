@@ -1,4 +1,4 @@
-﻿.DEFAULT_GOAL := default
+.DEFAULT_GOAL := default
 
 .PHONY: default build lint lint-yaml lint-lua lint-lua-format smoke
 

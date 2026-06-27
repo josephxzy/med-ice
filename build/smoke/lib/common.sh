@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 
 if [[ -z "${SMOKE_ROOT:-}" ]]; then
   SMOKE_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.."; pwd)"

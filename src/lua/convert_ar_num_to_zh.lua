@@ -1,4 +1,4 @@
-﻿--[[
+--[[
     Lua 阿拉伯数字转中文实现 https://blog.csdn.net/lp12345678910/article/details/121396243
 --]]
 -- 数字转中文：

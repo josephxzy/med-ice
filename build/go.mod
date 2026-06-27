@@ -1,4 +1,4 @@
-﻿module script
+module script
 
 go 1.22
 

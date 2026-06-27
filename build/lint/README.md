@@ -1,4 +1,4 @@
-﻿# YAML and Lua lint entrypoint
+# YAML and Lua lint entrypoint
 
 This directory contains the lightweight lint entrypoint used by local commands.
 

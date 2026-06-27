@@ -1,4 +1,4 @@
-﻿local function debuger(input, env)
+local function debuger(input, env)
   for cand in input:iter() do
     yield(ShadowCandidate(
       cand,

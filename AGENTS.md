@@ -1,4 +1,4 @@
-﻿# Med-Ice AGENTS 约定
+# Med-Ice AGENTS 约定
 
 本仓库是 Rime 输入法配置仓库，包含输入方案、词库、OpenCC 映射和 Lua 扩展。
 

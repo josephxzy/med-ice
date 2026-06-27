@@ -1,4 +1,4 @@
-﻿-- create metatable
+-- create metatable
 orgtype = type
 
 function type(obj)

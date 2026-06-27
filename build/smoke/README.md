@@ -1,4 +1,4 @@
-﻿# Smoke Test Framework
+# Smoke Test Framework
 
 This directory contains the shell-based smoke test framework for the current repository.
 

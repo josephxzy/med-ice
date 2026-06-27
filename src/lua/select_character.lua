@@ -1,4 +1,4 @@
-﻿-- 以词定字
+-- 以词定字
 -- 原脚本 https://github.com/BlindingDark/rime-lua-select-character
 -- 可在 default.yaml → key_binder 下配置快捷键，默认为左右中括号 [ ]
 -- 20230526195910 不再错误地获取commit_text，而是直接获取get_selected_candidate().text

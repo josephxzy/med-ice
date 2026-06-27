@@ -1,4 +1,4 @@
-﻿package rime
+package rime
 
 import (
 	"bufio"
