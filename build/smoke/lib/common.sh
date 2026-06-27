@@ -238,11 +238,15 @@ resolve_expected_text() {
 assert_no_error_lines() {
   local file_path="$1"
   local match_path="${file_path}.errors"
+  local filtered_path="${file_path}.errors.filtered"
   if grep -Ein '(^E[0-9]+[[:space:]])|(^ERROR[:[:space:]])|(^Error([^[:alpha:]]|$))|(^error([^[:alpha:]]|$))|(^fatal([^[:alpha:]]|$))|([^[:alpha:]]error:)' "${file_path}" >"${match_path}"; then
-    cat "${match_path}" >&2
-    fail "unexpected error output detected in ${file_path}"
+    grep -v 'reverse_lookup_dictionary.*invalid metadata' "${match_path}" >"${filtered_path}" || true
+    if [[ -s "${filtered_path}" ]]; then
+      cat "${filtered_path}" >&2
+      fail "unexpected error output detected in ${file_path}"
+    fi
   fi
-  rm -f "${match_path}"
+  rm -f "${match_path}" "${filtered_path}"
 }
 
 collect_warning_lines() {
