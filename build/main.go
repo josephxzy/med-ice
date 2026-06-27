@@ -70,6 +70,9 @@ SORT:
 	rime.Sort(rime.ExtPath, 3)
 	rime.Sort(rime.TencentPath, 4)
 	rime.Sort(filepath.Join(rime.OutDir, "en_dicts", "en.dict.yaml"), 2)
+
+	fmt.Println("--------------------------------------------------")
+	verifyOutput()
 }
 
 func prepareOutputDir() {
@@ -234,4 +237,65 @@ func areYouOK() {
 	if isOK != "ok" && isOK != "y" && isOK != "yes" {
 		os.Exit(123)
 	}
+}
+
+func verifyOutput() {
+	log.Println("Verifying output integrity...")
+
+	files := []string{
+		filepath.Join(rime.OutDir, "cn_dicts", "8105.dict.yaml"),
+		filepath.Join(rime.OutDir, "cn_dicts", "base.dict.yaml"),
+		filepath.Join(rime.OutDir, "cn_dicts", "ext.dict.yaml"),
+		filepath.Join(rime.OutDir, "cn_dicts", "tencent.dict.yaml"),
+		filepath.Join(rime.OutDir, "cn_dicts", "others.dict.yaml"),
+		filepath.Join(rime.OutDir, "cn_dicts", "41448.dict.yaml"),
+		filepath.Join(rime.OutDir, "en_dicts", "en.dict.yaml"),
+		filepath.Join(rime.OutDir, "en_dicts", "en_ext.dict.yaml"),
+		filepath.Join(rime.OutDir, "med_ice.dict.yaml"),
+		filepath.Join(rime.OutDir, "melt_eng.dict.yaml"),
+		filepath.Join(rime.OutDir, "radical_pinyin.dict.yaml"),
+	}
+
+	for _, f := range files {
+		data, err := os.ReadFile(f)
+		if err != nil {
+			log.Printf("MISSING: %s", f)
+			continue
+		}
+		content := string(data)
+		// 检查是否以 BOM 开头
+		if len(content) > 0 && content[0] == '\ufeff' {
+			log.Printf("BOM DETECTED: %s", f)
+		}
+		// 检查是否有空行在 YAML header 和标记之间
+		if !strings.Contains(content, "\n# +_+\n") && !strings.Contains(content, "\n#+_+\n") {
+			if !strings.Contains(content, "# +_+") {
+				log.Printf("NO MARKER (# +_+): %s", f)
+			}
+		}
+		// 检查 encoding 声明
+		if !strings.Contains(content, "encoding: utf-8") && !strings.Contains(content, "encoding:utf-8") {
+			log.Printf("NO ENCODING: %s", f)
+		}
+		// 检查 CRLF
+		if strings.Contains(content, "\r\n") {
+			log.Printf("CRLF DETECTED: %s", filepath.Base(f))
+		}
+	}
+
+	// 验证 cn_en*.txt 文件存在
+	cnEnFiles, _ := filepath.Glob(filepath.Join(rime.OutDir, "en_dicts", "cn_en*.txt"))
+	log.Printf("cn_en*.txt files: %d", len(cnEnFiles))
+
+	// 验证 lua 文件存在
+	luaFiles, _ := filepath.Glob(filepath.Join(rime.OutDir, "lua", "*.lua"))
+	log.Printf("lua files in out/: %d", len(luaFiles))
+
+	// 验证 opencc
+	emojiPath := filepath.Join(rime.OutDir, "opencc", "emoji.txt")
+	if _, err := os.Stat(emojiPath); os.IsNotExist(err) {
+		log.Printf("MISSING: emoji.txt")
+	}
+
+	log.Println("Verification complete.")
 }
