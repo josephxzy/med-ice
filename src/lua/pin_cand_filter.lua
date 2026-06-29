@@ -191,14 +191,10 @@ function M.func(input, env)
         local texts = env.pin_cands[preedit]
 
         if texts == nil then
-            -- 当前候选项无须排序，直接 yield 并结束循环
-            -- 当前候选项正在排序，例如要置顶某个 `hao`，但从 `hao` 查到 `ha` 了还没找齐，不能直接 yield，要先输出 pined 和 others 中的 `hao`
-            if letter_only_preedit == preedit then
-                yield(cand)
-            else
-                table.insert(others, cand)
+            table.insert(others, cand)
+            if #others > 100 then
+                break
             end
-            break
         else
             -- 给 pined 几个空字符串占位元素，后面直接 pined[idx] = cand 确保 pined 与 texts 顺序一致
             if #pined < #texts then
