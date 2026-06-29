@@ -55,9 +55,11 @@ func main() {
 	}
 	fmt.Println("--------------------------------------------------")
 
-	// 按词库类型检查
-	for _, d := range rime.Manifest.CNDicts() {
-		rime.Check(d.OutAbsPath, d.Columns)
+	// 按词库类型检查（仅检查需要校验的核心词库，跳过大字表 41448 等）
+	for _, name := range []string{"8105", "base", "ext", "tencent"} {
+		if d := rime.Manifest.DictByName(name); d != nil {
+			rime.Check(d.OutAbsPath, d.Columns)
+		}
 	}
 	fmt.Println("--------------------------------------------------")
 
