@@ -345,11 +345,16 @@ func CopyFileContent(src, dst string) {
 	if err != nil {
 		log.Fatalf("Fatal: cannot create dest %s: %v", dst, err)
 	}
-	defer dstFile.Close()
 
 	if _, err := io.Copy(dstFile, srcFile); err != nil {
+		dstFile.Close()
 		log.Fatalf("Fatal: failed to copy %s: %v", src, err)
 	}
+	if err := dstFile.Sync(); err != nil {
+		dstFile.Close()
+		log.Fatalf("Fatal: failed to sync %s: %v", dst, err)
+	}
+	dstFile.Close()
 }
 
 func ensureDir(path string) {
