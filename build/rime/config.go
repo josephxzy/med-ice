@@ -166,28 +166,6 @@ func DiscoverManifest(srcDir string) *FileManifest {
 		resolveImports(name, "")
 	}
 
-	// 收集 cn 和 en 目录下所有 .dict.yaml
-	_ = filepath.Walk(cnDictDir, func(path string, info os.FileInfo, err error) error {
-		if err != nil || info.IsDir() || !strings.HasSuffix(info.Name(), ".dict.yaml") {
-			return nil
-		}
-		name := strings.TrimSuffix(info.Name(), ".dict.yaml")
-		if _, exists := collected[name]; !exists {
-			collected[name] = classifyDictFile(path, name, "cn", OutDir)
-		}
-		return nil
-	})
-	_ = filepath.Walk(enDictDir, func(path string, info os.FileInfo, err error) error {
-		if err != nil || info.IsDir() || !strings.HasSuffix(info.Name(), ".dict.yaml") {
-			return nil
-		}
-		name := strings.TrimSuffix(info.Name(), ".dict.yaml")
-		if _, exists := collected[name]; !exists {
-			collected[name] = classifyDictFile(path, name, "en", OutDir)
-		}
-		return nil
-	})
-
 	for _, df := range collected {
 		m.Dicts = append(m.Dicts, df)
 	}
