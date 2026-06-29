@@ -353,8 +353,8 @@ func (m *FileManifest) ENDicts() []*DictFile {
 	return result
 }
 
-// copyFileContent copies a file from src to dst
-func copyFileContent(src, dst string) {
+// CopyFileContent copies a file from src to dst
+func CopyFileContent(src, dst string) {
 	srcFile, err := os.Open(src)
 	if err != nil {
 		log.Fatalf("Fatal: cannot open source %s: %v", src, err)
@@ -371,5 +371,11 @@ func copyFileContent(src, dst string) {
 
 	if _, err := io.Copy(dstFile, srcFile); err != nil {
 		log.Fatalf("Fatal: failed to copy %s: %v", src, err)
+	}
+}
+
+func ensureDir(path string) {
+	if _, err := os.Stat(path); os.IsNotExist(err) {
+		os.MkdirAll(path, 0755)
 	}
 }
