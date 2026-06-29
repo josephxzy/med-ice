@@ -61,18 +61,6 @@ jobs:
           RIME_CLI_CACHE_PATH: ${{ runner.temp }}/rime-cli-cache/rime-cli-linux-1.6.1.zip
         run: make -C build smoke
 
-      - name: Debug - check pin_cand_filter in compiled config
-        if: always()
-        run: |
-          echo "=== schema pin_cand_filter in src ==="
-          grep -A3 '^pin_cand_filter:' src/schema/med_ice.schema.yaml
-          echo "=== schema pin_cand_filter in out ==="
-          grep -A3 '^pin_cand_filter:' build/out/med_ice.schema.yaml
-          echo "=== raw bytes of pin_cand_filter in out ==="
-          grep '^pin_cand_filter:' -A3 build/out/med_ice.schema.yaml | xxd | head -20
-          echo "=== comparing src vs out schema ==="
-          diff src/schema/med_ice.schema.yaml build/out/med_ice.schema.yaml && echo "IDENTICAL" || echo "DIFFER"
-
       - name: Clean smoke artifacts
         run: |
           rm -f build/out/installation.yaml build/out/user.yaml
