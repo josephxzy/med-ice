@@ -265,6 +265,7 @@ func classifyDictFile(srcPath, name, category, outDir string) *DictFile {
 			df.Columns = 3
 			df.IsBase = true
 			df.NeedPinyin = false
+			df.NeedWeight = false
 		case "41448":
 			df.Columns = 2
 			df.IsBase = true
@@ -274,6 +275,7 @@ func classifyDictFile(srcPath, name, category, outDir string) *DictFile {
 			df.Columns = 3
 			df.IsBase = true
 			df.NeedPinyin = false
+			df.NeedWeight = false
 		case "ext":
 			df.Columns = 3
 			df.NeedPinyin = true
@@ -283,6 +285,7 @@ func classifyDictFile(srcPath, name, category, outDir string) *DictFile {
 		case "others":
 			df.Columns = 3
 			df.NeedPinyin = false
+			df.NeedWeight = false
 		default:
 			df.Columns = 3
 		}
