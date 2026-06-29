@@ -288,6 +288,7 @@ func classifyDictFile(srcPath, name, category, outDir string) *DictFile {
 			df.NeedWeight = false
 		default:
 			df.Columns = 3
+			df.NeedWeight = false
 		}
 	} else {
 		df.Category = "en"
