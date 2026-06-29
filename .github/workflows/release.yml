@@ -48,17 +48,6 @@ jobs:
         id: build
         run: make -C build build
 
-      - name: Debug - verify schema
-        run: |
-          echo "=== pin_cand_filter in src ==="
-          grep -A3 '^pin_cand_filter:' src/schema/med_ice.schema.yaml
-          echo "=== pin_cand_filter in out ==="
-          grep -A3 '^pin_cand_filter:' build/out/med_ice.schema.yaml
-          echo "=== diff src vs out ==="
-          diff src/schema/med_ice.schema.yaml build/out/med_ice.schema.yaml || true
-          echo "=== lua file count ==="
-          ls build/out/lua/pin_cand_filter.lua && echo "pin_cand_filter.lua present"
-
       # Smoke
       - name: Cache rime cli bundle
         uses: actions/cache@v5
