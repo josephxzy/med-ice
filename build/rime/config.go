@@ -158,13 +158,35 @@ func DiscoverManifest(srcDir string) *FileManifest {
 
 	// 为每个被引用的主词库解析 import_tables
 	for name := range dictNames {
-		// 主词库索引文件
 		idxPath := filepath.Join(dictDir, name+".dict.yaml")
 		if _, err := os.Stat(idxPath); err != nil {
 			idxPath = ""
 		}
 		resolveImports(name, "")
 	}
+
+	// 补充扫描 cn/ 和 en/ 下被注释但用户可能启用的词库（如 41448）
+	// 这些文件会被复制和排序，但不参与 Check 校验
+	_ = filepath.Walk(cnDictDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil || info.IsDir() || !strings.HasSuffix(info.Name(), ".dict.yaml") {
+			return nil
+		}
+		name := strings.TrimSuffix(info.Name(), ".dict.yaml")
+		if _, exists := collected[name]; !exists {
+			collected[name] = classifyDictFile(path, name, "cn", OutDir)
+		}
+		return nil
+	})
+	_ = filepath.Walk(enDictDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil || info.IsDir() || !strings.HasSuffix(info.Name(), ".dict.yaml") {
+			return nil
+		}
+		name := strings.TrimSuffix(info.Name(), ".dict.yaml")
+		if _, exists := collected[name]; !exists {
+			collected[name] = classifyDictFile(path, name, "en", OutDir)
+		}
+		return nil
+	})
 
 	for _, df := range collected {
 		m.Dicts = append(m.Dicts, df)
