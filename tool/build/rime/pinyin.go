@@ -361,12 +361,6 @@ func generatePinyin(s string) string {
 
 	words := jieba.Cut(s, true)
 	for _, word := range words {
-		// 非 CJK 字符跳过，不参与拼音（如 %, /, (, ), 希腊字母, 罗马数字等）
-		firstRune, _ := utf8.DecodeRuneInString(word)
-		if !unicode.Is(unicode.Han, firstRune) {
-			continue
-		}
-
 		// 单字，且不是多音字
 		if utf8.RuneCountInString(word) == 1 && len(hanziPinyin[word]) == 1 {
 			r += hanziPinyin[word][0] + " "
@@ -382,14 +376,17 @@ func generatePinyin(s string) string {
 		// 词组，未能通过映射进行注音，但本身不包含多音字
 		notPolyphone := false
 		for _, char := range word {
-			if len(hanziPinyin[string(char)]) > 1 {
+			pys := hanziPinyin[string(char)]
+			if len(pys) > 1 {
 				notPolyphone = true
 				break
 			}
 		}
 		if !notPolyphone {
 			for _, char := range word {
-				r += hanziPinyin[string(char)][0] + " "
+				if pys := hanziPinyin[string(char)]; len(pys) > 0 {
+					r += pys[0] + " "
+				}
 			}
 			continue
 		}
