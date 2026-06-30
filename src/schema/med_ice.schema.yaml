@@ -65,11 +65,6 @@ engine:
     - table_translator@custom_phrase     # 自定义短语 custom_phrase.txt
     - table_translator@melt_eng          # 英文输入
     - table_translator@cn_en             # 中英混合词汇
-    - table_translator@med_western       # 西药
-    - table_translator@med_cn_patent     # 中成药
-    - table_translator@med_herb          # 中药材
-    - table_translator@med_minority      # 少数民族药
-    - table_translator@med_clinical      # 临床药物
     - table_translator@radical_lookup    # 部件拆字反查
     - lua_translator@*force_gc           # 暴力 GC
   filters:
@@ -161,7 +156,7 @@ pin_cand_filter:
 
 # 主翻译器，拼音
 translator:
-  dictionary: rime_ice         # 挂载词库 rime_ice.dict.yaml
+  dictionary: med_ice         # 挂载词库 med_ice.dict.yaml
   enable_word_completion: true # 大于 4 音节的词条自动补全，librime > 1.11.2
   spelling_hints: 8            # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
   always_show_comments: true   # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
@@ -197,52 +192,6 @@ cn_en:
   enable_completion: true
   enable_sentence: false
   initial_quality: 0.5
-  comment_format:
-    - xform/^.+$//
-
-
-# 药物词库：西药
-med_western:
-  dictionary: med/drug/western_medicine
-  enable_sentence: false
-  enable_user_dict: false
-  initial_quality: 0.3
-  comment_format:
-    - xform/^.+$//
-
-# 药物词库：中成药
-med_cn_patent:
-  dictionary: med/drug/chinese_patent_medicine
-  enable_sentence: false
-  enable_user_dict: false
-  initial_quality: 0.3
-  comment_format:
-    - xform/^.+$//
-
-# 药物词库：中药材
-med_herb:
-  dictionary: med/drug/chinese_herbal_medicine
-  enable_sentence: false
-  enable_user_dict: false
-  initial_quality: 0.3
-  comment_format:
-    - xform/^.+$//
-
-# 药物词库：少数民族药
-med_minority:
-  dictionary: med/drug/ethnic_minority_medicine
-  enable_sentence: false
-  enable_user_dict: false
-  initial_quality: 0.3
-  comment_format:
-    - xform/^.+$//
-
-# 药物词库：临床药物
-med_clinical:
-  dictionary: med/drug/clinical_1000_drug
-  enable_sentence: false
-  enable_user_dict: false
-  initial_quality: 0.3
   comment_format:
     - xform/^.+$//
 

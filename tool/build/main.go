@@ -128,23 +128,6 @@ func prepareOutputDir() {
 		}
 	}
 
-	// 复制 dict/med/drug/ 子目录词库
-	medDir := filepath.Join(dictDir, "med", "drug")
-	if _, err := os.Stat(medDir); err == nil {
-		medEntries, _ := os.ReadDir(medDir)
-		for _, entry := range medEntries {
-			if strings.HasSuffix(entry.Name(), ".dict.yaml") {
-				outMedDir := filepath.Join(rime.OutDir, "med", "drug")
-				os.MkdirAll(outMedDir, 0755)
-				srcMed := filepath.Join(medDir, entry.Name())
-				dstMed := filepath.Join(outMedDir, entry.Name())
-				rime.CopyFileContent(srcMed, dstMed)
-				rime.FixLineEndings(dstMed)
-				log.Printf("Med dict copied: %s", entry.Name())
-			}
-		}
-	}
-
 	// 复制配置文件
 	configDir := filepath.Join(srcDir, "config")
 	for _, cf := range rime.Manifest.ConfigFiles {
