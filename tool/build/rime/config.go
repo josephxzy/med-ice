@@ -289,7 +289,7 @@ func classifyDictFile(srcPath, name, category, outDir string) *DictFile {
 		default:
 			if strings.HasPrefix(name, "med_") {
 				df.Columns = 2
-				df.NeedPinyin = false
+				df.NeedPinyin = true
 				df.NeedWeight = false
 			} else {
 				df.Columns = 3
