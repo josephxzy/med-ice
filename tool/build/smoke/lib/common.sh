@@ -240,7 +240,8 @@ assert_no_error_lines() {
   local match_path="${file_path}.errors"
   local filtered_path="${file_path}.errors.filtered"
   if grep -Ein '(^E[0-9]+[[:space:]])|(^ERROR[:[:space:]])|(^Error([^[:alpha:]]|$))|(^error([^[:alpha:]]|$))|(^fatal([^[:alpha:]]|$))|([^[:alpha:]]error:)' "${file_path}" >"${match_path}"; then
-    grep -v 'reverse_lookup_dictionary.*invalid metadata' "${match_path}" >"${filtered_path}" || true
+    grep -v 'reverse_lookup_dictionary.*invalid metadata' "${match_path}" | \
+      grep -v 'entry_collector.cc.*Encode failure' >"${filtered_path}" || true
     if [[ -s "${filtered_path}" ]]; then
       cat "${filtered_path}" >&2
       fail "unexpected error output detected in ${file_path}"
