@@ -383,6 +383,19 @@ func CopyFileContent(src, dst string) {
 	dstFile.Close()
 }
 
+// FixLineEndings 将文件中的 CRLF 转换为 LF，确保 Linux/macOS 下可正常解析
+func FixLineEndings(path string) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return
+	}
+	fixed := strings.ReplaceAll(string(data), "\r\n", "\n")
+	if string(data) != fixed {
+		os.WriteFile(path, []byte(fixed), 0644)
+		log.Printf("Fixed CRLF -> LF: %s", filepath.Base(path))
+	}
+}
+
 func ensureDir(path string) {
 	if _, err := os.Stat(path); os.IsNotExist(err) {
 		os.MkdirAll(path, 0755)
