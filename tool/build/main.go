@@ -129,12 +129,12 @@ func prepareOutputDir() {
 	}
 
 	// 复制 dict/med/ 子目录词库
-	medDir := filepath.Join(dictDir, "med")
+	medDir := filepath.Join(dictDir, "med", "drug")
 	if _, err := os.Stat(medDir); err == nil {
 		medEntries, _ := os.ReadDir(medDir)
 		for _, entry := range medEntries {
 			if strings.HasSuffix(entry.Name(), ".dict.yaml") {
-				outMedDir := filepath.Join(rime.OutDir, "med")
+				outMedDir := filepath.Join(rime.OutDir, "med", "drug")
 				os.MkdirAll(outMedDir, 0755)
 				rime.CopyFileContent(
 					filepath.Join(medDir, entry.Name()),

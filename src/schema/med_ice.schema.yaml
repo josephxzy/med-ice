@@ -69,7 +69,7 @@ engine:
     - table_translator@med_cn_patent     # 中成药
     - table_translator@med_herb          # 中药材
     - table_translator@med_minority      # 少数民族药
-    - table_translator@med_tcm           # 传统药物
+    - table_translator@med_clinical      # 临床药物
     - table_translator@radical_lookup    # 部件拆字反查
     - lua_translator@*force_gc           # 暴力 GC
   filters:
@@ -204,7 +204,7 @@ cn_en:
 
 # 药物词库：西药
 med_western:
-  dictionary: med/western_medicine
+  dictionary: med/drug/western_medicine
   enable_sentence: false
   enable_user_dict: false
   initial_quality: 0.3
@@ -213,7 +213,7 @@ med_western:
 
 # 药物词库：中成药
 med_cn_patent:
-  dictionary: med/chinese_patent_medicine
+  dictionary: med/drug/chinese_patent_medicine
   enable_sentence: false
   enable_user_dict: false
   initial_quality: 0.3
@@ -222,7 +222,7 @@ med_cn_patent:
 
 # 药物词库：中药材
 med_herb:
-  dictionary: med/chinese_herbal_medicine
+  dictionary: med/drug/chinese_herbal_medicine
   enable_sentence: false
   enable_user_dict: false
   initial_quality: 0.3
@@ -231,16 +231,16 @@ med_herb:
 
 # 药物词库：少数民族药
 med_minority:
-  dictionary: med/ethnic_minority_medicine
+  dictionary: med/drug/ethnic_minority_medicine
   enable_sentence: false
   enable_user_dict: false
   initial_quality: 0.3
   comment_format:
     - xform/^.+$//
 
-# 药物词库：传统药物
-med_tcm:
-  dictionary: med/traditional_chinese_medicine
+# 药物词库：临床药物
+med_clinical:
+  dictionary: med/drug/clinical_1000_drug
   enable_sentence: false
   enable_user_dict: false
   initial_quality: 0.3
