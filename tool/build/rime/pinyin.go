@@ -316,7 +316,7 @@ func Pinyin(dictPath string) {
 			isMark = true
 		}
 		if !isMark {
-			if strings.HasPrefix(line, mark) {
+			if strings.HasPrefix(line, mark) || line == "..." {
 				isMark = true
 			}
 			continue
