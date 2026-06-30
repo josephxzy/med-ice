@@ -73,18 +73,18 @@ jobs:
           mkdir dist
           cd tool/build/out
           echo "Pack all ..."
-          find . -maxdepth 1 -name "*.lua" -o -name "*.yaml" -o -name "*.txt" | zip ../../dist/full.zip -@
-          zip -r ../../dist/full.zip cn_dicts en_dicts lua opencc med LICENSE
+          find . -maxdepth 1 -name "*.lua" -o -name "*.yaml" -o -name "*.txt" | zip ../../../dist/full.zip -@
+          zip -r ../../../dist/full.zip cn_dicts en_dicts lua opencc med LICENSE
           echo "Pack dicts ..."
-          zip -r ../../dist/all_dicts.zip cn_dicts en_dicts opencc radical_pinyin.dict.yaml
+          zip -r ../../../dist/all_dicts.zip cn_dicts en_dicts opencc radical_pinyin.dict.yaml
           echo "Pack cn_dicts ..."
-          zip -r ../../dist/cn_dicts.zip cn_dicts
+          zip -r ../../../dist/cn_dicts.zip cn_dicts
           echo "Pack en_dicts ..."
-          zip -r ../../dist/en_dicts.zip en_dicts
+          zip -r ../../../dist/en_dicts.zip en_dicts
           echo "Pack opencc ..."
-          zip -r ../../dist/opencc.zip opencc
+          zip -r ../../../dist/opencc.zip opencc
           echo "Pack binary for fcitx5.js ..."
-          zip -r ../../dist/fcitx5_rime_js-med_ice.zip tool/build lua opencc custom_phrase.txt
+          zip -r ../../../dist/fcitx5_rime_js-med_ice.zip build lua opencc custom_phrase.txt
 
       - name: Create nightly release
         if: ${{ github.ref == 'refs/heads/main' }}
