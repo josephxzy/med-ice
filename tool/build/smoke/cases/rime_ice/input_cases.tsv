@@ -1,30 +1,30 @@
 # ------------------
-# 方案：med_ice
+# 方案：rime_ice
 # ------ 基础 ------
 # case_id	schema_id	key_sequence	expected_text
-基础：中文输入	med_ice	wusongpinyin{space}	雾凇拼音
-基础：英文输入	med_ice	hello{space}	hello
-基础：英文派生	med_ice	PtwoP{space}	P2P
-基础：中英混输	med_ice	Xguang{space}	X光
-基础：自定义短语	med_ice	ig{space}	一个
-基础：Emoji输入	med_ice	nihao{2}	👋
-基础：uU拆字反查	med_ice	uUrenrenren{space}	众
-基础：v键符号输入	med_ice	v1{space}	一
-插件：英文全大写	med_ice	HELLO{space}	HELLO
-插件：英文首字母大写	med_ice	Hello{space}	Hello
-插件：置顶候选	med_ice	d{space}	的
-插件：Unicode输入	med_ice	U4f60{space}	你
-插件：日期输入	med_ice	rq{space}	@today:%Y-%m-%d
-插件：UUID输入	med_ice	uuid{space}	@regex:^commit: [0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$
-插件：英文降权	med_ice	ranch{space}	染成
-插件：英文降权	med_ice	ranch{2}	ranch
-插件：数字输入	med_ice	R123{space}	一百二十三
-插件：计算器	med_ice	cC1+2{space}	3
-插件：农历输入：农历	med_ice	N19700101{space}	己酉鸡年十一月二十四
-插件：以词定字：左中括号取首字	med_ice	nihao{bracketleft}	你
-插件：以词定字：右中括号取尾字	med_ice	nihao{bracketright}	好
-插件：部件辅码	med_ice	ni`ren{space}	你
-插件：错字错音提示	med_ice	qikefu{Control+Shift+Return}	契诃(hē)夫
+基础：中文输入	rime_ice	wusongpinyin{space}	雾凇拼音
+基础：英文输入	rime_ice	hello{space}	hello
+基础：英文派生	rime_ice	PtwoP{space}	P2P
+基础：中英混输	rime_ice	Xguang{space}	X光
+基础：自定义短语	rime_ice	ig{space}	一个
+基础：Emoji输入	rime_ice	nihao{2}	👋
+基础：uU拆字反查	rime_ice	uUrenrenren{space}	众
+基础：v键符号输入	rime_ice	v1{space}	一
+插件：英文全大写	rime_ice	HELLO{space}	HELLO
+插件：英文首字母大写	rime_ice	Hello{space}	Hello
+插件：置顶候选	rime_ice	d{space}	的
+插件：Unicode输入	rime_ice	U4f60{space}	你
+插件：日期输入	rime_ice	rq{space}	@today:%Y-%m-%d
+插件：UUID输入	rime_ice	uuid{space}	@regex:^commit: [0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$
+插件：英文降权	rime_ice	ranch{space}	染成
+插件：英文降权	rime_ice	ranch{2}	ranch
+插件：数字输入	rime_ice	R123{space}	一百二十三
+插件：计算器	rime_ice	cC1+2{space}	3
+插件：农历输入：农历	rime_ice	N19700101{space}	己酉鸡年十一月二十四
+插件：以词定字：左中括号取首字	rime_ice	nihao{bracketleft}	你
+插件：以词定字：右中括号取尾字	rime_ice	nihao{bracketright}	好
+插件：部件辅码	rime_ice	ni`ren{space}	你
+插件：错字错音提示	rime_ice	qikefu{Control+Shift+Return}	契诃(hē)夫
 
 # ------------------
 # 方案：自然码双拼

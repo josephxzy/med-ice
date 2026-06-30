@@ -10,10 +10,10 @@ export SMOKE_LOG_ROOT="${SMOKE_LOG_ROOT:-${SMOKE_WORK_ROOT}/logs}"
 
 source "${SMOKE_ROOT}/lib/common.sh"
 
-suite_name="${1:-med_ice}"
+suite_name="${1:-rime_ice}"
 
 case "${suite_name}" in
-  med_ice)
+  rime_ice)
     source "${SMOKE_ROOT}/suites/config_repo.sh"
     run_config_repo_suite "${suite_name}"
     ;;

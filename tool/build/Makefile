@@ -22,4 +22,4 @@ lint-lua-format:
 	bash lint/run.sh lua-format-check
 
 smoke:
-	bash ./smoke/run.sh med_ice
+	bash ./smoke/run.sh rime_ice
