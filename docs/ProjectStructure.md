@@ -20,7 +20,7 @@ med-ice/
 │   ├── no_lua_schema/          # Lua-free 方案变体
 │   └── platforms/              # 平台集成
 │
-├── build/                      # 构建工具（Go）
+├── tool/build/                      # 构建工具（Go）
 │   ├── main.go                 # 入口
 │   ├── rime/                   # 构建核心库
 │   ├── lint/                   # 代码检查
@@ -34,14 +34,14 @@ med-ice/
     └── workflows/
 ```
 
-## src/ → build/out/ 架构
+## src/ → tool/build/out/ 架构
 
 项目采用源文件与构建产物分离的设计：
 
 - **`src/`** — 按功能分类的源文件，适合开发和版本管理
-- **`build/out/`** — 构建产物，扁平的 Rime 部署结构，适合直接复制到用户目录
+- **`tool/build/out/`** — 构建产物，扁平的 Rime 部署结构，适合直接复制到用户目录
 
-运行 `make -C build build` 后，`build/out/` 中的文件结构即为 Rime 期望的配置目录结构，可以直接部署。
+运行 `make -C tool/build build` 后，`tool/build/out/` 中的文件结构即为 Rime 期望的配置目录结构，可以直接部署。
 
 详见 [开发指南](./Development.md#构建流程)。
 
@@ -53,7 +53,7 @@ med-ice/
 
 | 文件 | 方案 |
 |------|------|
-| `med_ice.schema.yaml` | 全拼（主方案） |
+| `rime_ice.schema.yaml` | 全拼（主方案） |
 | `double_pinyin.schema.yaml` | 自然码双拼 |
 | `double_pinyin_flypy.schema.yaml` | 小鹤双拼 |
 | `double_pinyin_mspy.schema.yaml` | 微软双拼 |
@@ -61,7 +61,7 @@ med-ice/
 | `double_pinyin_ziguang.schema.yaml` | 紫光双拼 |
 | `double_pinyin_abc.schema.yaml` | 智能 ABC 双拼 |
 | `double_pinyin_jiajia.schema.yaml` | 拼音加加双拼 |
-| `t9.schema.yaml` | 九宫格（继承 med_ice） |
+| `t9.schema.yaml` | 九宫格（继承 rime_ice） |
 | `melt_eng.schema.yaml` | 英文混输 |
 | `radical_pinyin.schema.yaml` | 拆字反查 |
 
@@ -90,7 +90,7 @@ med-ice/
 
 | 文件 | 挂载 |
 |------|------|
-| `med_ice.dict.yaml` | cn_dicts/ 下所有中文词库 |
+| `rime_ice.dict.yaml` | cn_dicts/ 下所有中文词库 |
 | `melt_eng.dict.yaml` | en_dicts/ 下所有英文词库 |
 | `radical_pinyin.dict.yaml` | 拆字词库 |
 

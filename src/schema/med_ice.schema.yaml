@@ -5,12 +5,12 @@
 # 方案说明
 schema:
   schema_id: med_ice
-  name: 雾凇拼音
+  name: 小Y全拼
   version: "2026-03-08"
   author:
-    - Dvel
+    - josephxzy
   description: |
-    雾凇拼音
+    med-ice
     https://github.com/josephxzy/med-ice
   dependencies:
     - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
@@ -62,14 +62,15 @@ engine:
     - script_translator
     - lua_translator@*date_translator    # 时间、日期、星期
     - lua_translator@*lunar              # 农历
-    - lua_translator@*uuid               # UUID
     - table_translator@custom_phrase     # 自定义短语 custom_phrase.txt
     - table_translator@melt_eng          # 英文输入
     - table_translator@cn_en             # 中英混合词汇
+    - table_translator@med_western       # 西药
+    - table_translator@med_cn_patent     # 中成药
+    - table_translator@med_herb          # 中药材
+    - table_translator@med_minority      # 少数民族药
+    - table_translator@med_tcm           # 传统药物
     - table_translator@radical_lookup    # 部件拆字反查
-    - lua_translator@*unicode            # Unicode
-    - lua_translator@*number_translator  # 数字、金额大写
-    - lua_translator@*calc_translator    # 计算器
     - lua_translator@*force_gc           # 暴力 GC
   filters:
     - lua_filter@*corrector                         # 错音错字提示
@@ -102,9 +103,6 @@ date_translator:
 lunar: nl
 lunar_template: "{干支年}{生肖}年{俗称农历月}{农历日}"
 
-
-# Lua 配置: 生成 UUID 的触发关键字
-uuid: uuid
 
 
 # Lua 配置：长词优先
@@ -164,7 +162,7 @@ pin_cand_filter:
 
 # 主翻译器，拼音
 translator:
-  dictionary: med_ice         # 挂载词库 med_ice.dict.yaml
+  dictionary: rime_ice         # 挂载词库 rime_ice.dict.yaml
   enable_word_completion: true # 大于 4 音节的词条自动补全，librime > 1.11.2
   spelling_hints: 8            # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
   always_show_comments: true   # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
@@ -172,7 +170,7 @@ translator:
   comment_format:              # 标记拼音注释，供 corrector.lua 做判断用
     - xform/^/［/
     - xform/$/］/
-  preedit_format:              # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
+  preedit_format:              # preedit_format 影响到输入框的显示和"Shift+回车"上屏的字符
     - xform/([jqxy])v/$1u/     # 显示为 ju qu xu yu
     # - xform/([nl])v/$1ü/     # 显示为 nü lü
     # - xform/([nl])ue/$1üe/   # 显示为 nüe lüe
@@ -204,6 +202,52 @@ cn_en:
     - xform/^.+$//
 
 
+# 药物词库：西药
+med_western:
+  dictionary: med/western_medicine
+  enable_sentence: false
+  enable_user_dict: false
+  initial_quality: 0.3
+  comment_format:
+    - xform/^.+$//
+
+# 药物词库：中成药
+med_cn_patent:
+  dictionary: med/chinese_patent_medicine
+  enable_sentence: false
+  enable_user_dict: false
+  initial_quality: 0.3
+  comment_format:
+    - xform/^.+$//
+
+# 药物词库：中药材
+med_herb:
+  dictionary: med/chinese_herbal_medicine
+  enable_sentence: false
+  enable_user_dict: false
+  initial_quality: 0.3
+  comment_format:
+    - xform/^.+$//
+
+# 药物词库：少数民族药
+med_minority:
+  dictionary: med/ethnic_minority_medicine
+  enable_sentence: false
+  enable_user_dict: false
+  initial_quality: 0.3
+  comment_format:
+    - xform/^.+$//
+
+# 药物词库：传统药物
+med_tcm:
+  dictionary: med/traditional_chinese_medicine
+  enable_sentence: false
+  enable_user_dict: false
+  initial_quality: 0.3
+  comment_format:
+    - xform/^.+$//
+
+
 # 自定义短语：custom_phrase.txt
 custom_phrase:
   dictionary: ""
@@ -226,7 +270,7 @@ traditionalize:
   option_name: traditionalization  # 对应 switches 中的 name
   opencc_config: s2t.json          # s2t.json | s2hk.json | s2tw.json | s2twp.json （Rime 内置配置，在程序目录可找到）
   tips: none                       # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
+  tags: [ abc, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
 
 # 标点符号
@@ -259,7 +303,7 @@ radical_reverse_lookup:
   tags: [ radical_lookup ]
   # dictionary 为拼音标注来源，目前是显示本方案词库的注音。
   # 可去部件拆字方案下载更全的、带声调的、已编译好的词典： https://github.com/mirtlecn/rime-radical-pinyin#反查带声调注音
-  dictionary: med_ice
+  dictionary: rime_ice
   # comment_format:     # 自定义 comment，例如在左右加上括号
   #  - xform/^/(/
   #  - xform/$/)/
@@ -271,9 +315,6 @@ recognizer:
   patterns:                             # 再增加方案专有的：
     punct: "^v([0-9]|10|[A-Za-z]+)$"    # 响应 symbols_v.yaml 的 symbols，用 'v' 替换 '/'
     radical_lookup: "^uU[a-z]+$"        # 响应部件拆字的反查，触发前缀与 radical_lookup/prefix 匹配
-    unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@*unicode，输出 Unicode 字符
-    number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@*number_translator，数字金额大写
-    calculator: "^cC.+"                 # 响应 lua_translator@*calc_translator，计算器。前缀设定项 calculator/prefix
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 响应 lua_translator@*lunar，公历转农历
 
 

@@ -24,7 +24,7 @@ jobs:
           sudo luarocks install luacheck
 
       - name: Run lint
-        run: make -C build lint
+        run: make -C tool/build lint
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -33,7 +33,7 @@ jobs:
           cache-dependency-path: build/go.sum
 
       - name: Build
-        run: make -C build build
+        run: make -C tool/build build
 
       - name: Cache rime cli bundle
         uses: actions/cache@v5
@@ -45,4 +45,4 @@ jobs:
         env:
           RIME_CLI_URL: https://github.com/mirtlecn/public/releases/download/v1.6.1/rime-cli-linux-1.6.1.zip
           RIME_CLI_CACHE_PATH: ${{ runner.temp }}/rime-cli-cache/rime-cli-linux-1.6.1.zip
-        run: make -C build smoke
+        run: make -C tool/build smoke

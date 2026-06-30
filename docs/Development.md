@@ -2,16 +2,16 @@
 
 ## 构建流程
 
-`src/` 为源文件目录（按功能分类），`build/out/` 为构建产物（扁平 Rime 部署结构）。
+`src/` 为源文件目录（按功能分类），`tool/build/out/` 为构建产物（扁平 Rime 部署结构）。
 
 ```bash
-make -C build build
+make -C tool/build build
 ```
 
 执行以下管线（约 90 秒完成）：
 
 ```
-src/                           build/out/
+src/                           tool/build/out/
 ├── dict/cn/*.dict.yaml  ───→  cn_dicts/    (排序 + 去重 + 注音 + 权重)
 ├── dict/en/en.dict.yaml ───→  en_dicts/    (排序 + 去重)
 ├── dict/en/cn_en.txt    ───→  en_dicts/cn_en*.txt  (生成所有双拼方案)
@@ -38,7 +38,7 @@ src/                           build/out/
 
 详见 [配置引用链](./ConfigReference.md)。
 
-构建脚本 `build/rime/config.go` 沿此引用链自动发现文件依赖，不需要在 Go 代码中硬编码文件名：
+构建脚本 `tool/build/rime/config.go` 沿此引用链自动发现文件依赖，不需要在 Go 代码中硬编码文件名：
 
 ```
 default.yaml → schema → dict 索引 → import_tables → 实际词库文件
@@ -48,26 +48,26 @@ default.yaml → schema → dict 索引 → import_tables → 实际词库文件
 
 ```bash
 # 完整构建（需要 Go 1.24+）
-make -C build build
+make -C tool/build build
 
 # 代码检查（需要 yamllint + luacheck）
-make -C build lint
+make -C tool/build lint
 
 # 仅检查 YAML
-make -C build lint-yaml
+make -C tool/build lint-yaml
 
 # 仅检查 Lua
-make -C build lint-lua
+make -C tool/build lint-lua
 
 # 冒烟测试（需要 rime-cli，Linux 环境）
-make -C build smoke
+make -C tool/build smoke
 ```
 
 ## 冒烟测试
 
 冒烟测试通过 `rime_deployer` + `rime_api_console` 验证配置完整性和功能正确性。
 
-测试用例在 `build/smoke/cases/med_ice/input_cases.tsv` 中，格式为：
+测试用例在 `tool/build/smoke/cases/rime_ice/input_cases.tsv` 中，格式为：
 
 ```
 case_id	schema_id	key_sequence	expected_text
@@ -91,13 +91,13 @@ case_id	schema_id	key_sequence	expected_text
 | `src/recipes/no_lua_schema` | Lua-free 方案 |
 | `src/recipes/reverse_tone` | 反查音调 |
 
-> 注意：项目重构后采用 src/ → build/out/ 架构，plum 安装暂时不可用。推荐从 [Release 页面](https://github.com/josephxzy/med-ice/releases) 下载 `full.zip`。
+> 注意：项目重构后采用 src/ → tool/build/out/ 架构，plum 安装暂时不可用。推荐从 [Release 页面](https://github.com/josephxzy/med-ice/releases) 下载 `full.zip`。
 
 ## 新增词库
 
 1. 在 `src/dict/cn/` 下创建 `mywords.dict.yaml`
-2. 在 `med_ice.dict.yaml` 的 `import_tables` 中添加 `- cn_dicts/mywords`
-3. 运行 `make -C build build`
+2. 在 `rime_ice.dict.yaml` 的 `import_tables` 中添加 `- cn_dicts/mywords`
+3. 运行 `make -C tool/build build`
 
 构建脚本会自动发现、复制、排序、去重新文件。详见 [自定义字典](./CustomDict.md)。
 
@@ -105,11 +105,11 @@ case_id	schema_id	key_sequence	expected_text
 
 1. 在 `src/lua/` 下创建 `.lua` 文件
 2. 在 schema 中引用（`lua_translator@*文件名` 或 `lua_filter@*文件名`）
-3. 运行 `make -C build build`
+3. 运行 `make -C tool/build build`
 
 详见 [自定义 Lua 脚本](./CustomLua.md)。Translator 和 Filter 的 API 不同，注意区分。
 
-## 构建核心库 (`build/rime/`)
+## 构建核心库 (`tool/build/rime/`)
 
 | 文件 | 功能 |
 |------|------|

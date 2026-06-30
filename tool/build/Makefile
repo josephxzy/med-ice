@@ -7,7 +7,7 @@ default:
 
 build:
 	go version || (echo "请先安装 Go"; exit 1)
-	go mod tidy && go run . --src_path ../src --out_path out --auto_confirm
+	go mod tidy && go run . --src_path ../../src --out_path out --auto_confirm
 
 lint:
 	bash lint/run.sh all

@@ -6,7 +6,7 @@
 
 ```
 src/dict/
-├── med_ice.dict.yaml          # 主词库索引（全拼）
+├── rime_ice.dict.yaml          # 主词库索引（全拼）
 ├── melt_eng.dict.yaml         # 英文词库索引
 ├── radical_pinyin.dict.yaml   # 拆字词库
 ├── cn/                        # 中文词库文件
@@ -55,10 +55,10 @@ src/config/
 ### 使用自己的短语文件
 
 1. 创建自己的 `.txt` 文件（放在 Rime 用户配置目录，不是项目仓库）
-2. 通过 patch 修改 `med_ice.schema.yaml` 中的引用：
+2. 通过 patch 修改 `rime_ice.schema.yaml` 中的引用：
 
 ```yaml
-# med_ice.custom.yaml（放在用户配置目录）
+# rime_ice.custom.yaml（放在用户配置目录）
 patch:
   custom_phrase/user_dict: my_phrases  # 指向 my_phrases.txt
 ```
@@ -74,7 +74,7 @@ patch:
 ### 方式一：挂载外部词库（推荐）
 
 1. 创建自己的词库文件，如 `my_dict.dict.yaml`，放在 Rime 用户配置目录
-2. 在 `src/dict/med_ice.dict.yaml` 的 `import_tables` 中添加引用：
+2. 在 `src/dict/rime_ice.dict.yaml` 的 `import_tables` 中添加引用：
 
 ```yaml
 import_tables:
@@ -86,7 +86,7 @@ import_tables:
   - my_dict           # ← 新增：挂载 my_dict.dict.yaml
 ```
 
-3. 运行构建：`make -C build build`
+3. 运行构建：`make -C tool/build build`
 
 ### 方式二：直接添加到项目词库
 
@@ -114,7 +114,7 @@ import_tables:
 - 每行格式：`汉字<Tab>拼音（空格分隔）<Tab>权重`
 - 权重默认 100，数字越大排序越靠前
 
-然后在 `med_ice.dict.yaml` 中引用：
+然后在 `rime_ice.dict.yaml` 中引用：
 
 ```yaml
 import_tables:
@@ -155,7 +155,7 @@ X光	X guang
 
 每行格式：`中文词<Tab>拼音（空格分隔）`
 
-修改后运行 `make -C build build`，脚本会自动生成各个双拼方案的混输词库。
+修改后运行 `make -C tool/build build`，脚本会自动生成各个双拼方案的混输词库。
 
 ---
 
@@ -164,12 +164,12 @@ X光	X guang
 修改任何词库文件后：
 
 ```bash
-make -C build build
+make -C tool/build build
 ```
 
 构建过程会：
 
-1. 复制所有词库文件到 `build/out/`
+1. 复制所有词库文件到 `tool/build/out/`
 2. **自动注音**——仅对 `ext.dict.yaml` 中没有注音的词条
 3. **补充权重**——仅对 `ext.dict.yaml` 和 `tencent.dict.yaml`，缺失权重的条目统一补为 100
 4. **排序和去重**——所有词库按 拼音 → 权重降序 → 汉字 排序，重复词条取第一个（按 `import_tables` 顺序）
@@ -199,16 +199,16 @@ make -C build build
 
 权重越大排序越靠前。所有词库的最终候选项按权重降序排列。
 
-> 如需对自定义词库执行自动注音或权重补充，可在 `build/rime/config.go` 的 `classifyDictFile` 函数中为词库名添加 `case` 分支，参考 `ext` 的配置。
+> 如需对自定义词库执行自动注音或权重补充，可在 `tool/build/rime/config.go` 的 `classifyDictFile` 函数中为词库名添加 `case` 分支，参考 `ext` 的配置。
 
 ---
 
 ## 注意事项
 
-- **不要直接修改** `build/out/` 下的文件，这些是构建产物，会被覆盖
-- 修改中文词条写入 `src/dict/cn/` 下对应文件，不要直接改 `src/dict/med_ice.dict.yaml`（它只是索引）
+- **不要直接修改** `tool/build/out/` 下的文件，这些是构建产物，会被覆盖
+- 修改中文词条写入 `src/dict/cn/` 下对应文件，不要直接改 `src/dict/rime_ice.dict.yaml`（它只是索引）
 - 修改英文词条写入 `src/dict/en/` 下对应文件
 - 含有多音字的词条必须放到 `ext.dict.yaml`（脚本会自动处理注音）
 - 大词库（`tencent.dict.yaml`）**不能包含注音**，脚本会自动补充
-- 修改后必须运行 `make -C build build` 进行排序和校验
+- 修改后必须运行 `make -C tool/build build` 进行排序和校验
 - 用 `git grep "目标词" src/dict/` 确认词条是否已存在，避免重复

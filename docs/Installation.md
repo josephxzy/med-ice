@@ -54,12 +54,12 @@ git clone https://github.com/josephxzy/med-ice.git
 cd med-ice
 
 # 构建（需要 Go 1.24+）
-make -C build build
+make -C tool/build build
 
-# 将 build/out/ 中的所有文件复制到 Rime 配置目录
-# Windows: copy build\out\* %APPDATA%\Rime\
-# macOS:   cp -r build/out/* ~/Library/Rime/
-# Linux:   cp -r build/out/* ~/.config/ibus/rime/
+# 将 tool/build/out/ 中的所有文件复制到 Rime 配置目录
+# Windows: copy tool\build\out\* %APPDATA%\Rime\
+# macOS:   cp -r tool/build/out/* ~/Library/Rime/
+# Linux:   cp -r tool/build/out/* ~/.config/ibus/rime/
 ```
 
 构建过程会处理词库排序、去重、注音、Emoji 生成等，详见 [README](../README.md#构建流程)。
@@ -156,7 +156,7 @@ bash rime-install josephxzy/med-ice:src/recipes/config:schema=double_pinyin_jiaj
 <details><summary>℞ 添加语法模型（万象语法模型）（首次安装后执行，后续更新不需要执行）</summary>
 
 ```bash
-bash rime-install josephxzy/med-ice:src/recipes/grammar:schema=med_ice
+bash rime-install josephxzy/med-ice:src/recipes/grammar:schema=rime_ice
 bash rime-install josephxzy/med-ice:src/recipes/grammar:schema=double_pinyin_flypy
 bash rime-install josephxzy/med-ice:src/recipes/grammar:schema=double_pinyin
 bash rime-install josephxzy/med-ice:src/recipes/grammar:schema=double_pinyin_mspy
@@ -171,7 +171,7 @@ bash rime-install josephxzy/med-ice:src/recipes/grammar:schema=double_pinyin_jia
 <details><summary>℞ 给反查添加音调（首次安装后执行，后续更新不需要执行）</summary>
 
 ```bash
-bash rime-install josephxzy/med-ice:src/recipes/reverse_tone:schema=med_ice
+bash rime-install josephxzy/med-ice:src/recipes/reverse_tone:schema=rime_ice
 bash rime-install josephxzy/med-ice:src/recipes/reverse_tone:schema=double_pinyin_flypy
 bash rime-install josephxzy/med-ice:src/recipes/reverse_tone:schema=double_pinyin
 bash rime-install josephxzy/med-ice:src/recipes/reverse_tone:schema=double_pinyin_mspy
@@ -203,13 +203,13 @@ bash rime-install josephxzy/med-ice:src/recipes/no_lua_schema
 
 ### Git 安装
 
-由于项目采用 src → build/out 架构，直接 clone 后仓库根目录**不包含**可用的 Rime 配置文件。需要先构建：
+由于项目采用 src → tool/build/out 架构，直接 clone 后仓库根目录**不包含**可用的 Rime 配置文件。需要先构建：
 
 ```bash
 git clone https://github.com/josephxzy/med-ice.git --depth 1
 cd med-ice
-make -C build build
-# 然后将 build/out/ 中的所有文件复制到 Rime 配置目录
+make -C tool/build build
+# 然后将 tool/build/out/ 中的所有文件复制到 Rime 配置目录
 ```
 
 更新时：
@@ -217,8 +217,8 @@ make -C build build
 ```bash
 cd med-ice
 git pull
-make -C build build
-# 重新复制 build/out/ 到 Rime 配置目录
+make -C tool/build build
+# 重新复制 tool/build/out/ 到 Rime 配置目录
 ```
 
 ### 仓输入法 Hamster
@@ -255,9 +255,9 @@ paru -S rime-ice-git
 ```yaml
 patch:
   # 仅使用「雾凇拼音」的默认配置，配置此行即可
-  __include: med_ice_suggestion:/
+  __include: rime_ice_suggestion:/
   # 以下根据自己所需自行定义，仅做参考。
-  # 针对对应处方的定制条目，请使用 <recipe>.custom.yaml 中配置，例如 med_ice.custom.yaml
+  # 针对对应处方的定制条目，请使用 <recipe>.custom.yaml 中配置，例如 rime_ice.custom.yaml
   __patch:
     key_binder/bindings/+:
       # 开启逗号句号翻页
@@ -269,7 +269,7 @@ patch:
 
 ### Fcitx5.js
 
-在 Release 界面，下载 fcitx5_rime_js-med_ice.zip，将配置 zip 目标指向此压缩包即可。
+在 Release 界面，下载 fcitx5_rime_js-rime_ice.zip，将配置 zip 目标指向此压缩包即可。
 
 ### Linux Fcitx4 或其他无法使用 lua 的客户端
 

@@ -106,7 +106,7 @@ return M
 
 ### 2. 在方案中注册
 
-打开 `src/schema/med_ice.schema.yaml`，在对应位置引用：
+打开 `src/schema/rime_ice.schema.yaml`，在对应位置引用：
 
 ```yaml
 engine:
@@ -125,18 +125,18 @@ engine:
 ### 3. 运行构建
 
 ```bash
-make -C build build
+make -C tool/build build
 ```
 
 ### 4. 验证
 
-构建后 Rime 会加载 `build/out/lua/` 下的脚本。可以用冒烟测试：
+构建后 Rime 会加载 `tool/build/out/lua/` 下的脚本。可以用冒烟测试：
 
 ```bash
-make -C build smoke
+make -C tool/build smoke
 ```
 
-在 `build/smoke/cases/med_ice/input_cases.tsv` 中添加测试用例。
+在 `tool/build/smoke/cases/rime_ice/input_cases.tsv` 中添加测试用例。
 
 ## 替换已有 Lua
 
@@ -146,10 +146,10 @@ make -C build smoke
 
 **方式一（推荐）：用 patch 文件**
 
-创建 `med_ice.custom.yaml` 放到 Rime 用户配置目录（不是项目仓库）：
+创建 `rime_ice.custom.yaml` 放到 Rime 用户配置目录（不是项目仓库）：
 
 ```yaml
-# med_ice.custom.yaml
+# rime_ice.custom.yaml
 patch:
   engine/translators/@2: lua_translator@*my_date_translator
   # @2 是 date_translator 在 translators 列表中的索引（从 0 开始）

@@ -35,18 +35,18 @@ jobs:
           sudo luarocks install luacheck
 
       - name: Run lint
-        run: make -C build lint
+        run: make -C tool/build lint
 
       # Build (required: generates build/out/ with sorted/deduped dicts, emoji, cn_en, etc.)
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version: "1.24"
-          cache-dependency-path: build/go.sum
+          cache-dependency-path: tool/build/go.sum
 
       - name: Build
         id: build
-        run: make -C build build
+        run: make -C tool/build build
 
       # Smoke
       - name: Cache rime cli bundle
@@ -59,22 +59,22 @@ jobs:
         env:
           RIME_CLI_URL: https://github.com/mirtlecn/public/releases/download/v1.6.1/rime-cli-linux-1.6.1.zip
           RIME_CLI_CACHE_PATH: ${{ runner.temp }}/rime-cli-cache/rime-cli-linux-1.6.1.zip
-        run: make -C build smoke
+        run: make -C tool/build smoke
 
       - name: Clean smoke artifacts
         run: |
-          rm -f build/out/installation.yaml build/out/user.yaml
-          rm -rf build/out/*.userdb build/out/sync/
+          rm -f tool/build/out/installation.yaml tool/build/out/user.yaml
+          rm -rf tool/build/out/*.userdb tool/build/out/sync/
 
       # Pack
       - name: Pack dicts
         run: |
           rm -rf dist
           mkdir dist
-          cd build/out
+          cd tool/build/out
           echo "Pack all ..."
           find . -maxdepth 1 -name "*.lua" -o -name "*.yaml" -o -name "*.txt" | zip ../../dist/full.zip -@
-          zip -r ../../dist/full.zip cn_dicts en_dicts lua opencc LICENSE
+          zip -r ../../dist/full.zip cn_dicts en_dicts lua opencc med LICENSE
           echo "Pack dicts ..."
           zip -r ../../dist/all_dicts.zip cn_dicts en_dicts opencc radical_pinyin.dict.yaml
           echo "Pack cn_dicts ..."
@@ -84,7 +84,7 @@ jobs:
           echo "Pack opencc ..."
           zip -r ../../dist/opencc.zip opencc
           echo "Pack binary for fcitx5.js ..."
-          zip -r ../../dist/fcitx5_rime_js-med_ice.zip build lua opencc custom_phrase.txt
+          zip -r ../../dist/fcitx5_rime_js-med_ice.zip tool/build lua opencc custom_phrase.txt
 
       - name: Create nightly release
         if: ${{ github.ref == 'refs/heads/main' }}

@@ -14,7 +14,7 @@ src/        # 所有源文件
   recipes/  # plum 配方
   no_lua_schema/  # Lua-free 方案变体
   platforms/ # 平台集成 (Hamster, iRime)
-build/      # 构建脚本 & 工具（Go）
+tool/build/  # 构建脚本 & 工具（Go）
   out/      # 构建产物（可部署的 Rime 配置）
 docs/       # 文档 & 截图
 ```
@@ -26,7 +26,7 @@ docs/       # 文档 & 截图
 - 修改或添加内容对文件时，按「主要文件和作用」部分的说明放置到对应文件。如果仍有不清楚，阅读文件头的注释做确认。
 - 修改配置、词典后，按「测试和构建命令」部分的说明校验，确保没有错误。
 - 词频默认使用 100，如有重码（编码相同），根据日常使用习惯调整词频权重的值。
-- `make -C build build` 命令抛出的警告和错误优先级高于用户需求，必须按警告的提示修改完成，才能提交。
+- `make -C tool/build build` 命令抛出的警告和错误优先级高于用户需求，必须按警告的提示修改完成，才能提交。
 - 修改或添加中文词，写入 `src/dict/cn/` 下对应词典；不要直接修改 `src/dict/med_ice.dict.yaml`。
 - 修改或添加英文词，写入 `src/dict/en/` 下对应词典；不要直接修改 `src/dict/melt_eng.dict.yaml`。
 - 修改中英混合词时，只改 `src/dict/en/cn_en.txt`，再运行构建生成 `en_dicts/*.txt`。
@@ -36,7 +36,7 @@ docs/       # 文档 & 截图
 - 增删改词条时，建议遵循以下顺序：
   1. 用 `grep -r "目标词"  src/dict/` 确认词条是否已存在
   2. 按要求将修改写入正确的文件，格式完备，但顺序任意
-  3. 运行 `make -C build build`，这个脚本将自动排序、去重，输出到 `build/out/`。如遇错误，根据提示修改。
+  3. 运行 `make -C tool/build build`，这个脚本将自动排序、去重，输出到 `tool/build/out/`。如遇错误，根据提示修改。
 
 ## 提交规则
 
@@ -56,16 +56,16 @@ docs/       # 文档 & 截图
 ## 测试和构建命令
 
 ```bash
-make -C build build
-make -C build lint
+make -C tool/build build
+make -C tool/build lint
 ```
 
-- `build`：从 `src/` 读取源文件，处理后输出到 `build/out/`。生成、去重、排序、校验词库和 OpenCC 映射文件，依赖 Go 环境。
+- `build`：从 `src/` 读取源文件，处理后输出到 `tool/build/out/`。生成、去重、排序、校验词库和 OpenCC 映射文件，依赖 Go 环境。
 - `lint`：校验 YAML 和 Lua 源文件，依赖 `yamllint` 和 `luacheck`。
 
-修改词库或生成源文件后，运行 `make -C build build`。此脚本至少需要 90 s 才能完成，请注意等待。
+修改词库或生成源文件后，运行 `make -C tool/build build`。此脚本至少需要 90 s 才能完成，请注意等待。
 
-修改配置（`src/config/*.yaml`、`src/schema/*.schema.yaml`）和 lua 文件后，先安装 yamllint 和 luarocks 和 luacheck（`luarocks install luacheck`），然后运行 `make -C build lint` 进行校验。
+修改配置（`src/config/*.yaml`、`src/schema/*.schema.yaml`）和 lua 文件后，先安装 yamllint 和 luarocks 和 luacheck（`luarocks install luacheck`），然后运行 `make -C tool/build lint` 进行校验。
 
 ## 主要文件和作用
 
@@ -83,7 +83,7 @@ make -C build lint
 - `src/dict/en/*.txt`：中英混合词库文件，由 `src/dict/en/cn_en.txt` 派生。
 - `src/opencc/`：OpenCC 映射文件，控制 Emoji 和部分特殊词输出，由 `src/opencc/emoji-map.txt` 派生。
 - `src/lua/`：Lua 扩展脚本，使用 `librime-lua` API。
-- `build/`：构建、检查和测试脚本。
+- `tool/build/`：构建、检查和测试脚本。
 - `src/recipes/`：plum 配方文件。
 - `src/schema/*.schema.yaml`：输入方案文件，定义拼写、翻译器、过滤器和词库引用。
 - `src/dict/*.dict.yaml`：主词库文件，在文件头引用具体词库文件。此类文件的具体格式请参考既有文件的写法，和标准 yaml 有所不同。

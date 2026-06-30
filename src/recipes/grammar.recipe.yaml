@@ -3,10 +3,10 @@
 recipe:
   Rx: src/recipes/grammar
   args:
-    - schema=med_ice
+    - schema=rime_ice
   description: >-
     配置语法模型（万象）。
-      - med_ice（雾凇拼音、全拼）
+      - rime_ice（雾凇拼音、全拼）
       - double_pinyin（自然码双拼）
       - double_pinyin_flypy（小鹤双拼）
       - double_pinyin_mspy（微软双拼）
@@ -22,7 +22,7 @@ install_files:
   - wanxiang-lts-zh-hans.gram
 
 patch_files:
-  ${schema:-med_ice}.custom.yaml:
+  ${schema:-rime_ice}.custom.yaml:
     - patch/+:
         grammar:
           language: wanxiang-lts-zh-hans

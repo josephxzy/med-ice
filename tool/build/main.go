@@ -128,6 +128,22 @@ func prepareOutputDir() {
 		}
 	}
 
+	// 复制 dict/med/ 子目录词库
+	medDir := filepath.Join(dictDir, "med")
+	if _, err := os.Stat(medDir); err == nil {
+		medEntries, _ := os.ReadDir(medDir)
+		for _, entry := range medEntries {
+			if strings.HasSuffix(entry.Name(), ".dict.yaml") {
+				outMedDir := filepath.Join(rime.OutDir, "med")
+				os.MkdirAll(outMedDir, 0755)
+				rime.CopyFileContent(
+					filepath.Join(medDir, entry.Name()),
+					filepath.Join(outMedDir, entry.Name()),
+				)
+			}
+		}
+	}
+
 	// 复制配置文件
 	configDir := filepath.Join(srcDir, "config")
 	for _, cf := range rime.Manifest.ConfigFiles {
@@ -136,6 +152,12 @@ func prepareOutputDir() {
 			filepath.Join(rime.OutDir, cf),
 		)
 	}
+
+	// 复制自定义短语（用户词库数据，非配置文件）
+	rime.CopyFileContent(
+		filepath.Join(srcDir, "custom_phrase.txt"),
+		filepath.Join(rime.OutDir, "custom_phrase.txt"),
+	)
 
 	// 复制 lua
 	copyDir(filepath.Join(srcDir, "lua"), filepath.Join(rime.OutDir, "lua"))

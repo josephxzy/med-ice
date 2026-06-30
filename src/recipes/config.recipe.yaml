@@ -3,10 +3,10 @@
 recipe:
   Rx: src/recipes/config
   args:
-    - schema=med_ice
+    - schema=rime_ice
   description: >-
     启用双拼，并添加反查、英文派生的双拼支持。
-      - med_ice（雾凇拼音、全拼）
+      - rime_ice（雾凇拼音、全拼）
       - double_pinyin（自然码双拼）
       - double_pinyin_flypy（小鹤双拼）
       - double_pinyin_mspy（微软双拼）
@@ -19,14 +19,14 @@ patch_files:
   default.custom.yaml:
     - patch/+:
         schema_list:
-          - schema: ${schema:-med_ice}
+          - schema: ${schema:-rime_ice}
 
   radical_pinyin.custom.yaml:
     - patch/+:
         speller/algebra:
-          __include: radical_pinyin.schema.yaml:/algebra_${schema:-med_ice}
+          __include: radical_pinyin.schema.yaml:/algebra_${schema:-rime_ice}
 
   melt_eng.custom.yaml:
     - patch/+:
         speller/algebra:
-          __include: melt_eng.schema.yaml:/algebra_${schema:-med_ice}
+          __include: melt_eng.schema.yaml:/algebra_${schema:-rime_ice}
