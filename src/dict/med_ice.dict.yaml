@@ -12,12 +12,8 @@ import_tables:
   - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
   - cn_dicts/others   # 一些杂项
 
-  # 医学词库（无注音，由构建脚本自动注音）
-  - cn_dicts/med_western_medicine          # 西药
-  - cn_dicts/med_chinese_patent_medicine   # 中成药
-  - cn_dicts/med_chinese_herbal_medicine   # 中药材
-  - cn_dicts/med_ethnic_minority_medicine  # 少数民族药
-  - cn_dicts/med_clinical_1000_drug        # 临床常用药物
+  # 医学词库由 table_translator 直接挂载，不通过 import_tables
+  # 详见 med_ice.schema.yaml 中的 table_translator@med_* 配置
 
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   # - mydict1           # 挂载配置目录下的 mydict1.dict.yaml 词库文件
