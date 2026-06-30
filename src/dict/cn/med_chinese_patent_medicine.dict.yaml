@@ -9,7 +9,7 @@ version: "1"
 sort: by_weight
 columns:
   - text
-  - weight
+  - code
 ...
 一扫光药膏	100
 一把抓	100

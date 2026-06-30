@@ -9,7 +9,7 @@ version: "1"
 sort: by_weight
 columns:
   - text
-  - weight
+  - code
 ...
 一枝黄花	100
 丁公藤	100

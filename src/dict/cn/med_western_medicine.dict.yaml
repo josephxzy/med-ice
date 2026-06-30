@@ -9,7 +9,7 @@ version: "1"
 sort: by_weight
 columns:
   - text
-  - weight
+  - code
 ...
 10%脂肪乳(OO)-5.5%氨基酸(15)-葡萄糖(20%)	100
 10%脂肪乳(OO)/5.5%氨基酸(15)/葡萄糖(20%)注射液	100

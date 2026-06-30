@@ -1,4 +1,4 @@
-﻿# Rime dictionary
+# Rime dictionary
 # encoding: utf-8
 #
 # 临床常用的 1000 种药物
@@ -10,7 +10,7 @@ version: "1"
 sort: by_weight
 columns:
   - text
-  - weight
+  - code
 ...
 青霉素	100
 阿莫西林钠氟氯西林	100
