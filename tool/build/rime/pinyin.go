@@ -455,14 +455,14 @@ func BuildMedSearchDict(dictPaths []string, outPath string) {
 			}
 			ab := abbrev.String()
 
-			// 全拼编码行
+			// 全拼编码行（格式：文本\t编码）
 			if len(fullPinyin) >= 2 && !seen[fullPinyin+text] {
-				lines = append(lines, fmt.Sprintf("%s\t%s", fullPinyin, text))
+				lines = append(lines, fmt.Sprintf("%s\t%s", text, fullPinyin))
 				seen[fullPinyin+text] = true
 			}
 			// 简拼编码行
 			if len(ab) >= 2 && !seen[ab+text] {
-				lines = append(lines, fmt.Sprintf("%s\t%s", ab, text))
+				lines = append(lines, fmt.Sprintf("%s\t%s", text, ab))
 				seen[ab+text] = true
 			}
 		}
