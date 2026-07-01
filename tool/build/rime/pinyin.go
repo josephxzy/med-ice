@@ -413,13 +413,11 @@ func GeneratePinyinTest(s string) {
 	fmt.Printf("%s %q\n", words, r)
 }
 
-// BuildMedSearchDict 为医学词库生成检索词库（构建时调用）
-// 每条药名生成两个编码：全拼和首字母简拼
-// 输出标准 .dict.yaml，供 table_translator 精确查找
-func BuildMedSearchDict(dictPaths []string, outPath string) {
-	log.Println("构建医学检索词库...")
+// BuildMedAbbrevIndex 为医学词库生成简拼索引（构建时调用）
+// 输出格式：每行 "简拼\t拼音编码\t词条文本"
+func BuildMedAbbrevIndex(dictPaths []string, indexPath string) {
+	log.Println("构建医学简拼索引...")
 	var lines []string
-	seen := make(map[string]bool)
 
 	for _, dp := range dictPaths {
 		data, err := os.ReadFile(dp)
@@ -443,10 +441,7 @@ func BuildMedSearchDict(dictPaths []string, outPath string) {
 			if !isAllLower(code) {
 				continue
 			}
-
-			// 全拼编码（去空格）
-			fullPinyin := strings.ReplaceAll(code, " ", "")
-			// 首字母简拼
+			// 生成首字母简拼："fen tuo la ming" → "ftlm"
 			var abbrev strings.Builder
 			for _, syl := range strings.Fields(code) {
 				if len(syl) > 0 {
@@ -454,29 +449,19 @@ func BuildMedSearchDict(dictPaths []string, outPath string) {
 				}
 			}
 			ab := abbrev.String()
-
-			// 全拼编码行（格式：文本\t编码）
-			if len(fullPinyin) >= 2 && !seen[fullPinyin+text] {
-				lines = append(lines, fmt.Sprintf("%s\t%s", text, fullPinyin))
-				seen[fullPinyin+text] = true
-			}
-			// 简拼编码行
-			if len(ab) >= 2 && !seen[ab+text] {
-				lines = append(lines, fmt.Sprintf("%s\t%s", text, ab))
-				seen[ab+text] = true
+			if len(ab) >= 2 {
+				lines = append(lines, fmt.Sprintf("%s\t%s\t%s", ab, code, text))
 			}
 		}
 	}
 
 	sort.Strings(lines)
 
-	header := "# Rime dictionary\n# encoding: utf-8\n---\nname: med_search\nversion: \"1\"\nsort: by_weight\ncolumns:\n  - text\n  - code\n...\n# +_+\n"
-	content := header + strings.Join(lines, "\n")
-	if err := os.WriteFile(outPath, []byte(content), 0644); err != nil {
-		log.Printf("  写入失败: %v", err)
+	if err := os.WriteFile(indexPath, []byte(strings.Join(lines, "\n")), 0644); err != nil {
+		log.Printf("  写入索引失败: %v", err)
 		return
 	}
-	log.Printf("  医学检索词库: %d 条 → %s", len(lines), outPath)
+	log.Printf("  简拼索引: %d 条 → %s", len(lines), indexPath)
 }
 
 // 判断 code 是否全小写，不判断空格
