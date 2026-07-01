@@ -55,18 +55,19 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@radical_lookup  # 部件拆字自定义 tag
+    - affix_segmentor@med_search      # 医学检索自定义 tag
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
-    - lua_translator@*med_abbrev_translator # 医学超级简拼
     - lua_translator@*date_translator    # 时间、日期、星期
     - lua_translator@*lunar              # 农历
     - table_translator@custom_phrase     # 自定义短语 custom_phrase.txt
     - table_translator@melt_eng          # 英文输入
     - table_translator@cn_en             # 中英混合词汇
     - table_translator@radical_lookup    # 部件拆字反查
+    - lua_translator@*med_search        # 医学检索（mEd 前缀）
     - lua_translator@*force_gc           # 暴力 GC
   filters:
     - lua_filter@*corrector                         # 错音错字提示
@@ -247,6 +248,11 @@ radical_lookup:
   tips: "  〔拆字〕"
   comment_format:
     - erase/^.*$//
+# 医学检索
+med_search:
+  tag: med_search
+  prefix: "mEd"  # 触发前缀，输入 mEd + 简拼即可检索医学词库
+  tips: "  〔医学〕"
 # 部件拆字滤镜
 radical_reverse_lookup:
   tags: [ radical_lookup ]
@@ -265,6 +271,7 @@ recognizer:
     punct: "^v([0-9]|10|[A-Za-z]+)$"    # 响应 symbols_v.yaml 的 symbols，用 'v' 替换 '/'
     radical_lookup: "^uU[a-z]+$"        # 响应部件拆字的反查，触发前缀与 radical_lookup/prefix 匹配
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 响应 lua_translator@*lunar，公历转农历
+    med_search: "^mEd[a-z]+$"           # 响应 lua_translator@*med_search，医学简拼检索
 
 
 # 从 default 继承快捷键
