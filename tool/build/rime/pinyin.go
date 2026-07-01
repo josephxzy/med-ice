@@ -412,6 +412,56 @@ func GeneratePinyinTest(s string) {
 	fmt.Printf("%s %q\n", words, r)
 }
 
+// BuildMedAbbrevIndex 为医学词库生成简拼索引（构建时调用）
+// 输出格式：每行 "简拼\t拼音编码\t词条文本"
+func BuildMedAbbrevIndex(dictPaths []string, indexPath string) {
+	log.Println("构建医学简拼索引...")
+	var lines []string
+
+	for _, dp := range dictPaths {
+		data, err := os.ReadFile(dp)
+		if err != nil {
+			log.Printf("  跳过 %s: %v", filepath.Base(dp), err)
+			continue
+		}
+		isMark := false
+		for _, line := range strings.Split(string(data), "\n") {
+			if !isMark {
+				if strings.HasPrefix(line, mark) || line == "..." {
+					isMark = true
+				}
+				continue
+			}
+			parts := strings.Split(line, "\t")
+			if len(parts) < 2 {
+				continue
+			}
+			text, code := parts[0], parts[1]
+			// 生成首字母简拼："fen tuo la ming" → "ftlm"
+			var abbrev strings.Builder
+			for _, syl := range strings.Fields(code) {
+				if len(syl) > 0 {
+					abbrev.WriteByte(syl[0])
+				}
+			}
+			ab := abbrev.String()
+			if len(ab) >= 2 && isAllLower(code) {
+				lines = append(lines, fmt.Sprintf("%s\t%s\t%s", ab, code, text))
+			}
+		}
+	}
+
+	// 按简拼排序
+	sort.Strings(lines)
+
+	// 写入
+	if err := os.WriteFile(indexPath, []byte(strings.Join(lines, "\n")), 0644); err != nil {
+		log.Printf("  写入索引失败: %v", err)
+		return
+	}
+	log.Printf("  简拼索引: %d 条 → %s", len(lines), indexPath)
+}
+
 // 判断 code 是否全小写，不判断空格
 func isAllLower(s string) bool {
 	for _, ch := range s {
