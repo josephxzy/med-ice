@@ -253,6 +253,7 @@ med_search:
   tag: med_search
   dictionary: med_search       # 构建时自动生成，包含全拼+简拼编码
   enable_user_dict: false
+  enable_completion: true      # 前缀匹配
   prefix: "mEd"                # 触发前缀
   tips: "  〔医学〕"
 # 部件拆字滤镜
