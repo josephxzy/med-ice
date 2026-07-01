@@ -35,9 +35,16 @@ end
 function M.func(input, seg, env)
     load_index(env)
 
+    -- input 是去掉 mEd 前缀后的简拼编码
+    if #input == 0 then
+        local cand = Candidate("med", seg.start, seg._end, "〔输入简拼检索医学词库〕", "")
+        cand.quality = 100
+        yield(cand)
+        return 1
+    end
+
     if #input < 2 then return 2 end
 
-    -- input 是去掉 mEd 前缀后的简拼编码
     local prefix = input:sub(1, 2)
     local list = prefix_map[prefix]
     if not list then return 2 end

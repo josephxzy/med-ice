@@ -271,7 +271,7 @@ recognizer:
     punct: "^v([0-9]|10|[A-Za-z]+)$"    # 响应 symbols_v.yaml 的 symbols，用 'v' 替换 '/'
     radical_lookup: "^uU[a-z]+$"        # 响应部件拆字的反查，触发前缀与 radical_lookup/prefix 匹配
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 响应 lua_translator@*lunar，公历转农历
-    med_search: "^mEd[a-z]+$"           # 响应 lua_translator@*med_search，医学简拼检索
+    med_search: "^mEd[a-z]*$"           # 响应 lua_translator@*med_search，医学简拼检索
 
 
 # 从 default 继承快捷键
