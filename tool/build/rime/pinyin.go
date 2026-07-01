@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"path"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -421,7 +422,7 @@ func BuildMedAbbrevIndex(dictPaths []string, indexPath string) {
 	for _, dp := range dictPaths {
 		data, err := os.ReadFile(dp)
 		if err != nil {
-			log.Printf("  跳过 %s: %v", filepath.Base(dp), err)
+			log.Printf("  跳过 %s: %v", path.Base(dp), err)
 			continue
 		}
 		isMark := false
