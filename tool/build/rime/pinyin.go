@@ -413,11 +413,13 @@ func GeneratePinyinTest(s string) {
 	fmt.Printf("%s %q\n", words, r)
 }
 
-// BuildMedAbbrevIndex 为医学词库生成简拼索引（构建时调用）
-// 输出格式：每行 "简拼\t拼音编码\t词条文本"
-func BuildMedAbbrevIndex(dictPaths []string, indexPath string) {
-	log.Println("构建医学简拼索引...")
+// BuildMedSearchDict 为医学词库生成检索词库（构建时调用）
+// 每条药名生成两个编码：全拼和首字母简拼
+// 输出标准 .dict.yaml，供 table_translator 精确查找
+func BuildMedSearchDict(dictPaths []string, outPath string) {
+	log.Println("构建医学检索词库...")
 	var lines []string
+	seen := make(map[string]bool)
 
 	for _, dp := range dictPaths {
 		data, err := os.ReadFile(dp)
@@ -438,7 +440,13 @@ func BuildMedAbbrevIndex(dictPaths []string, indexPath string) {
 				continue
 			}
 			text, code := parts[0], parts[1]
-			// 生成首字母简拼："fen tuo la ming" → "ftlm"
+			if !isAllLower(code) {
+				continue
+			}
+
+			// 全拼编码（去空格）
+			fullPinyin := strings.ReplaceAll(code, " ", "")
+			// 首字母简拼
 			var abbrev strings.Builder
 			for _, syl := range strings.Fields(code) {
 				if len(syl) > 0 {
@@ -446,21 +454,29 @@ func BuildMedAbbrevIndex(dictPaths []string, indexPath string) {
 				}
 			}
 			ab := abbrev.String()
-			if len(ab) >= 2 && isAllLower(code) {
-				lines = append(lines, fmt.Sprintf("%s\t%s\t%s", ab, code, text))
+
+			// 全拼编码行
+			if len(fullPinyin) >= 2 && !seen[fullPinyin+text] {
+				lines = append(lines, fmt.Sprintf("%s\t%s", fullPinyin, text))
+				seen[fullPinyin+text] = true
+			}
+			// 简拼编码行
+			if len(ab) >= 2 && !seen[ab+text] {
+				lines = append(lines, fmt.Sprintf("%s\t%s", ab, text))
+				seen[ab+text] = true
 			}
 		}
 	}
 
-	// 按简拼排序
 	sort.Strings(lines)
 
-	// 写入
-	if err := os.WriteFile(indexPath, []byte(strings.Join(lines, "\n")), 0644); err != nil {
-		log.Printf("  写入索引失败: %v", err)
+	header := "# Rime dictionary\n# encoding: utf-8\n---\nname: med_search\nversion: \"1\"\nsort: by_weight\ncolumns:\n  - text\n  - code\n...\n# +_+\n"
+	content := header + strings.Join(lines, "\n")
+	if err := os.WriteFile(outPath, []byte(content), 0644); err != nil {
+		log.Printf("  写入失败: %v", err)
 		return
 	}
-	log.Printf("  简拼索引: %d 条 → %s", len(lines), indexPath)
+	log.Printf("  医学检索词库: %d 条 → %s", len(lines), outPath)
 }
 
 // 判断 code 是否全小写，不判断空格

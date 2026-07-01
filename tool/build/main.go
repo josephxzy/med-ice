@@ -280,6 +280,6 @@ func buildMedAbbrevIndex() {
 		}
 	}
 	if len(medPaths) > 0 {
-		rime.BuildMedAbbrevIndex(medPaths, filepath.Join(rime.OutDir, "med_abbrev_index.txt"))
+		rime.BuildMedSearchDict(medPaths, filepath.Join(rime.OutDir, "med_search.dict.yaml"))
 	}
 }
