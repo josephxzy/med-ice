@@ -55,18 +55,6 @@ func main() {
 	}
 	fmt.Println("--------------------------------------------------")
 
-	// 为医学词库生成简拼索引（用于 med_ice 的超级简拼功能）
-	var medPaths []string
-	for _, d := range rime.Manifest.CNDicts() {
-		if strings.HasPrefix(d.Name, "med_") {
-			medPaths = append(medPaths, d.OutAbsPath)
-		}
-	}
-	if len(medPaths) > 0 {
-		rime.BuildMedAbbrevIndex(medPaths, filepath.Join(rime.OutDir, "med_abbrev_index.txt"))
-		fmt.Println("--------------------------------------------------")
-	}
-
 	// 按词库类型检查（仅检查需要校验的核心词库，跳过大字表 41448 等）
 	for _, name := range []string{"8105", "base", "ext", "tencent"} {
 		if d := rime.Manifest.DictByName(name); d != nil {
@@ -86,11 +74,16 @@ func main() {
 
 	areYouOK()
 
+	areYouOK()
+
 SORT:
 	// 排序、去重
 	for _, d := range rime.Manifest.Dicts {
 		rime.SortDict(d)
 	}
+
+	// 为医学词库生成简拼索引（用于 med_ice 的超级简拼功能）
+	buildMedAbbrevIndex()
 
 	fmt.Println("--------------------------------------------------")
 	verifyOutput()
@@ -277,4 +270,16 @@ func verifyOutput() {
 	}
 
 	log.Println("Verification complete.")
+}
+
+func buildMedAbbrevIndex() {
+	var medPaths []string
+	for _, d := range rime.Manifest.CNDicts() {
+		if strings.HasPrefix(d.Name, "med_") {
+			medPaths = append(medPaths, d.OutAbsPath)
+		}
+	}
+	if len(medPaths) > 0 {
+		rime.BuildMedAbbrevIndex(medPaths, filepath.Join(rime.OutDir, "med_abbrev_index.txt"))
+	}
 }
