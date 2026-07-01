@@ -18,6 +18,7 @@ import_tables:
   - cn_dicts/med_chinese_herbal_medicine   # 中药材
   - cn_dicts/med_ethnic_minority_medicine  # 少数民族药
   - cn_dicts/med_clinical_1000_drug        # 临床常用药物
+  - cn_dicts/med_sogou                     # 搜狗医学词库合集（279,088 条）
 
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   # - mydict1           # 挂载配置目录下的 mydict1.dict.yaml 词库文件

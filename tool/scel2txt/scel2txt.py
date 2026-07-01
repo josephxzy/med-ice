@@ -125,25 +125,40 @@ class Scel2Txt(object):
             print("确认你选择的是搜狗(.scel)词库?")
             sys.exit(0)
 
+        # 读取词库信息
+        dict_name = self.byte2str(data[0x130:0x338]).replace('\x00', '').strip()
+        dict_type = self.byte2str(data[0x338:0x540]).replace('\x00', '').strip()
+        dict_desc = self.byte2str(data[0x540:0xd40]).replace('\x00', '').strip()
+        # 示例词（不一定准确，仅供预览）
+        dict_sample = self.byte2str(data[0xd40:self.startPy]).replace('\x00', '').strip()
+
         self.getPyTable(data[self.startPy:self.startChinese])
         self.getChinese(data[self.startChinese:])
 
+        return dict_name, dict_type, dict_desc, dict_sample
+
 
 if __name__ == '__main__':
-    # 转换 ./scel 目录下的所有 .scel 文件
-    scel_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scel")
+    import sys
+    scel_dir = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "scel")
+    out_dir = sys.argv[2] if len(sys.argv) > 2 else scel_dir
+    os.makedirs(out_dir, exist_ok=True)
+
     scel_list = [os.path.join(scel_dir, f) for f in os.listdir(scel_dir) if f.endswith('.scel')]
 
     if not scel_list:
-        print("未找到 .scel 文件，请将词库放入 ./scel 目录")
+        print("未找到 .scel 文件")
         sys.exit(1)
 
     scel2txt = Scel2Txt()
     for _file in scel_list:
-        scel2txt.deal(_file)
-        # 保存结果：只输出词条文本
+        meta = scel2txt.deal(_file)
+        dict_name = meta[0] if meta else ''
         result = [x[2] for x in scel2txt.GTable]
-        out_path = os.path.splitext(_file)[0] + ".txt"
+        basename = os.path.splitext(os.path.basename(_file))[0]
+        out_path = os.path.join(out_dir, basename + ".txt")
         with open(out_path, "w", encoding="utf-8") as fout:
+            if dict_name:
+                fout.write(f"# 词库名: {dict_name}\n")
             fout.write("\n".join(result))
-        print(f"输出: {out_path} ({len(result)} 条)")
+        print(f"输出: {out_path} ({len(result)} 条) [{dict_name}]")
