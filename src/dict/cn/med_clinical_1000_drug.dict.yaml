@@ -11,6 +11,7 @@ sort: by_weight
 columns:
   - text
   - code
+  - weight
 ...
 # +_+
 青霉素	100

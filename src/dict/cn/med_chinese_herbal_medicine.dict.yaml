@@ -10,6 +10,7 @@ sort: by_weight
 columns:
   - text
   - code
+  - weight
 ...
 # +_+
 一枝黄花	100

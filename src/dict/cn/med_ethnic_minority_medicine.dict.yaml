@@ -10,6 +10,7 @@ sort: by_weight
 columns:
   - text
   - code
+  - weight
 ...
 # +_+
 一把伞	100
