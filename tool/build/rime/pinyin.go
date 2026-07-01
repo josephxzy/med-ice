@@ -413,55 +413,47 @@ func GeneratePinyinTest(s string) {
 	fmt.Printf("%s %q\n", words, r)
 }
 
-// BuildMedAbbrevIndex 为医学词库生成简拼索引（构建时调用）
-// 输出格式：每行 "简拼\t拼音编码\t词条文本"
-func BuildMedAbbrevIndex(dictPaths []string, indexPath string) {
-	log.Println("构建医学简拼索引...")
-	var lines []string
-
-	for _, dp := range dictPaths {
-		data, err := os.ReadFile(dp)
-		if err != nil {
-			log.Printf("  跳过 %s: %v", path.Base(dp), err)
-			continue
-		}
-		isMark := false
-		for _, line := range strings.Split(string(data), "\n") {
-			if !isMark {
-				if strings.HasPrefix(line, mark) || line == "..." {
-					isMark = true
-				}
-				continue
-			}
-			parts := strings.Split(line, "\t")
-			if len(parts) < 2 {
-				continue
-			}
-			text, code := parts[0], parts[1]
-			if !isAllLower(code) {
-				continue
-			}
-			// 生成首字母简拼："fen tuo la ming" → "ftlm"
-			var abbrev strings.Builder
-			for _, syl := range strings.Fields(code) {
-				if len(syl) > 0 {
-					abbrev.WriteByte(syl[0])
-				}
-			}
-			ab := abbrev.String()
-			if len(ab) >= 2 {
-				lines = append(lines, fmt.Sprintf("%s\t%s\t%s", ab, code, text))
-			}
-		}
-	}
-
-	sort.Strings(lines)
-
-	if err := os.WriteFile(indexPath, []byte(strings.Join(lines, "\n")), 0644); err != nil {
-		log.Printf("  写入索引失败: %v", err)
+// SetMedWeight 根据词条字数设置权重（构建时调用）
+func SetMedWeight(dictPath string) {
+	file, err := os.ReadFile(dictPath)
+	if err != nil {
+		log.Printf("  跳过 %s: %v", path.Base(dictPath), err)
 		return
 	}
-	log.Printf("  简拼索引: %d 条 → %s", len(lines), indexPath)
+	lines := strings.Split(string(file), "\n")
+	isMark := false
+	for i, line := range lines {
+		if !isMark {
+			if strings.HasPrefix(line, mark) || line == "..." {
+				isMark = true
+			}
+			continue
+		}
+		if line == "" || strings.HasPrefix(line, "#") {
+			continue
+		}
+		parts := strings.Split(line, "\t")
+		if len(parts) < 2 {
+			continue
+		}
+		text := parts[0]
+		charCount := utf8.RuneCountInString(text)
+		var weight int
+		switch {
+		case charCount <= 5:
+			weight = 1000
+		case charCount <= 10:
+			weight = 50
+		case charCount <= 15:
+			weight = 10
+		default:
+			weight = 1
+		}
+		lines[i] = fmt.Sprintf("%s\t%s\t%d", text, parts[1], weight)
+	}
+	result := strings.Join(lines, "\n")
+	os.WriteFile(dictPath, []byte(result), 0644)
+	log.Printf("  权重: %s (≤5:1000, 6-10:50, 11-15:10, >15:1)", path.Base(dictPath))
 }
 
 // 判断 code 是否全小写，不判断空格

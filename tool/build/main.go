@@ -53,6 +53,12 @@ func main() {
 			rime.AddWeight(d.OutAbsPath, 100)
 		}
 	}
+	// 医学词库按字数调整权重
+	for _, d := range rime.Manifest.CNDicts() {
+		if strings.HasPrefix(d.Name, "med_") {
+			rime.SetMedWeight(d.OutAbsPath)
+		}
+	}
 	fmt.Println("--------------------------------------------------")
 
 	// 按词库类型检查（仅检查需要校验的核心词库，跳过大字表 41448 等）
@@ -81,9 +87,6 @@ SORT:
 	for _, d := range rime.Manifest.Dicts {
 		rime.SortDict(d)
 	}
-
-	// 为医学词库生成简拼索引（用于 med_ice 的超级简拼功能）
-	buildMedAbbrevIndex()
 
 	fmt.Println("--------------------------------------------------")
 	verifyOutput()
@@ -270,16 +273,4 @@ func verifyOutput() {
 	}
 
 	log.Println("Verification complete.")
-}
-
-func buildMedAbbrevIndex() {
-	var medPaths []string
-	for _, d := range rime.Manifest.CNDicts() {
-		if strings.HasPrefix(d.Name, "med_") {
-			medPaths = append(medPaths, d.OutAbsPath)
-		}
-	}
-	if len(medPaths) > 0 {
-		rime.BuildMedAbbrevIndex(medPaths, filepath.Join(rime.OutDir, "med_abbrev_index.txt"))
-	}
 }
