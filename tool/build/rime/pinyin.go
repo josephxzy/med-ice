@@ -432,7 +432,7 @@ func SetMedWeight(dictPath string) {
 			continue
 		}
 		parts := strings.Split(line, "\t")
-		if len(parts) < 2 {
+		if len(parts) < 1 || parts[0] == "" {
 			continue
 		}
 		text := parts[0]
@@ -448,7 +448,12 @@ func SetMedWeight(dictPath string) {
 		default:
 			weight = 1
 		}
-		lines[i] = fmt.Sprintf("%s\t%s\t%d", text, parts[1], weight)
+		// Pinyin 输出 text\tcode，加权重；已有权重的覆盖
+		code := ""
+		if len(parts) >= 2 {
+			code = parts[1]
+		}
+		lines[i] = fmt.Sprintf("%s\t%s\t%d", text, code, weight)
 	}
 	result := strings.Join(lines, "\n")
 	os.WriteFile(dictPath, []byte(result), 0644)
