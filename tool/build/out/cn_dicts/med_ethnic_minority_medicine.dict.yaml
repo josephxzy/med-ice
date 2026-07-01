@@ -1,0 +1,2430 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 少数民族药词典 - 从 yao86.com 爬取
+#
+---
+name: ethnic_minority_medicine
+version: "2026-07-01"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+
+...
+# +_+
+阿拉伯胶	a la bo jiao	1000
+阿拉伯胶树汁	a la bo jiao shu zhi	50
+阿里红	a li hong	1000
+阿摩尼亚脂	a mo ni ya zhi	1000
+阿纳其根	a na qi gen	1000
+阿魏	a wei	1000
+阿魏子	a wei zi	1000
+阿育魏实	a yu wei shi	1000
+阿月浑子	a yue hun zi	1000
+矮垂头菊	ai chui tou ju	1000
+矮地茶	ai di cha	1000
+艾蒿	ai hao	1000
+艾虎	ai hu	1000
+矮火绒草	ai huo rong cao	1000
+艾纳香	ai na xiang	1000
+艾片	ai pian	1000
+艾叶	ai ye	1000
+安息香	an xi xiang	1000
+桉叶	an ye	1000
+巴豆	ba dou	1000
+巴戟天	ba ji tian	1000
+八角枫	ba jiao feng	1000
+芭蕉根	ba jiao gen	1000
+八角茴香	ba jiao hui xiang	1000
+八角香兰	ba jiao xiang lan	1000
+菝葜	ba qia	1000
+八月瓜	ba yue gua	1000
+八月泡	ba yue pao	1000
+白苞筋膏草	bai bao jin gao cao	1000
+白背艾	bai bei ai	1000
+白背叶	bai bei ye	1000
+白扁豆	bai bian dou	1000
+百部	bai bu	1000
+白菜	bai cai	1000
+百草霜	bai cao shuang	1000
+白菖蒲	bai chang pu	1000
+白沉香	bai chen xiang	1000
+白豆蔻	bai dou kou	1000
+白矾	bai fan	1000
+白饭树	bai fan shu	1000
+白粉藤	bai fen teng	1000
+白附子	bai fu zi	1000
+白骨木	bai gu mu	1000
+白果	bai guo	1000
+百合	bai he	1000
+白鹤灵芝	bai he ling zhi	1000
+白花臭牡丹	bai hua chou mu dan	1000
+白花丹	bai hua dan	1000
+白花龙胆	bai hua long dan	1000
+白花绿绒蒿	bai hua lv rong hao	1000
+白花曼陀罗	bai hua man tuo luo	1000
+白花蒲公英	bai hua pu gong ying	1000
+白花前胡	bai hua qian hu	1000
+白花蛇	bai hua she	1000
+白花蛇舌草	bai hua she she cao	1000
+白花树	bai hua shu	1000
+白花油麻藤	bai hua you ma teng	1000
+白及	bai ji	1000
+败酱草	bai jiang cao	1000
+白胶香	bai jiao xiang	1000
+白芥子	bai jie zi	1000
+白金果榄	bai jin guo lan	1000
+白颈蚯蚓	bai jing qiu yin	1000
+白蜡树	bai la shu	1000
+白蜡树子	bai la shu zi	1000
+白蓝翠雀花	bai lan cui que hua	1000
+白藜	bai li	1000
+百里香壮鹃	bai li xiang zhuang juan	1000
+白莲蒿	bai lian hao	1000
+白马骨	bai ma gu	1000
+白茅	bai mao	1000
+白冒顶	bai mao ding	1000
+白茅根	bai mao gen	1000
+白牡丹	bai mu dan	1000
+白硇砂	bai nao sha	1000
+白牛胆	bai niu dan	1000
+白前	bai qian	1000
+白屈菜	bai qu cai	1000
+百日红	bai ri hong	1000
+白石脂	bai shi zhi	1000
+白薯莨	bai shu liang	1000
+白檀	bai tan	1000
+白头翁	bai tou weng	1000
+白薇	bai wei	1000
+白盐	bai yan	1000
+百眼藤	bai yan teng	1000
+白腰草鹬	bai yao cao yu	1000
+白叶藤	bai ye teng	1000
+白益母草	bai yi mu cao	1000
+白英	bai ying	1000
+白鱼尾	bai yu wei	1000
+白云母	bai yun mu	1000
+白芷	bai zhi	1000
+白珠树	bai zhu shu	1000
+白子菜	bai zi cai	1000
+白钻	bai zuan	1000
+半边莲	ban bian lian	1000
+半边旗	ban bian qi	1000
+斑翅山鹑	ban chi shan chun	1000
+半枫荷	ban feng he	1000
+半枫荷皮	ban feng he pi	1000
+斑果藤	ban guo teng	1000
+斑鸠	ban jiu	1000
+斑鸠窝	ban jiu wo	1000
+板栗花	ban li hua	1000
+斑蝥	ban mao	1000
+半夏	ban xia	1000
+斑叶兰	ban ye lan	1000
+斑缘豆粉蝶	ban yuan dou fen die	1000
+半枝莲	ban zhi lian	1000
+榜嘎	bang ga	1000
+蚌壳草根	bang ke cao gen	1000
+榜参布柔	bang 参布柔	1000
+报春石斛	bao chun shi hu	1000
+抱石莲	bao shi lian	1000
+贝齿	bei chi	1000
+北刘寄奴	bei liu ji nu	1000
+贝母	bei mu	1000
+北沙参	bei sha shen	1000
+贝叶棕	bei ye zong	1000
+北紫堇	bei zi jin	1000
+崩疮药	beng chuang yao	1000
+荜茇	bi	1000
+荜拨菜	bi bo cai	1000
+荜澄茄	bi cheng qie	1000
+蓖齿蒿	bi chi hao	1000
+荜茇根	bi gen	1000
+笔管草	bi guan cao	1000
+壁虎	bi hu	1000
+薜荔	bi li	1000
+蓖麻	bi ma	1000
+蓖麻子	bi ma zi	1000
+壁钱	bi qian	1000
+闭鞘姜	bi qiao jiang	1000
+扁刺蔷薇	bian ci qiang wei	1000
+蝙蝠	bian fu	1000
+扁蕾	bian lei	1000
+萹蓄	bian xu	1000
+扁叶珊瑚盘	bian ye shan hu pan	1000
+兵豆	bing dou	1000
+槟榔	bing lang	1000
+槟榔青	bing lang qing	1000
+冰片	bing pian	1000
+冰球子	bing qiu zi	1000
+冰糖	bing tang	1000
+并头黄芩	bing tou huang qin	1000
+菠菜	bo cai	1000
+菠菜子	bo cai zi	1000
+薄荷	bo he	1000
+波棱瓜子	bo leng gua zi	1000
+博落回	bo luo hui	1000
+播娘蒿	bo niang hao	1000
+补骨脂	bu gu zhi	1000
+布荆	bu jing	1000
+步行虫	bu xing chong	1000
+补血草	bu xue cao	1000
+补血薯	bu xue shu	1000
+布渣叶	bu zha ye	1000
+擦木	ca mu	1000
+菜豆	cai dou	1000
+蚕豆	can dou	1000
+蚕茧	can jian	1000
+蚕茧草	can jian cao	1000
+苍耳	cang er	1000
+苍耳草	cang er cao	1000
+苍耳子	cang er zi	1000
+草豆寇	cao dou kou	1000
+草豆蔻	cao dou kou	1000
+草果	cao guo	1000
+草红花	cao hong hua	1000
+草棉	cao mian	1000
+草棉根	cao mian gen	1000
+草木犀	cao mu xi	1000
+草乌	cao wu	1000
+草乌芽	cao wu ya	1000
+草乌叶	cao wu ye	1000
+草血竭	cao xue jie	1000
+草玉梅	cao yu mei	1000
+草原老鹳草	cao yuan lao guan cao	1000
+侧柏	ce bai	1000
+侧柏叶	ce bai ye	1000
+叉分蓼	cha fen liao	1000
+查干泵嘎	cha gan beng ga	1000
+茶枯	cha ku	1000
+茶树	cha shu	1000
+茶叶	cha ye	1000
+茶油	cha you	1000
+蟾蜍	chan chu	1000
+潺槁木姜子	chan gao mu jiang zi	1000
+潺槁树	chan gao shu	1000
+蟾酥	chan su	1000
+蝉蜕	chan tui	1000
+蝉翼藤	chan yi teng	1000
+常春藤	chang chun teng	1000
+长耳鸮	chang er xiao	1000
+长杆兰	chang gan lan	1000
+常绿荚蒾	chang lv jia mi	1000
+菖蒲	chang pu	1000
+常山	chang shan	1000
+车前草	che qian cao	1000
+车前子	che qian zi	1000
+沉香	chen xiang	1000
+橙黄玉凤花	cheng huang yu feng hua	1000
+柽柳实	cheng liu shi	1000
+赪桐	cheng tong	1000
+赤瓟	chi	1000
+赤麻鸭	chi ma ya	1000
+赤楠蒲桃	chi nan pu tao	1000
+赤芍	chi shao	1000
+赤石脂	chi shi zhi	1000
+赤铜灰	chi tong hui	1000
+赤小豆	chi xiao dou	1000
+齿叶吊石苣苔	chi ye diao shi 苣 tai	50
+翅叶槐	chi ye huai	1000
+齿缘草	chi yuan cao	1000
+重楼	chong lou	1000
+臭茶辣	chou cha la	1000
+臭蒿	chou hao	1000
+臭茉莉	chou mo li	1000
+臭牡丹	chou mu dan	1000
+除风草	chu feng cao	1000
+初乳	chu ru	1000
+楮实树	chu shi shu	1000
+川贝母	chuan bei mu	1000
+川滇香薷	chuan dian xiang ru	1000
+穿根藤	chuan gen teng	1000
+川谷米根	chuan gu mi gen	1000
+川楝子	chuan lian zi	1000
+川莓	chuan mei	1000
+川木通	chuan mu tong	1000
+川木香	chuan mu xiang	1000
+穿破石	chuan po shi	1000
+穿山甲	chuan shan jia	1000
+川乌头	chuan wu tou	1000
+川西小黄菊	chuan xi xiao huang ju	1000
+穿心草	chuan xin cao	1000
+穿心藤	chuan xin teng	1000
+川续断	chuan xu duan	1000
+吹风散	chui feng san	1000
+垂果大蒜芥	chui guo da suan jie	1000
+垂盆草	chui pen cao	1000
+垂头菊	chui tou ju	1000
+椿树	chun shu	1000
+蝽象	chun xiang	1000
+唇香草	chun xiang cao	1000
+椿芽树	chun ya shu	1000
+刺柏	ci bai	1000
+刺柏叶	ci bai ye	1000
+刺慈姑	ci ci gu	1000
+雌黄	ci huang	1000
+刺蒺藜	ci ji li	1000
+刺老包	ci lao bao	1000
+刺梨根	ci li gen	1000
+刺楸	ci qiu	1000
+刺球	ci qiu	1000
+刺楸树皮	ci qiu shu pi	1000
+刺三加	ci san jia	1000
+刺山柑根皮	ci shan gan gen pi	1000
+刺参	ci shen	1000
+磁石	ci shi	1000
+刺糖	ci tang	1000
+刺桐	ci tong	1000
+刺通草	ci tong cao	1000
+刺猬	ci wei	1000
+刺猬刺	ci wei ci	1000
+刺五加	ci wu jia	1000
+刺苋	ci xian	1000
+刺叶楤木	ci ye song mu	1000
+刺竹	ci zhu	1000
+粗糙黄堇	cu cao huang jin	1000
+酢浆草	cu jiang cao	1000
+粗毛黄堇	cu mao huang jin	1000
+粗叶耳草	cu ye er cao	1000
+脆骨风	cui gu feng	1000
+翠雀	cui que	1000
+翠雀花	cui que hua	1000
+翠云草	cui yun cao	1000
+大鵟	da	1000
+大百部	da bai bu	1000
+大白芨	da bai ji	1000
+大坂山杜鹃	da ban shan du juan	1000
+大坂山蚤缀	da ban shan zao zhui	1000
+大瓣铁线莲	da ban tie xian lian	1000
+大苞筋骨草	da bao jin gu cao	1000
+大避债蛾	da bi zhai e	1000
+大驳骨	da bo gu	1000
+大车前	da che qian	1000
+大葱	da cong	1000
+大地棕根	da di zong gen	1000
+大丁草	da ding cao	1000
+大豆	da dou	1000
+大杜鹃	da du juan	1000
+大饭团	da fan tuan	1000
+大风藤	da feng teng	1000
+大风子	da feng zi	1000
+大果木姜子	da guo mu jiang zi	1000
+大花红景天	da hua hong jing tian	1000
+大花老鸭嘴	da hua lao ya zui	1000
+大黄	da huang	1000
+大黄橐吾	da huang tuo wu	1000
+大蓟	da ji	1000
+大蓟虫瘿	da ji chong ying	1000
+大戟脂	da ji zhi	1000
+大剑叶木	da jian ye mu	1000
+大奖军	da jiang jun	1000
+大蕉	da jiao	1000
+大接骨草	da jie gu cao	1000
+大金花草	da jin hua cao	1000
+大金牛草	da jin niu cao	1000
+大莲座蕨	da lian zuo jue	1000
+大路通	da lu tong	1000
+大罗伞	da luo san	1000
+大麻疙瘩	da ma ge da	1000
+大麻药	da ma yao	1000
+大麻叶	da ma ye	1000
+大麦	da mai	1000
+大毛桐子根	da mao tong zi gen	1000
+打米花	da mi hua	1000
+大青根	da qing gen	1000
+大青木香	da qing mu xiang	1000
+大青盐	da qing yan	1000
+大青叶	da qing ye	1000
+大蒜	da suan	1000
+大田基黄	da tian ji huang	1000
+大通草	da tong cao	1000
+大托叶云实	da tuo ye yun shi	1000
+大乌泡	da wu pao	1000
+大血藤	da xue teng	1000
+大叶斑鸠菊	da ye ban jiu ju	1000
+大叶茶	da ye cha	1000
+大叶钩藤	da ye gou teng	1000
+大叶骨牌草	da ye gu pai cao	1000
+大叶木鳖子	da ye mu bie zi	1000
+大叶排草	da ye pai cao	1000
+大叶千斤拔	da ye qian jin ba	1000
+大叶秦艽	da ye qin jiao	1000
+大叶紫珠	da ye zi zhu	1000
+大叶龙角	da ye 龙角	1000
+大枣	da zao	1000
+大猪尾	da zhu wei	1000
+大籽蒿	da zi hao	1000
+大嘴乌鸦	da zui wu ya	1000
+戴胜	dai sheng	1000
+戴星草	dai xing cao	1000
+代赭石	dai zhe shi	1000
+胆矾	dan fan	1000
+丹参	dan shen	1000
+单芽狗脊蕨	dan ya gou ji jue	1000
+单叶吴茱萸	dan ye wu zhu yu	1000
+单竹	dan zhu	1000
+淡竹	dan zhu	1000
+淡竹叶	dan zhu ye	1000
+当归	dang gui	1000
+党参	dang shen	1000
+当药	dang yao	1000
+倒触伞	dao chu san	1000
+倒吊笔	dao diao bi	1000
+刀豆	dao dou	1000
+倒扣草	dao kou cao	1000
+倒生莲	dao sheng lian	1000
+倒提壶	dao ti hu	1000
+倒心盾翅藤	dao xin dun chi teng	1000
+灯笼草	deng long cao	1000
+灯笼果	deng long guo	1000
+灯台树	deng tai shu	1000
+灯心草	deng xin cao	1000
+灯盏细辛	deng zhan xi xin	1000
+地鳖虫	di bie chong	1000
+地胆草	di dan cao	1000
+地耳草	di er cao	1000
+地瓜藤	di gua teng	1000
+地锦	di jin	1000
+地锦草	di jin cao	1000
+地龙	di long	1000
+地菍	di nie	1000
+地钱	di qian	1000
+地梢瓜	di shao gua	1000
+地榆	di yu	1000
+滇刺枣	dian ci zao	1000
+滇丹参	dian dan shen	1000
+点地梅	dian di mei	1000
+淀粉	dian fen	1000
+滇南木姜子	dian nan mu jiang zi	1000
+滇天冬	dian tian dong	1000
+吊兰	diao lan	1000
+吊马花	diao ma hua	1000
+雕鸮	diao xiao	1000
+迭裂紫堇	die lie zi jin	1000
+丁香	ding xiang	1000
+丁香罗勒	ding xiang luo le	1000
+定心藤	ding xin teng	1000
+冬虫夏草	dong chong xia cao	1000
+东俄洛黄芪	dong e luo huang qi	1000
+东方草莓	dong fang cao mei	1000
+东风草	dong feng cao	1000
+冬瓜	dong gua	1000
+冬葵果	dong kui guo	1000
+冬葵子	dong kui zi	1000
+东莨菪	dong lang dang	1000
+冬青	dong qing	1000
+冬青叶	dong qing ye	1000
+东亚唐松草	dong ya tang song cao	1000
+兜唇石斛	dou chun shi hu	1000
+豆腐柴	dou fu chai	1000
+豆状灰石	dou zhuang hui shi	1000
+毒根斑鸠菊	du gen ban jiu ju	1000
+独活	du huo	1000
+独脚金	du jiao jin	1000
+独脚莲	du jiao lian	1000
+独脚乌桕	du jiao wu jiu	1000
+杜鹃	du juan	1000
+独行菜子	du xing cai zi	1000
+渡鸦	du ya	1000
+独一味	du yi wei	1000
+杜仲	du zhong	1000
+短柄南蛇藤根	duan bing nan she teng gen	50
+短柄苹婆	duan bing ping po	1000
+断骨草	duan gu cao	1000
+短尾铁线莲	duan wei tie xian lian	1000
+短叶锦鸡儿根	duan ye jin ji er gen	50
+对叶莲	dui ye lian	1000
+对叶榕	dui ye rong	1000
+对叶榕树	dui ye rong shu	1000
+对坐叶	dui zuo ye	1000
+多刺绿绒蒿	duo ci lv rong hao	1000
+多花兰	duo hua lan	1000
+多荚草	duo jia cao	1000
+多榔菊	duo lang ju	1000
+多腺悬钩子	duo xian xuan gou zi	1000
+多序岩黄芪	duo xu yan huang qi	1000
+多叶棘豆	duo ye ji dou	1000
+鹅不食草	e bu shi cao	1000
+鹅肠菜	e chang cai	1000
+莪大厦	e da sha	1000
+莪术	e zhu	1000
+儿茶	er cha	1000
+二叶鹭兰	er ye lu lan	1000
+耳叶牛皮消	er ye niu pi xiao	1000
+翻白草	fan bai cao	1000
+繁缕	fan lv	1000
+番木瓜	fan mu gua	1000
+番石榴	fan shi liu	1000
+番石榴叶	fan shi liu ye	1000
+梵天花	fan tian hua	1000
+番泻叶	fan xie ye	1000
+防风草	fang feng cao	1000
+方解石	fang jie shi	1000
+翡翠	fei cui	1000
+肺筋草	fei jin cao	1000
+飞惊草	fei jing cao	1000
+飞廉	fei lian	1000
+飞龙掌血	fei long zhang xue	1000
+肺心草	fei xin cao	1000
+肺形草	fei xing cao	1000
+飞燕草	fei yan cao	1000
+飞扬草	fei yang cao	1000
+粉防已	fen fang yi	1000
+粉葛	fen ge	1000
+粪箕笃	fen ji du	1000
+蜂毒	feng du	1000
+风寒草	feng han cao	1000
+枫荷桂	feng he gui	1000
+蜂蜡	feng la	1000
+凤梨	feng li	1000
+风轮菜	feng lun cai	1000
+蜂蜜	feng mi	1000
+蜂蜜花	feng mi hua	1000
+凤庆鸡血藤	feng qing ji xue teng	1000
+凤尾草	feng wei cao	1000
+凤仙花	feng xian hua	1000
+枫香果	feng xiang guo	1000
+枫香槲寄生	feng xiang hu ji sheng	1000
+枫香树	feng xiang shu	1000
+风箱树根	feng xiang shu gen	1000
+凤丫蕨	feng ya jue	1000
+佛肚树	fo du shu	1000
+佛甲草	fo jia cao	1000
+佛手	fo shou	1000
+扶芳木	fu fang mu	1000
+茯苓	fu ling	1000
+伏龙肝	fu long gan	1000
+浮萍	fu ping	1000
+芙蓉花	fu rong hua	1000
+蝮蛇	fu she	1000
+茯神	fu shen	1000
+附子	fu zi	1000
+甘草	gan cao	1000
+甘草膏	gan cao gao	1000
+甘草味胶	gan cao wei jiao	1000
+干姜	gan jiang	1000
+柑橘	gan ju	1000
+橄榄	gan lan	1000
+甘青报春	gan qing bao chun	1000
+甘青青兰	gan qing qing lan	1000
+甘松	gan song	1000
+甘肃棘豆	gan su ji dou	1000
+甘肃蚤缀	gan su zao zhui	1000
+甘蔗	gan zhe	1000
+杠板归	gang ban gui	1000
+岗嘎穷	gang ga qiong	1000
+岗柃叶	gang ling ye	1000
+岗梅	gang mei	1000
+岗稔	gang ren	1000
+岗松	gang song	1000
+藁本	gao ben	1000
+高鼻羚羊	gao bi ling yang	1000
+高粱	gao liang	1000
+高良姜	gao liang jiang	1000
+高粱泡	gao liang pao	1000
+槁木姜	gao mu jiang	1000
+高山绣线菊	gao shan xiu xian ju	1000
+高山紫堇	gao shan zi jin	1000
+膏桐	gao tong	1000
+高原毛茛	gao yuan mao gen	1000
+葛根	ge gen	1000
+蛤蚧	ge jie	1000
+葛缕子	ge lv zi	1000
+葛麻菌	ge ma jun	1000
+格蓬脂	ge peng zhi	1000
+鸽肉	ge rou	1000
+隔山香	ge shan xiang	1000
+隔山消	ge shan xiao	1000
+葛上亭长	ge shang ting zhang	1000
+鸽子卵	ge zi luan	1000
+功劳木	gong lao mu	1000
+勾儿茶	gou er cha	1000
+狗肝菜	gou gan cai	1000
+狗骨	gou gu	1000
+狗骨木	gou gu mu	1000
+狗獾	gou huan	1000
+狗脊	gou ji	1000
+狗脊贯众	gou ji guan zhong	1000
+狗筋蔓	gou jin man	1000
+枸杞	gou qi	1000
+枸杞子	gou qi zi	1000
+构树	gou shu	1000
+钩藤	gou teng	1000
+狗娃花	gou wa hua	1000
+狗尾草	gou wei cao	1000
+钩腺大戟	gou xian da ji	1000
+狗牙根	gou ya gen	1000
+狗牙花	gou ya hua	1000
+狗仔花	gou zai hua	1000
+谷精草	gu jing cao	1000
+古山龙	gu shan long	1000
+骨碎补	gu sui bu	1000
+瓜馥木	gua fu mu	1000
+栝楼	gua lou	1000
+瓜子金	gua zi jin	1000
+瓜子藤	gua zi teng	1000
+拐枣	guai zao	1000
+关白附	guan bai fu	1000
+冠唇花	guan chun hua	1000
+管花马兜铃	guan hua ma dou ling	1000
+贯叶金丝桃	guan ye jin si tao	1000
+观音座莲	guan yin zuo lian	1000
+贯众	guan zhong	1000
+罐子草	guan zi cao	1000
+广防己	guang fang ji	1000
+广金钱草	guang jin qian cao	1000
+光明盐	guang ming yan	1000
+广酸枣	guang suan zao	1000
+广藤根	guang teng gen	1000
+广西玉叶金花	guang xi yu ye jin hua	50
+广西黄柏	guang xi 黄柏	1000
+光叶丁公藤	guang ye ding gong teng	1000
+光叶海桐	guang ye hai tong	1000
+光叶花榈木	guang ye hua lv mu	1000
+光叶榕	guang ye rong	1000
+光叶山黄麻	guang ye shan huang ma	1000
+广枣	guang zao	1000
+广州山柑	guang zhou shan gan	1000
+鬼豆根	gui dou gen	1000
+龟甲	gui jia	1000
+鬼箭锦鸡儿	gui jian jin ji er	1000
+鬼臼	gui jiu	1000
+龟壳	gui ke	1000
+鬼针草	gui zhen cao	1000
+滚山珠	gun shan zhu	1000
+锅铲叶	guo chan ye	1000
+过岗龙	guo gang long	1000
+过江藤	guo jiang teng	1000
+蛤蟆肉	ha ma rou	1000
+海带	hai dai	1000
+海金沙	hai jin sha	1000
+海金沙草	hai jin sha cao	1000
+海狸香	hai li xiang	1000
+海螺	hai luo	1000
+海马	hai ma	1000
+海南粗榧	hai nan cu fei	1000
+海螵蛸	hai piao xiao	1000
+海盐	hai yan	1000
+海枣	hai zao	1000
+旱八角	han ba jiao	1000
+蔊菜	han cai	1000
+含差云实	han cha yun shi	1000
+旱冬瓜	han dong gua	1000
+旱禾树	han he shu	1000
+旱柳	han liu	1000
+寒水石	han shui shi	1000
+韩信草	han xin cao	1000
+含羞草	han xiu cao	1000
+薅田藨	hao tian biao	1000
+号筒杆	hao tong gan	1000
+豪猪	hao zhu	1000
+豪猪刺	hao zhu ci	1000
+荷苞花	he bao hua	1000
+荷包山桂花	he bao shan gui hua	1000
+褐背地鸦	he bei di ya	1000
+盒果藤根皮	he guo teng gen pi	1000
+合欢	he huan	1000
+合欢皮	he huan pi	1000
+荷莲豆	he lian dou	1000
+荷莲豆草	he lian dou cao	1000
+褐毛橐吾	he mao tuo wu	1000
+合萌	he meng	1000
+鹤虱	he shi	1000
+何首乌	he shou wu	1000
+核桃	he tao	1000
+核桃仁	he tao ren	1000
+褐铁矿	he tie kuang	1000
+河乌	he wu	1000
+禾叶风毛菊	he ye feng mao ju	1000
+诃子	he zi	1000
+黑冰片	hei bing pian	1000
+黑沉香	hei chen xiang	1000
+黑萼棘豆	hei e ji dou	1000
+黑矾	hei fan	1000
+黑粉菌	hei fen jun	1000
+黑风藤	hei feng teng	1000
+黑狗尾草	hei gou wei cao	1000
+黑骨芒萁	hei gu mang qi	1000
+黑骨藤	hei gu teng	1000
+黑果枸杞	hei guo gou qi	1000
+黑节风	hei jie feng	1000
+黑颈鹤	hei jing he	1000
+黑榄	hei lan	1000
+黑面神	hei mian shen	1000
+黑皮跌打	hei pi die da	1000
+黑蕊虎耳草	hei rui hu er cao	1000
+黑桑	hei sang	1000
+黑心姜	hei xin jiang	1000
+黑心树	hei xin shu	1000
+黑熊	hei xiong	1000
+黑盐	hei yan	1000
+黑云母	hei yun mu	1000
+黑芝麻	hei zhi ma	1000
+黑种草	hei zhong cao	1000
+黑种草子	hei zhong cao zi	1000
+横经席	heng jing xi	1000
+红半边莲	hong ban bian lian	1000
+红宝石	hong bao shi	1000
+红背菜	hong bei cai	1000
+红背山麻杆	hong bei shan ma gan	1000
+红背酸藤	hong bei suan teng	1000
+荭草根	hong cao gen	1000
+红沉香	hong chen xiang	1000
+红灯笼	hong deng long	1000
+红豆	hong dou	1000
+红豆蔻	hong dou kou	1000
+红耳鼠兔粪	hong er shu tu fen	1000
+红孩儿	hong hai er	1000
+红旱莲	hong han lian	1000
+红禾麻	hong he ma	1000
+红花	hong hua	1000
+红花龙胆	hong hua long dan	1000
+红花绿绒蒿	hong hua lv rong hao	1000
+红花岩黄芪	hong hua yan huang qi	1000
+红花子	hong hua zi	1000
+红花紫堇	hong hua zi jin	1000
+红花酢浆	hong hua 酢 jiang	1000
+红郎伞	hong lang san	1000
+红簕钩	hong le gou	1000
+红马蹄草	hong ma ti cao	1000
+红毛草	hong mao cao	1000
+红毛鸡	hong mao ji	1000
+红毛藤	hong mao teng	1000
+红毛走马胎	hong mao zou ma tai	1000
+红木香	hong mu xiang	1000
+红娘	hong niang	1000
+红牛膝	hong niu xi	1000
+红薯	hong shu	1000
+红丝线	hong si xian	1000
+红松子	hong song zi	1000
+红檀香	hong tan xiang	1000
+红铜	hong tong	1000
+红纹马先蒿	hong wen ma xian hao	1000
+红乌桕	hong wu jiu	1000
+红苋菜	hong xian cai	1000
+红云草	hong yun cao	1000
+红紫珠	hong zi zhu	1000
+红嘴山鸦	hong zui shan ya	1000
+猴接骨	hou jie gu	1000
+厚朴	hou po	1000
+厚叶藤	hou ye teng	1000
+厚叶五味子	hou ye wu wei zi	1000
+虎刺	hu ci	1000
+虎刺楤木	hu ci song mu	1000
+蝴蝶果	hu die guo	1000
+虎耳草	hu er cao	1000
+狐肺	hu fei	1000
+虎骨	hu gu	1000
+胡黄连	hu huang lian	1000
+槲寄生	hu ji sheng	1000
+胡椒	hu jiao	1000
+壶卢	hu lu	1000
+葫芦	hu lu	1000
+胡芦巴	hu lu ba	1000
+葫芦巴	hu lu ba	1000
+葫芦茶	hu lu cha	1000
+葫芦子	hu lu zi	1000
+胡萝卜	hu luo bo	1000
+胡萝卜子	hu luo bo zi	1000
+琥珀	hu po	1000
+胡荽	hu sui	1000
+胡桃仁	hu tao ren	1000
+胡桐泪	hu tong lei	1000
+胡兀鹫	hu wu jiu	1000
+护心胆	hu xin dan	1000
+虎掌	hu zhang	1000
+虎杖	hu zhang	1000
+花杜仲藤	hua du zhong teng	1000
+华风车子根	hua feng che zi gen	1000
+花拐藤根	hua guai teng gen	1000
+桦槲蕨	hua hu jue	1000
+花椒	hua jiao	1000
+花脸七	hua lian qi	1000
+华良姜	hua liang jiang	1000
+花锚	hua mao	1000
+花苜蓿	hua mu xu	1000
+华清香藤	hua qing xiang teng	1000
+花生	hua sheng	1000
+滑石	hua shi	1000
+化香树	hua xiang shu	1000
+化血胆	hua xue dan	1000
+花叶假杜鹃	hua ye jia du juan	1000
+华泽兰	hua ze lan	1000
+环颈雉	huan jing zhi	1000
+獾油	huan you	1000
+黄丹	huang dan	1000
+黄疸树	huang dan shu	1000
+黄豆树	huang dou shu	1000
+黄杜鹃	huang du juan	1000
+黄矾	huang fan	1000
+黄瓜	huang gua	1000
+黄瓜子	huang gua zi	1000
+黄诃子皮	huang he zi pi	1000
+黄花痴头婆	huang hua chi tou po	1000
+黄花倒水莲	huang hua dao shui lian	1000
+黄花粉叶报春	huang hua fen ye bao chun	50
+黄花蒿	huang hua hao	1000
+黄花胡椒	huang hua hu jiao	1000
+黄花假杜鹃	huang hua jia du juan	1000
+黄花柳	huang hua liu	1000
+黄花马先蒿	huang hua ma xian hao	1000
+黄花棉	huang hua mian	1000
+黄花母	huang hua mu	1000
+黄花稔	huang hua ren	1000
+黄花铁线莲	huang hua tie xian lian	1000
+黄花岩黄芪	huang hua yan huang qi	1000
+黄脊蝗	huang ji huang	1000
+黄金	huang jin	1000
+黄金凤	huang jin feng	1000
+黄金间碧竹	huang jin jian bi zhu	1000
+黄精	huang jing	1000
+黄荆	huang jing	1000
+黄葵	huang kui	1000
+黄连	huang lian	1000
+黄茅	huang mao	1000
+黄毛耳草	huang mao er cao	1000
+黄毛榕	huang mao rong	1000
+黄毛山牵牛	huang mao shan qian niu	1000
+黄牛	huang niu	1000
+黄牛木	huang niu mu	1000
+黄皮果	huang pi guo	1000
+黄芪	huang qi	1000
+黄芩	huang qin	1000
+黄球花	huang qiu hua	1000
+幌伞树	huang san shu	1000
+黄鳝藤	huang shan teng	1000
+黄鼠肉	huang shu rou	1000
+黄藤	huang teng	1000
+黄铁矿	huang tie kuang	1000
+黄桐	huang tong	1000
+黄芽木	huang ya mu	1000
+黄药子	huang yao zi	1000
+黄樟	huang zhang	1000
+黄栀子	huang zhi zi	1000
+黄帚橐吾	huang zhou tuo wu	1000
+蛔蒿花	hui hao hua	1000
+灰绿黄堇	hui lv huang jin	1000
+灰绿藜	hui lv li	1000
+灰沙燕	hui sha yan	1000
+茴香虫	hui xiang chong	1000
+茴香豆蔻	hui xiang dou kou	1000
+茴香砂仁	hui xiang sha ren	1000
+灰栒子	hui xun zi	1000
+灰枝紫菀	hui zhi zi wan	1000
+火柴树	huo chai shu	1000
+火麻仁	huo ma ren	1000
+火绒草	huo rong cao	1000
+火烧花	huo shao hua	1000
+火索麻	huo suo ma	1000
+火炭母	huo tan mu	1000
+藿香	huo xiang	1000
+火硝	huo xiao	1000
+火焰花	huo yan hua	1000
+火杨梅	huo yang mei	1000
+荠菜	ji cai	1000
+鸡蛋	ji dan	1000
+鸡蛋花	ji dan hua	1000
+鸡蛋黄	ji dan huang	1000
+鸡蛋参	ji dan 参	1000
+吉多果化石	ji duo guo hua shi	1000
+鸡骨草	ji gu cao	1000
+鸡骨柴	ji gu chai	1000
+鸡骨香	ji gu xiang	1000
+鸡冠花	ji guan hua	1000
+及己	ji ji	1000
+鸡脚草	ji jiao cao	1000
+蒺藜	ji li	1000
+吉龙草	ji long cao	1000
+檵木	ji mu	1000
+鸡内金	ji nei jin	1000
+鸡桑白皮	ji sang bai pi	1000
+鸡矢藤	ji shi teng	1000
+吉祥草	ji xiang cao	1000
+急性子	ji xing zi	1000
+积雪草	ji xue cao	1000
+鸡血藤	ji xue teng	1000
+鸡眼草	ji yan cao	1000
+鸡眼菊	ji yan ju	1000
+戟叶火绒草	ji ye huo rong cao	1000
+鸡油	ji you	1000
+鲫鱼	ji yu	1000
+鸡爪黄连	ji zhua huang lian	1000
+鸡爪兰	ji zhua lan	1000
+鸡子白	ji zi bai	1000
+鸡子壳	ji zi 壳	1000
+假丁公藤	jia ding gong teng	1000
+家独行菜子	jia du xing cai zi	1000
+假桂树	jia gui shu	1000
+假海芋	jia hai yu	1000
+家鸡	jia ji	1000
+假蒟	jia ju	1000
+嘉兰	jia lan	1000
+假密环菌	jia mi huan jun	1000
+假木通	jia mu tong	1000
+假鹊肾树	jia que shen shu	1000
+槚如实	jia ru shi	1000
+假烟叶树	jia yan ye shu	1000
+甲鱼	jia yu	1000
+夹竹桃	jia zhu tao	1000
+剪草	jian cao	1000
+煎刀草	jian dao cao	1000
+箭毒木	jian du mu	1000
+箭杆风	jian gan feng	1000
+碱花	jian hua	1000
+碱毛茛	jian mao gen	1000
+菅茅根	jian mao gen	1000
+尖山橙	jian shan cheng	1000
+见血飞	jian xue fei	1000
+见血清	jian xue qing	1000
+箭叶蓼	jian ye liao	1000
+僵蚕	jiang can	1000
+浆果乌桕	jiang guo wu jiu	1000
+姜花	jiang hua	1000
+姜黄	jiang huang	1000
+江南卷柏	jiang nan juan bai	1000
+江南山柳	jiang nan shan liu	1000
+姜三七	jiang san qi	1000
+降香	jiang xiang	1000
+降香黄檀	jiang xiang huang tan	1000
+绞肠痧	jiao chang sha	1000
+绞股蓝	jiao gu lan	1000
+角闪石石棉	jiao shan shi shi mian	1000
+节鞭山姜	jie bian shan jiang	1000
+羯布罗香	jie bu luo xiang	1000
+芥菜	jie cai	1000
+桔梗	jie geng	1000
+接骨木	jie gu mu	1000
+节节花	jie jie hua	1000
+结石草	jie shi cao	1000
+结香	jie xiang	1000
+芥子	jie zi	1000
+金边兔耳	jin bian tu er	1000
+金箔	jin bo	1000
+堇菜	jin cai	1000
+金疮小草	jin chuang xiao cao	1000
+金耳环	jin er huan	1000
+金发藓	jin fa xian	1000
+金刚藤	jin gang teng	1000
+金刚纂	jin gang zuan	1000
+筋骨草	jin gu cao	1000
+金花果	jin hua guo	1000
+锦葵果	jin kui guo	1000
+金莲花	jin lian hua	1000
+金露梅	jin lu mei	1000
+金缕半枫荷	jin lv ban feng he	1000
+金礞石	jin meng shi	1000
+金纳香	jin na xiang	1000
+金钱草	jin qian cao	1000
+金钱蒲	jin qian pu	1000
+金荞麦	jin qiao mai	1000
+金丝矮陀	jin si ai tuo	1000
+金丝李	jin si li	1000
+金丝桃	jin si tao	1000
+金锁匙	jin suo shi	1000
+筋藤	jin teng	1000
+金铁锁	jin tie suo	1000
+金线草	jin xian cao	1000
+金腰草	jin yao cao	1000
+金腰子	jin yao zi	1000
+金银花	jin yin hua	1000
+金樱子	jin ying zi	1000
+金盏花	jin zhan hua	1000
+京大戟	jing da ji	1000
+惊风伞	jing feng san	1000
+荆芥	jing jie	1000
+救必应	jiu bi ying	1000
+韭菜	jiu cai	1000
+韭菜子	jiu cai zi	1000
+九层楼	jiu ceng lou	1000
+九层麻	jiu ceng ma	1000
+九层塔	jiu ceng ta	1000
+九翅豆蒄	jiu chi dou guan	1000
+鹫粪	jiu fen	1000
+韭根	jiu gen	1000
+九管血	jiu guan xue	1000
+九节茶	jiu jie cha	1000
+九里香	jiu li xiang	1000
+九龙盘	jiu long pan	1000
+九龙藤	jiu long teng	1000
+九牛薯	jiu niu shu	1000
+九庆藤	jiu qing teng	1000
+九香虫	jiu xiang chong	1000
+锯齿草	ju chi cao	1000
+菊花	ju hua	1000
+距花宝铎草	ju hua bao duo cao	1000
+蒟酱	ju jiang	1000
+菊苣	ju ju	1000
+菊苣根	ju ju gen	1000
+菊苣子	ju ju zi	1000
+蒟蒻薯	ju ruo shu	1000
+聚头蓟	ju tou ji	1000
+矩叶山蚂蝗	ju ye shan ma huang	1000
+矩叶酸藤果	ju ye suan teng guo	1000
+枸橼皮	ju yuan pi	1000
+橘子	ju zi	1000
+卷柏	juan bai	1000
+卷丹	juan dan	1000
+绢毛菊	juan mao ju	1000
+爵床	jue chuang	1000
+蕨麻委陵菜	jue ma wei ling cai	1000
+决明	jue ming	1000
+决明子	jue ming zi	1000
+喀什粉	ka shi fen	1000
+孔雀翎	kong que ling	1000
+孔雀石	kong que shi	1000
+空心菜	kong xin cai	1000
+空心苋	kong xin xian	1000
+扣子草	kou zi cao	1000
+苦艾	ku ai	1000
+苦巴旦杏	ku ba dan xing	1000
+苦白蹄	ku bai ti	1000
+苦菜子	ku cai zi	1000
+苦碟子	ku die zi	1000
+苦丁茶	ku ding cha	1000
+苦豆根	ku dou gen	1000
+苦豆子	ku dou zi	1000
+苦苣苔	ku ju tai	1000
+苦李根	ku li gen	1000
+苦楝皮	ku lian pi	1000
+苦楝子	ku lian zi	1000
+苦荬菜	ku mai cai	1000
+苦荞	ku qiao	1000
+苦参	ku shen	1000
+苦树	ku shu	1000
+苦藤	ku teng	1000
+苦竹叶	ku zhu ye	1000
+块根糙苏	kuai gen cao su	1000
+宽苞棘豆	kuan bao ji dou	1000
+款冬花	kuan dong hua	1000
+宽果丛菔	kuan guo cong fu	1000
+宽筋藤	kuan jin teng	1000
+宽叶腹水草	kuan ye fu shui cao	1000
+宽叶缬草	kuan ye xie cao	1000
+昆明鸡血藤	kun ming ji xue teng	1000
+腊肠果	la chang guo	1000
+腊肠树	la chang shu	1000
+辣椒	la jiao	1000
+拉拉藤	la la teng	1000
+辣蓼	la liao	1000
+拉萨风毛菊	la sa feng mao ju	1000
+莱菔	lai fu	1000
+莱菔子	lai fu zi	1000
+蓝布正	lan bu zheng	1000
+蓝侧金盏	lan ce jin zhan	1000
+蓝刺头	lan ci tou	1000
+蓝花龙胆	lan hua long dan	1000
+蓝盆花	lan pen hua	1000
+蓝树	lan shu	1000
+蓝铜矿	lan tong kuang	1000
+蓝玉簪龙胆	lan yu zan long dan	1000
+蓝钟花	lan zhong hua	1000
+蓝钻	lan zuan	1000
+莨菪	lang dang	1000
+狼毒	lang du	1000
+狼舌	lang she	1000
+狼胃	lang wei	1000
+老鹳草	lao guan cao	1000
+老虎楝	lao hu lian	1000
+老虎须	lao hu xu	1000
+老虎芋	lao hu yu	1000
+老君须	lao jun xu	1000
+老鼠耳	lao shu er	1000
+老鼠黄瓜	lao shu huang gua	1000
+雷公藤	lei gong teng	1000
+雷丸	lei wan	1000
+肋柱花	lei zhu hua	1000
+冷蒿	leng hao	1000
+冷水花	leng shui hua	1000
+冷水蕨	leng shui jue	1000
+鳢肠	li chang	1000
+丽春花	li chun hua	1000
+藜豆	li dou	1000
+藜芦	li lu	1000
+李树	li shu	1000
+栗树	li shu	1000
+犁头草	li tou cao	1000
+砾玄参	li xuan shen	1000
+鲤鱼	li yu	1000
+荔枝	li zhi	1000
+李子	li zi	1000
+疬子草	li zi cao	1000
+链荚豆	lian jia dou	1000
+连钱草	lian qian cao	1000
+连翘	lian qiao	1000
+楝树	lian shu	1000
+莲子	lian zi	1000
+莲座虎耳草	lian zuo hu er cao	1000
+莲座蓟	lian zuo ji	1000
+两面青	liang mian qing	1000
+两面针	liang mian zhen	1000
+疗齿草	liao chi cao	1000
+了哥王	liao ge wang	1000
+烈香杜鹃	lie xiang du juan	1000
+裂叶独活	lie ye du huo	1000
+菱角	ling jiao	1000
+铃铃香	ling ling xiang	1000
+零陵香	ling ling xiang	1000
+菱铁矿	ling tie kuang	1000
+灵香草	ling xiang cao	1000
+凌霄花	ling xiao hua	1000
+羚羊角	ling yang jiao	1000
+灵芝	ling zhi	1000
+六方藤	liu fang teng	1000
+琉黄	liu huang	1000
+硫黄	liu huang	1000
+六棱菊	liu leng ju	1000
+柳树	liu shu	1000
+流苏子根	liu su zi gen	1000
+六月雪	liu yue xue	1000
+柳枝	liu zhi	1000
+龙胆地丁	long dan 地丁	1000
+龙骨	long gu	1000
+龙葵	long kui	1000
+龙葵果	long kui guo	1000
+龙涎香	long xian xiang	1000
+龙血树	long xue shu	1000
+耧斗菜	lou dou cai	1000
+蝼蛄	lou gu	1000
+漏芦花	lou lu hua	1000
+路边青	lu bian qing	1000
+鸬鹚	lu ci	1000
+露兜簕	lu dou le	1000
+露蜂房	lu feng fang	1000
+炉甘石	lu gan shi	1000
+芦根	lu gen	1000
+芦荟	lu hui	1000
+鹿角	lu jiao	1000
+鹿梨	lu li	1000
+鹿茸	lu rong	1000
+露蕊乌头	lu rui wu tou	1000
+芦山藤	lu shan teng	1000
+鹿衔草	lu xian cao	1000
+卤盐	lu yan	1000
+鹿药	lu yao	1000
+陆英	lu ying	1000
+卵叶栝楼	luan ye gua lou	1000
+萝卜	luo bo	1000
+罗布麻叶	luo bu ma ye	1000
+落地荷花	luo di he hua	1000
+落地梅	luo di mei	1000
+落地生根	luo di sheng gen	1000
+萝芙木	luo fu mu	1000
+罗浮柿	luo fu shi	1000
+罗汉果	luo han guo	1000
+裸茎金腰子	luo jing jin yao zi	1000
+罗勒	luo le	1000
+罗勒子	luo le zi	1000
+洛隆紫堇	luo long zi jin	1000
+萝藦	luo mo	1000
+罗裙带	luo qun dai	1000
+络石藤	luo shi teng	1000
+螺蛳	luo si	1000
+骆驼蓬	luo tuo peng	1000
+骆驼蓬子	luo tuo peng zi	1000
+罗望子	luo wang zi	1000
+落新妇	luo xin fu	1000
+罗星草	luo xing cao	1000
+螺厣	luo yan	1000
+葎草	lv cao	1000
+绿豆	lv dou	1000
+绿矾	lv fan	1000
+绿钾铁矾	lv jia tie fan	1000
+绿孔雀	lv kong que	1000
+绿兰花	lv lan hua	1000
+绿绒蒿	lv rong hao	1000
+驴乳	lv ru	1000
+吕宋楸荚粉	lv song qiu jia fen	1000
+绿松石	lv song shi	1000
+驴血	lv xue	1000
+绿啄木鸟	lv zhuo mu niao	1000
+马宝	ma bao	1000
+马鞭草	ma bian cao	1000
+马勃	ma bo	1000
+麻布袋	ma bu dai	1000
+马齿苋	ma chi xian	1000
+马齿苋子	ma chi xian zi	1000
+马兜铃	ma dou ling	1000
+麻风草	ma feng cao	1000
+麻花艽	ma hua jiao	1000
+麻黄	ma huang	1000
+蚂蟥七	ma huang qi	1000
+马甲子根	ma jia zi gen	1000
+马兰	ma lan	1000
+马蓝	ma lan	1000
+马利筋	ma li jin	1000
+马连鞍	ma lian an	1000
+马蔺根	ma lin gen	1000
+马蔺子	ma lin zi	1000
+马鹿	ma lu	1000
+马鹿草	ma lu cao	1000
+玛瑙	ma nao	1000
+马钱子	ma qian zi	1000
+麻雀	ma que	1000
+麻雀脑	ma que nao	1000
+麻雀肉	ma que rou	1000
+马肉	ma rou	1000
+马桑	ma sang	1000
+马麝	ma she	1000
+马尿泡	ma sui pao	1000
+马蹄金	ma ti jin	1000
+马蹄蕨	ma ti jue	1000
+马尾千金草	ma wei qian jin cao	1000
+马尾松	ma wei song	1000
+马先蒿	ma xian hao	1000
+蚂蚁	ma yi	1000
+蚂蚱	ma zha	1000
+麦冬	mai dong	1000
+麦斛	mai hu	1000
+买麻藤	mai ma teng	1000
+蔓胡颓子	man hu tui zi	1000
+蔓荆	man jing	1000
+蔓荆子	man jing zi	1000
+蔓龙胆	man long dan	1000
+曼陀罗	man tuo luo	1000
+曼陀罗叶	man tuo luo ye	1000
+曼陀罗子	man tuo luo zi	1000
+芒草	mang cao	1000
+杧果	mang guo	1000
+杧果核	mang guo he	1000
+芒果核	mang guo he	1000
+芒硝	mang xiao	1000
+毛瓣无患子	mao ban wu huan zi	1000
+毛大丁草	mao da ding cao	1000
+毛大叶野樱	mao da ye ye ying	1000
+毛冬青	mao dong qing	1000
+猫豆	mao dou	1000
+猫儿草	mao er cao	1000
+茅膏菜	mao gao cai	1000
+毛茛	mao gen	1000
+茅瓜	mao gua	1000
+毛诃子	mao he zi	1000
+毛鸡屎藤	mao ji shi teng	1000
+毛茎紫堇	mao jing zi jin	1000
+毛九节	mao jiu jie	1000
+毛连菜	mao lian cai	1000
+毛莲蒿	mao lian hao	1000
+毛罗勒	mao luo le	1000
+毛毛草	mao mao cao	1000
+毛葡萄	mao pu tao	1000
+毛杓兰	mao shao lan	1000
+毛麝香	mao she xiang	1000
+毛笋	mao sun	1000
+猫头骨	mao tou gu	1000
+猫尾草	mao wei cao	1000
+猫尾木	mao wei mu	1000
+毛叶巴豆	mao ye ba dou	1000
+毛叶嘉榄	mao ye jia lan	1000
+毛叶三条筋	mao ye san tiao jin	1000
+毛叶算盘子	mao ye suan pan zi	1000
+美登木	mei deng mu	1000
+玫瑰花	mei gui hua	1000
+梅花草	mei hua cao	1000
+美丽胡枝子	mei li hu zhi zi	1000
+美人蕉根	mei ren jiao gen	1000
+美饰悬钩子	mei shi xuan gou zi	1000
+莓叶委陵菜	mei ye wei ling cai	1000
+迷果芹	mi guo qin	1000
+猕猴	mi hou	1000
+猕猴骨	mi hou gu	1000
+猕猴桃	mi hou tao	1000
+密蒙花	mi meng hua	1000
+密生波罗花	mi sheng bo luo hua	1000
+米碎花	mi sui hua	1000
+密陀僧	mi tuo seng	1000
+棉花花	mian hua hua	1000
+棉花子	mian hua zi	1000
+绵羊	mian yang	1000
+绵羊肉	mian yang rou	1000
+棉籽	mian zi	1000
+明矾	ming fan	1000
+墨旱莲	mo han lian	1000
+茉莉根	mo li gen	1000
+磨盘草	mo pan cao	1000
+没食子	mo shi zi	1000
+没药	mo yao	1000
+没药枝	mo yao zhi	1000
+魔芋	mo yu	1000
+木败	mu bai	1000
+木鳖	mu bie	1000
+木鳖子	mu bie zi	1000
+木耳	mu er	1000
+木芙蓉	mu fu rong	1000
+木瓜	mu gua	1000
+牡蒿	mu hao	1000
+木荷	mu he	1000
+木蝴蝶	mu hu die	1000
+木黄连	mu huang lian	1000
+木姜子	mu jiang zi	1000
+木槿	mu jin	1000
+木槿皮	mu jin pi	1000
+木橘	mu ju	1000
+穆库没药	mu ku mo yao	1000
+木莓	mu mei	1000
+木棉	mu mian	1000
+木棉花	mu mian hua	1000
+木棉花瓣	mu mian hua ban	1000
+木棉花萼	mu mian hua e	1000
+木棉花蕊	mu mian hua rui	1000
+木蹄	mu ti	1000
+木通	mu tong	1000
+木通根	mu tong gen	1000
+木虾公	mu xia gong	1000
+木香	mu xiang	1000
+苜蓿子	mu xu zi	1000
+木腰子	mu yao zi	1000
+木贼	mu zei	1000
+木竹子	mu zhu zi	1000
+那藤	na teng	1000
+奶浆菜	nai jiang cai	1000
+奶皮	nai pi	1000
+奶桃	nai tao	1000
+南瓜	nan gua	1000
+南瓜子	nan gua zi	1000
+南刘寄奴	nan liu ji nu	1000
+南牡蒿	nan mu hao	1000
+南千斤藤	nan qian jin teng	1000
+南沙参	nan sha shen	1000
+南蛇簕	nan she le	1000
+南蛇藤	nan she teng	1000
+楠藤	nan teng	1000
+南天竹子	nan tian zhu zi	1000
+囊距翠雀花	nang ju cui que hua	1000
+硇砂	nao sha	1000
+闹羊花	nao yang hua	1000
+尼阿洛	ni a luo	1000
+泥胡菜	ni hu cai	1000
+泥鳅	ni qiu	1000
+鸟不企	niao bu qi	1000
+鸟巢树	niao chao shu	1000
+柠檬	ning meng	1000
+牛白藤	niu bai teng	1000
+牛蒡根	niu bang gen	1000
+牛蒡子	niu bang zi	1000
+牛鞭	niu bian	1000
+牛大力	niu da li	1000
+牛胆	niu dan	1000
+牛耳枫	niu er feng	1000
+牛黄	niu huang	1000
+牛角	niu jiao	1000
+牛筋草	niu jin cao	1000
+扭连钱	niu lian qian	1000
+牛泷草	niu long cao	1000
+牛奶莓	niu nai mei	1000
+牛奶木	niu nai mu	1000
+牛脾	niu pi	1000
+牛肉	niu rou	1000
+牛乳	niu ru	1000
+牛舌草	niu she cao	1000
+牛舌草花	niu she cao hua	1000
+牛尾巴蒿	niu wei ba hao	1000
+牛尾蒿	niu wei hao	1000
+牛尾蕨	niu wei jue	1000
+牛膝	niu xi	1000
+牛至	niu zhi	1000
+糯稻根	nuo dao gen	1000
+糯米球	nuo mi qiu	1000
+糯米藤	nuo mi teng	1000
+女贞子	nv zhen zi	1000
+欧白及	ou bai ji	1000
+欧龙胆	ou long dan	1000
+欧龙芽草	ou long ya cao	1000
+欧蜜蜂花	ou mi feng hua	1000
+欧绵马	ou mian ma	1000
+欧矢车菊	ou shi che ju	1000
+欧烟堇	ou yan jin	1000
+欧玉竹	ou yu zhu	1000
+欧榛	ou zhen	1000
+爬山虎	pa shan hu	1000
+爬山蜈蚣	pa shan wu gong	1000
+爬行卫矛	pa xing wei mao	1000
+排草	pai cao	1000
+排风藤	pai feng teng	1000
+排钱草	pai qian cao	1000
+盘龙参	pan long 参	1000
+盘羊	pan yang	1000
+螃蟹	pang xie	1000
+螃蟹甲	pang xie jia	1000
+泡囊草	pao nang cao	1000
+佩兰	pei lan	1000
+盆架树	pen jia shu	1000
+硼砂	peng sha	1000
+枇杷树根	pi pa shu gen	1000
+枇杷叶	pi pa ye	1000
+砒石	pi shi	1000
+披针叶黄华	pi zhen ye huang hua	1000
+偏花钟报春	pian hua zhong bao chun	1000
+平贝母	ping bei mu	1000
+苹果	ping guo	1000
+平卧土三七	ping wo tu san qi	1000
+破布木果	po bu mu guo	1000
+婆婆纳	po po na	1000
+铺地罗伞	pu di luo san	1000
+铺地黍	pu di shu	1000
+铺地蜈蚣	pu di wu gong	1000
+蒲公英	pu gong ying	1000
+蒲黄	pu huang	1000
+葡萄	pu tao	1000
+蒲桃	pu tao	1000
+葡萄干	pu tao gan	1000
+蒲桃子	pu tao zi	1000
+蓈萁	qi	1000
+漆大姑	qi da gu	1000
+漆姑草	qi gu cao	1000
+七加皮	qi jia pi	1000
+麒麟尾	qi lin wei	1000
+麒麟叶	qi lin ye	1000
+奇诺	qi nuo	1000
+歧伞獐牙菜	qi san zhang ya cai	1000
+七叶莲	qi ye lian	1000
+七叶一枝花	qi ye yi zhi hua	1000
+茜草	qian cao	1000
+前胡	qian hu	1000
+千斤拔	qian jin ba	1000
+千金子	qian jin zi	1000
+千里光	qian li guang	1000
+荨麻	qian ma	1000
+荨麻子	qian ma zi	1000
+千年耗子屎	qian nian hao zi shi	1000
+千年健	qian nian jian	1000
+牵牛子	qian niu zi	1000
+芡实	qian shi	1000
+千张纸	qian zhang zhi	1000
+羌活	qiang huo	1000
+蜣螂	qiang lang	1000
+蜣螂虫	qiang lang chong	1000
+蔷薇花	qiang wei hua	1000
+蔷薇实	qiang wei shi	1000
+荞麦	qiao mai	1000
+茄子	qie zi	1000
+芹菜	qin cai	1000
+芹菜根皮	qin cai gen pi	1000
+芹菜子	qin cai zi	1000
+秦艽花	qin jiao hua	1000
+秦皮	qin pi	1000
+琴叶榕	qin ye rong	1000
+芹叶铁线莲	qin ye tie xian lian	1000
+青藏龙胆	qing cang long dan	1000
+青黛	qing dai	1000
+轻粉	qing fen	1000
+清风藤	qing feng teng	1000
+青海大戟	qing hai da ji	1000
+青海湖裸鲤	qing hai hu luo li	1000
+青海沙蜥	qing hai sha xi	1000
+青蒿	qing hao	1000
+青金石	qing jin shi	1000
+青龙衣	qing long yi	1000
+苘麻子	qing ma zi	1000
+青牛胆	qing niu dan	1000
+青藤仔	qing teng 仔	1000
+青葙	qing xiang	1000
+青香茅	qing xiang mao	1000
+青鱼胆草	qing yu dan cao	1000
+青竹藤	qing zhu teng	1000
+秋大仙	qiu da xian	1000
+秋枫木	qiu feng mu	1000
+球果藤	qiu guo teng	1000
+秋沙鸭	qiu sha ya	1000
+驱虫斑鸠菊	qu chong ban jiu ju	1000
+驱风通	qu feng tong	1000
+曲花紫堇	qu hua zi jin	1000
+瞿麦	qu mai	1000
+苣荬菜	qu mai cai	1000
+曲枝叶下珠	qu zhi ye xia zhu	1000
+泉华	quan hua	1000
+拳参	quan shen	1000
+全蝎	quan xie	1000
+全缘绿绒蒿	quan yuan lv rong hao	1000
+雀梅藤	que mei teng	1000
+雀翘	que qiao	1000
+鹊肾树	que shen shu	1000
+热痱草	re fei cao	1000
+热衮巴	re gun ba	1000
+忍冬	ren dong	1000
+人面果	ren mian guo	1000
+人参	ren shen	1000
+人中白	ren zhong bai	1000
+人字树	ren zi shu	1000
+日本菟丝子	ri ben tu si zi	1000
+绒毛番龙眼	rong mao fan long yan	1000
+绒毛鸭脚木	rong mao ya jiao mu	1000
+榕树	rong shu	1000
+肉苁蓉	rou cong rong	1000
+肉豆蔻	rou dou kou	1000
+肉豆蔻衣	rou dou kou yi	1000
+肉桂	rou gui	1000
+肉桂子	rou gui zi	1000
+肉果草	rou guo cao	1000
+鞣树果	rou shu guo	1000
+肉托果	rou tuo guo	1000
+乳白香青	ru bai xiang qing	1000
+入地蜈蚣	ru di wu gong	1000
+乳香	ru xiang	1000
+蕊木	rui mu	1000
+瑞香	rui xiang	1000
+瑞香狼毒	rui xiang lang du	1000
+三叉苦	san cha ku	1000
+三点金	san dian jin	1000
+散骨藤	san gu teng	1000
+伞花绢毛菊	san hua juan mao ju	1000
+三加皮	san jia pi	1000
+三尖杉	san jian shan	1000
+三角风	san jiao feng	1000
+三角叶	san jiao ye	1000
+三颗针	san ke zhen	1000
+三棱	san leng	1000
+三匹风	san pi feng	1000
+三七	san qi	1000
+三七草	san qi cao	1000
+三台红花	san tai hong hua	1000
+三条筋	san tiao jin	1000
+三丫苦	san ya ku	1000
+三叶莲	san ye lian	1000
+三叶木通	san ye mu tong	1000
+三叶青	san ye qing	1000
+三叶青藤	san ye qing teng	1000
+三叶五加	san ye wu jia	1000
+桑白皮	sang bai pi	1000
+桑寄生	sang ji sheng	1000
+桑螵蛸	sang piao xiao	1000
+桑椹	sang shen	1000
+桑树	sang shu	1000
+桑叶	sang ye	1000
+骚羊古	sao yang gu	1000
+涩荠	se 荠	1000
+森林杧果	sen lin mang guo	1000
+沙蒿	sha hao	1000
+沙棘	sha ji	1000
+沙棘果	sha ji guo	1000
+沙芥	sha jie	1000
+沙龙子	sha long zi	1000
+杉木	sha mu	1000
+沙蓬	sha peng	1000
+砂仁	sha ren	1000
+沙参	sha shen	1000
+砂生槐子	sha sheng huai zi	1000
+沙枣	sha zao	1000
+沙枣花	sha zao hua	1000
+山芭蕉子	shan ba jiao zi	1000
+山扁豆	shan bian dou	1000
+山沉香	shan chen xiang	1000
+山川柳	shan chuan liu	1000
+山慈姑	shan ci gu	1000
+山刺玫果	shan ci mei guo	1000
+山酢浆草	shan cu jiang cao	1000
+山豆根	shan dou gen	1000
+山杜仲	shan du zhong	1000
+山矾叶	shan fan ye	1000
+山合欢	shan he huan	1000
+珊瑚	shan hu	1000
+珊瑚姜	shan hu jiang	1000
+山胡椒	shan hu jiao	1000
+山黄菊	shan huang ju	1000
+山黄麻	shan huang ma	1000
+山鸡椒	shan ji jiao	1000
+山蒟	shan ju	1000
+山苦荬	shan ku mai	1000
+山蓝靛	shan lan dian	1000
+山荔枝	shan li zhi	1000
+山柰	shan nai	1000
+山佩兰	shan pei lan	1000
+山生鸢尾	shan sheng yuan wei	1000
+山石榴	shan shi liu	1000
+杉树	shan shu	1000
+山田七	shan tian qi	1000
+山乌龟	shan wu gui	1000
+山香园	shan xiang yuan	1000
+山烟筒子	shan yan tong zi	1000
+山杨	shan yang	1000
+山羊	shan yang	1000
+山杨梅	shan yang mei	1000
+山羊肉	shan yang rou	1000
+山羊血	shan yang xue	1000
+山药	shan yao	1000
+扇叶铁线蕨	shan ye tie xian jue	1000
+杉叶藻	shan ye zao	1000
+山银柴胡	shan yin chai hu	1000
+山罂粟	shan ying su	1000
+鳝鱼	shan yu	1000
+山楂	shan zha	1000
+山楂果	shan zha guo	1000
+山栀茶	shan zhi cha	1000
+山芝麻	shan zhi ma	1000
+山猪胆	shan zhu dan	1000
+商陆	shang lu	1000
+少花延胡索	shao hua yan hu suo	1000
+少年红	shao nian hong	1000
+芍药	shao yao	1000
+蛇床子	she chuang zi	1000
+蛇根草	she gen cao	1000
+蛇菰	she gu	1000
+蛇果黄堇	she guo huang jin	1000
+蛇含	she han	1000
+蛇箭草	she jian cao	1000
+猞猁	she li	1000
+蛇莓	she mei	1000
+蛇藤	she teng	1000
+蛇蜕	she tui	1000
+麝香	she xiang	1000
+麝香草	she xiang cao	1000
+麝香猫	she xiang mao	1000
+蛇地钱	she 地 qian	1000
+肾茶	shen cha	1000
+伸筋草	shen jin cao	1000
+肾蕨	shen jue	1000
+神香草	shen xiang cao	1000
+肾叶山蓼	shen ye shan liao	1000
+胜红蓟	sheng hong ji	1000
+生姜	sheng jiang	1000
+升麻	sheng ma	1000
+生藤	sheng teng	1000
+十八症	shi ba zheng	1000
+蓍草	shi cao	1000
+石菖蒲	shi chang pu	1000
+十大功劳	shi da gong lao	1000
+石刁柏子	shi diao bai zi	1000
+石吊兰	shi diao lan	1000
+石耳	shi er	1000
+石风丹	shi feng dan	1000
+石枫药	shi feng yao	1000
+石柑子	shi gan zi	1000
+石膏	shi gao	1000
+石瓜子	shi gua zi	1000
+石斛	shi hu	1000
+石胡椒	shi hu jiao	1000
+石花	shi hua	1000
+石灰	shi hui	1000
+石灰华	shi hui hua	1000
+石灰石	shi hui shi	1000
+石决明	shi jue ming	1000
+使君子	shi jun zi	1000
+石莲子	shi lian zi	1000
+石榴	shi liu	1000
+石榴花	shi liu hua	1000
+石榴皮	shi liu pi	1000
+石榴子	shi liu zi	1000
+石龙芮	shi long rui	1000
+石龙子	shi long zi	1000
+莳萝	shi luo	1000
+莳萝子	shi luo zi	1000
+石南藤	shi nan teng	1000
+石榕	shi rong	1000
+石上蚂蟥	shi shang ma huang	1000
+石上柏	shi shang 柏	1000
+湿生萹蕾	shi sheng bian lei	1000
+石蒜	shi suan	1000
+石韦	shi wei	1000
+石仙桃	shi xian tao	1000
+石香薷	shi xiang ru	1000
+石燕	shi yan	1000
+食盐	shi yan	1000
+石油菜	shi you cai	1000
+柿子	shi zi	1000
+绶草	shou cao	1000
+手掌参	shou zhang 参	1000
+手掌参堂	shou zhang 参堂	1000
+树菠萝	shu bo luo	1000
+鼠麴草	shu cao	1000
+书带蕨	shu dai jue	1000
+鼠妇虫	shu fu chong	1000
+舒筋草	shu jin cao	1000
+树蕨	shu jue	1000
+蜀葵	shu kui	1000
+蜀葵根	shu kui gen	1000
+蜀葵花	shu kui hua	1000
+鼠李皮	shu li pi	1000
+薯莨	shu liang	1000
+鼠曲草	shu qu cao	1000
+双峰驼	shuang feng tuo	1000
+双花堇菜	shuang hua jin cai	1000
+双花千里光	shuang hua qian li guang	1000
+双眼龙	shuang yan long	1000
+水八角	shui ba jiao	1000
+水柏枝	shui bai zhi	1000
+水半夏	shui ban xia	1000
+水鳖	shui bie	1000
+水薄荷	shui bo he	1000
+水菖蒲	shui chang pu	1000
+水慈姑	shui ci gu	1000
+水冬瓜	shui dong gua	1000
+水凤仙	shui feng xian	1000
+水葫芦	shui hu lu	1000
+水黄花	shui huang hua	1000
+水黄连	shui huang lian	1000
+水金凤	shui jin feng	1000
+水锦树	shui jin shu	1000
+水苦荬	shui ku mai	1000
+水辣蓼	shui la liao	1000
+睡莲花	shui lian hua	1000
+水蓼	shui liao	1000
+水林果	shui lin guo	1000
+水龙骨	shui long gu	1000
+水芦获根	shui lu huo gen	1000
+水绵	shui mian	1000
+水母雪莲花	shui mu xue lian hua	1000
+水牛胆	shui niu dan	1000
+水牛角	shui niu jiao	1000
+水枇杷	shui pi pa	1000
+水芹	shui qin	1000
+水三七	shui san qi	1000
+水獭	shui ta	1000
+水獭肉	shui ta rou	1000
+水田七	shui tian qi	1000
+水田碎米荠	shui tian sui mi ji	1000
+水团花	shui tuan hua	1000
+水蜈蚣	shui wu gong	1000
+水仙	shui xian	1000
+水杨柳	shui yang liu	1000
+水杨梅	shui yang mei	1000
+水银	shui yin	1000
+水云母	shui yun mu	1000
+水蛭	shui zhi	1000
+四大天王	si da tian wang	1000
+四方草	si fang cao	1000
+四方蒿	si fang hao	1000
+四方藤	si fang teng	1000
+丝瓜	si gua	1000
+丝瓜叶	si gua ye	1000
+丝瓜子	si gua zi	1000
+司卡摩尼亚脂	si ka mo ni ya zhi	50
+四块瓦	si kuai wa	1000
+四棱豆	si leng dou	1000
+思茅松	si mao song	1000
+四叶葎	si ye lv	1000
+松笔头	song bi tou	1000
+松节	song jie	1000
+松萝	song luo	1000
+松、杉脂	song shan zhi	1000
+松石	song shi	1000
+松鼠	song shu	1000
+松树寄生	song shu ji sheng	1000
+松树脂	song shu zhi	1000
+松蕈	song xun	1000
+苏合香	su he xiang	1000
+苏木	su mu	1000
+素馨子	su xin zi	1000
+酥油	su you	1000
+酸橙	suan cheng	1000
+酸浆	suan jiang	1000
+酸木瓜	suan mu gua	1000
+酸奶	suan nai	1000
+算盘子	suan pan zi	1000
+酸石榴	suan shi liu	1000
+酸藤果	suan teng guo	1000
+酸藤子	suan teng zi	1000
+酸枣	suan zao	1000
+娑罗子	suo luo zi	1000
+缩砂仁	suo sha ren	1000
+琐琐葡萄	suo suo pu tao	1000
+锁阳	suo yang	1000
+泰国大风子	tai guo da feng zi	1000
+台湾泡桐	tai wan pao tong	1000
+檀香	tan xiang	1000
+滩主鸢尾	tan zhu yuan wei	1000
+唐古特铁线莲	tang gu te tie xian lian	50
+塘角鱼	tang jiao yu	1000
+唐松草	tang song cao	1000
+糖棕	tang zong	1000
+桃花	tao hua	1000
+桃仁	tao ren	1000
+桃树	tao shu	1000
+桃子	tao zi	1000
+藤当归	teng dang gui	1000
+藤杜仲	teng du zhong	1000
+藤黄	teng huang	1000
+藤黄檀	teng huang tan	1000
+藤漆	teng qi	1000
+榼藤子	teng zi	1000
+甜巴旦杏	tian ba dan xing	1000
+甜菜根	tian cai gen	1000
+甜茶	tian cha	1000
+甜茶藤	tian cha teng	1000
+天冬	tian dong	1000
+甜瓜	tian gua	1000
+甜瓜蒂	tian gua di	1000
+甜瓜子	tian gua zi	1000
+天胡荽	tian hu sui	1000
+天花粉	tian hua fen	1000
+田基黄	tian ji huang	1000
+田螺	tian luo	1000
+天麻	tian ma	1000
+天门冬	tian men dong	1000
+天南星	tian nan xing	1000
+天青地白	tian qing di bai	1000
+天山堇菜	tian shan jin cai	1000
+甜石榴	tian shi liu	1000
+天水蚁草	tian shui yi cao	1000
+天仙子	tian xian zi	1000
+天香炉	tian xiang lu	1000
+田旋花	tian xuan hua	1000
+天竹黄	tian zhu huang	1000
+天竺黄	tian zhu huang	1000
+田字草	tian zi cao	1000
+条叶银莲花	tiao ye yin lian hua	1000
+铁棒锤	tie bang chui	1000
+铁尺树	tie chi shu	1000
+铁带藤	tie dai teng	1000
+铁杆蒿	tie gan hao	1000
+铁秆七	tie gan qi	1000
+铁浆	tie jiang	1000
+铁筷子	tie kuai zi	1000
+铁力木	tie li mu	1000
+铁力木花	tie li mu hua	1000
+铁牛皮	tie niu pi	1000
+铁扫帚	tie sao zhou	1000
+贴生接骨木	tie sheng jie gu mu	1000
+铁树	tie shu	1000
+铁藤	tie teng	1000
+铁苋	tie xian	1000
+铁苋菜	tie xian cai	1000
+铁线蕨	tie xian jue	1000
+铁屑	tie xie	1000
+铁锈	tie xiu	1000
+铁轴草	tie zhou cao	1000
+葶苈子	ting li zi	1000
+通草	tong cao	1000
+通城虎	tong cheng hu	1000
+通光藤	tong guang teng	1000
+通经草	tong jing cao	1000
+铜绿	tong lv	1000
+铜钱麻黄	tong qian ma huang	1000
+铜石龙子	tong shi long zi	1000
+桐叶千金藤	tong ye qian jin teng	1000
+透骨香	tou gu xiang	1000
+透骨消	tou gu xiao	1000
+头花杜鹃	tou hua du juan	1000
+头花蓼	tou hua liao	1000
+头花仙茅	tou hua xian mao	1000
+土常山	tu chang shan	1000
+土大黄	tu da huang	1000
+土党参	tu dang shen	1000
+土杜仲	tu du zhong	1000
+土圞儿	tu er	1000
+兔耳草	tu er cao	1000
+兔耳风	tu er feng	1000
+土蜂	tu feng	1000
+土蜂房	tu feng fang	1000
+土茯苓	tu fu ling	1000
+土黄	tu huang	1000
+吐金钱草	tu jin qian cao	1000
+土荆芥	tu jing jie	1000
+秃鹫	tu jiu	1000
+秃鹫粪	tu jiu fen	1000
+土连翘	tu lian qiao	1000
+土麦冬	tu mai dong	1000
+土木通	tu mu tong	1000
+土木香	tu mu xiang	1000
+土牛膝	tu niu xi	1000
+土人参	tu ren shen	1000
+土三七	tu san qi	1000
+菟丝草	tu si cao	1000
+菟丝子	tu si zi	1000
+土细辛	tu xi xin	1000
+土一枝蒿	tu yi zhi hao	1000
+土知母	tu zhi mu	1000
+团鱼壳	tuan yu 壳	1000
+驼绒藜	tuo rong li	1000
+橐吾	tuo wu	1000
+椭叶花锚	tuo ye hua mao	1000
+椭圆叶花锚	tuo yuan ye hua mao	1000
+娃儿藤	wa er teng	1000
+豌豆	wan dou	1000
+豌豆花	wan dou hua	1000
+弯管花	wan guan hua	1000
+万年灰	wan nian hui	1000
+万年青	wan nian qing	1000
+万寿菊	wan shou ju	1000
+万寿竹	wan shou zhu	1000
+王瓜	wang gua	1000
+王冠蕨	wang guan jue	1000
+望江南	wang jiang nan	1000
+委陵菜	wei ling cai	1000
+威灵仙	wei ling xian	1000
+尾叶山柑	wei ye shan gan	1000
+文蛤	wen ge	1000
+文冠木	wen guan mu	1000
+问荆	wen jing	1000
+榅桲	wen po	1000
+榅桲子	wen po zi	1000
+文石	wen shi	1000
+文殊兰	wen shu lan	1000
+窝瓜	wo gua	1000
+莴苣	wo ju	1000
+莴苣子	wo ju zi	1000
+蜗牛	wo niu	1000
+无瓣枣	wu ban zao	1000
+五倍子	wu bei zi	1000
+五彩梅	wu cai mei	1000
+无根藤	wu gen teng	1000
+蜈蚣	wu gong	1000
+蜈蚣草	wu gong cao	1000
+无核葡萄	wu he pu tao	1000
+无花果	wu hua guo	1000
+无花果叶	wu hua guo ye	1000
+无患子	wu huan zi	1000
+五加皮	wu jia pi	1000
+五角枫根	wu jiao feng gen	1000
+芜菁	wu jing	1000
+五经风	wu jing feng	1000
+芜菁花	wu jing hua	1000
+芜菁子	wu jing zi	1000
+无茎荠	wu jing 荠	1000
+乌桕	wu jiu	1000
+乌韭	wu jiu	1000
+乌桕木根皮	wu jiu mu gen pi	1000
+乌口树	wu kou shu	1000
+乌蔹莓	wu lian mei	1000
+五灵脂	wu ling zhi	1000
+五脉绿绒蒿	wu mai lv rong hao	1000
+乌梅	wu mei	1000
+乌奴龙胆	wu nu long dan	1000
+五气朝阳草	wu qi 朝阳 cao	1000
+乌梢蛇	wu shao she	1000
+鼯鼠	wu shu	1000
+梧桐子	wu tong zi	1000
+五味藤	wu wei teng	1000
+五味子	wu wei zi	1000
+五香血藤	wu xiang xue teng	1000
+乌鸦	wu ya	1000
+乌鸦肝	wu ya gan	1000
+五叶山小橘	wu ye shan xiao ju	1000
+五叶薯	wu ye shu	1000
+无爷藤	wu ye teng	1000
+五指毛桃	wu zhi mao tao	1000
+吴茱萸	wu zhu yu	1000
+五爪金龙	wu zhua jin long	1000
+西谷椰子	xi gu ye zi	1000
+西瓜	xi gua	1000
+西瓜子	xi gua zi	1000
+细红背叶	xi hong bei ye	1000
+西红花	xi hong hua	1000
+细红藤	xi hong teng	1000
+溪黄草	xi huang cao	1000
+西黄芪胶	xi huang qi jiao	1000
+锡金报春	xi jin bao chun	1000
+锡金岩黄芪	xi jin yan huang qi	1000
+喜马拉雅旱獭	xi ma la ya han ta	50
+喜马拉雅紫茉莉	xi ma la ya zi mo li	50
+菥蓂	xi mi	1000
+菥蓂子	xi mi zi	1000
+西青果	xi qing guo	1000
+喜鹊	xi que	1000
+锡生藤	xi sheng teng	1000
+锡石	xi shi	1000
+蟋蟀	xi shuai	1000
+蟋蟀草	xi shuai cao	1000
+豨莶草	xi xian cao	1000
+细辛	xi xin	1000
+蜥蜴	xi yi	1000
+西藏蟾蜍	xi zang chan chu	1000
+西藏棱子芹	xi zang leng zi qin	1000
+西藏山溪鲵	xi zang shan xi ni	1000
+下果藤	xia guo teng	1000
+夏枯草	xia ku cao	1000
+狭裂白蒿	xia lie bai hao	1000
+下田菊	xia tian ju	1000
+狭叶巴戟	xia ye ba ji	1000
+纤梗蒿	xian geng hao	1000
+仙鹤草	xian he cao	1000
+仙茅	xian mao	1000
+腺毛车前子	xian mao che qian zi	1000
+线木通	xian mu tong	1000
+仙人掌	xian ren zhang	1000
+藓生马先蒿	xian sheng ma xian hao	1000
+纤穗柳	xian sui liu	1000
+仙桃草	xian tao cao	1000
+香茶菜	xiang cha cai	1000
+香椿	xiang chun	1000
+香附	xiang fu	1000
+香菇	xiang gu	1000
+香旱芹	xiang han qin	1000
+襄荷	xiang he	1000
+香花草	xiang hua cao	1000
+香胶木根皮	xiang jiao mu gen pi	1000
+香科科	xiang ke ke	1000
+香蓼	xiang liao	1000
+响铃草	xiang ling cao	1000
+响铃豆	xiang ling dou	1000
+香茅草	xiang mao cao	1000
+香墨	xiang mo	1000
+象皮	xiang pi	1000
+香皮树	xiang pi shu	1000
+香青兰	xiang qing lan	1000
+向日葵	xiang ri kui	1000
+香薷	xiang ru	1000
+相思豆	xiang si dou	1000
+相思子	xiang si zi	1000
+香桃木实	xiang tao mu shi	1000
+象腿蕉	xiang tui jiao	1000
+香鼬	xiang you	1000
+香鼬肉	xiang you rou	1000
+香樟木	xiang zhang mu	1000
+橡子	xiang zi	1000
+小白蒿	xiao bai hao	1000
+小驳骨	xiao bo gu	1000
+小驳骨丹	xiao bo gu dan	1000
+小檗花	xiao bo hua	1000
+小檗浸膏	xiao bo jin gao	1000
+小檗皮	xiao bo pi	1000
+小檗实	xiao bo shi	1000
+小齿锥花	xiao chi zhui hua	1000
+小慈姑	xiao ci gu	1000
+小豆蔻	xiao dou kou	1000
+小饿蚂蝗	xiao e ma huang	1000
+小发散	xiao fa san	1000
+小飞蓬	xiao fei peng	1000
+小飞羊草	xiao fei yang cao	1000
+小构树	xiao gou shu	1000
+小贯众	xiao guan zhong	1000
+小果蔷薇根	xiao guo qiang wei gen	1000
+小果野葡萄藤	xiao guo ye pu tao teng	50
+小黑面叶	xiao hei mian ye	1000
+小红蒜	xiao hong suan	1000
+小花清风藤	xiao hua qing feng teng	1000
+小花青藤	xiao hua qing teng	1000
+小槐花	xiao huai hua	1000
+小茴香	xiao hui xiang	1000
+小茴香根皮	xiao hui xiang gen pi	1000
+小蓟	xiao ji	1000
+小金花草	xiao jin hua cao	1000
+小喇叭	xiao la ba	1000
+小蜡树	xiao la shu	1000
+小罗伞	xiao luo san	1000
+小麻叶	xiao ma ye	1000
+小麦	xiao mai	1000
+小米辣	xiao mi la	1000
+小木通	xiao mu tong	1000
+小牛奶	xiao niu nai	1000
+小秦艽花	xiao qin jiao hua	1000
+小青	xiao qing	1000
+小青藤香	xiao qing teng xiang	1000
+硝石	xiao shi	1000
+小通草	xiao tong cao	1000
+小铜锤	xiao tong chui	1000
+小旋花	xiao xuan hua	1000
+小血藤	xiao xue teng	1000
+小叶锦鸡儿	xiao ye jin ji er	1000
+小叶九节	xiao ye jiu jie	1000
+小叶南蛇簕	xiao ye nan she le	1000
+小叶牛奶	xiao ye niu nai	1000
+小叶山绿豆	xiao ye shan lv dou	1000
+小叶鼠李	xiao ye shu li	1000
+小叶四方草	xiao ye si fang cao	1000
+小鹰不扑	xiao ying bu pu	1000
+小云雀	xiao yun que	1000
+小八角莲	xiao 八角莲	1000
+薤白	xie bai	1000
+缬草	xie cao	1000
+蝎子	xie zi	1000
+芯芭	xin ba	1000
+心草	xin cao	1000
+新疆圆柏实	xin jiang yuan bai shi	1000
+信筒子	xin tong zi	1000
+杏仁	xing ren	1000
+星星草	xing xing cao	1000
+杏子	xing zi	1000
+熊胆	xiong dan	1000
+雄黄	xiong huang	1000
+熊脂	xiong zhi	1000
+绣球防风	xiu qiu fang feng	1000
+绣球藤	xiu qiu teng	1000
+绣线菊	xiu xian ju	1000
+徐长卿	xu chang qing	1000
+须鼠耳蝠	xu shu er fu	1000
+萱草根	xuan cao gen	1000
+旋覆花	xuan fu hua	1000
+雪胆	xue dan	1000
+血见愁	xue jian chou	1000
+血竭	xue jie	1000
+雪莲	xue lian	1000
+雪莲花	xue lian hua	1000
+血人参	xue ren shen	1000
+血水草	xue shui cao	1000
+血苋	xue xian	1000
+血余炭	xue yu tan	1000
+薰倒牛	xun dao niu	1000
+薰衣草	xun yi cao	1000
+鸭儿芹	ya er qin	1000
+牙疳药	ya gan yao	1000
+崖花海桐	ya hua hai tong	1000
+鸭脚艾	ya jiao ai	1000
+鸭脚草	ya jiao cao	1000
+鸭脚罗伞	ya jiao luo san	1000
+鸭脚木	ya jiao mu	1000
+亚麻子	ya ma zi	1000
+鸦片	ya pian	1000
+鸦燕草	ya yan cao	1000
+鸭仔菜	ya zai cai	1000
+鸭跖草	ya zhi cao	1000
+鸭嘴花	ya zui hua	1000
+岩白菜	yan bai cai	1000
+岩报春	yan bao chun	1000
+烟草	yan cao	1000
+盐肤木	yan fu mu	1000
+岩鸽	yan ge	1000
+阉鸡距	yan ji ju	1000
+岩豇豆	yan jiang dou	1000
+眼镜蛇	yan jing she	1000
+岩七	yan qi	1000
+岩生鸢尾	yan sheng yuan wei	1000
+烟屎	yan shi	1000
+芫荽	yan sui	1000
+芫荽实	yan sui shi	1000
+芫荽子	yan sui zi	1000
+岩羊	yan yang	1000
+岩羊血	yan yang xue	1000
+烟叶	yan ye	1000
+胭脂花根	yan zhi hua gen	1000
+洋菝葜根	yang ba qia gen	1000
+洋葱	yang cong	1000
+洋葱子	yang cong zi	1000
+羊耳菊	yang er ju	1000
+洋甘菊	yang gan ju	1000
+洋甘菊根	yang gan ju gen	1000
+氧化锡	yang hua xi	1000
+洋茴香	yang hui xiang	1000
+羊角	yang jiao	1000
+羊角藤	yang jiao teng	1000
+羊角拗	yang jiao 拗	1000
+洋金花	yang jin hua	1000
+洋李	yang li	1000
+杨柳枝	yang liu zhi	1000
+羊奶果	yang nai guo	1000
+羊奶奶叶	yang nai nai ye	1000
+羊奶子	yang nai zi	1000
+洋柠檬	yang ning meng	1000
+阳起石	yang qi shi	1000
+洋乳香	yang ru xiang	1000
+羊蹄	yang ti	1000
+羊蹄藤	yang ti teng	1000
+药喇叭根	yao la ba gen	1000
+药西瓜	yao xi gua	1000
+鹞鹰	yao ying	1000
+野艾	ye ai	1000
+野艾蒿	ye ai hao	1000
+野百合	ye bai he	1000
+野半夏	ye ban xia	1000
+野荸荠	ye bi qi	1000
+野薄荷	ye bo he	1000
+野茶辣	ye cha la	1000
+野葱	ye cong	1000
+野刀豆	ye dao dou	1000
+射干	ye gan	1000
+野甘草	ye gan cao	1000
+野菰	ye gu	1000
+夜关门	ye guan men	1000
+野桂树	ye gui shu	1000
+野胡萝卜	ye hu luo bu	1000
+野胡萝卜子	ye hu luo bu zi	1000
+夜花	ye hua	1000
+野花椒	ye hua jiao	1000
+野姜	ye jiang	1000
+野韭	ye jiu	1000
+野菊	ye ju	1000
+野苦瓜	ye ku gua	1000
+野灵仙	ye ling xian	1000
+野驴	ye lv	1000
+野马追	ye ma zhui	1000
+野猫骨	ye mao gu	1000
+野牦牛	ye mao niu	1000
+野牦牛心	ye mao niu xin	1000
+野棉花	ye mian hua	1000
+野牡丹叶	ye mu dan ye	1000
+野苜蓿子	ye mu xu zi	1000
+野葡萄	ye pu tao	1000
+野漆树	ye qi shu	1000
+夜牵牛	ye qian niu	1000
+野蔷薇	ye qiang wei	1000
+野芹菜子	ye qin cai zi	1000
+野青菜	ye qing cai	1000
+叶上花	ye shang hua	1000
+野柿	ye shi	1000
+野兔心	ye tu xin	1000
+叶下珠	ye xia zhu	1000
+野苋菜	ye xian cai	1000
+野向日葵	ye xiang ri kui	1000
+野鸦椿	ye ya chun	1000
+野芫荽	ye yan sui	1000
+野烟叶	ye yan ye	1000
+野芋实	ye yu shi	1000
+野猪	ye zhu	1000
+椰子根	ye zi gen	1000
+野孜然	ye zi ran	1000
+一把伞	yi ba san	1000
+翼齿臭灵丹	yi chi chou ling dan	1000
+一点红	yi dian hong	1000
+一点血	yi dian xue	1000
+一朵云	yi duo yun	1000
+翼核果	yi he guo	1000
+益母草	yi mu cao	1000
+益母树	yi mu shu	1000
+异叶青兰	yi ye qing lan	1000
+薏苡	yi yi	1000
+薏苡仁	yi yi ren	1000
+益智	yi zhi	1000
+一枝蒿	yi zhi hao	1000
+一枝黄花	yi zhi huang hua	1000
+一支箭	yi zhi jian	1000
+一枝箭	yi zhi jian	1000
+银瓣崖豆藤	yin ban ya dou teng	1000
+银箔	yin bo	1000
+茵陈	yin chen	1000
+印度枳	yin du zhi	1000
+银耳	yin er	1000
+银粉背蕨	yin fen bei jue	1000
+蚓果芥	yin guo jie	1000
+银精石	yin jing shi	1000
+银露梅	yin lu mei	1000
+阴石蕨	yin shi jue	1000
+阴行草	yin xing cao	1000
+淫羊藿	yin yang huo	1000
+银叶巴豆	yin ye ba dou	1000
+隐轴蛇菰	yin zhou she gu	1000
+银朱	yin zhu	1000
+鹰不泊根	ying bu bo gen	1000
+鹰不扑	ying bu pu	1000
+瘿袋花	ying dai hua	1000
+硬骨灵仙	ying gu ling xian	1000
+硬毛棘豆	ying mao ji dou	1000
+罂粟壳	ying su ke	1000
+罂粟子	ying su zi	1000
+鹦鹉	ying wu	1000
+鹰嘴豆	ying zui dou	1000
+疣鼻天鹅	you bi tian e	1000
+油茶	you cha	1000
+油茶寄生	you cha ji sheng	1000
+油瓜	you gua	1000
+有核葡萄干	you he pu tao gan	1000
+柚木	you mu	1000
+油松节木	you song jie mu	1000
+油桐	you tong	1000
+柚子	you zi	1000
+鱼鳖金星	yu bie jin xing	1000
+玉带海雕	yu dai hai diao	1000
+羽萼	yu e	1000
+余甘子	yu gan zi	1000
+郁金	yu jin	1000
+禹粮土	yu liang tu	1000
+羽裂风毛菊	yu lie feng mao ju	1000
+虞美人	yu mei ren	1000
+玉米	yu mi	1000
+玉米须	yu mi xu	1000
+玉米轴	yu mi zhou	1000
+鱼脑石	yu nao shi	1000
+鱼鳅串	yu qiu chuan	1000
+玉石	yu shi	1000
+鱼虱子	yu shi zi	1000
+榆树皮	yu shu pi	1000
+鱼腥草	yu xing cao	1000
+鱼眼菊	yu yan ju	1000
+鱼眼木	yu yan mu	1000
+玉叶金花	yu ye jin hua	1000
+玉簪花	yu zan hua	1000
+玉竹	yu zhu	1000
+鱼子兰	yu zi lan	1000
+圆柏	yuan bai	1000
+元宝草	yuan bao cao	1000
+圆根马兜铃	yuan gen ma dou ling	1000
+元胡	yuan hu	1000
+原羚	yuan ling	1000
+圆穗蓼	yuan sui liao	1000
+鸢尾根	yuan wei gen	1000
+圆叶节节菜	yuan ye jie jie cai	1000
+远志	yuan zhi	1000
+圆锥南蛇藤	yuan zhui nan she teng	1000
+圆锥绣球	yuan zhui xiu qiu	1000
+月桂樱子	yue gui ying zi	1000
+月季花	yue ji hua	1000
+越南万年青	yue nan wan nian qing	1000
+云防风	yun fang feng	1000
+云木香	yun mu xiang	1000
+云南棘豆	yun nan ji dou	1000
+云南萝芙木	yun nan luo fu mu	1000
+云南琵琶甲	yun nan pi pa jia	1000
+云南石梓	yun nan shi zi	1000
+云南五味子	yun nan wu wei zi	1000
+云实	yun shi	1000
+芸香	yun xiang	1000
+芸香子	yun xiang zi	1000
+栽秧泡	zai yang pao	1000
+藏红花	zang hong hua	1000
+藏羚	zang ling	1000
+皂角刺	zao jiao ci	1000
+泽兰	ze lan	1000
+泽泻	ze xie	1000
+展毛翠雀	zhan mao cui que	1000
+粘毛蒿	zhan mao hao	1000
+粘毛火索麻	zhan mao huo suo ma	1000
+粘人花	zhan ren hua	1000
+蟑螂	zhang lang	1000
+樟柳头	zhang liu tou	1000
+樟木	zhang mu	1000
+樟脑	zhang nao	1000
+獐牙菜	zhang ya cai	1000
+长叶火绒草	zhang ye huo rong cao	1000
+长叶绿绒蒿	zhang ye lv rong hao	1000
+掌叶榕	zhang ye rong	1000
+浙贝母	zhe bei mu	1000
+鹧鸪花	zhe gu hua	1000
+浙桐皮	zhe tong pi	1000
+榛蘑	zhen mo	1000
+枕纹锦蛇	zhen wen jin she	1000
+珍珠	zhen zhu	1000
+珍珠菜	zhen zhu cai	1000
+珍珠草	zhen zhu cao	1000
+珍珠杆	zhen zhu gan	1000
+珍珠母	zhen zhu mu	1000
+珍珠盐	zhen zhu yan	1000
+指甲花	zhi jia hua	1000
+枳椇根	zhi ju gen	1000
+芝麻	zhi ma	1000
+芝麻菜子	zhi ma cai zi	1000
+止泻木	zhi xie mu	1000
+止泻木子	zhi xie mu zi	1000
+止泻子	zhi xie zi	1000
+蜘蛛	zhi zhu	1000
+蜘蛛抱蛋	zhi zhu bao dan	1000
+支柱蓼	zhi zhu liao	1000
+蜘蛛香	zhi zhu xiang	1000
+蜘蛛壳	zhi zhu 壳	1000
+栀子	zhi zi	1000
+中国林蛙	zhong guo lin wa	1000
+中华蜜蜂	zhong hua mi feng	1000
+中华石龙尾	zhong hua shi long wei	1000
+肿节风	zhong jie feng	1000
+钟乳石	zhong ru shi	1000
+皱叶狗尾草	zhou ye gou wei cao	1000
+皱叶南蛇藤	zhou ye nan she teng	1000
+皱叶酸模	zhou ye suan 模	1000
+猪胆	zhu dan	1000
+竹根草	zhu gen cao	1000
+竹黄	zhu huang	1000
+竹鸡	zhu ji	1000
+朱蕉	zhu jiao	1000
+竹节草	zhu jie cao	1000
+竹节黄	zhu jie huang	1000
+朱槿	zhu jin	1000
+竹沥	zhu li	1000
+竹灵消	zhu ling xiao	1000
+苎麻	zhu ma	1000
+猪毛菜	zhu mao cai	1000
+猪毛蒿	zhu mao hao	1000
+竹䶉肉	zhu rou	1000
+朱砂	zhu sha	1000
+朱砂根	zhu sha gen	1000
+竹筒蜂	zhu tong feng	1000
+竹相	zhu xiang	1000
+猪血	zhu xue	1000
+珠芽蓼	zhu ya liao	1000
+猪牙皂	zhu ya zao	1000
+猪殃殃	zhu yang yang	1000
+竹叶柴胡	zhu ye chai hu	1000
+竹叶花椒	zhu ye hua jiao	1000
+竹叶椒	zhu ye jiao	1000
+竹叶椒根	zhu ye jiao gen	1000
+竹叶兰	zhu ye lan	1000
+竹叶莲	zhu ye lian	1000
+竹叶参	zhu ye 参	1000
+猪鬃草	zhu zong cao	1000
+抓地虎	zhua di hu	1000
+追风伞	zhui feng san	1000
+紫(钅丱)	zi	1000
+紫鑛	zi	1000
+紫苞凤毛菊	zi bao feng mao ju	1000
+紫贝齿	zi bei chi	1000
+紫背天葵	zi bei tian kui	1000
+紫草	zi cao	1000
+紫草茸	zi cao rong	1000
+紫河车	zi he che	1000
+紫花黄华	zi hua huang hua	1000
+紫花络石	zi hua luo shi	1000
+紫花前胡	zi hua qian hu	1000
+紫花茄	zi hua 茄	1000
+紫金血藤	zi jin xue teng	1000
+姊妹树	zi mei shu	1000
+紫茉莉	zi mo li	1000
+紫茉莉根	zi mo li gen	1000
+紫硇砂	zi nao sha	1000
+紫萁贯众	zi qi guan zhong	1000
+孜然	zi ran	1000
+自然铜	zi ran tong	1000
+紫杉	zi shan	1000
+紫苏	zi su	1000
+紫苏子	zi su zi	1000
+紫檀	zi tan	1000
+紫檀香	zi tan xiang	1000
+紫藤子	zi teng zi	1000
+紫菀	zi wan	1000
+紫菀花	zi wan hua	1000
+紫文殊兰	zi wen shu lan	1000
+自消容子	zi xiao rong zi	1000
+紫雪花	zi xue hua	1000
+紫珠	zi zhu	1000
+紫珠草	zi zhu cao	1000
+紫竹根	zi zhu gen	1000
+棕榈	zong lv	1000
+棕熊	zong xiong	1000
+棕叶	zong ye	1000
+棕叶芦	zong ye lu	1000
+走马胎	zou ma tai	1000
+走游草	zou you cao	1000
+丁茄	丁茄	1000
+八角莲	八角莲	1000
+刺天茄	刺天茄	1000
+勒嘎都	勒 ga 都	1000
+匙叶黄杨	匙 ye huang yang	1000
+匙叶翼首草	匙 ye yi shou cao	1000
+吉勒泽	吉勒 ze	1000
+地白草	地 bai cao	1000
+地柏枝	地 bai zhi	1000
+地牯牛	地 gu niu	1000
+地瓜子	地 gua zi	1000
+地瓜籽	地 gua zi	1000
+地苦胆	地 ku dan	1000
+地骷髅	地 ku lou	1000
+地桃花	地 tao hua	1000
+地乌泡藤	地 wu pao teng	1000
+地星宿	地 xing xiu	1000
+地胆头	地胆头	1000
+地蚕	地蚕	1000
+地蜂子	地蜂子	1000
+地蜡	地蜡	1000
+巴天酸模	巴天酸模	1000
+扎多紫堇	扎多 zi jin	1000
+旋花茄	旋花茄	1000
+杓儿菜	杓 er cai	1000
+红壳砂仁	红壳 sha ren	1000
+绵参	绵参	1000
+缅茄	缅茄	1000
+腊梅花	腊 mei hua	1000
+节裂角茴香	节裂角 hui xiang	1000
+芫葵	芫葵	1000
+芫青	芫青	1000
+苕叶细辛	苕 ye xi xin	1000
+苣胜子	苣 sheng zi	1000
+茄参	茄参	1000
+茄根	茄根	1000
+落葵	落葵	1000
+藏菖蒲	藏 chang pu	1000
+藏点地梅	藏 dian di mei	1000
+藏贯众	藏 guan zhong	1000
+藏茴香	藏 hui xiang	1000
+藏木香	藏 mu xiang	1000
+藏雪鸡	藏 xue ji	1000
+藏紫草	藏 zi cao	1000
+角茴香	角 hui xiang	1000
+角蒿	角蒿	1000
+都仔冈先巴	都 仔冈 xian ba	1000
+酸模	酸模	1000
+酸角	酸角	1000
+野茄	野茄	1000
+铁落	铁落	1000
+长序缬草	长序 xie cao	1000
+长序岩豆树	长序 yan dou shu	1000
+长果婆婆纳	长果 po po na	1000
+长毛风毛菊	长毛 feng mao ju	1000
+长管假茉莉	长管 jia mo li	1000
+长荚油麻藤	长荚 you ma teng	1000
+阿勃勒	阿勃勒	1000
+鸡仔茶	鸡仔 cha	1000
+黄柏	黄柏	1000

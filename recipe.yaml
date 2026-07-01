@@ -3,7 +3,7 @@
 recipe:
   Rx: all
   description: >-
-    完整安装、更新（Med-Ice）
+    完整安装、更新
 install_files: >-
   cn_dicts/*.*
   en_dicts/*.*
