@@ -139,6 +139,8 @@ func SortDict(d *DictFile) {
 	file.Truncate(0)
 	file.Seek(0, 0)
 
+	prefixContents = fixColumnsHeader(prefixContents, d.Columns)
+
 	for _, line := range prefixContents {
 		file.WriteString(line + "\n")
 	}
@@ -240,6 +242,50 @@ func getSha1(dictPath string) string {
 	}
 
 	return hex.EncodeToString(sha1Handle.Sum(nil))
+}
+
+func fixColumnsHeader(prefixContents []string, columns int) []string {
+	columnNames := getColumnNames(columns)
+	if columnNames == nil {
+		return prefixContents
+	}
+
+	var result []string
+	inColumns := false
+	for _, line := range prefixContents {
+		if strings.HasPrefix(strings.TrimSpace(line), "columns:") {
+			inColumns = true
+			result = append(result, line)
+			for _, name := range columnNames {
+				result = append(result, "  - "+name)
+			}
+			continue
+		}
+		if inColumns {
+			trimmed := strings.TrimLeft(line, " ")
+			if strings.HasPrefix(trimmed, "- ") {
+				continue
+			}
+			inColumns = false
+		}
+		result = append(result, line)
+	}
+	return result
+}
+
+func getColumnNames(columns int) []string {
+	switch columns {
+	case 1:
+		return []string{"text"}
+	case 2:
+		return []string{"text", "code"}
+	case 3:
+		return []string{"text", "code", "weight"}
+	case 4:
+		return []string{"text", "weight"}
+	default:
+		return nil
+	}
 }
 
 func updateVersion(dictPath string, oldSha1 string) {
