@@ -7,13 +7,26 @@
 1. [阿里云 NLP 控制台](https://nlp.aliyun.com/) 开通基础版（免费）
 2. [RAM 访问控制](https://ram.console.aliyun.com/) 获取 AccessKey
 
-## 安装
+## 配置
+
+首次运行自动从模板创建 `config.json`：
 
 ```bash
 cd tool/alinlp
-export ALIBABA_CLOUD_ACCESS_KEY_ID="your_key_id"
-export ALIBABA_CLOUD_ACCESS_KEY_SECRET="your_key_secret"
+python alinlp_ws.py config
 ```
+
+编辑 `config.json` 填入密钥：
+
+```json
+{
+  "access_key_id": "LTAI5t...",
+  "access_key_secret": "abc...",
+  "daily_limit": 500
+}
+```
+
+（也可用环境变量 `ALIBABA_CLOUD_ACCESS_KEY_ID` / `_SECRET`，配置文件优先）
 
 ## 使用
 
@@ -22,18 +35,11 @@ python alinlp_ws.py "双价肾综合征出血热灭活疫苗"
 # → 双价 肾 综合征 出血热 灭活 疫苗
 #   [今日: 1/500]
 
-echo "阿苯达唑片" | python alinlp_ws.py
-
-# 查看配额
-python alinlp_ws.py config
-# → 日期:        2026-07-01
-# → 今日已调用:  12
-# → 每日限制:    500
-
-# 修改限制
-python alinlp_ws.py config --limit 1000
+python alinlp_ws.py config         # 查看统计
+python alinlp_ws.py config --limit 1000  # 修改上限
 ```
 
-## 配额
+## 安全
 
-配置文件 `~/.alinlp_config.json`，每日自动重置。调用前检查今日次数，超额直接拒绝不发请求。
+- `config.json` 含密钥，已在 `.gitignore` 中排除
+- `config.template.json` 是模板文件，可安全提交
