@@ -61,6 +61,9 @@ make -C tool/build lint-lua
 
 # 冒烟测试（需要 rime-cli，Linux 环境）
 make -C tool/build smoke
+
+# 冒烟测试（本地运行，跳过破坏性清理确认）
+SMOKE_ALLOW_DESTRUCTIVE=1 make -C tool/build smoke
 ```
 
 ## 冒烟测试
@@ -129,3 +132,5 @@ case_id	schema_id	key_sequence	expected_text
 |------|------|------|
 | `release.yml` | push main / tag / workflow_dispatch | Lint → Build → Smoke → Pack → Release |
 | `test.yml` | pull_request / workflow_dispatch | Lint → Build → Smoke |
+
+CI 冒烟测试从 librime 源码编译 `rime_deployer` + `rime_api_console`，并通过 Debian 预编译的 `librime-lua.so` 插件提供 Lua 支持。`simulate_key_sequence` 在新版 librime 中已废弃，`tool/build/smoke/patch_api_console.py` 在编译前将其替换为 `process_key` 调用。
