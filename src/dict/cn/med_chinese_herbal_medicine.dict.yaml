@@ -9,6 +9,8 @@ version: "1"
 sort: by_weight
 columns:
   - text
+  - code
+  - weight
 
 ...
 # +_+
