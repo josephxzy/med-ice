@@ -57,6 +57,7 @@ jobs:
             /tmp/librime-src
           cmake --build /tmp/librime-src/build -j$(nproc)
           sudo cmake --install /tmp/librime-src/build
+          sudo cp /tmp/librime-src/build/bin/rime_api_console /opt/rime-cli/bin/
 
       - name: Configure rime CLI environment
         run: |
