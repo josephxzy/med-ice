@@ -35,8 +35,33 @@ jobs:
       - name: Build
         run: make -C tool/build build
 
-      - name: Install rime CLI tools
-        run: sudo apt-get install -y librime-bin
+      - name: Cache rime CLI build
+        id: cache-rime
+        uses: actions/cache@v5
+        with:
+          path: /opt/rime-cli
+          key: rime-cli-v2-${{ runner.os }}-${{ runner.arch }}
+
+      - name: Build rime CLI tools
+        if: steps.cache-rime.outputs.cache-hit != 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake libboost-dev libboost-filesystem-dev \
+            libboost-regex-dev libleveldb-dev libmarisa-dev libopencc-dev \
+            libyaml-cpp-dev libgoogle-glog-dev
+          git clone --depth 1 https://github.com/rime/librime.git /tmp/librime-src
+          cmake -B /tmp/librime-src/build \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DBUILD_TEST=OFF \
+            -DCMAKE_INSTALL_PREFIX=/opt/rime-cli \
+            /tmp/librime-src
+          cmake --build /tmp/librime-src/build -j$(nproc)
+          sudo cmake --install /tmp/librime-src/build
+
+      - name: Configure rime CLI environment
+        run: |
+          echo "/opt/rime-cli/bin" >> $GITHUB_PATH
+          echo "LD_LIBRARY_PATH=/opt/rime-cli/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}" >> $GITHUB_ENV
 
       - name: Run smoke test suite
         run: make -C tool/build smoke

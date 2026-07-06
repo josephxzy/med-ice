@@ -51,11 +51,6 @@ run_config_repo_suite() {
   fi
   clear_failure_context
 
-  if [[ -z "${api_console_path}" ]]; then
-    log_warn "rime_api_console unavailable, skipping input cases"
-    return 0
-  fi
-
   run_config_input_cases "${suite_root}/input_cases.tsv" "${api_console_path}" "${config_root}" "${user_data_dir}" "${log_root}"
 }
 
