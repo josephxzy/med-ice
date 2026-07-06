@@ -1,6 +1,6 @@
 # 自定义 Lua 脚本
 
-雾凇拼音通过 [librime-lua](https://github.com/hchunhui/librime-lua) 插件实现了很多高级功能（日期、农历、计算器、Unicode 等）。你也可以编写自己的 Lua 脚本来扩展功能。
+med-ice 通过 [librime-lua](https://github.com/hchunhui/librime-lua) 插件实现了很多高级功能（日期、农历、计算器、Unicode 等）。你也可以编写自己的 Lua 脚本来扩展功能。
 
 ## 目录结构
 
@@ -106,7 +106,7 @@ return M
 
 ### 2. 在方案中注册
 
-打开 `src/schema/rime_ice.schema.yaml`，在对应位置引用：
+打开要使用的 schema 文件（如 `src/schema/med_ice.schema.yaml` 或 `rime_ice.schema.yaml`），在对应位置引用：
 
 ```yaml
 engine:
@@ -136,7 +136,7 @@ make -C tool/build build
 make -C tool/build smoke
 ```
 
-在 `tool/build/smoke/cases/rime_ice/input_cases.tsv` 中添加测试用例。
+在 `tool/build/smoke/cases/rime_ice/input_cases.tsv` 或 `med_ice/` 对应文件中添加测试用例。
 
 ## 替换已有 Lua
 
@@ -146,10 +146,10 @@ make -C tool/build smoke
 
 **方式一（推荐）：用 patch 文件**
 
-创建 `rime_ice.custom.yaml` 放到 Rime 用户配置目录（不是项目仓库）：
+创建 `med_ice.custom.yaml` 放到 Rime 用户配置目录（不是项目仓库）：
 
 ```yaml
-# rime_ice.custom.yaml
+# med_ice.custom.yaml
 patch:
   engine/translators/@2: lua_translator@*my_date_translator
   # @2 是 date_translator 在 translators 列表中的索引（从 0 开始）

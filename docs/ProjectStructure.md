@@ -20,12 +20,16 @@ med-ice/
 │   ├── no_lua_schema/          # Lua-free 方案变体
 │   └── platforms/              # 平台集成
 │
-├── tool/build/                      # 构建工具（Go）
-│   ├── main.go                 # 入口
-│   ├── rime/                   # 构建核心库
-│   ├── lint/                   # 代码检查
-│   ├── smoke/                  # 冒烟测试
-│   └── out/                    # 构建产物（可部署的 Rime 配置）
+├── tool/
+│   ├── build/                  # 构建工具（Go）
+│   │   ├── main.go             # 入口
+│   │   ├── rime/               # 构建核心库
+│   │   ├── lint/               # 代码检查
+│   │   ├── smoke/              # 冒烟测试
+│   │   └── out/                # 构建产物（可部署的 Rime 配置）
+│   ├── pdf-to-dict/            # PDF 教材 → 医学词库
+│   ├── sogou-med-dict/         # 搜狗细胞词库下载 & 转换
+│   └── dict-merge/             # 多词库合并去重
 │
 ├── docs/                       # 开发文档
 │   └── assets/                 # 截图
@@ -53,7 +57,8 @@ med-ice/
 
 | 文件 | 方案 |
 |------|------|
-| `rime_ice.schema.yaml` | 全拼（主方案） |
+| `med_ice.schema.yaml` | 全拼医学方案（基于雾凇拼音，挂载 med_ice 词库） |
+| `rime_ice.schema.yaml` | 全拼通用方案（雾凇拼音） |
 | `double_pinyin.schema.yaml` | 自然码双拼 |
 | `double_pinyin_flypy.schema.yaml` | 小鹤双拼 |
 | `double_pinyin_mspy.schema.yaml` | 微软双拼 |
@@ -77,6 +82,13 @@ med-ice/
 | `ext.dict.yaml` | 3 列 | 扩展词库（含多音字） |
 | `tencent.dict.yaml` | 2 列 (词\|权重) | 大词库，无注音，脚本自动生成 |
 | `others.dict.yaml` | 3 列 | 容错音、方言等 |
+| `med_merged.dict.yaml` | 3 列 | 合并医学词典（多学科教材提取） |
+| `med_sogou.dict.yaml` | 3 列 | 搜狗医学词库合集（约 28 万条） |
+| `med_western_medicine.dict.yaml` | 3 列 | 西药 |
+| `med_chinese_patent_medicine.dict.yaml` | 3 列 | 中成药 |
+| `med_chinese_herbal_medicine.dict.yaml` | 3 列 | 中药材 |
+| `med_ethnic_minority_medicine.dict.yaml` | 3 列 | 少数民族药 |
+| `med_clinical_1000_drug.dict.yaml` | 3 列 | 临床常用药物 |
 
 **英文词库** (`en/`)：
 
@@ -90,7 +102,8 @@ med-ice/
 
 | 文件 | 挂载 |
 |------|------|
-| `rime_ice.dict.yaml` | cn_dicts/ 下所有中文词库 |
+| `med_ice.dict.yaml` | cn_dicts/ 下所有词库（含医学词库） |
+| `rime_ice.dict.yaml` | cn_dicts/ 下通用词库（不含医学） |
 | `melt_eng.dict.yaml` | en_dicts/ 下所有英文词库 |
 | `radical_pinyin.dict.yaml` | 拆字词库 |
 
@@ -105,6 +118,7 @@ med-ice/
 | `unicode.lua` | translator | Unicode 输入 |
 | `uuid.lua` | translator | UUID 生成 |
 | `force_gc.lua` | translator | 暴力 GC |
+| `select_character.lua` | processor | 以词定字 |
 | `autocap_filter.lua` | filter | 英文自动大写 |
 | `v_filter.lua` | filter | v 模式符号优先 |
 | `corrector.lua` | filter | 错音错字提示 |
@@ -135,6 +149,24 @@ med-ice/
 | `emoji.txt` | Emoji 映射表（由 emoji-map.txt 生成） |
 | `others.txt` | 月份/星期/部首等特殊映射 |
 
+## `tool/` — 工具目录
+
+### `tool/build/` — 构建系统
+
+Go 编写的词库构建管线，详见 [开发指南](./Development.md#构建流程)。
+
+### `tool/pdf-to-dict/` — PDF → 医学词库
+
+从 PDF 教材中提取医学术语，五阶段流水线批量处理，详见 [开发指南](./Development.md#pdf-to-dictpdf-教材--医学词库)。
+
+### `tool/sogou-med-dict/` — 搜狗医学细胞词库
+
+下载搜狗医学分类词库（`.scel`）并转换为纯文本词条，详见 [开发指南](./Development.md#sogou-med-dict搜狗医学细胞词库)。
+
+### `tool/dict-merge/` — 词库合并去重
+
+将多个 `.dict.yaml` 词库合并为一个，去重时保留较高权重，详见 [开发指南](./Development.md#dict-merge多词库合并去重)。
+
 ## 文件类型参考
 
 ### `.schema.yaml` — 输入方案文件
@@ -154,7 +186,7 @@ med-ice/
 | 列数 | 格式 | 示例 |
 |------|------|------|
 | 2 列 | `汉字\t拼音` | `41448.dict.yaml` |
-| 3 列 | `汉字\t拼音\t权重` | `base.dict.yaml` |
+| 3 列 | `汉字\t拼音\t权重` | `base.dict.yaml`、`med_*.dict.yaml` |
 | 2 列 | `汉字\t权重` (无注音) | `tencent.dict.yaml` |
 
 ### `.custom.yaml` — 用户补丁

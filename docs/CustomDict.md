@@ -1,12 +1,13 @@
 # 自定义字典和短语
 
-雾凇拼音支持添加自定义词库、短语和中英混输词条。修改后需要运行构建命令。
+med-ice 支持添加自定义词库、短语和中英混输词条。修改后需要运行构建命令。
 
 ## 目录结构
 
 ```
 src/dict/
-├── rime_ice.dict.yaml          # 主词库索引（全拼）
+├── med_ice.dict.yaml           # 主词库索引（全拼医学方案）
+├── rime_ice.dict.yaml          # 通用词库索引（雾凇拼音）
 ├── melt_eng.dict.yaml         # 英文词库索引
 ├── radical_pinyin.dict.yaml   # 拆字词库
 ├── cn/                        # 中文词库文件
@@ -15,7 +16,14 @@ src/dict/
 │   ├── base.dict.yaml         # 核心词库（两字词 + 常用词）
 │   ├── ext.dict.yaml          # 扩展词库
 │   ├── tencent.dict.yaml      # 腾讯词向量大词库
-│   └── others.dict.yaml       # 杂项
+│   ├── others.dict.yaml       # 杂项
+│   ├── med_merged.dict.yaml   # 合并医学词典
+│   ├── med_sogou.dict.yaml    # 搜狗医学词库合集（279k 条）
+│   ├── med_western_medicine.dict.yaml   # 西药
+│   ├── med_chinese_patent_medicine.dict.yaml  # 中成药
+│   ├── med_chinese_herbal_medicine.dict.yaml  # 中药材
+│   ├── med_ethnic_minority_medicine.dict.yaml # 少数民族药
+│   └── med_clinical_1000_drug.dict.yaml       # 临床常用药物
 └── en/                        # 英文词库文件
     ├── en.dict.yaml           # 核心英文词库
     ├── en_ext.dict.yaml       # 扩展英文词库
@@ -55,10 +63,10 @@ src/config/
 ### 使用自己的短语文件
 
 1. 创建自己的 `.txt` 文件（放在 Rime 用户配置目录，不是项目仓库）
-2. 通过 patch 修改 `rime_ice.schema.yaml` 中的引用：
+2. 通过 patch 修改 schema 中的引用：
 
 ```yaml
-# rime_ice.custom.yaml（放在用户配置目录）
+# med_ice.custom.yaml（放在用户配置目录）
 patch:
   custom_phrase/user_dict: my_phrases  # 指向 my_phrases.txt
 ```
@@ -74,7 +82,7 @@ patch:
 ### 方式一：挂载外部词库（推荐）
 
 1. 创建自己的词库文件，如 `my_dict.dict.yaml`，放在 Rime 用户配置目录
-2. 在 `src/dict/rime_ice.dict.yaml` 的 `import_tables` 中添加引用：
+2. 在 `src/dict/med_ice.dict.yaml`（或 `rime_ice.dict.yaml`）的 `import_tables` 中添加引用：
 
 ```yaml
 import_tables:
@@ -101,8 +109,11 @@ import_tables:
 ---
 name: my_words
 version: "2026-01-01"
-import_tables:
-  - cn_dicts/my_words
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
 ...
 
 # +_+
@@ -114,7 +125,7 @@ import_tables:
 - 每行格式：`汉字<Tab>拼音（空格分隔）<Tab>权重`
 - 权重默认 100，数字越大排序越靠前
 
-然后在 `rime_ice.dict.yaml` 中引用：
+然后在 `med_ice.dict.yaml`（或 `rime_ice.dict.yaml`）中引用：
 
 ```yaml
 import_tables:
@@ -170,7 +181,7 @@ make -C tool/build build
 构建过程会：
 
 1. 复制所有词库文件到 `tool/build/out/`
-2. **自动注音**——仅对 `ext.dict.yaml` 中没有注音的词条
+2. **自动注音**——对 `ext.dict.yaml` 和所有 `med_*` 词库中没有注音的词条
 3. **补充权重**——仅对 `ext.dict.yaml` 和 `tencent.dict.yaml`，缺失权重的条目统一补为 100
 4. **排序和去重**——所有词库按 拼音 → 权重降序 → 汉字 排序，重复词条取第一个（按 `import_tables` 顺序）
 5. 生成中英混输词库和 Emoji 映射
@@ -206,7 +217,7 @@ make -C tool/build build
 ## 注意事项
 
 - **不要直接修改** `tool/build/out/` 下的文件，这些是构建产物，会被覆盖
-- 修改中文词条写入 `src/dict/cn/` 下对应文件，不要直接改 `src/dict/rime_ice.dict.yaml`（它只是索引）
+- 修改中文词条写入 `src/dict/cn/` 下对应文件，不要直接改 `src/dict/med_ice.dict.yaml` 或 `rime_ice.dict.yaml`（它们只是索引）
 - 修改英文词条写入 `src/dict/en/` 下对应文件
 - 含有多音字的词条必须放到 `ext.dict.yaml`（脚本会自动处理注音）
 - 大词库（`tencent.dict.yaml`）**不能包含注音**，脚本会自动补充
