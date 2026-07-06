@@ -1,0 +1,9 @@
+{
+  "max_parallel_books": 1,
+  "segment": {
+    "alinlp": 20,
+    "llm": 100,
+    "ollama": 1
+  },
+  "decompose": 100
+}

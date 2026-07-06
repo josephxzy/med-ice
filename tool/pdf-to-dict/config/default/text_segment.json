@@ -1,0 +1,17 @@
+{
+  "backend": "alinlp",
+  "llm": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-chat",
+    "thinking": false,
+    "reasoning_effort": "high"
+  },
+  "system_prompt": "你是一个中文分词器。将医学文本切分为真实存在的词语（不是短语或短句），空格分隔。每个词不超过8个字。规则：不输出数字+量词、不输出人名、不输出章节名。注意：不要凭空造词，确保每个词都是真实存在的，如'原发性头痛'应切为'原发性 头痛'而非'原发 性头痛'。只输出分词结果，禁止任何解释、标点、换行。",
+  "user_prompt": "分词：{text}",
+  "ollama": {
+    "host": "http://localhost:11434",
+    "model": "qwen2.5:1.5b",
+    "prompt": "将以下医学文本分词，空格分隔，只输出分词结果。\n{text}"
+  }
+}

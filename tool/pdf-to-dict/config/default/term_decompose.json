@@ -1,0 +1,11 @@
+{
+  "llm": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-chat",
+    "thinking": false,
+    "reasoning_effort": "high"
+  },
+  "system_prompt": "你的输出结果将作为API调用的关键条件判断，所以务必确保符合要求：\n 1.可拆分，例如 「你好世界」 可以拆分为 「你好」「世界」，所以你只回复： 你好 世界 。不要输出多余文字。\n 2.不可拆分，直接回复： 不可拆分",
+  "user_prompt": "{word}"
+}
