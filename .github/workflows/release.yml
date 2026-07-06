@@ -53,7 +53,7 @@ jobs:
         uses: actions/cache@v5
         with:
           path: /opt/rime-cli
-          key: rime-cli-v3-${{ runner.os }}-${{ runner.arch }}
+          key: rime-cli-v4-${{ runner.os }}-${{ runner.arch }}
 
       - name: Build rime CLI tools
         if: steps.cache-rime.outputs.cache-hit != 'true'
@@ -62,7 +62,7 @@ jobs:
           sudo apt-get install -y cmake libboost-dev libboost-filesystem-dev \
             libboost-regex-dev libleveldb-dev libmarisa-dev libopencc-dev \
             libyaml-cpp-dev libgoogle-glog-dev
-          git clone --depth 1 https://github.com/rime/librime.git /tmp/librime-src
+          git clone --depth 1 --branch 1.6.1 https://github.com/rime/librime.git /tmp/librime-src
           cmake -B /tmp/librime-src/build \
             -DCMAKE_BUILD_TYPE=Release \
             -DBUILD_TEST=OFF \
