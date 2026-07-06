@@ -21,6 +21,7 @@ columns:
 巴豆霜	ba dou shuang	500
 巴戟天	ba ji tian	500
 八角茴香	ba jiao hui xiang	500
+八角莲	ba jiao lian	500
 菝葜	ba qia	500
 白扁豆	bai bian dou	500
 百部	bai bu	500
@@ -66,6 +67,7 @@ columns:
 补骨脂	bu gu zhi	500
 布渣叶	bu zha ye	500
 蚕沙	can sha	500
+藏菖蒲	cang chang pu	500
 苍耳子	cang er zi	500
 苍术	cang zhu	500
 草豆蔻	cao dou kou	500
@@ -257,10 +259,11 @@ columns:
 花椒	hua jiao	500
 化橘红	hua ju hong	500
 花蕊石	hua rui shi	500
-华山参	hua shan 参	500
+华山参	hua shan can	500
 滑石	hua shi	500
 槐花	huai hua	500
 槐角	huai jiao	500
+黄柏	huang bai	500
 黄精	huang jing	500
 黄连	huang lian	500
 黄芪	huang qi	500
@@ -495,6 +498,7 @@ columns:
 石楠叶	shi nan ye	500
 石韦	shi wei	500
 首乌藤	shou wu teng	500
+熟地黄	shu de huang	500
 水飞蓟	shui fei ji	500
 水红花子	shui hong hua zi	500
 水牛角	shui niu jiao	500
@@ -547,10 +551,10 @@ columns:
 乌梅	wu mei	500
 巫山淫羊藿	wu shan yin yang huo	500
 乌梢蛇	wu shao she	500
+芜荑	wu ti	500
 五味子	wu wei zi	500
 乌药	wu yao	500
 吴茱萸	wu zhu yu	500
-芜荑	wu 荑	500
 西瓜霜	xi gua shuang	500
 西河柳	xi he liu	500
 西红花	xi hong hua	500
@@ -653,7 +657,7 @@ columns:
 朱砂	zhu sha	500
 朱砂根	zhu sha gen	500
 竹叶	zhu ye	500
-珠子参	zhu zi 参	500
+珠子参	zhu zi can	500
 紫贝齿	zi bei chi	500
 紫草	zi cao	500
 紫河车	zi he che	500
@@ -669,7 +673,3 @@ columns:
 紫珠叶	zi zhu ye	500
 棕榈	zong lv	500
 祖师麻	zu shi ma	500
-八角莲	八角莲	500
-熟地黄	熟地黄	500
-藏菖蒲	藏 chang pu	500
-黄柏	黄柏	500

@@ -198,6 +198,7 @@ columns:
 单硝酸异山梨酯	dan xiao suan yi shan li zhi	100
 胆影葡胺	dan ying pu an	500
 氮卓斯汀	dan zhuo si ting	500
+地尔硫	de er liu	500
 地奥司明	di ao si ming	500
 地巴唑	di ba zuo	500
 地蒽酚	di en fen	500
@@ -810,6 +811,7 @@ columns:
 头孢氨苄	tou bao an bian	500
 头孢吡肟	tou bao bi wo	500
 头孢丙烯	tou bao bing xi	500
+头孢地秦	tou bao de qin	500
 头孢地尼	tou bao di ni	500
 头孢呋辛	tou bao fu xin	500
 头孢克洛	tou bao ke luo	500
@@ -831,7 +833,6 @@ columns:
 头孢西丁	tou bao xi ding	500
 头孢唑林	tou bao zuo lin	500
 头孢唑肟	tou bao zuo wo	500
-头孢地秦	tou bao 地秦	500
 透明质酸钠	tou ming zhi suan na	500
 托吡卡胺	tuo bi ka an	500
 托吡酯	tuo bi zhi	500
@@ -1010,4 +1011,3 @@ columns:
 左旋多巴	zuo xuan duo ba	500
 左旋咪唑	zuo xuan mi zuo	500
 左氧氟沙星	zuo yang fu sha xing	500
-地尔硫	地尔硫	500

@@ -17,6 +17,8 @@ columns:
 阿巴卡韦	a ba ka wei	500
 阿巴卡韦拉米夫定	a ba ka wei la mi fu ding	100
 阿巴卡韦拉米夫定片	a ba ka wei la mi fu ding pian	100
+阿柏西普	a bai xi pu	500
+阿柏西普眼内注射溶液	a bai xi pu yan nei zhu she rong ye	100
 阿贝西利	a bei xi li	500
 阿贝西利片	a bei xi li pian	500
 阿苯	a ben	500
@@ -36,6 +38,7 @@ columns:
 阿达帕林	a da pa lin	500
 阿达帕林凝胶	a da pa lin ning jiao	100
 阿达帕林盐酸克林霉素复方凝胶	a da pa lin yan suan ke lin mei su fu fang ning jiao	20
+阿地白介素	a de bai jie su	500
 阿德福韦酯	a de fu wei zhi	500
 阿德福韦酯分散片	a de fu wei zhi fen san pian	100
 阿德福韦酯胶囊	a de fu wei zhi jiao nang	100
@@ -47,18 +50,22 @@ columns:
 阿法骨化醇软胶囊	a fa gu hua chun ruan jiao nang	100
 阿伐那非	a fa na fei	500
 阿伐那非片	a fa na fei pian	500
+阿伐曲泊帕	a fa qu bo pa	500
 阿伐斯汀	a fa si ting	500
 阿伐斯汀胶囊	a fa si ting jiao nang	100
 阿伐替尼	a fa ti ni	500
 阿法替尼	a fa ti ni	500
 阿伐替尼片	a fa ti ni pian	500
+阿酚咖敏	a fen ga min	500
+阿酚咖敏片	a fen ga min pian	500
+阿酚咖片	a fen ga pian	500
 阿芬太尼	a fen tai ni	500
-阿酚咖敏	a fen 咖敏	500
-阿酚咖敏片	a fen 咖敏片	500
-阿酚咖片	a fen 咖片	500
 阿夫唑嗪	a fu zuo qin	500
 阿夫唑嗪缓释片	a fu zuo qin huan shi pian	100
 阿夫唑嗪片	a fu zuo qin pian	500
+阿咖	a ga	500
+阿咖酚	a ga fen	500
+阿咖片	a ga pian	500
 阿戈美拉汀	a ge mei la ting	500
 阿戈美拉汀片	a ge mei la ting pian	100
 阿加曲班	a jia qu ban	500
@@ -280,14 +287,13 @@ columns:
 阿扎胞苷	a zha bao gan	500
 阿扎那韦	a zha na wei	500
 阿扎司琼	a zha si qiong	500
-阿折地平	a zhe 地平	500
-阿折地平胶囊	a zhe 地平 jiao nang	100
-阿折地平片	a zhe 地平片	500
+阿折地平	a zhe de ping	500
+阿折地平胶囊	a zhe de ping jiao nang	100
+阿折地平片	a zhe de ping pian	500
 阿兹夫定	a zi fu ding	500
 阿兹夫定片	a zi fu ding pian	500
-阿咖	a 咖	500
-阿咖片	a 咖片	500
-阿咖酚	a 咖酚	500
+艾地骨化醇	ai de gu hua chun	500
+艾地骨化醇软胶囊	ai de gu hua chun ruan jiao nang	100
 艾地苯醌	ai di ben kun	500
 艾地苯醌片	ai di ben kun pian	500
 艾尔巴韦格拉瑞韦	ai er ba wei ge la rui wei	100
@@ -298,6 +304,8 @@ columns:
 艾美赛珠单抗	ai mei sai zhu dan kang	100
 艾美赛珠单抗注射液	ai mei sai zhu dan kang zhu she ye	100
 艾诺凝血素α	ai nuo ning xue su	100
+艾曲泊帕乙醇胺	ai qu bo pa yi chun an	100
+艾曲泊帕乙醇胺片	ai qu bo pa yi chun an pian	100
 艾塞那肽	ai sai na tai	500
 艾塞那肽注射液	ai sai na tai zhu she ye	100
 艾司奥美拉唑	ai si ao mei la zuo	100
@@ -361,6 +369,11 @@ columns:
 氨酚待因	an fen dai yin	500
 氨酚待因片(Ⅰ)	an fen dai yin pian	100
 氨酚待因片(Ⅱ)	an fen dai yin pian	100
+氨酚咖黄烷胺	an fen ga huang wan an	100
+氨酚咖黄烷胺片	an fen ga huang wan an pian	100
+氨酚咖那敏	an fen ga na min	500
+氨酚咖那敏片	an fen ga na min pian	100
+氨酚咖匹林片	an fen ga pi lin pian	100
 氨酚黄那敏	an fen huang na min	500
 氨酚甲硫氨酸	an fen jia liu an suan	100
 氨酚甲硫氨酸胶囊	an fen jia liu an suan jiao nang	100
@@ -431,12 +444,15 @@ columns:
 氨酚异丙嗪	an fen yi bing qin	500
 氨酚右敏	an fen you min	500
 氨酚右敏口服溶液	an fen you min kou fu rong ye	100
-氨酚咖黄烷胺	an fen 咖 huang wan an	100
-氨酚咖黄烷胺片	an fen 咖 huang wan an pian	100
-氨酚咖匹林片	an fen 咖匹林片	100
-氨酚咖那敏	an fen 咖那敏	500
-氨酚咖那敏片	an fen 咖那敏片	100
 安氟醚	an fu mi	500
+氨咖甘	an ga gan	500
+氨咖甘片	an ga gan pian	500
+氨咖柳胺	an ga liu an	500
+氨咖柳胺片	an ga liu an pian	500
+氨咖麻敏	an ga ma min	500
+氨咖麻敏胶囊	an ga ma min jiao nang	100
+氨咖愈敏	an ga yu min	500
+氨咖愈敏溶液	an ga yu min rong ye	100
 氨磺必利	an huang bi li	500
 氨磺必利口服溶液	an huang bi li kou fu rong ye	100
 氨磺必利片	an huang bi li pian	500
@@ -542,14 +558,6 @@ columns:
 氨愈美麻	an yu mei ma	500
 氨愈美麻分散片	an yu mei ma fen san pian	100
 氨愈美麻片	an yu mei ma pian	500
-氨咖愈敏	an 咖愈敏	500
-氨咖愈敏溶液	an 咖愈敏 rong ye	100
-氨咖柳胺	an 咖柳胺	500
-氨咖柳胺片	an 咖柳胺 pian	500
-氨咖甘	an 咖甘	500
-氨咖甘片	an 咖甘片	500
-氨咖麻敏	an 咖麻敏	500
-氨咖麻敏胶囊	an 咖麻敏 jiao nang	100
 昂丹司琼	ang dan si qiong	500
 昂丹司琼口腔溶解薄膜	ang dan si qiong kou qiang rong jie bo mo	100
 昂丹司琼葡萄糖	ang dan si qiong pu tao tang	100
@@ -665,7 +673,7 @@ columns:
 巴洛沙星片	ba luo sha xing pian	500
 巴氯芬	ba lv fen	500
 巴氯芬片	ba lv fen pian	500
-巴尼地平	ba ni 地平	500
+巴尼地平	ba ni de ping	500
 巴曲酶	ba qu mei	500
 巴曲酶浓缩液	ba qu mei nong suo ye	100
 巴曲酶注射液	ba qu mei zhu she ye	100
@@ -758,7 +766,7 @@ columns:
 倍他司汀	bei ta si ting	500
 贝他斯汀	bei ta si ting	500
 倍他司汀片	bei ta si ting pian	500
-倍他依泊汀	bei ta 依泊 ting	500
+倍他依泊汀	bei ta yi bo ting	500
 苯巴比妥	ben ba bi tuo	500
 苯巴比妥钠注射液	ben ba bi tuo na zhu she ye	100
 苯巴比妥片	ben ba bi tuo pian	500
@@ -793,8 +801,8 @@ columns:
 苯甲酸雌二醇	ben jia suan ci er chun	100
 苯甲酸雌二醇软膏	ben jia suan ci er chun ruan gao	100
 苯甲酸雌二醇注射液	ben jia suan ci er chun zhu she ye	100
-苯甲酸利扎曲普坦胶囊	ben jia suan li 扎曲 pu tan jiao nang	100
-苯甲酸利扎曲普坦片	ben jia suan li 扎曲 pu tan pian	100
+苯甲酸利扎曲普坦胶囊	ben jia suan li za qu pu tan jiao nang	100
+苯甲酸利扎曲普坦片	ben jia suan li za qu pu tan pian	100
 苯甲酸水杨酸	ben jia suan shui yang suan	100
 苯甲托品	ben jia tuo pin	500
 苯羟甲胺	ben qiang jia an	500
@@ -942,7 +950,7 @@ columns:
 丙帕他莫	bing pa ta mo	500
 丙泊酚	bing po fen	500
 丙泊酚乳状注射液	bing po fen ru zhuang zhu she ye	100
-丙泊酚中/长链脂肪乳注射液	bing po fen zhong 长链 zhi fang ru zhu she ye	20
+丙泊酚中/长链脂肪乳注射液	bing po fen zhong chang lian zhi fang ru zhu she ye	20
 丙酸倍氯米松鼻喷雾剂	bing suan bei lv mi song bi pen wu ji	100
 丙酸倍氯米松鼻气雾剂	bing suan bei lv mi song bi qi wu ji	100
 丙酸倍氯米松乳膏	bing suan bei lv mi song ru gao	100
@@ -998,6 +1006,10 @@ columns:
 菠萝蛋白酶	bo luo dan bai mei	500
 菠萝蛋白酶肠溶胶囊	bo luo dan bai mei chang rong jiao nang	100
 菠萝蛋白酶肠溶片	bo luo dan bai mei chang rong pian	100
+泊沙康唑	bo sha kang zuo	500
+泊沙康唑肠溶片	bo sha kang zuo chang rong pian	100
+泊沙康唑口服混悬液	bo sha kang zuo kou fu hun xuan ye	100
+泊沙康唑注射液	bo sha kang zuo zhu she ye	100
 波生坦	bo sheng tan	500
 波生坦分散片	bo sheng tan fen san pian	100
 波生坦片	bo sheng tan pian	500
@@ -1074,6 +1086,13 @@ columns:
 布南色林片	bu nan se lin pian	500
 布替萘芬	bu ti nai fen	500
 布托啡诺	bu tuo fei nuo	500
+参皇	can huang	500
+参皇乳膏	can huang ru gao	500
+参芪鱼肝油	can qi yu gan you	500
+参芪鱼肝油凝胶	can qi yu gan you ning jiao	100
+参维灵	can wei ling	500
+参维灵片	can wei ling pian	500
+参芎葡萄糖	can xiong pu tao tang	500
 草分枝杆菌F.U.36	cao fen zhi gan jun	20
 草分枝杆菌F.U.36注射液	cao fen zhi gan jun zhu she ye	20
 草木犀流浸液片	cao mu xi liu jin ye pian	100
@@ -1119,6 +1138,8 @@ columns:
 肠道病毒71型灭活疫苗(Vero细胞)	chang dao bing du xing mie huo yi miao xi bao	20
 肠多糖	chang duo tang	500
 肠多糖片	chang duo tang pian	500
+长链脂肪乳(OO)	chang lian zhi fang ru	100
+长链脂肪乳注射液(OO)	chang lian zhi fang ru zhu she ye	20
 肠内营养(AA)	chang nei ying yang	100
 肠内营养(SP)	chang nei ying yang	100
 肠内营养(TP)	chang nei ying yang	100
@@ -1147,6 +1168,7 @@ columns:
 肠内营养乳剂(TPF-T)	chang nei ying yang ru ji	20
 橙皮	cheng pi	500
 橙皮糖浆	cheng pi tang jiang	500
+重酒石酸长春瑞滨注射液	chong jiu shi suan chang chun rui bin zhu she ye	20
 重酒石酸间羟胺注射液	chong jiu shi suan jian qiang an zhu she ye	100
 重酒石酸卡巴拉汀胶囊	chong jiu shi suan ka ba la ting jiao nang	100
 重酒石酸卡巴拉汀片	chong jiu shi suan ka ba la ting pian	100
@@ -1158,6 +1180,7 @@ columns:
 重组改构人肿瘤坏死因子	chong zu gai gou ren zhong liu huai si yin zi	20
 重组甘精胰岛素注射液	chong zu gan jing yi dao su zhu she ye	100
 重组结核杆菌融合蛋白(EC)	chong zu jie he gan jun rong he dan bai	20
+重组赖脯胰岛素注射液	chong zu lai fu yi dao su zhu she ye	100
 重组链激酶	chong zu lian ji mei	500
 重组牛碱性成纤维细胞生长因子	chong zu niu jian xing cheng xian wei xi bao sheng zhang yin zi	20
 重组牛碱性成纤维细胞生长因子滴眼液	chong zu niu jian xing cheng xian wei xi bao sheng zhang yin zi di yan ye	20
@@ -1209,7 +1232,6 @@ columns:
 重组乙型肝炎疫苗（酵母）	chong zu yi xing gan yan yi miao jiao mu	20
 重组乙型肝炎疫苗(酿酒酵母)	chong zu yi xing gan yan yi miao niang jiu jiao mu	20
 重组乙型肝炎疫苗(CHO细胞)	chong zu yi xing gan yan yi miao xi bao	20
-重组赖脯胰岛素注射液	chong zu 赖脯 yi dao su zhu she ye	100
 穿琥宁	chuan hu ning	500
 穿琥宁氯化钠注射液	chuan hu ning lv hua na zhu she ye	100
 穿琥宁注射液	chuan hu ning zhu she ye	100
@@ -1448,23 +1470,43 @@ columns:
 氮卓斯汀氟替卡松鼻喷雾剂	dan zhuo si ting fu ti ka song bi pen wu ji	20
 锝[99mTc]二巯丁二酸	de er qiu ding er suan	20
 锝[99mTc]二巯丁二酸盐注射液	de er qiu ding er suan yan zhu she ye	20
+地氟烷	de fu wan	500
 德谷门冬双胰岛素	de gu men dong shuang yi dao su	100
 德谷门冬双胰岛素注射液	de gu men dong shuang yi dao su zhu she ye	20
 德谷胰岛素	de gu yi dao su	500
 德谷胰岛素/利拉鲁肽注射液	de gu yi dao su li la lu tai zhu she ye	20
 德谷胰岛素注射液	de gu yi dao su zhu she ye	100
+地红霉素	de hong mei su	500
+地红霉素肠溶胶囊	de hong mei su chang rong jiao nang	100
+地加瑞克	de jia rui ke	500
 锝[99mTc]甲氧异腈	de jia yang yi jing	20
 锝[99mTc]甲氧异腈注射液	de jia yang yi jing zhu she ye	20
 锝[99mTc]聚合白蛋白	de ju he bai dan bai	20
 锝[99mTc]聚合白蛋白注射液	de ju he bai dan bai zhu she ye	20
+地夸磷索钠	de kua lin suo na	500
+地夸磷索钠滴眼液	de kua lin suo na di yan ye	100
+地拉罗司	de la luo si	500
+地拉罗司分散片	de la luo si fen san pian	100
+地拉罗司片	de la luo si pian	500
 德拉马尼	de la ma ni	500
 德拉马尼片	de la ma ni pian	500
+地氯雷他定糖浆	de lv lei ta ding tang jiang	100
+地美索酯	de mei suo zhi	500
+地奈德	de nai de	500
+地奈德洗剂	de nai de xi ji	500
+地诺孕素	de nuo yun su	500
+地诺孕素片	de nuo yun su pian	500
 锝[99mTc]喷替酸盐	de pen ti suan yan	20
 锝[99mTc]喷替酸盐注射液	de pen ti suan yan zhu she ye	20
+地舒单抗	de shu dan kang	500
+地舒单抗注射液	de shu dan kang zhu she ye	100
 锝[99mTc]双半胱氨酸	de shuang ban guang an suan	20
 锝[99mTc]双半胱氨酸注射液	de shuang ban guang an suan zhu she ye	20
 锝[99mTc]双半胱乙酯	de shuang ban guang yi zhi	20
 锝[99mTc]双半胱乙酯注射液	de shuang ban guang yi zhi zhu she ye	20
+地特胰岛素	de te yi dao su	500
+地特胰岛素注射液	de te yi dao su zhu she ye	100
+地西他滨	de xi ta bin	500
 锝[99mTc]亚甲基二膦酸盐	de ya jia ji er lin suan yan	20
 锝[99Tc]亚甲基二膦酸盐注射液	de ya jia ji er lin suan yan zhu she ye	20
 锝[99mTc]亚甲基二膦酸盐注射液	de ya jia ji er lin suan yan zhu she ye	20
@@ -1472,6 +1514,8 @@ columns:
 锝[99mTc]依替菲宁注射液	de yi ti fei ning zhu she ye	20
 锝[99mTc]植酸盐	de zhi suan yan	20
 锝[99mTc]植酸盐注射液	de zhi suan yan zhu she ye	20
+地佐辛	de zuo xin	500
+地佐辛注射液	de zuo xin zhu she ye	100
 地奥司明片	di ao si ming pian	500
 地巴唑	di ba zuo	500
 地巴唑滴眼液	di ba zuo di yan ye	100
@@ -1862,6 +1906,8 @@ columns:
 恩替卡韦颗粒	en ti ka wei ke li	100
 恩替卡韦口服溶液	en ti ka wei kou fu rong ye	100
 恩替卡韦片	en ti ka wei pian	500
+恩扎卢胺	en za lu an	500
+恩扎卢胺软胶囊	en za lu an ruan jiao nang	100
 二氮嗪	er dan qin	500
 二氮嗪口服混悬液	er dan qin kou fu hun xuan ye	100
 二氮嗪注射液	er dan qin zhu she ye	100
@@ -2013,16 +2059,19 @@ columns:
 非普拉宗片	fei pu la zong pian	500
 非索非那定	fei suo fei na ding	500
 肺炎球菌多糖结合疫苗	fei yan qiu jun duo tang jie he yi miao	100
+酚氨咖敏	fen an ga min	500
+酚氨咖敏胶囊	fen an ga min jiao nang	100
+酚氨咖敏颗粒	fen an ga min ke li	100
 酚氨咖敏片	fen an ka min pian	500
-酚氨咖敏	fen an 咖敏	500
-酚氨咖敏胶囊	fen an 咖敏 jiao nang	100
-酚氨咖敏颗粒	fen an 咖敏 ke li	100
 酚苄明	fen bian ming	500
 芬布芬	fen bu fen	500
 芬布芬胶囊	fen bu fen jiao nang	500
 芬布芬片	fen bu fen pian	500
 粉尘螨注射液	fen chen man zhu she ye	100
 芬氟拉明	fen fu la ming	500
+酚咖	fen ga	500
+酚咖颗粒	fen ga ke li	500
+酚咖片	fen ga pian	500
 芬戈莫德	fen ge mo de	500
 酚磺酞	fen huang tai	500
 酚磺酞注射液	fen huang tai zhu she ye	100
@@ -2049,9 +2098,6 @@ columns:
 芬太尼	fen tai ni	500
 芬太尼透皮贴剂	fen tai ni tou pi tie ji	100
 酚妥拉明	fen tuo la ming	500
-酚咖	fen 咖	500
-酚咖颗粒	fen 咖 ke li	500
-酚咖片	fen 咖片	500
 蜂毒	feng du	500
 蜂毒注射液	feng du zhu she ye	500
 蜂胶	feng jiao	500
@@ -2256,6 +2302,8 @@ columns:
 复方薄樟桉油溶液	fu fang bo zhang an you rong ye	100
 复方布洛芬凝胶	fu fang bu luo fen ning jiao	100
 复方布洛芬片	fu fang bu luo fen pian	100
+复方参芪维E	fu fang can qi wei	100
+复方参芪维E胶囊	fu fang can qi wei jiao nang	100
 复方茶碱甲麻黄碱	fu fang cha jian jia ma huang jian	100
 复方茶碱甲麻黄碱片	fu fang cha jian jia ma huang jian pian	100
 复方茶碱麻黄碱	fu fang cha jian ma huang jian	100
@@ -2303,6 +2351,8 @@ columns:
 复方单硝酸异山梨酯缓释片	fu fang dan xiao suan yi shan li zhi huan shi pian	20
 复方当归亚铁	fu fang dang gui ya tie	100
 复方当归亚铁片	fu fang dang gui ya tie pian	100
+复方地舍平	fu fang de she ping	500
+复方地舍平片	fu fang de she ping pian	100
 复方地奥司明	fu fang di ao si ming	100
 复方地巴唑氢氯噻嗪	fu fang di ba zuo qing lv sai qin	100
 复方地巴唑氢氯噻嗪胶囊	fu fang di ba zuo qing lv sai qin jiao nang	20
@@ -2361,8 +2411,8 @@ columns:
 复方泛影葡胺注射液	fu fang fan ying pu an zhu she ye	100
 复方酚苄明	fu fang fen bian ming	500
 复方酚苄明片	fu fang fen bian ming pian	100
-复方酚咖伪麻	fu fang fen 咖伪麻	100
-复方酚咖伪麻胶囊	fu fang fen 咖伪麻 jiao nang	100
+复方酚咖伪麻	fu fang fen ga wei ma	100
+复方酚咖伪麻胶囊	fu fang fen ga wei ma jiao nang	100
 复方福尔可定	fu fang fu er ke ding	100
 复方福尔可定口服溶液	fu fang fu er ke ding kou fu rong ye	100
 复方福尔可定糖浆	fu fang fu er ke ding tang jiang	100
@@ -2378,6 +2428,8 @@ columns:
 复方氟轻松尿素膏	fu fang fu qing song niao su gao	100
 复方呋塞米	fu fang fu sai mi	500
 复方呋塞米片	fu fang fu sai mi pian	100
+复方咖磷	fu fang ga lin	500
+复方咖磷颗粒	fu fang ga lin ke li	100
 复方甘氨酸茶碱钠	fu fang gan an suan cha jian na	100
 复方甘氨酸茶碱钠胶囊	fu fang gan an suan cha jian na jiao nang	100
 复方甘氨酸茶碱钠片	fu fang gan an suan cha jian na pian	100
@@ -2577,8 +2629,8 @@ columns:
 复方磷酸萘酚喹片	fu fang lin suan nai fen kui pian	100
 复方磷酸哌喹片	fu fang lin suan pai kui pian	100
 复方磷酸氢钠片	fu fang lin suan qing na pian	100
-复方柳安咖	fu fang liu an 咖	500
-复方柳安咖注射液	fu fang liu an 咖 zhu she ye	100
+复方柳安咖	fu fang liu an ga	500
+复方柳安咖注射液	fu fang liu an ga zhu she ye	100
 复方硫酸氢黄连素	fu fang liu suan qing huang lian su	100
 复方硫酸氢黄连素软膏	fu fang liu suan qing huang lian su ruan gao	100
 复方硫酸软骨素	fu fang liu suan ruan gu su	100
@@ -2928,8 +2980,8 @@ columns:
 复方溴丙胺太林铝镁	fu fang xiu bing an tai lin lv mei	100
 复方溴丙胺太林铝镁片	fu fang xiu bing an tai lin lv mei pian	100
 复方溴丙胺太林片	fu fang xiu bing an tai lin pian	100
-复方溴咖	fu fang xiu 咖	500
-复方溴咖片	fu fang xiu 咖片	500
+复方溴咖	fu fang xiu ga	500
+复方溴咖片	fu fang xiu ga pian	500
 复方雪胆呋喃唑酮胶囊	fu fang xue dan fu nan zuo tong jiao nang	100
 复方亚油酸钙	fu fang ya you suan gai	100
 复方亚油酸钙片	fu fang ya you suan gai pian	100
@@ -3015,12 +3067,6 @@ columns:
 复方左炔诺孕酮滴丸	fu fang zuo que nuo yun tong di wan	100
 复方左炔诺孕酮片	fu fang zuo que nuo yun tong pian	100
 复方左炔诺孕酮三相	fu fang zuo que nuo yun tong san xiang	100
-复方参芪维E	fu fang 参芪 wei	100
-复方参芪维E胶囊	fu fang 参芪 wei jiao nang	100
-复方咖磷	fu fang 咖磷	500
-复方咖磷颗粒	fu fang 咖磷 ke li	100
-复方地舍平片	fu fang 地舍 ping pian	100
-复方地舍平	fu fang 地舍平	500
 氟芬那酸	fu fen na suan	500
 氟芬那酸丁酯	fu fen na suan ding zhi	100
 氟芬那酸丁酯软膏	fu fen na suan ding zhi ruan gao	100
@@ -3240,6 +3286,8 @@ columns:
 钆贝葡胺注射液	ga bei pu an zhu she ye	100
 钆布醇	ga bu chun	500
 钆布醇注射液	ga bu chun zhu she ye	100
+咖酚伪麻	ga fen wei ma	500
+咖酚伪麻片	ga fen wei ma pian	500
 钆喷酸葡胺	ga pen suan pu an	500
 钆喷酸葡胺注射液	ga pen suan pu an zhu she ye	100
 钆塞酸二钠	ga sai suan er na	500
@@ -3518,8 +3566,8 @@ L-谷氨酰胺呱仑酸钠	gu an xian an gua lun suan na	100
 哈西奈德涂膜	ha xi nai de tu mo	100
 海博麦布	hai bo mai bu	500
 海博麦布片	hai bo mai bu pian	500
-海曲泊帕乙醇胺	hai qu 泊帕 yi chun an	100
-海曲泊帕乙醇胺片	hai qu 泊帕 yi chun an pian	100
+海曲泊帕乙醇胺	hai qu bo pa yi chun an	100
+海曲泊帕乙醇胺片	hai qu bo pa yi chun an pian	100
 海索那林	hai suo na lin	500
 海藻酸铝镁	hai zao suan lv mei	500
 海藻酸铝镁颗粒	hai zao suan lv mei ke li	100
@@ -3610,6 +3658,8 @@ L-谷氨酰胺呱仑酸钠	gu an xian an gua lun suan na	100
 环丙沙星葡萄糖	huan bing sha xing pu tao tang	100
 环丙沙星注射液	huan bing sha xing zhu she ye	100
 环丙孕酮	huan bing yun tong	500
+环泊酚	huan bo fen	500
+环泊酚注射液	huan bo fen zhu she ye	100
 缓冲生理盐水	huan chong sheng li yan shui	100
 环硅酸锆钠	huan gui suan gao na	500
 环硅酸锆钠散	huan gui suan gao na san	100
@@ -3916,6 +3966,7 @@ L-谷氨酰胺呱仑酸钠	gu an xian an gua lun suan na	100
 加替沙星眼用凝胶	jia ti sha xing yan yong ning jiao	100
 加替沙星注射液	jia ti sha xing zhu she ye	100
 加香甲酚皂溶液	jia xiang jia fen zao rong ye	100
+甲硝维参阴道栓	jia xiao wei can yin dao shuan	100
 甲硝唑	jia xiao zuo	500
 甲硝唑棒	jia xiao zuo bang	500
 甲硝唑芬布芬	jia xiao zuo fen bu fen	100
@@ -3989,6 +4040,7 @@ L-谷氨酰胺呱仑酸钠	gu an xian an gua lun suan na	100
 降纤酶注射液	jiang xian mei zhu she ye	100
 交沙霉素	jiao sha mei su	500
 交沙霉素片	jiao sha mei su pian	500
+角鲨烯	jiao sha xi	500
 角鲨烯胶丸	jiao sha xi jiao wan	500
 胶体果胶铋	jiao ti guo jiao bi	500
 胶体果胶铋干混悬剂	jiao ti guo jiao bi gan hun xuan ji	100
@@ -4036,12 +4088,12 @@ L-谷氨酰胺呱仑酸钠	gu an xian an gua lun suan na	100
 精蛋白重组人胰岛素混合注射液(30R)	jing dan bai chong zu ren yi dao su hun he zhu she ye	20
 精蛋白重组人胰岛素混合注射液(50R)	jing dan bai chong zu ren yi dao su hun he zhu she ye	20
 精蛋白重组人胰岛素注射液	jing dan bai chong zu ren yi dao su zhu she ye	20
+精蛋白锌重组赖脯胰岛素	jing dan bai xin chong zu lai fu yi dao su	20
+精蛋白锌重组赖脯胰岛素混合注射液(25R)	jing dan bai xin chong zu lai fu yi dao su hun he zhu she ye	20
+精蛋白锌重组赖脯胰岛素混合注射液(50R)	jing dan bai xin chong zu lai fu yi dao su hun he zhu she ye	20
 精蛋白锌重组人胰岛素	jing dan bai xin chong zu ren yi dao su	100
 精蛋白锌重组人胰岛素混合注射液	jing dan bai xin chong zu ren yi dao su hun he zhu she ye	20
 精蛋白锌重组人胰岛素注射液	jing dan bai xin chong zu ren yi dao su zhu she ye	20
-精蛋白锌重组赖脯胰岛素	jing dan bai xin chong zu 赖脯 yi dao su	20
-精蛋白锌重组赖脯胰岛素混合注射液(25R)	jing dan bai xin chong zu 赖脯 yi dao su hun he zhu she ye	20
-精蛋白锌重组赖脯胰岛素混合注射液(50R)	jing dan bai xin chong zu 赖脯 yi dao su hun he zhu she ye	20
 精蛋白锌胰岛素	jing dan bai xin yi dao su	100
 精蛋白锌胰岛素(30R)	jing dan bai xin yi dao su	20
 精蛋白锌胰岛素注射液	jing dan bai xin yi dao su zhu she ye	100
@@ -4273,6 +4325,8 @@ L-谷氨酰胺呱仑酸钠	gu an xian an gua lun suan na	100
 卡左双多巴缓释片	ka zuo shuang duo ba huan shi pian	100
 卡左双多巴控释片	ka zuo shuang duo ba kong shi pian	100
 开塞露	kai sai lu	500
+坎地氢噻	kan de qing sai	500
+坎地氢噻片	kan de qing sai pian	500
 坎地沙坦酯	kan di sha tan zhi	500
 坎地沙坦酯分散片	kan di sha tan zhi fen san pian	100
 坎地沙坦酯胶囊	kan di sha tan zhi jiao nang	100
@@ -4505,6 +4559,8 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 来氟米特	lai fu mi te	500
 来氟米特胶囊	lai fu mi te jiao nang	100
 来氟米特片	lai fu mi te pian	500
+赖脯胰岛素	lai fu yi dao su	500
+赖脯胰岛素注射液	lai fu yi dao su zhu she ye	100
 来那度胺	lai na du an	500
 来那度胺胶囊	lai na du an jiao nang	100
 赖诺普利	lai nuo pu li	500
@@ -4677,7 +4733,7 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 利血平	li xue ping	500
 利血平片	li xue ping pian	500
 利血平注射液	li xue ping zhu she ye	100
-利扎曲普坦	li 扎曲 pu tan	500
+利扎曲普坦	li za qu pu tan	500
 联苯苄唑	lian ben bian zuo	500
 联苯苄唑尿素	lian ben bian zuo niao su	100
 联苯苄唑尿素软膏	lian ben bian zuo niao su ruan gao	100
@@ -4806,8 +4862,8 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 柳氮磺吡啶结肠溶胶囊	liu dan huang bi ding jie chang rong jiao nang	100
 柳氮磺吡啶片	liu dan huang bi ding pian	100
 柳氮磺吡啶栓	liu dan huang bi ding shuan	100
-柳酚咖敏	liu fen 咖敏	500
-柳酚咖敏片	liu fen 咖敏片	500
+柳酚咖敏	liu fen ga min	500
+柳酚咖敏片	liu fen ga min pian	500
 六氟化硫	liu fu hua liu	500
 流感病毒裂解疫苗	liu gan bing du lie jie yi miao	100
 流感病毒亚单位疫苗	liu gan bing du ya dan wei yi miao	100
@@ -5250,6 +5306,7 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 麻黄碱苯海拉明片	ma huang jian ben hai la ming pian	100
 马拉韦罗	ma la wei luo	500
 马拉韦罗片	ma la wei luo pian	500
+马来酸阿伐曲泊帕片	ma lai suan a fa qu bo pa pian	100
 马来酸阿法替尼片	ma lai suan a fa ti ni pian	100
 马来酸阿奇霉素注射液	ma lai suan a qi mei su zhu she ye	100
 马来酸氨氯地平滴丸	ma lai suan an lv di ping di wan	100
@@ -5291,7 +5348,6 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 马来酸伊索拉定片	ma lai suan yi suo la ding pian	100
 马来酸茚达特罗吸入粉雾剂	ma lai suan yin da te luo xi ru fen wu ji	20
 马来酸左氨氯地平片	ma lai suan zuo an lv di ping pian	100
-马来酸阿伐曲泊帕片	ma lai suan 阿伐曲泊 pa pian	100
 吗啉胍	ma lin gua	500
 吗啉硝唑	ma lin xiao zuo	500
 吗啉硝唑氯化钠注射液	ma lin xiao zuo lv hua na zhu she ye	100
@@ -5302,6 +5358,7 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 吗氯贝胺	ma lv bei an	500
 吗氯贝胺胶囊	ma lv bei an jiao nang	100
 吗氯贝胺片	ma lv bei an pian	500
+马尼地平	ma ni de ping	500
 马尿酸乌洛托品片	ma niao suan wu luo tuo pin pian	100
 马破伤风免疫球蛋白(F(ab&#039;)2)	ma po shang feng mian yi qiu dan bai	20
 马破伤风免疫球蛋白(F(ab)2)	ma po shang feng mian yi qiu dan bai	20
@@ -5630,10 +5687,10 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 尼古丁透皮贴剂	ni gu ding tou pi tie ji	100
 尼卡地平	ni ka di ping	500
 尼卡地平葡萄糖	ni ka di ping pu tao tang	100
+尼可地尔	ni ke de er	500
+尼可地尔片	ni ke de er pian	500
 尼可刹米	ni ke sha mi	500
 尼可刹米注射液	ni ke sha mi zhu she ye	100
-尼可地尔	ni ke 地尔	500
-尼可地尔片	ni ke 地尔片	500
 尼洛替尼	ni luo ti ni	500
 尼洛替尼胶囊	ni luo ti ni jiao nang	100
 尼麦角林	ni mai jiao lin	500
@@ -5669,13 +5726,13 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 尼群地平贴片	ni qun di ping tie pian	100
 尼群洛尔	ni qun luo er	500
 尼群洛尔片	ni qun luo er pian	500
-尼索地平	ni suo 地平	500
-尼索地平缓释胶囊	ni suo 地平 huan shi jiao nang	100
-尼索地平缓释片	ni suo 地平 huan shi pian	100
-尼索地平胶囊	ni suo 地平 jiao nang	100
-尼索地平口腔崩解片	ni suo 地平 kou qiang beng jie pian	100
-尼索地平软胶囊	ni suo 地平 ruan jiao nang	100
-尼索地平片	ni suo 地平片	500
+尼索地平	ni suo de ping	500
+尼索地平缓释胶囊	ni suo de ping huan shi jiao nang	100
+尼索地平缓释片	ni suo de ping huan shi pian	100
+尼索地平胶囊	ni suo de ping jiao nang	100
+尼索地平口腔崩解片	ni suo de ping kou qiang beng jie pian	100
+尼索地平片	ni suo de ping pian	500
+尼索地平软胶囊	ni suo de ping ruan jiao nang	100
 尼替西农	ni ti xi nong	500
 尼替西农胶囊	ni ti xi nong jiao nang	100
 尼替西农口服混悬液	ni ti xi nong kou fu hun xuan ye	100
@@ -5849,8 +5906,8 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 匹伐他汀钙片	pi fa ta ting gai pian	100
 脾粉	pi fen	500
 脾粉片	pi fen pian	500
-匹林咖敏	pi lin 咖敏	500
-匹林咖敏片	pi lin 咖敏片	500
+匹林咖敏	pi lin ga min	500
+匹林咖敏片	pi lin ga min pian	500
 皮内注射用卡介苗	pi nei zhu she yong ka jie miao	100
 皮内注射用卡介苗稀释剂	pi nei zhu she yong ka jie miao xi shi ji	20
 皮上划痕人用布氏菌活疫苗	pi shang hua hen ren yong bu shi jun huo yi miao	20
@@ -6059,7 +6116,7 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 庆大霉素双氯芬酸钠滴眼液	qing da mei su shuang lv fen suan na di yan ye	20
 庆大霉素碳酸铋	qing da mei su tan suan bi	100
 庆大霉素硝酸铋胶囊	qing da mei su xiao suan bi jiao nang	100
-青蒿琥酯阿莫地喹片	qing hao hu zhi a mo 地 kui pian	100
+青蒿琥酯阿莫地喹片	qing hao hu zhi a mo de kui pian	100
 青蒿琥酯片	qing hao hu zhi pian	500
 青蒿素类药物	qing hao su lei yao wu	100
 青蒿素哌喹片	qing hao su pai kui pian	100
@@ -6205,9 +6262,9 @@ L-赖氨酸盐酸盐颗粒	lai an suan yan suan yan ke li	100
 曲尼司特片	qu ni si te pian	500
 曲匹布通	qu pi bu tong	500
 曲匹布通片	qu pi bu tong pian	500
+曲匹地尔	qu pi de er	500
+曲匹地尔胶囊	qu pi de er jiao nang	100
 曲匹地尔片	qu pi di er pian	500
-曲匹地尔	qu pi 地尔	500
-曲匹地尔胶囊	qu pi 地尔 jiao nang	100
 曲普利啶	qu pu li ding	500
 曲普瑞林	qu pu rui lin	500
 曲前列尼尔	qu qian lie ni er	500
@@ -6565,6 +6622,9 @@ A群C群脑膜炎球菌多糖疫苗	qun qun nao mo yan qiu jun duo tang yi miao	
 舒林酸	shu lin suan	500
 舒林酸胶囊	shu lin suan jiao nang	500
 舒林酸片	shu lin suan pian	500
+舒洛地特	shu luo de te	500
+舒洛地特软胶囊	shu luo de te ruan jiao nang	100
+舒洛地特注射液	shu luo de te zhu she ye	100
 舒马普坦	shu ma pu tan	500
 舒马普坦片	shu ma pu tan pian	500
 舒尼替尼	shu ni ti ni	500
@@ -6816,11 +6876,11 @@ A群C群脑膜炎球菌多糖疫苗	qun qun nao mo yan qiu jun duo tang yi miao	
 他克莫司软膏	ta ke mo si ruan gao	100
 他克莫司注射液	ta ke mo si zhu she ye	100
 他莫昔芬	ta mo xi fen	500
-他扎罗汀	ta 扎罗 ting	500
-他扎罗汀倍他米松	ta 扎罗 ting bei ta mi song	100
-他扎罗汀倍他米松乳膏	ta 扎罗 ting bei ta mi song ru gao	100
-他扎罗汀凝胶	ta 扎罗 ting ning jiao	100
-他扎罗汀乳膏	ta 扎罗 ting ru gao	100
+他扎罗汀	ta za luo ting	500
+他扎罗汀倍他米松	ta za luo ting bei ta mi song	100
+他扎罗汀倍他米松乳膏	ta za luo ting bei ta mi song ru gao	100
+他扎罗汀凝胶	ta za luo ting ning jiao	100
+他扎罗汀乳膏	ta za luo ting ru gao	100
 酞丁安	tai ding an	500
 酞丁安搽剂	tai ding an cha ji	500
 酞丁安滴眼液	tai ding an di yan ye	100
@@ -6831,6 +6891,7 @@ A群C群脑膜炎球菌多糖疫苗	qun qun nao mo yan qiu jun duo tang yi miao	
 坦洛新（坦索罗辛）	tan luo xin tan suo luo xin	100
 碳酸钙	tan suan gai	500
 碳酸钙D3	tan suan gai	500
+碳酸钙重质碳酸镁	tan suan gai chong zhi tan suan mei	100
 碳酸钙甘氨酸	tan suan gai gan an suan	100
 碳酸钙甘氨酸胶囊	tan suan gai gan an suan jiao nang	100
 碳酸钙干混悬剂	tan suan gai gan hun xuan ji	100
@@ -6850,7 +6911,6 @@ A群C群脑膜炎球菌多糖疫苗	qun qun nao mo yan qiu jun duo tang yi miao	
 碳酸钙D3片(Ⅱ)	tan suan gai pian	100
 碳酸钙维D泡腾片	tan suan gai wei pao teng pian	100
 碳酸钙原料粉	tan suan gai yuan liao fen	100
-碳酸钙重质碳酸镁	tan suan gai 重质 tan suan mei	100
 碳酸镧	tan suan lan	500
 碳酸镧咀嚼片	tan suan lan ju jue pian	100
 碳酸锂	tan suan li	500
@@ -6946,6 +7006,9 @@ A群C群脑膜炎球菌多糖疫苗	qun qun nao mo yan qiu jun duo tang yi miao	
 替硝唑栓	ti xiao zuo shuan	500
 替硝唑阴道泡腾片	ti xiao zuo yin dao pao teng pian	100
 替硝唑阴道片	ti xiao zuo yin dao pian	100
+替扎尼定	ti za ni ding	500
+田参氨基酸	tian can an ji suan	500
+田参氨基酸胶囊	tian can an ji suan jiao nang	100
 天花粉蛋白	tian hua fen dan bai	500
 天花粉蛋白注射液	tian hua fen dan bai zhu she ye	100
 天麻素	tian ma su	500
@@ -7116,6 +7179,7 @@ A群C群脑膜炎球菌多糖疫苗	qun qun nao mo yan qiu jun duo tang yi miao	
 托吡酯	tuo bi zhi	500
 托吡酯胶囊	tuo bi zhi jiao nang	500
 托吡酯片	tuo bi zhi pian	500
+托泊替康	tuo bo ti kang	500
 妥布霉素	tuo bu mei su	500
 妥布霉素地塞米松	tuo bu mei su di sai mi song	100
 妥布霉素地塞米松滴眼液	tuo bu mei su di sai mi song di yan ye	20
@@ -7180,6 +7244,8 @@ A群C群脑膜炎球菌多糖疫苗	qun qun nao mo yan qiu jun duo tang yi miao	
 维丙胺	wei bing an	500
 维丙胺胶囊	wei bing an jiao nang	500
 维丙胺注射液	wei bing an zhu she ye	100
+维参锌	wei can xin	500
+维参锌胶囊	wei can xin jiao nang	500
 维C橙皮苷	wei cheng pi gan	500
 维C橙皮苷颗粒	wei cheng pi gan ke li	100
 胃蛋白酶	wei dan bai mei	500
@@ -7398,6 +7464,8 @@ A群C群脑膜炎球菌多糖疫苗	qun qun nao mo yan qiu jun duo tang yi miao	
 烯丙雌醇	xi bing ci chun	500
 烯丙雌醇片	xi bing ci chun pian	500
 烯丙吗啡	xi bing ma fei	500
+西地吡罗昔康片	xi de bi luo xi kang pian	100
+西地磷酸苯丙哌林泡腾片	xi de lin suan ben bing pai lin pao teng pian	20
 西地碘	xi di dian	500
 西地碘含片	xi di dian han pian	500
 西地碘片	xi di dian pian	500
@@ -7451,6 +7519,10 @@ A群C群脑膜炎球菌多糖疫苗	qun qun nao mo yan qiu jun duo tang yi miao	
 西那卡塞	xi na ka sai	500
 昔萘沙美特罗	xi nai sha mei te luo	100
 昔萘酸沙美特罗气雾剂	xi nai suan sha mei te luo qi wu ji	100
+西尼地平	xi ni de ping	500
+西尼地平胶囊	xi ni de ping jiao nang	100
+西尼地平片	xi ni de ping pian	500
+西尼地平软胶囊	xi ni de ping ruan jiao nang	100
 西尼莫德	xi ni mo de	500
 西尼莫德片	xi ni mo de pian	500
 稀葡萄糖酸氯己定溶液	xi pu tao tang suan lv ji ding rong ye	100
@@ -7904,7 +7976,7 @@ A型肉毒毒素	xing rou du du su	100
 盐酸奥昔布宁片	yan suan ao xi bu ning pian	100
 盐酸奥昔非君片	yan suan ao xi fei jun pian	100
 盐酸巴氨西林片	yan suan ba an xi lin pian	100
-盐酸巴尼地平缓释胶囊	yan suan ba ni 地平 huan shi jiao nang	100
+盐酸巴尼地平缓释胶囊	yan suan ba ni de ping huan shi jiao nang	100
 盐酸班布特罗胶囊	yan suan ban bu te luo jiao nang	100
 盐酸班布特罗颗粒	yan suan ban bu te luo ke li	100
 盐酸班布特罗口服溶液	yan suan ban bu te luo kou fu rong ye	100
@@ -7964,6 +8036,7 @@ A型肉毒毒素	xing rou du du su	100
 盐酸氮卓斯汀鼻喷雾剂	yan suan dan zhuo si ting bi pen wu ji	100
 盐酸氮卓斯汀滴眼液	yan suan dan zhuo si ting di yan ye	100
 盐酸氮卓斯汀片	yan suan dan zhuo si ting pian	100
+盐酸地美索酯片	yan suan de mei suo zhi pian	100
 盐酸地芬尼多片	yan suan di fen ni duo pian	100
 盐酸地匹福林滴眼液	yan suan di pi fu lin di yan ye	100
 盐酸丁丙诺啡舌下片	yan suan ding bing nuo fei she xia pian	100
@@ -8200,6 +8273,7 @@ A型肉毒毒素	xing rou du du su	100
 盐酸吗啉胍滴眼液	yan suan ma lin gua di yan ye	100
 盐酸吗啉胍片	yan suan ma lin gua pian	100
 盐酸吗啉胍注射液	yan suan ma lin gua zhu she ye	100
+盐酸马尼地平片	yan suan ma ni de ping pian	100
 盐酸马普替林片	yan suan ma pu ti lin pian	100
 盐酸美金刚缓释胶囊	yan suan mei jin gang huan shi jiao nang	100
 盐酸美金刚口服溶液	yan suan mei jin gang kou fu rong ye	100
@@ -8351,6 +8425,8 @@ A型肉毒毒素	xing rou du du su	100
 盐酸替利定片	yan suan ti li ding pian	100
 盐酸替罗非班氯化钠注射液	yan suan ti luo fei ban lv hua na zhu she ye	20
 盐酸替罗非班注射液	yan suan ti luo fei ban zhu she ye	100
+盐酸替扎尼定口腔崩解片	yan suan ti za ni ding kou qiang beng jie pian	20
+盐酸替扎尼定片	yan suan ti za ni ding pian	100
 盐酸头孢卡品酯片	yan suan tou bao ka pin zhi pian	100
 盐酸头孢他美酯分散片	yan suan tou bao ta mei zhi fen san pian	100
 盐酸头孢他美酯干混悬剂	yan suan tou bao ta mei zhi gan hun xuan ji	20
@@ -8359,7 +8435,10 @@ A型肉毒毒素	xing rou du du su	100
 盐酸头孢他美酯片	yan suan tou bao ta mei zhi pian	100
 盐酸土霉素胶囊	yan suan tu mei su jiao nang	100
 盐酸土霉素片	yan suan tu mei su pian	100
+盐酸托泊替康胶囊	yan suan tuo bo ti kang jiao nang	100
 盐酸妥卡尼片	yan suan tuo ka ni pian	100
+盐酸托鲁地文拉法辛	yan suan tuo lu de wen la fa xin	100
+盐酸托鲁地文拉法辛缓释片	yan suan tuo lu de wen la fa xin huan shi pian	20
 盐酸妥洛特罗片	yan suan tuo luo te luo pian	100
 盐酸托莫西汀胶囊	yan suan tuo mo xi ting jiao nang	100
 盐酸托莫西汀口服溶液	yan suan tuo mo xi ting kou fu rong ye	100
@@ -8464,13 +8543,6 @@ A型肉毒毒素	xing rou du du su	100
 盐酸左氧氟沙星乳膏	yan suan zuo yang fu sha xing ru gao	100
 盐酸左氧氟沙星眼用凝胶	yan suan zuo yang fu sha xing yan yong ning jiao	20
 盐酸左氧氟沙星注射液	yan suan zuo yang fu sha xing zhu she ye	100
-盐酸地美索酯片	yan suan 地 mei suo zhi pian	100
-盐酸托泊替康胶囊	yan suan 托泊 ti kang jiao nang	100
-盐酸托鲁地文拉法辛	yan suan 托鲁地 wen la fa xin	100
-盐酸托鲁地文拉法辛缓释片	yan suan 托鲁地 wen la fa xin huan shi pian	20
-盐酸替扎尼定口腔崩解片	yan suan 替扎尼定 kou qiang beng jie pian	20
-盐酸替扎尼定片	yan suan 替扎尼定 pian	100
-盐酸马尼地平片	yan suan 马尼地 ping pian	100
 烟酰胺	yan xian an	500
 烟酰胺粉	yan xian an fen	500
 烟酰胺片	yan xian an pian	500
@@ -8697,7 +8769,7 @@ A型肉毒毒素	xing rou du du su	100
 依托考昔片	yi tuo kao xi pian	500
 依托咪酯	yi tuo mi zhi	500
 依托咪酯乳状注射液	yi tuo mi zhi ru zhuang zhu she ye	100
-依托咪酯中/长链脂肪乳注射液	yi tuo mi zhi zhong 长链 zhi fang ru zhu she ye	20
+依托咪酯中/长链脂肪乳注射液	yi tuo mi zhi zhong chang lian zhi fang ru zhu she ye	20
 依托咪酯注射液	yi tuo mi zhi zhu she ye	100
 依托泊苷	yi tuo po gan	500
 依托泊苷软胶囊	yi tuo po gan ruan jiao nang	100
@@ -8937,7 +9009,7 @@ A型肉毒毒素	xing rou du du su	100
 ω-3鱼油脂肪乳	yu you zhi fang ru	100
 ω-3鱼油脂肪乳注射液	yu you zhi fang ru zhu she ye	20
 ω-3鱼油中长链脂肪乳	yu you zhong chang lian zhi fang ru	20
-ω-3鱼油中/长链脂肪乳注射液	yu you zhong 长链 zhi fang ru zhu she ye	20
+ω-3鱼油中/长链脂肪乳注射液	yu you zhong chang lian zhi fang ru zhu she ye	20
 月见草油	yue jian cao you	500
 月见草油胶丸	yue jian cao you jiao wan	100
 孕三烯酮	yun san xi tong	500
@@ -9001,14 +9073,14 @@ A型肉毒毒素	xing rou du du su	100
 止血纤维	zhi xue xian wei	500
 止血纤维贴	zhi xue xian wei tie	500
 18种氨基酸注射液	zhong an ji suan zhu she ye	100
+中-长链脂肪乳(C8-24Ve)	zhong chang lian zhi fang ru	20
 中长链脂肪乳-氨基酸(16)-葡萄糖	zhong chang lian zhi fang ru an ji suan pu tao tang	20
 中长链脂肪乳/氨基酸(16)/葡萄糖(16%)注射液	zhong chang lian zhi fang ru an ji suan pu tao tang zhu she ye	20
+中/长链脂肪乳注射液(C6-24)	zhong chang lian zhi fang ru zhu she ye	20
+中/长链脂肪乳注射液(C8-24Ve)	zhong chang lian zhi fang ru zhu she ye	20
 中性蛋白酶	zhong xing dan bai mei	500
 中性蛋白酶肠溶片	zhong xing dan bai mei chang rong pian	100
 中性蛋白酶片	zhong xing dan bai mei pian	100
-中-长链脂肪乳(C8-24Ve)	zhong 长链 zhi fang ru	20
-中/长链脂肪乳注射液(C6-24)	zhong 长链 zhi fang ru zhu she ye	20
-中/长链脂肪乳注射液(C8-24Ve)	zhong 长链 zhi fang ru zhu she ye	20
 猪肺磷脂	zhu fei lin zhi	500
 猪肺磷脂注射液	zhu fei lin zhi zhu she ye	100
 猪或牛胰岛素	zhu huo niu yi dao su	100
@@ -9071,6 +9143,7 @@ Sabin株脊髓灰质炎灭活疫苗(Vero细胞)	zhu ji sui hui zhi yan mie huo y
 注射用布美他尼	zhu she yong bu mei ta ni	100
 注射用草乌甲素	zhu she yong cao wu jia su	100
 注射用长春西汀	zhu she yong chang chun xi ting	100
+注射用重酒石酸长春瑞滨	zhu she yong chong jiu shi suan chang chun rui bin	20
 注射用重组改构人肿瘤坏死因子	zhu she yong chong zu gai gou ren zhong liu huai si yin zi	20
 注射用重组链激酶	zhu she yong chong zu lian ji mei	100
 注射用重组葡激酶	zhu she yong chong zu pu ji mei	100
@@ -9099,6 +9172,7 @@ Sabin株脊髓灰质炎灭活疫苗(Vero细胞)	zhu ji sui hui zhi yan mie huo y
 注射用醋酸奥曲肽	zhu she yong cu suan ao qu tai	100
 注射用醋酸奥曲肽微球	zhu she yong cu suan ao qu tai wei qiu	100
 注射用醋酸丙氨瑞林	zhu she yong cu suan bing an rui lin	100
+注射用醋酸地加瑞克	zhu she yong cu suan de jia rui ke	100
 注射用醋酸卡泊芬净	zhu she yong cu suan ka po fen jing	100
 注射用醋酸兰瑞肽	zhu she yong cu suan lan rui tai	100
 注射用醋酸亮丙瑞林缓释微球	zhu she yong cu suan liang bing rui lin huan shi wei qiu	20
@@ -9106,7 +9180,6 @@ Sabin株脊髓灰质炎灭活疫苗(Vero细胞)	zhu ji sui hui zhi yan mie huo y
 注射用醋酸去氨加压素	zhu she yong cu suan qu an jia ya su	100
 注射用醋酸曲普瑞林	zhu she yong cu suan qu pu rui lin	100
 注射用醋酸西曲瑞克	zhu she yong cu suan xi qu rui ke	100
-注射用醋酸地加瑞克	zhu she yong cu suan 地加 rui ke	100
 注射用达卡巴嗪	zhu she yong da ka ba qin	100
 注射用达托霉素	zhu she yong da tuo mei su	100
 注射用单磷酸阿糖腺苷	zhu she yong dan lin suan a tang xian gan	100
@@ -9321,7 +9394,7 @@ Sabin株脊髓灰质炎灭活疫苗(Vero细胞)	zhu ji sui hui zhi yan mie huo y
 注射用脑蛋白水解物(Ⅰ)	zhu she yong nao dan bai shui jie wu	20
 注射用脑蛋白水解物(Ⅱ)	zhu she yong nao dan bai shui jie wu	20
 注射用脑蛋白水解物(Ⅲ)	zhu she yong nao dan bai shui jie wu	20
-注射用尼可地尔	zhu she yong ni ke 地尔	100
+注射用尼可地尔	zhu she yong ni ke de er	100
 注射用尼麦角林	zhu she yong ni mai jiao lin	100
 注射用尼莫地平	zhu she yong ni mo di ping	100
 注射用尿促卵泡素	zhu she yong niao cu luan pao su	100
@@ -9554,6 +9627,7 @@ Sabin株脊髓灰质炎灭活疫苗(Vero细胞)	zhu ji sui hui zhi yan mie huo y
 注射用盐酸头孢吡肟/氯化钠注射液	zhu she yong yan suan tou bao bi wo lv hua na zhu she ye	20
 注射用盐酸头孢甲肟	zhu she yong yan suan tou bao jia wo	100
 注射用盐酸头孢替安	zhu she yong yan suan tou bao ti an	100
+注射用盐酸托泊替康	zhu she yong yan suan tuo bo ti kang	100
 注射用盐酸托烷司琼	zhu she yong yan suan tuo wan si qiong	100
 注射用盐酸万古霉素	zhu she yong yan suan wan gu mei su	100
 注射用盐酸维拉帕米	zhu she yong yan suan wei la pa mi	100
@@ -9564,7 +9638,6 @@ Sabin株脊髓灰质炎灭活疫苗(Vero细胞)	zhu ji sui hui zhi yan mie huo y
 注射用盐酸罂粟碱	zhu she yong yan suan ying su jian	100
 注射用烟酸占替诺	zhu she yong yan suan zhan ti nuo	100
 注射用盐酸左氧氟沙星	zhu she yong yan suan zuo yang fu sha xing	100
-注射用盐酸托泊替康	zhu she yong yan suan 托泊 ti kang	100
 注射用烟酰胺	zhu she yong yan xian an	100
 注射用氧氟沙星	zhu she yong yang fu sha xing	100
 注射用叶酸	zhu she yong ye suan	500
@@ -9601,7 +9674,6 @@ Sabin株脊髓灰质炎灭活疫苗(Vero细胞)	zhu ji sui hui zhi yan mie huo y
 注射用唑来膦酸浓溶液	zhu she yong zuo lai lin suan nong rong ye	100
 注射用左亚叶酸钙	zhu she yong zuo ya ye suan gai	100
 注射用左氧氟沙星	zhu she yong zuo yang fu sha xing	100
-注射用重酒石酸长春瑞滨	zhu she 用重 jiu shi suan chang chun rui bin	20
 猪纤维蛋白粘合剂	zhu xian wei dan bai zhan he ji	100
 猪源纤维蛋白粘合剂	zhu yuan xian wei dan bai zhan he ji	100
 转化糖	zhuan hua tang	500
@@ -9695,75 +9767,3 @@ Sabin株脊髓灰质炎灭活疫苗(Vero细胞)	zhu ji sui hui zhi yan mie huo y
 左乙拉西坦氯化钠注射液	zuo yi la xi tan lv hua na zhu she ye	20
 左乙拉西坦片	zuo yi la xi tan pian	100
 左乙拉西坦注射用浓溶液	zuo yi la xi tan zhu she yong nong rong ye	20
-参皇	参皇	500
-参皇乳膏	参皇 ru gao	500
-参维灵	参维灵	500
-参维灵片	参维灵片	500
-参芎葡萄糖	参芎 pu tao tang	500
-参芪鱼肝油	参芪 yu gan you	500
-参芪鱼肝油凝胶	参芪 yu gan you ning jiao	100
-咖酚伪麻	咖酚 wei ma	500
-咖酚伪麻片	咖酚 wei ma pian	500
-地氟烷	地 fu wan	500
-地红霉素	地 hong mei su	500
-地红霉素肠溶胶囊	地 hong mei su chang rong jiao nang	100
-地拉罗司	地 la luo si	500
-地拉罗司分散片	地 la luo si fen san pian	100
-地拉罗司片	地 la luo si pian	500
-地氯雷他定糖浆	地 lv lei ta ding tang jiang	100
-地美索酯	地 mei suo zhi	500
-地奈德	地 nai de	500
-地奈德洗剂	地 nai de xi ji	500
-地佐辛	地佐辛	500
-地佐辛注射液	地佐辛 zhu she ye	100
-地加瑞克	地加 rui ke	500
-地夸磷索钠	地夸 lin suo na	500
-地夸磷索钠滴眼液	地夸 lin suo na di yan ye	100
-地特胰岛素	地特 yi dao su	500
-地特胰岛素注射液	地特 yi dao su zhu she ye	100
-地舒单抗	地舒 dan kang	500
-地舒单抗注射液	地舒 dan kang zhu she ye	100
-地西他滨	地西 ta bin	500
-地诺孕素片	地诺孕 su pian	500
-地诺孕素	地诺孕素	500
-坎地氢噻	坎地 qing sai	500
-坎地氢噻片	坎地 qing sai pian	500
-恩扎卢胺	恩扎 lu an	500
-恩扎卢胺软胶囊	恩扎 lu an ruan jiao nang	100
-托泊替康	托泊 ti kang	500
-替扎尼定	替扎尼定	500
-泊沙康唑	泊沙康唑	500
-泊沙康唑肠溶片	泊沙康唑 chang rong pian	100
-泊沙康唑口服混悬液	泊沙康唑 kou fu hun xuan ye	100
-泊沙康唑注射液	泊沙康唑 zhu she ye	100
-环泊酚	环泊酚	500
-环泊酚注射液	环泊酚 zhu she ye	100
-田参氨基酸	田参 an ji suan	500
-田参氨基酸胶囊	田参 an ji suan jiao nang	100
-甲硝维参阴道栓	甲硝维参 yin dao shuan	100
-维参锌	维参 xin	500
-维参锌胶囊	维参 xin jiao nang	500
-舒洛地特	舒洛地 te	500
-舒洛地特软胶囊	舒洛地 te ruan jiao nang	100
-舒洛地特注射液	舒洛地 te zhu she ye	100
-艾地骨化醇	艾地 gu hua chun	500
-艾地骨化醇软胶囊	艾地 gu hua chun ruan jiao nang	100
-艾曲泊帕乙醇胺	艾曲泊 pa yi chun an	100
-艾曲泊帕乙醇胺片	艾曲泊 pa yi chun an pian	100
-西地吡罗昔康片	西地 bi luo xi kang pian	100
-西地磷酸苯丙哌林泡腾片	西地 lin suan ben bing pai lin pao teng pian	20
-西尼地平片	西尼地 ping pian	500
-西尼地平	西尼地平	500
-西尼地平胶囊	西尼地平 jiao nang	100
-西尼地平软胶囊	西尼地平 ruan jiao nang	100
-角鲨烯	角 sha xi	500
-赖脯胰岛素	赖脯 yi dao su	500
-赖脯胰岛素注射液	赖脯 yi dao su zhu she ye	100
-重酒石酸长春瑞滨注射液	重 jiu shi suan chang chun rui bin zhu she ye	20
-长链脂肪乳(OO)	长链 zhi fang ru	100
-长链脂肪乳注射液(OO)	长链 zhi fang ru zhu she ye	20
-阿伐曲泊帕	阿伐曲泊 pa	500
-阿地白介素	阿地 bai jie su	500
-阿柏西普	阿柏西普	500
-阿柏西普眼内注射溶液	阿柏西普 yan nei zhu she rong ye	100
-马尼地平	马尼地平	500

@@ -14,6 +14,7 @@ columns:
 
 ...
 # +_+
+阿勃勒	a bo le	500
 阿拉伯胶	a la bo jiao	500
 阿拉伯胶树汁	a la bo jiao shu zhi	100
 阿里红	a li hong	500
@@ -38,8 +39,10 @@ columns:
 八角枫	ba jiao feng	500
 芭蕉根	ba jiao gen	500
 八角茴香	ba jiao hui xiang	500
+八角莲	ba jiao lian	500
 八角香兰	ba jiao xiang lan	500
 菝葜	ba qia	500
+巴天酸模	ba tian suan mo	500
 八月瓜	ba yue gua	500
 八月泡	ba yue pao	500
 白苞筋膏草	bai bao jin gao cao	500
@@ -124,9 +127,9 @@ columns:
 斑叶兰	ban ye lan	500
 斑缘豆粉蝶	ban yuan dou fen die	500
 半枝莲	ban zhi lian	500
+榜参布柔	bang can bu rou	500
 榜嘎	bang ga	500
 蚌壳草根	bang ke cao gen	500
-榜参布柔	bang 参布柔	500
 报春石斛	bao chun shi hu	500
 抱石莲	bao shi lian	500
 贝齿	bei chi	500
@@ -153,6 +156,7 @@ columns:
 扁蕾	bian lei	500
 萹蓄	bian xu	500
 扁叶珊瑚盘	bian ye shan hu pan	500
+杓儿菜	biao er cai	500
 兵豆	bing dou	500
 槟榔	bing lang	500
 槟榔青	bing lang qing	500
@@ -177,9 +181,16 @@ columns:
 蚕豆	can dou	500
 蚕茧	can jian	500
 蚕茧草	can jian cao	500
+藏菖蒲	cang chang pu	500
+藏点地梅	cang dian di mei	500
 苍耳	cang er	500
 苍耳草	cang er cao	500
 苍耳子	cang er zi	500
+藏贯众	cang guan zhong	500
+藏茴香	cang hui xiang	500
+藏木香	cang mu xiang	500
+藏雪鸡	cang xue ji	500
+藏紫草	cang zi cao	500
 草豆寇	cao dou kou	500
 草豆蔻	cao dou kou	500
 草果	cao guo	500
@@ -210,9 +221,15 @@ columns:
 常春藤	chang chun teng	500
 长耳鸮	chang er xiao	500
 长杆兰	chang gan lan	500
+长管假茉莉	chang guan jia mo li	500
+长果婆婆纳	chang guo po po na	500
+长荚油麻藤	chang jia you ma teng	500
 常绿荚蒾	chang lv jia mi	500
+长毛风毛菊	chang mao feng mao ju	500
 菖蒲	chang pu	500
 常山	chang shan	500
+长序缬草	chang xu xie cao	500
+长序岩豆树	chang xu yan dou shu	500
 车前草	che qian cao	500
 车前子	che qian zi	500
 沉香	chen xiang	500
@@ -226,8 +243,10 @@ columns:
 赤石脂	chi shi zhi	500
 赤铜灰	chi tong hui	500
 赤小豆	chi xiao dou	500
-齿叶吊石苣苔	chi ye diao shi 苣 tai	100
+齿叶吊石苣苔	chi ye diao shi ju tai	100
 翅叶槐	chi ye huai	500
+匙叶黄杨	chi ye huang yang	500
+匙叶翼首草	chi ye yi shou cao	500
 齿缘草	chi yuan cao	500
 重楼	chong lou	500
 臭茶辣	chou cha la	500
@@ -275,6 +294,7 @@ columns:
 刺参	ci shen	500
 磁石	ci shi	500
 刺糖	ci tang	500
+刺天茄	ci tian jia	500
 刺桐	ci tong	500
 刺通草	ci tong cao	500
 刺猬	ci wei	500
@@ -346,12 +366,12 @@ columns:
 大叶茶	da ye cha	500
 大叶钩藤	da ye gou teng	500
 大叶骨牌草	da ye gu pai cao	500
+大叶龙角	da ye long jiao	500
 大叶木鳖子	da ye mu bie zi	500
 大叶排草	da ye pai cao	500
 大叶千斤拔	da ye qian jin ba	500
 大叶秦艽	da ye qin jiao	500
 大叶紫珠	da ye zi zhu	500
-大叶龙角	da ye 龙角	500
 大枣	da zao	500
 大猪尾	da zhu wei	500
 大籽蒿	da zi hao	500
@@ -376,6 +396,20 @@ columns:
 倒生莲	dao sheng lian	500
 倒提壶	dao ti hu	500
 倒心盾翅藤	dao xin dun chi teng	500
+地白草	de bai cao	500
+地柏枝	de bai zhi	500
+地蚕	de can	500
+地胆头	de dan tou	500
+地蜂子	de feng zi	500
+地牯牛	de gu niu	500
+地瓜子	de gua zi	500
+地瓜籽	de gua zi	500
+地苦胆	de ku dan	500
+地骷髅	de ku lou	500
+地蜡	de la	500
+地桃花	de tao hua	500
+地乌泡藤	de wu pao teng	500
+地星宿	de xing xiu	500
 灯笼草	deng long cao	500
 灯笼果	deng long guo	500
 灯台树	deng tai shu	500
@@ -402,6 +436,7 @@ columns:
 吊马花	diao ma hua	500
 雕鸮	diao xiao	500
 迭裂紫堇	die lie zi jin	500
+丁茄	ding jia	500
 丁香	ding xiang	500
 丁香罗勒	ding xiang luo le	500
 定心藤	ding xin teng	500
@@ -418,6 +453,7 @@ columns:
 东亚唐松草	dong ya tang song cao	500
 兜唇石斛	dou chun shi hu	500
 豆腐柴	dou fu chai	500
+都仔冈先巴	dou zai gang xian ba	500
 豆状灰石	dou zhuang hui shi	500
 毒根斑鸠菊	du gen ban jiu ju	500
 独活	du huo	500
@@ -577,8 +613,8 @@ columns:
 光明盐	guang ming yan	500
 广酸枣	guang suan zao	500
 广藤根	guang teng gen	500
+广西黄柏	guang xi huang bai	500
 广西玉叶金花	guang xi yu ye jin hua	100
-广西黄柏	guang xi 黄柏	500
 光叶丁公藤	guang ye ding gong teng	500
 光叶海桐	guang ye hai tong	500
 光叶花榈木	guang ye hua lv mu	500
@@ -679,12 +715,13 @@ columns:
 红旱莲	hong han lian	500
 红禾麻	hong he ma	500
 红花	hong hua	500
+红花酢浆	hong hua cu jiang	500
 红花龙胆	hong hua long dan	500
 红花绿绒蒿	hong hua lv rong hao	500
 红花岩黄芪	hong hua yan huang qi	500
 红花子	hong hua zi	500
 红花紫堇	hong hua zi jin	500
-红花酢浆	hong hua 酢 jiang	500
+红壳砂仁	hong ke sha ren	500
 红郎伞	hong lang san	500
 红簕钩	hong le gou	500
 红马蹄草	hong ma ti cao	500
@@ -753,6 +790,7 @@ columns:
 华泽兰	hua ze lan	500
 环颈雉	huan jing zhi	500
 獾油	huan you	500
+黄柏	huang bai	500
 黄丹	huang dan	500
 黄疸树	huang dan shu	500
 黄豆树	huang dou shu	500
@@ -824,9 +862,9 @@ columns:
 火杨梅	huo yang mei	500
 荠菜	ji cai	500
 鸡蛋	ji dan	500
+鸡蛋参	ji dan can	500
 鸡蛋花	ji dan hua	500
 鸡蛋黄	ji dan huang	500
-鸡蛋参	ji dan 参	500
 吉多果化石	ji duo guo hua shi	500
 鸡骨草	ji gu cao	500
 鸡骨柴	ji gu chai	500
@@ -834,6 +872,7 @@ columns:
 鸡冠花	ji guan hua	500
 及己	ji ji	500
 鸡脚草	ji jiao cao	500
+吉勒泽	ji le ze	500
 蒺藜	ji li	500
 吉龙草	ji long cao	500
 檵木	ji mu	500
@@ -849,12 +888,15 @@ columns:
 戟叶火绒草	ji ye huo rong cao	500
 鸡油	ji you	500
 鲫鱼	ji yu	500
+鸡仔茶	ji zai cha	500
 鸡爪黄连	ji zhua huang lian	500
 鸡爪兰	ji zhua lan	500
 鸡子白	ji zi bai	500
-鸡子壳	ji zi 壳	500
+鸡子壳	ji zi ke	500
+茄参	jia can	500
 假丁公藤	jia ding gong teng	500
 家独行菜子	jia du xing cai zi	500
+茄根	jia gen	500
 假桂树	jia gui shu	500
 假海芋	jia hai yu	500
 家鸡	jia ji	500
@@ -889,6 +931,8 @@ columns:
 降香黄檀	jiang xiang huang tan	500
 绞肠痧	jiao chang sha	500
 绞股蓝	jiao gu lan	500
+角蒿	jiao hao	500
+角茴香	jiao hui xiang	500
 角闪石石棉	jiao shan shi shi mian	500
 节鞭山姜	jie bian shan jiang	500
 羯布罗香	jie bu luo xiang	500
@@ -896,6 +940,7 @@ columns:
 桔梗	jie geng	500
 接骨木	jie gu mu	500
 节节花	jie jie hua	500
+节裂角茴香	jie lie jiao hui xiang	500
 结石草	jie shi cao	500
 结香	jie xiang	500
 芥子	jie zi	500
@@ -958,6 +1003,7 @@ columns:
 菊苣根	ju ju gen	500
 菊苣子	ju ju zi	500
 蒟蒻薯	ju ruo shu	500
+苣胜子	ju sheng zi	500
 聚头蓟	ju tou ji	500
 矩叶山蚂蝗	ju ye shan ma huang	500
 矩叶酸藤果	ju ye suan teng guo	500
@@ -1005,8 +1051,10 @@ columns:
 腊肠果	la chang guo	500
 腊肠树	la chang shu	500
 辣椒	la jiao	500
+落葵	la kui	500
 拉拉藤	la la teng	500
 辣蓼	la liao	500
+腊梅花	la mei hua	500
 拉萨风毛菊	la sa feng mao ju	500
 莱菔	lai fu	500
 莱菔子	lai fu zi	500
@@ -1031,6 +1079,7 @@ columns:
 老君须	lao jun xu	500
 老鼠耳	lao shu er	500
 老鼠黄瓜	lao shu huang gua	500
+勒嘎都	le ga dou	500
 雷公藤	lei gong teng	500
 雷丸	lei wan	500
 肋柱花	lei zhu hua	500
@@ -1078,7 +1127,7 @@ columns:
 流苏子根	liu su zi gen	500
 六月雪	liu yue xue	500
 柳枝	liu zhi	500
-龙胆地丁	long dan 地丁	500
+龙胆地丁	long dan de ding	500
 龙骨	long gu	500
 龙葵	long kui	500
 龙葵果	long kui guo	500
@@ -1232,8 +1281,10 @@ columns:
 密生波罗花	mi sheng bo luo hua	500
 米碎花	mi sui hua	500
 密陀僧	mi tuo seng	500
+绵参	mian can	500
 棉花花	mian hua hua	500
 棉花子	mian hua zi	500
+缅茄	mian jia	500
 绵羊	mian yang	500
 绵羊肉	mian yang rou	500
 棉籽	mian zi	500
@@ -1341,7 +1392,7 @@ columns:
 排草	pai cao	500
 排风藤	pai feng teng	500
 排钱草	pai qian cao	500
-盘龙参	pan long 参	500
+盘龙参	pan long can	500
 盘羊	pan yang	500
 螃蟹	pang xie	500
 螃蟹甲	pang xie jia	500
@@ -1416,7 +1467,7 @@ columns:
 青龙衣	qing long yi	500
 苘麻子	qing ma zi	500
 青牛胆	qing niu dan	500
-青藤仔	qing teng 仔	500
+青藤仔	qing teng zai	500
 青葙	qing xiang	500
 青香茅	qing xiang mao	500
 青鱼胆草	qing yu dan cao	500
@@ -1491,7 +1542,7 @@ columns:
 桑树	sang shu	500
 桑叶	sang ye	500
 骚羊古	sao yang gu	500
-涩荠	se 荠	500
+涩荠	se ji	500
 森林杧果	sen lin mang guo	500
 沙蒿	sha hao	500
 沙棘	sha ji	500
@@ -1555,7 +1606,9 @@ columns:
 少花延胡索	shao hua yan hu suo	500
 少年红	shao nian hong	500
 芍药	shao yao	500
+苕叶细辛	shao ye xi xin	500
 蛇床子	she chuang zi	500
+蛇地钱	she de qian	500
 蛇根草	she gen cao	500
 蛇菰	she gu	500
 蛇果黄堇	she guo huang jin	500
@@ -1568,7 +1621,6 @@ columns:
 麝香	she xiang	500
 麝香草	she xiang cao	500
 麝香猫	she xiang mao	500
-蛇地钱	she 地 qian	500
 肾茶	shen cha	500
 伸筋草	shen jin cao	500
 肾蕨	shen jue	500
@@ -1609,8 +1661,8 @@ columns:
 莳萝子	shi luo zi	500
 石南藤	shi nan teng	500
 石榕	shi rong	500
+石上柏	shi shang bai	500
 石上蚂蟥	shi shang ma huang	500
-石上柏	shi shang 柏	500
 湿生萹蕾	shi sheng bian lei	500
 石蒜	shi suan	500
 石韦	shi wei	500
@@ -1621,8 +1673,8 @@ columns:
 石油菜	shi you cai	500
 柿子	shi zi	500
 绶草	shou cao	500
-手掌参	shou zhang 参	500
-手掌参堂	shou zhang 参堂	500
+手掌参	shou zhang can	500
+手掌参堂	shou zhang can tang	500
 树菠萝	shu bo luo	500
 鼠麴草	shu cao	500
 书带蕨	shu dai jue	500
@@ -1706,6 +1758,8 @@ columns:
 酥油	su you	500
 酸橙	suan cheng	500
 酸浆	suan jiang	500
+酸角	suan jiao	500
+酸模	suan mo	500
 酸木瓜	suan mu gua	500
 酸奶	suan nai	500
 算盘子	suan pan zi	500
@@ -1768,6 +1822,7 @@ columns:
 铁秆七	tie gan qi	500
 铁浆	tie jiang	500
 铁筷子	tie kuai zi	500
+铁落	tie la	500
 铁力木	tie li mu	500
 铁力木花	tie li mu hua	500
 铁牛皮	tie niu pi	500
@@ -1822,7 +1877,7 @@ columns:
 土细辛	tu xi xin	500
 土一枝蒿	tu yi zhi hao	500
 土知母	tu zhi mu	500
-团鱼壳	tuan yu 壳	500
+团鱼壳	tuan yu ke	500
 驼绒藜	tuo rong li	500
 橐吾	tuo wu	500
 椭叶花锚	tuo ye hua mao	500
@@ -1867,8 +1922,8 @@ columns:
 芜菁	wu jing	500
 五经风	wu jing feng	500
 芜菁花	wu jing hua	500
+无茎荠	wu jing ji	500
 芜菁子	wu jing zi	500
-无茎荠	wu jing 荠	500
 乌桕	wu jiu	500
 乌韭	wu jiu	500
 乌桕木根皮	wu jiu mu gen pi	500
@@ -1878,7 +1933,7 @@ columns:
 五脉绿绒蒿	wu mai lv rong hao	500
 乌梅	wu mei	500
 乌奴龙胆	wu nu long dan	500
-五气朝阳草	wu qi 朝阳 cao	500
+五气朝阳草	wu qi chao yang cao	500
 乌梢蛇	wu shao she	500
 鼯鼠	wu shu	500
 梧桐子	wu tong zi	500
@@ -1960,6 +2015,7 @@ columns:
 香鼬肉	xiang you rou	500
 香樟木	xiang zhang mu	500
 橡子	xiang zi	500
+小八角莲	xiao ba jiao lian	500
 小白蒿	xiao bai hao	500
 小驳骨	xiao bo gu	500
 小驳骨丹	xiao bo gu dan	500
@@ -2012,7 +2068,6 @@ columns:
 小叶四方草	xiao ye si fang cao	500
 小鹰不扑	xiao ying bu pu	500
 小云雀	xiao yun que	500
-小八角莲	xiao 八角莲	500
 薤白	xie bai	500
 缬草	xie cao	500
 蝎子	xie zi	500
@@ -2033,6 +2088,7 @@ columns:
 须鼠耳蝠	xu shu er fu	500
 萱草根	xuan cao gen	500
 旋覆花	xuan fu hua	500
+旋花茄	xuan hua jia	500
 雪胆	xue dan	500
 血见愁	xue jian chou	500
 血竭	xue jie	500
@@ -2065,7 +2121,9 @@ columns:
 阉鸡距	yan ji ju	500
 岩豇豆	yan jiang dou	500
 眼镜蛇	yan jing she	500
+芫葵	yan kui	500
 岩七	yan qi	500
+芫青	yan qing	500
 岩生鸢尾	yan sheng yuan wei	500
 烟屎	yan shi	500
 芫荽	yan sui	500
@@ -2084,8 +2142,8 @@ columns:
 氧化锡	yang hua xi	500
 洋茴香	yang hui xiang	500
 羊角	yang jiao	500
+羊角拗	yang jiao ao	500
 羊角藤	yang jiao teng	500
-羊角拗	yang jiao 拗	500
 洋金花	yang jin hua	500
 洋李	yang li	500
 杨柳枝	yang liu zhi	500
@@ -2118,6 +2176,7 @@ columns:
 野胡萝卜子	ye hu luo bu zi	500
 夜花	ye hua	500
 野花椒	ye hua jiao	500
+野茄	ye jia	500
 野姜	ye jiang	500
 野韭	ye jiu	500
 野菊	ye ju	500
@@ -2246,6 +2305,7 @@ columns:
 云实	yun shi	500
 芸香	yun xiang	500
 芸香子	yun xiang zi	500
+扎多紫堇	za duo zi jin	500
 栽秧泡	zai yang pao	500
 藏红花	zang hong hua	500
 藏羚	zang ling	500
@@ -2284,9 +2344,9 @@ columns:
 止泻子	zhi xie zi	500
 蜘蛛	zhi zhu	500
 蜘蛛抱蛋	zhi zhu bao dan	500
+蜘蛛壳	zhi zhu ke	500
 支柱蓼	zhi zhu liao	500
 蜘蛛香	zhi zhu xiang	500
-蜘蛛壳	zhi zhu 壳	500
 栀子	zhi zi	500
 中国林蛙	zhong guo lin wa	500
 中华蜜蜂	zhong hua mi feng	500
@@ -2295,7 +2355,7 @@ columns:
 钟乳石	zhong ru shi	500
 皱叶狗尾草	zhou ye gou wei cao	500
 皱叶南蛇藤	zhou ye nan she teng	500
-皱叶酸模	zhou ye suan 模	500
+皱叶酸模	zhou ye suan mo	500
 猪胆	zhu dan	500
 竹根草	zhu gen cao	500
 竹黄	zhu huang	500
@@ -2318,13 +2378,13 @@ columns:
 珠芽蓼	zhu ya liao	500
 猪牙皂	zhu ya zao	500
 猪殃殃	zhu yang yang	500
+竹叶参	zhu ye can	500
 竹叶柴胡	zhu ye chai hu	500
 竹叶花椒	zhu ye hua jiao	500
 竹叶椒	zhu ye jiao	500
 竹叶椒根	zhu ye jiao gen	500
 竹叶兰	zhu ye lan	500
 竹叶莲	zhu ye lian	500
-竹叶参	zhu ye 参	500
 猪鬃草	zhu zong cao	500
 抓地虎	zhua di hu	500
 追风伞	zhui feng san	500
@@ -2337,9 +2397,9 @@ columns:
 紫草茸	zi cao rong	500
 紫河车	zi he che	500
 紫花黄华	zi hua huang hua	500
+紫花茄	zi hua jia	500
 紫花络石	zi hua luo shi	500
 紫花前胡	zi hua qian hu	500
-紫花茄	zi hua 茄	500
 紫金血藤	zi jin xue teng	500
 姊妹树	zi mei shu	500
 紫茉莉	zi mo li	500
@@ -2368,63 +2428,3 @@ columns:
 棕叶芦	zong ye lu	500
 走马胎	zou ma tai	500
 走游草	zou you cao	500
-丁茄	丁茄	500
-八角莲	八角莲	500
-刺天茄	刺天茄	500
-勒嘎都	勒 ga 都	500
-匙叶黄杨	匙 ye huang yang	500
-匙叶翼首草	匙 ye yi shou cao	500
-吉勒泽	吉勒 ze	500
-地白草	地 bai cao	500
-地柏枝	地 bai zhi	500
-地牯牛	地 gu niu	500
-地瓜子	地 gua zi	500
-地瓜籽	地 gua zi	500
-地苦胆	地 ku dan	500
-地骷髅	地 ku lou	500
-地桃花	地 tao hua	500
-地乌泡藤	地 wu pao teng	500
-地星宿	地 xing xiu	500
-地胆头	地胆头	500
-地蚕	地蚕	500
-地蜂子	地蜂子	500
-地蜡	地蜡	500
-巴天酸模	巴天酸模	500
-扎多紫堇	扎多 zi jin	500
-旋花茄	旋花茄	500
-杓儿菜	杓 er cai	500
-红壳砂仁	红壳 sha ren	500
-绵参	绵参	500
-缅茄	缅茄	500
-腊梅花	腊 mei hua	500
-节裂角茴香	节裂角 hui xiang	500
-芫葵	芫葵	500
-芫青	芫青	500
-苕叶细辛	苕 ye xi xin	500
-苣胜子	苣 sheng zi	500
-茄参	茄参	500
-茄根	茄根	500
-落葵	落葵	500
-藏菖蒲	藏 chang pu	500
-藏点地梅	藏 dian di mei	500
-藏贯众	藏 guan zhong	500
-藏茴香	藏 hui xiang	500
-藏木香	藏 mu xiang	500
-藏雪鸡	藏 xue ji	500
-藏紫草	藏 zi cao	500
-角茴香	角 hui xiang	500
-角蒿	角蒿	500
-都仔冈先巴	都 仔冈 xian ba	500
-酸模	酸模	500
-酸角	酸角	500
-野茄	野茄	500
-铁落	铁落	500
-长序缬草	长序 xie cao	500
-长序岩豆树	长序 yan dou shu	500
-长果婆婆纳	长果 po po na	500
-长毛风毛菊	长毛 feng mao ju	500
-长管假茉莉	长管 jia mo li	500
-长荚油麻藤	长荚 you ma teng	500
-阿勃勒	阿勃勒	500
-鸡仔茶	鸡仔 cha	500
-黄柏	黄柏	500

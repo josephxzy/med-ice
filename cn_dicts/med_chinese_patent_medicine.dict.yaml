@@ -35,11 +35,11 @@ columns:
 艾附暖宫丸	ai fu nuan gong wan	500
 爱活胆通软胶囊	ai huo dan tong ruan jiao nang	100
 爱活尿通	ai huo niao tong	500
+爱可得液	ai ke de ye	500
 爱维心口服液	ai wei xin kou fu ye	100
 艾叶油胶囊	ai ye you jiao nang	500
 艾叶油软胶囊	ai ye you ruan jiao nang	100
 艾愈胶囊	ai yu jiao nang	500
-爱可得液	ai 可得 ye	500
 安喘片	an chuan pian	500
 安多霖胶囊	an duo lin jiao nang	500
 安尔眠胶囊	an er mian jiao nang	500
@@ -129,7 +129,9 @@ columns:
 安置精华散胶囊	an zhi jing hua san jiao nang	100
 安中片	an zhong pian	500
 敖东壮肾丸	ao dong zhuang shen wan	500
+澳泰乐胶囊	ao tai le jiao nang	500
 澳泰乐颗粒	ao tai le ke li	500
+澳泰乐片	ao tai le pian	500
 八宝丹	ba bao dan	500
 八宝丹胶囊	ba bao dan jiao nang	500
 八宝惊风散	ba bao jing feng san	500
@@ -206,8 +208,11 @@ columns:
 八正颗粒	ba zheng ke li	500
 八正片	ba zheng pian	500
 八子补肾胶囊	ba zi bu shen jiao nang	100
+柏艾胶囊	bai ai jiao nang	500
 百艾洗液	bai ai xi ye	500
 百安洗液	bai an xi ye	500
+百柏搽剂	bai bai cha ji	500
+白柏胶囊	bai bai jiao nang	500
 白百抗痨颗粒	bai bai kang lao ke li	100
 百宝丹	bai bao dan	500
 百宝丹搽剂	bai bao dan cha ji	500
@@ -224,10 +229,14 @@ columns:
 白带片	bai dai pian	500
 白带丸	bai dai wan	500
 白丹搽剂	bai dan cha ji	500
+百地滋阴丸	bai de zi yin wan	500
 白癜风胶囊	bai dian feng jiao nang	500
 白癜风丸	bai dian feng wan	500
 败毒散	bai du san	500
 白凤饮	bai feng yin	500
+百咳静颗粒	bai hai jing ke li	500
+百咳宁颗粒	bai hai ning ke li	500
+百咳宁片	bai hai ning pian	500
 百合更年安颗粒	bai he geng nian an ke li	100
 百合固金颗粒	bai he gu jin ke li	100
 百合固金口服液	bai he gu jin kou fu ye	100
@@ -235,6 +244,7 @@ columns:
 百合固金丸	bai he gu jin wan	500
 白虎合剂	bai hu he ji	500
 白花草袋泡茶	bai hua cao dai pao cha	100
+柏花草胶囊	bai hua cao jiao nang	500
 百花定喘片	bai hua ding chuan pian	500
 百花定喘丸	bai hua ding chuan wan	500
 百花膏	bai hua gao	500
@@ -242,6 +252,7 @@ columns:
 白花蛇膏	bai hua she gao	500
 白花蛇舌草注射液	bai hua she she cao zhu she ye	100
 白花油	bai hua you	500
+柏黄静神丸	bai huang jing shen wan	500
 白及胶囊	bai ji jiao nang	500
 白及颗粒	bai ji ke li	500
 白及片	bai ji pian	500
@@ -250,9 +261,10 @@ columns:
 白酱感冒颗粒	bai jiang gan mao ke li	100
 败酱胶囊	bai jiang jiao nang	500
 败酱片	bai jiang pian	500
+柏洁洗剂	bai jie xi ji	500
 白金丸	bai jin wan	500
 百咳静糖浆	bai ke jing tang jiang	500
-白蔻调中丸	bai kou 调中丸	500
+白蔻调中丸	bai kou diao zhong wan	500
 百乐眠胶囊	bai le mian jiao nang	500
 白连止痢胶囊	bai lian zhi li jiao nang	100
 白苓健脾颗粒	bai ling jian pi ke li	100
@@ -270,6 +282,7 @@ columns:
 白蒲黄胶囊	bai pu huang jiao nang	500
 白蒲黄颗粒	bai pu huang ke li	500
 白蒲黄片	bai pu huang pian	500
+柏芪降糖胶囊	bai qi jiang tang jiao nang	100
 白清胃散	bai qing wei san	500
 百日咳片	bai ri ke pian	500
 白绒止咳糖浆	bai rong zhi ke tang jiang	100
@@ -296,9 +309,15 @@ columns:
 白益镇惊丸	bai yi zhen jing wan	500
 白玉软膏	bai yu ruan gao	500
 白芝颗粒	bai zhi ke li	500
+柏栀祛湿喷雾剂	bai zhi qu shi pen wu ji	100
+柏栀祛湿洗液	bai zhi qu shi xi ye	100
 白纸扇感冒颗粒	bai zhi shan gan mao ke li	100
+柏芷洗剂	bai zhi xi ji	500
 柏子仁丸	bai zi ren wan	500
+柏子养心胶囊	bai zi yang xin jiao nang	100
+柏子养心片	bai zi yang xin pian	500
 柏子养心丸	bai zi yang xin wan	500
+柏子滋心丸	bai zi zi xin wan	500
 半贝丸	ban bei wan	500
 板蓝大青颗粒	ban lan da qing ke li	100
 板蓝大青片	ban lan da qing pian	500
@@ -329,9 +348,9 @@ columns:
 半枝莲胶囊	ban zhi lian jiao nang	500
 半枝莲片	ban zhi lian pian	500
 保安万灵丹	bao an wan ling dan	500
+宝宝乐	bao bao le	500
+宝宝乐咀嚼片	bao bao le ju jue pian	100
 宝宝牛黄散	bao bao niu huang san	500
-宝宝乐	bao bao 乐	500
-宝宝乐咀嚼片	bao bao 乐 ju jue pian	100
 保赤散	bao chi san	500
 保赤一粒金散	bao chi yi li jin san	100
 保赤一粒金丸	bao chi yi li jin wan	100
@@ -350,6 +369,7 @@ columns:
 豹骨酒	bao gu jiu	500
 豹骨木瓜酒	bao gu mu gua jiu	500
 豹骨追风膏	bao gu zhui feng gao	500
+宝咳宁颗粒	bao hai ning ke li	500
 保和咀嚼片	bao he ju jue pian	500
 保和颗粒	bao he ke li	500
 保和口服液	bao he kou fu ye	500
@@ -360,7 +380,7 @@ columns:
 保济口服液	bao ji kou fu ye	500
 保济丸	bao ji wan	500
 保利尔胶囊	bao li er jiao nang	500
-保龄参	bao ling 参	500
+保龄参	bao ling can	500
 抱龙丸	bao long wan	500
 保宁半夏颗粒	bao ning ban xia ke li	100
 保胎灵	bao tai ling	500
@@ -388,13 +408,14 @@ columns:
 保真膏	bao zhen gao	500
 宝珍膏	bao zhen gao	500
 宝珍橡胶膏	bao zhen xiang jiao gao	500
-宝咳宁颗粒	bao 咳宁 ke li	500
+贝参平喘胶囊	bei can ping chuan jiao nang	100
 北豆根滴丸	bei dou gen di wan	500
 北豆根分散片	bei dou gen fen san pian	100
 北豆根胶囊	bei dou gen jiao nang	500
 北豆根咀嚼片	bei dou gen ju jue pian	100
 北豆根片	bei dou gen pian	500
 北豆根软胶囊	bei dou gen ruan jiao nang	100
+贝桔止咳糖浆	bei jie zhi ke tang jiang	100
 贝沥止咳口服液	bei li zhi ke kou fu ye	100
 贝羚胶囊	bei ling jiao nang	500
 贝羚散	bei ling san	500
@@ -425,8 +446,9 @@ columns:
 痹痛宁胶囊	bi tong ning jiao nang	500
 鼻通丸	bi tong wan	500
 痹通药酒	bi tong yao jiu	500
-痹痛熨剂	bi tong 熨剂	500
+痹痛熨剂	bi tong yu ji	500
 避瘟胶囊	bi wen jiao nang	500
+辟瘟片	bi wen pian	500
 避瘟散	bi wen san	500
 萆薢分清丸	bi xie fen qing wan	500
 痹欣片	bi xin pian	500
@@ -467,6 +489,7 @@ columns:
 鳖甲煎丸	bie jia jian wan	500
 鳖甲胶	bie jia jiao	500
 鳖甲消痔胶囊	bie jia xiao zhi jiao nang	100
+槟藿痛风合剂	bin huo tong feng he ji	100
 冰胆搽剂	bing dan cha ji	500
 冰矾清毒生肌散	bing fan qing du sheng ji san	100
 冰黄肤乐软膏	bing huang fu le ruan gao	100
@@ -567,6 +590,7 @@ columns:
 补血催生丸	bu xue cui sheng wan	500
 补血当归胶囊	bu xue dang gui jiao nang	100
 补血当归精	bu xue dang gui jing	500
+补血调经片	bu xue diao jing pian	500
 补血宁神片	bu xue ning shen pian	500
 补血片	bu xue pian	500
 补血润泽胶囊	bu xue run ze jiao nang	100
@@ -589,23 +613,187 @@ columns:
 擦癣药水	ca xuan yao shui	500
 采力合剂	cai li he ji	500
 采云曲	cai yun qu	500
+参白化痔胶囊	can bai hua zhi jiao nang	100
+参百宁神口服液	can bai ning shen kou fu ye	100
+参柏舒心胶囊	can bai shu xin jiao nang	100
+参柏舒心颗粒	can bai shu xin ke li	100
+参柏舒阴洗液	can bai shu yin xi ye	100
+参柏洗液	can bai xi ye	500
+参贝北瓜膏	can bei bei gua gao	500
+参贝北瓜颗粒	can bei bei gua ke li	100
+参贝陈皮	can bei chen pi	500
+参倍固肠胶囊	can bei gu chang jiao nang	100
+参贝咳喘丸	can bei ke chuan wan	500
+参贝止咳颗粒	can bei zhi ke ke li	100
+参鞭补肾合剂	can bian bu shen he ji	100
+蚕参健脾颗粒	can can jian pi ke li	100
+参柴肝康片	can chai gan kang pian	500
+参柴肝康软胶囊	can chai gan kang ruan jiao nang	100
+参柴胶囊	can chai jiao nang	500
+参柴颗粒	can chai ke li	500
+参丹活血胶囊	can dan huo xue jiao nang	100
+参丹散结胶囊	can dan san jie jiao nang	100
+参地益阴胶囊	can de yi yin jiao nang	100
 蚕蛾公补合剂	can e gong bu he ji	100
 蚕蛾公补胶囊	can e gong bu jiao nang	100
 蚕蛾公补酒	can e gong bu jiu	500
 蚕蛾公补片	can e gong bu pian	500
+参蛾助阳合剂	can e zhu yang he ji	100
+参茯胶囊	can fu jiao nang	500
+参附强心丸	can fu qiang xin wan	500
+参附脱毒胶囊	can fu tuo du jiao nang	100
+参茯益气安神合剂	can fu yi qi an shen he ji	100
+参葛补肾胶囊	can ge bu shen jiao nang	100
+参桂补气养血口服液	can gui bu qi yang xue kou fu ye	100
+参龟补肾口服液	can gui bu shen kou fu ye	100
+参龟固本酒	can gui gu ben jiu	500
+参桂胶囊	can gui jiao nang	500
+参归生发酊	can gui sheng fa ding	500
+参桂调经丸	can gui tiao jing wan	500
+参桂养荣丸	can gui yang rong wan	500
+参归养血口服液	can gui yang xue kou fu ye	100
+参归养血片	can gui yang xue pian	500
+参桂再造丸	can gui zai zao wan	500
+参蛤胶囊	can ha jiao nang	500
+参红祛瘀散结胶囊	can hong qu yu san jie jiao nang	100
+参虎解毒丸	can hu jie du wan	500
+参花消渴茶	can hua xiao ke cha	500
+参皇软膏	can huang ruan gao	500
+参黄消渴胶囊	can huang xiao ke jiao nang	100
+参黄养阴胶囊	can huang yang yin jiao nang	100
+参藿温肾胶囊	can huo wen shen jiao nang	100
+参棘软膏	can ji ruan gao	500
+参胶胶囊	can jiao jiao nang	500
+参精补肾胶囊	can jing bu shen jiao nang	100
+参精固本丸	can jing gu ben wan	500
+参景养阴胶囊	can jing yang yin jiao nang	100
+参精止渴丸	can jing zhi ke wan	500
+参坤养血胶囊	can kun yang xue jiao nang	100
+参坤养血颗粒	can kun yang xue ke li	100
+参坤养血口服液	can kun yang xue kou fu ye	100
+参蓝口服液	can lan kou fu ye	500
+参莲颗粒	can lian ke li	500
+参灵通络胶囊	can ling tong luo jiao nang	100
+参龙补肾胶囊	can long bu shen jiao nang	100
+参龙虫草益肾胶囊	can long chong cao yi shen jiao nang	100
+参龙养血膏	can long yang xue gao	500
+参鹿补膏	can lu bu gao	500
+参鹿补片	can lu bu pian	500
+参鹿补虚胶囊	can lu bu xu jiao nang	100
+参鹿茶	can lu cha	500
+参鹿扶正合剂	can lu fu zheng he ji	100
+参鹿扶正片	can lu fu zheng pian	500
+参鹿膏	can lu gao	500
+参鹿健肺胶囊	can lu jian fei jiao nang	100
+参鹿健肾口服液	can lu jian shen kou fu ye	100
 蚕鹿口服液	can lu kou fu ye	500
+参鹿强身丸	can lu qiang shen wan	500
+参麦地黄丸	can mai di huang wan	500
+参麦颗粒	can mai ke li	500
+参麦止嗽糖浆	can mai zhi sou tang jiang	100
+参梅健胃胶囊	can mei jian wei jiao nang	100
+参牛胶囊	can niu jiao nang	500
+参芪博力康片	can qi bo li kang pian	100
+参歧肠泰合剂	can qi chang tai he ji	100
+参芪阿胶胶囊	can qi e jiao jiao nang	100
+参芪阿胶颗粒	can qi e jiao ke li	100
+参芪儿康口服液	can qi er kang kou fu ye	100
+参芪二仙片	can qi er xian pian	500
+参芪复脉颗粒	can qi fu mai ke li	100
+参芪扶正丸	can qi fu zheng wan	500
+参芪肝康胶囊	can qi gan kang jiao nang	100
+参芪肝康片	can qi gan kang pian	500
+参芪膏	can qi gao	500
+参芪蛤蚧补浆	can qi ge jie bu jiang	100
+参芪花粉片	can qi hua fen pian	500
+参芪降糖片	can qi jiang tang pian	500
+参芪咀嚼片	can qi ju jue pian	500
+参芪口服液	can qi kou fu ye	500
+参芪力得康片	can qi li de kang pian	100
+参芪鹿茸口服液	can qi lu rong kou fu ye	100
+参七乳泰片	can qi ru tai pian	500
+参七散结丸	can qi san jie wan	500
+参芪沙棘合剂	can qi sha ji he ji	100
+参芪山药膏	can qi shan yao gao	500
+参芪升阳补血胶囊	can qi sheng yang bu xue jiao nang	100
+参芪首乌补汁	can qi shou wu bu zhi	100
+参芪糖浆	can qi tang jiang	500
+参芪丸	can qi wan	500
+参芪王浆养血口服液	can qi wang jiang yang xue kou fu ye	100
+参芪温阳栓	can qi wen yang shuan	500
+参芪温阳阴道膨胀栓	can qi wen yang yin dao peng zhang shuan	100
+参芪乌鸡养血膏	can qi wu ji yang xue gao	100
+参芪五味子胶囊	can qi wu wei zi jiao nang	100
+参芪五味子颗粒	can qi wu wei zi ke li	100
+参芪五味子片	can qi wu wei zi pian	100
+参芪五味子糖浆	can qi wu wei zi tang jiang	100
+参芪消渴胶囊	can qi xiao ke jiao nang	100
+参芪消渴颗粒	can qi xiao ke ke li	100
+参七心疏片	can qi xin shu pian	500
+参芪益肺丸	can qi yi fei wan	500
+参芪益母颗粒	can qi yi mu ke li	100
+参芪益气酒	can qi yi qi jiu	500
+参芪云芝颗粒	can qi yun zhi ke li	100
+参茜固经颗粒	can qian gu jing ke li	100
+参茸补血酒	can rong bu xue jiu	500
+参蓉健腰酒	can rong jian yao jiu	500
 蚕茸柱天胶囊	can rong zhu tian jiao nang	100
+参三七伤药	can san qi shang yao	500
+参三七伤药胶囊	can san qi shang yao jiao nang	100
+参三七伤药片	can san qi shang yao pian	100
+参芍胶囊	can shao jiao nang	500
+参蛇花痔疮膏	can she hua zhi chuang gao	100
+参麝活络丸	can she huo luo wan	500
+参蛇偏瘫胶囊	can she pian tan jiao nang	100
+参术儿康糖浆	can shu er kang tang jiang	100
+参术健脾丸	can shu jian pi wan	500
+参术健中口服液	can shu jian zhong kou fu ye	100
 参术胶囊	can shu jiao nang	500
+参术止带糖浆	can shu zhi dai tang jiang	100
+参苏补肾胶囊	can su bu shen jiao nang	100
+参苏胶囊	can su jiao nang	500
+参苏口服液	can su kou fu ye	500
+参苏片	can su pian	500
+参苏宣肺丸	can su xuan fei wan	500
+参田胶囊	can tian jiao nang	500
+参味补肾合剂	can wei bu shen he ji	100
+参维冻干蜂王浆片	can wei dong gan feng wang jiang pian	100
+参威口服液	can wei kou fu ye	500
+参乌安神口服液	can wu an shen kou fu ye	100
+参乌健脑胶囊	can wu jian nao jiao nang	100
+参乌益肾片	can wu yi shen pian	500
+参仙片	can xian pian	500
+参仙壮肾胶囊	can xian zhuang shen jiao nang	100
+参芎胶囊	can xiong jiao nang	500
+参雄温阳胶囊	can xiong wen yang jiao nang	100
+参阳片	can yang pian	500
+参一胶囊	can yi jiao nang	500
 蚕蛹补肾胶囊	can yong bu shen jiao nang	100
+参玉补气酒	can yu bu qi jiu	500
+参郁宁神片	can yu ning shen pian	500
+参苑益气补肾胶囊	can yuan yi qi bu shen jiao nang	100
+参枣健脑口服液	can zao jian nao kou fu ye	100
+参泽舒肝胶囊	can ze shu gan jiao nang	100
+参芝安神口服液	can zhi an shen kou fu ye	100
+参蛭活血胶囊	can zhi huo xue jiao nang	100
 参志胶囊	can zhi jiao nang	500
+参枝苓口服液	can zhi ling kou fu ye	100
+参竹精胶囊	can zhu jing jiao nang	500
+参竹精片	can zhu jing pian	500
+参子合剂	can zi he ji	500
 苍鹅鼻炎片	cang e bi yan pian	500
 苍耳子鼻炎滴丸	cang er zi bi yan di wan	100
 苍耳子鼻炎胶囊	cang er zi bi yan jiao nang	100
+藏茄流浸膏	cang jia liu jin gao	500
+藏降脂胶囊	cang jiang zhi jiao nang	500
 苍莲感冒片	cang lian gan mao pian	500
 苍苓止泻口服液	cang ling zhi xie kou fu ye	100
 苍辛气雾剂	cang xin qi wu ji	500
 苍夷滴鼻剂	cang yi di bi ji	500
 苍夷滴鼻油	cang yi di bi you	500
+藏茵陈胶囊	cang yin chen jiao nang	500
+藏茵陈颗粒	cang yin chen ke li	500
+藏茵陈片	cang yin chen pian	500
 草豆蔻酊	cao dou kou ding	500
 草果四味汤散	cao guo si wei tang san	100
 草仙乙肝胶囊	cao xian yi gan jiao nang	100
@@ -687,11 +875,11 @@ columns:
 常松八味沉香散	chang song ba wei chen xiang san	100
 肠泰合剂	chang tai he ji	500
 常通舒颗粒	chang tong shu ke li	500
+肠胃适胶囊	chang wei kuo jiao nang	500
 肠胃宁胶囊	chang wei ning jiao nang	500
 肠胃宁片	chang wei ning pian	500
 肠胃散	chang wei san	500
 肠胃舒胶囊	chang wei shu jiao nang	500
-肠胃适胶囊	chang wei 适 jiao nang	500
 肠炎宁胶囊	chang yan ning jiao nang	500
 肠炎宁咀嚼片	chang yan ning ju jue pian	100
 肠炎宁颗粒	chang yan ning ke li	500
@@ -701,6 +889,8 @@ columns:
 肠炎宁丸	chang yan ning wan	500
 潮安胶囊	chao an jiao nang	500
 潮安片	chao an pian	500
+朝阳胶囊	chao yang jiao nang	500
+朝阳丸	chao yang wan	500
 车前番泻复合颗粒	che qian fan xie fu he ke li	100
 车前番泻颗粒	che qian fan xie ke li	100
 陈夏六君子丸	chen xia liu jun zi wan	100
@@ -729,15 +919,16 @@ columns:
 虫草川贝膏	chong cao chuan bei gao	500
 虫草川贝止咳茶	chong cao chuan bei zhi ke cha	100
 虫草金钱龟口服液	chong cao jin qian gui kou fu ye	100
-虫草菌粉参芍酒	chong cao jun fen 参芍 jiu	100
+虫草菌粉参芍酒	chong cao jun fen can shao jiu	100
 虫草芪参胶囊	chong cao qi shen jiao nang	100
 虫草杞芝颗粒	chong cao qi zhi ke li	100
 虫草清肺胶囊	chong cao qing fei jiao nang	100
 虫草参芪膏	chong cao shen qi gao	500
 虫草参芪口服液	chong cao shen qi kou fu ye	100
+虫草双参酒	chong cao shuang can jiu	500
 虫草五味颗粒	chong cao wu wei ke li	100
 虫草洋参胶囊	chong cao yang shen jiao nang	100
-虫草双参酒	chong cao 双参酒	500
+重感灵胶囊	chong gan ling jiao nang	500
 重楼解毒酊	chong lou jie du ding	500
 除疤膏	chu ba gao	500
 雏凤精	chu feng jing	500
@@ -773,6 +964,7 @@ columns:
 川贝止咳露	chuan bei zhi ke lu	500
 川贝止咳糖浆	chuan bei zhi ke tang jiang	100
 川贝止嗽合剂	chuan bei zhi sou he ji	100
+川参通注射液	chuan can tong zhu she ye	100
 川桂散	chuan gui san	500
 川花止痛膜	chuan hua zhi tong mo	500
 川黄颗粒	chuan huang ke li	500
@@ -807,18 +999,17 @@ columns:
 穿心莲软胶囊	chuan xin lian ruan jiao nang	100
 穿心莲丸	chuan xin lian wan	500
 穿心莲注射液	chuan xin lian zhu she ye	100
+川芎茶调袋泡剂	chuan xiong cha diao dai pao ji	100
+川芎茶调滴丸	chuan xiong cha diao di wan	100
 川芎茶调颗粒	chuan xiong cha diao ke li	100
+川芎茶调口服液	chuan xiong cha diao kou fu ye	100
+川芎茶调片	chuan xiong cha diao pian	500
 川芎茶调散	chuan xiong cha diao san	500
-川芎茶调滴丸	chuan xiong cha 调 di wan	100
-川芎茶调口服液	chuan xiong cha 调 kou fu ye	100
-川芎茶调丸	chuan xiong cha 调丸	500
-川芎茶调片	chuan xiong cha 调片	500
-川芎茶调袋泡剂	chuan xiong cha 调袋 pao ji	100
+川芎茶调丸	chuan xiong cha diao wan	500
 川芎清脑颗粒	chuan xiong qing nao ke li	100
 川射干黄酮胶囊	chuan ye gan huang tong jiao nang	100
-川郁风寒熨剂	chuan yu feng han 熨剂	100
+川郁风寒熨剂	chuan yu feng han yu ji	100
 川蛭通络胶囊	chuan zhi tong luo jiao nang	100
-川参通注射液	chuan 参通 zhu she ye	100
 创伤宁软膏	chuang shang ning ruan gao	500
 创伤止痛乳膏	chuang shang zhi tong ru gao	100
 疮炎灵软膏	chuang yan ling ruan gao	500
@@ -943,6 +1134,7 @@ columns:
 胆康片	dan kang pian	500
 丹蓝通络口服液	dan lan tong luo kou fu ye	100
 丹蓝益气养阴口服液	dan lan yi qi yang yin kou fu ye	100
+胆乐胶囊	dan le jiao nang	500
 胆利舒胶囊	dan li shu jiao nang	500
 丹苓补骨胶囊	dan ling bu gu jiao nang	100
 丹羚心舒胶囊	dan ling xin shu jiao nang	100
@@ -1069,10 +1261,24 @@ columns:
 当药片	dang yao pian	500
 导便栓	dao bian shuan	500
 导赤丸	dao chi wan	500
+地奥心血康胶囊	de ao xin xue kang jiao nang	100
+地奥心血康颗粒	de ao xin xue kang ke li	100
+地奥心血康口服液	de ao xin xue kang kou fu ye	100
+地奥心血康片	de ao xin xue kang pian	100
+地奥心血康软胶囊	de ao xin xue kang ruan jiao nang	100
+地冬参膏	de dong can gao	500
 德都红花七味散	de du hong hua qi wei san	100
 德都红花七味丸	de du hong hua qi wei wan	100
+地骨降糖丸	de gu jiang tang wan	500
+地黄叶总苷胶囊	de huang ye zong gan jiao nang	100
 得力生注射液	de li sheng zhu she ye	100
+地麦消渴胶囊	de mai xiao ke jiao nang	100
+地牡宁神口服液	de mu ning shen kou fu ye	100
 得生胶囊	de sheng jiao nang	500
+得生片	de sheng pian	500
+得生丸	de sheng wan	500
+地贞颗粒	de zhen ke li	500
+地仲强骨胶囊	de zhong qiang gu jiao nang	100
 灯台叶颗粒	deng tai ye ke li	500
 灯台叶片	deng tai ye pian	500
 灯心止血胶囊	deng xin zhi xue jiao nang	100
@@ -1121,9 +1327,18 @@ columns:
 癫痫平胶囊	dian xian ping jiao nang	500
 癫痫平片	dian xian ping pian	500
 癫痫散	dian xian san	500
+调肝和胃丸	diao gan he wei wan	500
 吊筋药	diao jin yao	500
+调经补血丸	diao jing bu xue wan	500
+调经活血胶囊	diao jing huo xue jiao nang	100
+调经活血片	diao jing huo xue pian	500
+调胃丹	diao wei dan	500
 调胃舒肝丸	diao wei shu gan wan	500
+调胃消滞丸	diao wei xiao zhi wan	500
 貂油治裂软膏	diao you zhi lie ruan gao	100
+调元大补二十五味汤散	diao yuan da bu er shi wu wei tang san	100
+调脂片	diao zhi pian	500
+调中四消丸	diao zhong si xiao wan	500
 跌打按摩药膏	die da an mo yao gao	100
 跌打榜药酒	die da bang yao jiu	500
 跌打风湿酒	die da feng shi jiu	500
@@ -1180,6 +1395,7 @@ columns:
 冻干蜂王浆软胶囊	dong gan feng wang jiang ruan jiao nang	100
 冻干蜂王浆散	dong gan feng wang jiang san	100
 冻可消搽剂	dong ke xiao cha ji	500
+东乐膏	dong le gao	500
 冬凌草滴丸	dong ling cao di wan	500
 冬凌草胶囊	dong ling cao jiao nang	500
 冬凌草片	dong ling cao pian	500
@@ -1189,8 +1405,10 @@ columns:
 冬茸补肾胶囊	dong rong bu shen jiao nang	100
 东山感冒片	dong shan gan mao pian	500
 洞天长春膏	dong tian chang chun gao	500
+冬菀止咳颗粒	dong wan zhi ke ke li	100
 都梁滴丸	dou liang di wan	500
 都梁软胶囊	dou liang ruan jiao nang	500
+都梁丸	dou liang wan	500
 独活寄生合剂	du huo ji sheng he ji	100
 独活寄生颗粒	du huo ji sheng ke li	100
 独活寄生丸	du huo ji sheng wan	500
@@ -1240,6 +1458,7 @@ columns:
 盾叶冠心宁片	dun ye guan xin ning pian	100
 多动宁胶囊	duo dong ning jiao nang	500
 阿胶	e jiao	500
+阿胶参芪酒	e jiao can qi jiu	500
 阿胶当归合剂	e jiao dang gui he ji	100
 阿胶当归胶囊	e jiao dang gui jiao nang	100
 阿胶当归颗粒	e jiao dang gui ke li	100
@@ -1260,7 +1479,6 @@ columns:
 阿胶益寿口服液	e jiao yi shou kou fu ye	100
 阿胶远志膏	e jiao yuan zhi gao	500
 阿胶珍珠膏	e jiao zhen zhu gao	500
-阿胶参芪酒	e jiao 参芪 jiu	500
 蛾苓丸	e ling wan	500
 饿求齐胶囊	e qiu qi jiao nang	500
 饿求齐颗粒	e qiu qi ke li	500
@@ -1281,6 +1499,7 @@ columns:
 儿感清口服液	er gan qing kou fu ye	100
 儿感退热宁颗粒	er gan tui re ning ke li	100
 儿感退热宁口服液	er gan tui re ning kou fu ye	100
+儿咳糖浆	er hai tang jiang	500
 儿康宁糖浆	er kang ning tang jiang	500
 尔可平糖浆	er ke ping tang jiang	500
 儿科七厘散	er ke qi li san	500
@@ -1327,6 +1546,7 @@ columns:
 二十一味寒水石散	er shi yi wei han shui shi san	100
 二天油	er tian you	500
 儿童感热清丸	er tong gan re qing wan	100
+儿童咳颗粒	er tong hai ke li	500
 儿童回春颗粒	er tong hui chun ke li	100
 儿童回春丸	er tong hui chun wan	500
 儿童咳液	er tong ke ye	500
@@ -1336,7 +1556,6 @@ columns:
 儿童清热导滞丸	er tong qing re dao zhi wan	100
 儿童清热口服液	er tong qing re kou fu ye	100
 儿童清咽解热口服液	er tong qing yan jie re kou fu ye	100
-儿童咳颗粒	er tong 咳 ke li	500
 二夏清心片	er xia qing xin pian	500
 二仙膏	er xian gao	500
 二仙口服液	er xian kou fu ye	500
@@ -1393,15 +1612,16 @@ columns:
 非洲臀果木提取物胶囊	fei zhou tun guo mu ti qu wu jiao nang	100
 痱子粉	fei zi fen	500
 分清五淋丸	fen qing wu lin wan	500
+蜂参益气锭	feng can yi qi ding	500
 风寒感冒颗粒	feng han gan mao ke li	100
 风寒感冒宁颗粒	feng han gan mao ning ke li	100
 风寒骨痛丸	feng han gu tong wan	500
 风寒咳嗽颗粒	feng han ke sou ke li	100
 风寒咳嗽丸	feng han ke sou wan	500
+风寒砂熨剂	feng han sha yu ji	500
 风寒双离拐胶囊	feng han shuang li guai jiao nang	100
 风寒双离拐片	feng han shuang li guai pian	100
 风寒止痛膏	feng han zhi tong gao	500
-风寒砂熨剂	feng han 砂熨剂	500
 枫荷除痹酊	feng he chu bi ding	500
 蜂皇胎胶囊	feng huang tai jiao nang	500
 蜂胶口腔膜	feng jiao kou qiang mo	500
@@ -1480,6 +1700,7 @@ columns:
 妇必舒阴道泡腾片	fu bi shu yin dao pao teng pian	100
 斧标驱风油	fu biao qu feng you	500
 斧标正红花油	fu biao zheng hong hua you	100
+妇得康泡沫剂	fu de kang pao mo ji	100
 妇尔爽外用胶囊	fu er shuang wai yong jiao nang	100
 复方阿胶补血膏	fu fang a jiao bu xue gao	100
 复方阿胶补血颗粒	fu fang a jiao bu xue ke li	100
@@ -1506,6 +1727,7 @@ columns:
 复方鳖甲软肝片	fu fang bie jia ruan gan pian	100
 复方薄荷樟脑油	fu fang bo he zhang nao you	100
 复方补骨脂颗粒	fu fang bu gu zhi ke li	100
+扶芳参芪口服液	fu fang can qi kou fu ye	100
 复方草决明茶	fu fang cao jue ming cha	100
 复方草珊瑚含片	fu fang cao shan hu han pian	100
 复方茶丹片	fu fang cha dan pian	500
@@ -1634,9 +1856,10 @@ columns:
 复方猴头颗粒	fu fang hou tou ke li	100
 复方虎杖片	fu fang hu zhang pian	500
 复方虎杖烧伤油	fu fang hu zhang shao shang you	100
+复方花粉调脂胶囊	fu fang hua fen diao zhi jiao nang	100
 复方花粉舒肝口服液	fu fang hua fen shu gan kou fu ye	100
-复方花粉调脂胶囊	fu fang hua fen 调脂 jiao nang	100
 复方槐花胶囊	fu fang huai hua jiao nang	100
+复方黄柏祛癣搽剂	fu fang huang bai qu xuan cha ji	100
 复方黄柏液涂剂	fu fang huang bai ye tu ji	100
 复方黄黛片	fu fang huang dai pian	500
 复方黄连素片	fu fang huang lian su pian	100
@@ -1687,6 +1910,7 @@ columns:
 复方莲心口服液	fu fang lian xin kou fu ye	100
 复方两面针含片	fu fang liang mian zhen han pian	100
 复方两面针漱齿液	fu fang liang mian zhen shu chi ye	100
+复方羚角降压胶囊	fu fang ling jiao jiang ya jiao nang	100
 复方羚角降压片	fu fang ling jiao jiang ya pian	100
 复方灵芝安神口服液	fu fang ling zhi an shen kou fu ye	100
 复方灵芝健脑胶囊	fu fang ling zhi jian nao jiao nang	100
@@ -1802,6 +2026,7 @@ columns:
 复方石韦咀嚼片	fu fang shi wei ju jue pian	100
 复方石韦颗粒	fu fang shi wei ke li	100
 复方石韦片	fu fang shi wei pian	500
+复方手参丸	fu fang shou can wan	500
 复方手参益智胶囊	fu fang shou can yi zhi jiao nang	100
 复方首乌补液	fu fang shou wu bu ye	100
 复方首乌地黄丸	fu fang shou wu di huang wan	100
@@ -1841,6 +2066,7 @@ columns:
 复方胃宁胶囊	fu fang wei ning jiao nang	100
 复方胃宁片	fu fang wei ning pian	500
 复方胃痛胶囊	fu fang wei tong jiao nang	100
+复方乌槟颗粒	fu fang wu bin ke li	100
 复方无花果含片	fu fang wu hua guo han pian	100
 复方乌鸡胶囊	fu fang wu ji jiao nang	100
 复方乌鸡颗粒	fu fang wu ji ke li	100
@@ -1958,17 +2184,12 @@ columns:
 复方栀子止痛膏	fu fang zhi zi zhi tong gao	100
 复方追风膏	fu fang zhui feng gao	500
 复方滋补力膏	fu fang zi bu li gao	100
+复方紫参颗粒	fu fang zi can ke li	100
 复方紫草气雾剂	fu fang zi cao qi wu ji	100
 复方紫草油	fu fang zi cao you	500
 复方紫荆消伤巴布膏	fu fang zi jing xiao shang ba bu gao	100
 复方紫苏油软胶囊	fu fang zi su you ruan jiao nang	100
 复方祖司麻止痛膏	fu fang zu si ma zhi tong gao	100
-复方乌槟颗粒	fu fang 乌槟 ke li	100
-扶芳参芪口服液	fu fang 参芪 kou fu ye	100
-复方手参丸	fu fang 手参 wan	500
-复方紫参颗粒	fu fang 紫参 ke li	100
-复方羚角降压胶囊	fu fang 羚角 jiang ya jiao nang	100
-复方黄柏祛癣搽剂	fu fang 黄柏 qu xuan cha ji	100
 妇肤康喷雾剂	fu fu kang pen wu ji	100
 复肝康胶囊	fu gan kang jiao nang	500
 复肝康颗粒	fu gan kang ke li	500
@@ -2011,6 +2232,7 @@ columns:
 妇科白凤颗粒	fu ke bai feng ke li	100
 妇科白凤口服液	fu ke bai feng kou fu ye	100
 妇科白凤片	fu ke bai feng pian	500
+妇科得生丸	fu ke de sheng wan	500
 妇科断红饮胶囊	fu ke duan hong yin jiao nang	100
 妇科分清丸	fu ke fen qing wan	500
 妇科回生丸	fu ke hui sheng wan	500
@@ -2041,7 +2263,10 @@ columns:
 妇科止血灵片	fu ke zhi xue ling pian	100
 妇科止痒胶囊	fu ke zhi yang jiao nang	100
 妇科止痒片	fu ke zhi yang pian	500
-妇科得生丸	fu ke 得 sheng wan	500
+妇乐胶囊	fu le jiao nang	500
+妇乐颗粒	fu le ke li	500
+妇乐片	fu le pian	500
+妇乐糖浆	fu le tang jiang	500
 妇良胶囊	fu liang jiao nang	500
 妇良片	fu liang pian	500
 茯苓多糖口服液	fu ling duo tang kou fu ye	100
@@ -2062,6 +2287,8 @@ columns:
 妇女痛经丸	fu nv tong jing wan	500
 妇女养血丸	fu nv yang xue wan	500
 附片液	fu pian ye	500
+芙朴感冒胶囊	fu piao gan mao jiao nang	100
+芙朴感冒颗粒	fu piao gan mao ke li	100
 妇平胶囊	fu ping jiao nang	500
 茯蒲洗液	fu pu xi ye	500
 复芪止汗颗粒	fu qi zhi han ke li	100
@@ -2119,7 +2346,7 @@ columns:
 肤氧颗粒	fu yang ke li	500
 肤痒颗粒	fu yang ke li	500
 肤疡散	fu yang san	500
-茯蚁参酒	fu yi 参酒	500
+茯蚁参酒	fu yi can jiu	500
 妇阴康洗剂	fu yin kang xi ji	500
 妇阴舒泡腾片	fu yin shu pao teng pian	100
 茯元胶囊	fu yuan jiao nang	500
@@ -2145,6 +2372,7 @@ columns:
 附子理中液	fu zi li zhong ye	500
 肝必复胶囊	gan bi fu jiao nang	500
 肝必复软胶囊	gan bi fu ruan jiao nang	100
+甘参胶囊	gan can jiao nang	500
 甘草浸膏	gan cao jin gao	500
 甘草流浸膏	gan cao liu jin gao	500
 甘草甜素胶囊	gan cao tian su jiao nang	100
@@ -2160,6 +2388,7 @@ columns:
 肝胆舒康胶囊	gan dan shu kang jiao nang	100
 肝胆双清颗粒	gan dan shuang qing ke li	100
 肝胆双清口服液	gan dan shuang qing kou fu ye	100
+肝得乐胶囊	gan de le jiao nang	500
 肝得治胶囊	gan dei zhi jiao nang	500
 肝得治片	gan dei zhi pian	500
 肝毒净颗粒	gan du jing ke li	500
@@ -2167,7 +2396,10 @@ columns:
 肝复康丸	gan fu kang wan	500
 肝复颗粒	gan fu ke li	500
 肝福颗粒	gan fu ke li	500
+肝复乐胶囊	gan fu le jiao nang	500
+肝复乐片	gan fu le pian	500
 甘果含片	gan guo han pian	500
+感咳双清胶囊	gan hai shuang qing jiao nang	100
 甘海胃康胶囊	gan hai wei kang jiao nang	100
 甘海胃康片	gan hai wei kang pian	500
 甘和茶	gan he cha	500
@@ -2176,12 +2408,15 @@ columns:
 肝加欣片	gan jia xin pian	500
 肝健胶囊	gan jian jiao nang	500
 甘桔冰梅片	gan jie bing mei pian	500
+甘桔清咽颗粒	gan jie qing yan ke li	100
+甘桔止咳糖浆	gan jie zhi ke tang jiang	100
 肝精补血素口服液	gan jing bu xue su kou fu ye	100
 肝净注射液	gan jing zhu she ye	500
 肝康颗粒	gan kang ke li	500
 肝康宁片	gan kang ning pian	500
 肝康片	gan kang pian	500
 橄榄晶冲剂	gan lan jing chong ji	500
+肝乐欣胶囊	gan le xin jiao nang	500
 甘霖洗剂	gan lin xi ji	500
 肝龙胶囊	gan long jiao nang	500
 甘露茶	gan lu cha	500
@@ -2220,7 +2455,7 @@ columns:
 感冒清热片	gan mao qing re pian	500
 感冒清热软胶囊	gan mao qing re ruan jiao nang	100
 感冒软胶囊	gan mao ruan jiao nang	500
-感冒伤风咳茶	gan mao shang feng 咳茶	100
+感冒伤风咳茶	gan mao shang feng hai cha	100
 感冒疏风胶囊	gan mao shu feng jiao nang	100
 感冒疏风颗粒	gan mao shu feng ke li	100
 感冒疏风片	gan mao shu feng pian	500
@@ -2235,15 +2470,15 @@ columns:
 感冒丸	gan mao wan	500
 感冒消炎片	gan mao xiao yan pian	500
 感冒欣喷雾剂	gan mao xin pen wu ji	100
-感冒炎咳灵颗粒	gan mao yan 咳灵 ke li	100
-感冒炎咳灵糖浆	gan mao yan 咳灵 tang jiang	100
+感冒炎咳灵颗粒	gan mao yan hai ling ke li	100
+感冒炎咳灵片	gan mao yan hai ling pian	100
+感冒炎咳灵糖浆	gan mao yan hai ling tang jiang	100
 感冒药片	gan mao yao pian	500
 感冒止咳合剂	gan mao zhi ke he ji	100
 感冒止咳胶囊	gan mao zhi ke jiao nang	100
 感冒止咳颗粒	gan mao zhi ke ke li	100
 感冒止咳片	gan mao zhi ke pian	500
 感冒止咳糖浆	gan mao zhi ke tang jiang	100
-感冒炎咳灵片	gan mao 炎咳 ling pian	100
 肝宁胶囊	gan ning jiao nang	500
 肝宁片	gan ning pian	500
 肝脾康胶囊	gan pi kang jiao nang	500
@@ -2259,6 +2494,7 @@ columns:
 肝肾颗粒	gan shen ke li	500
 肝肾滋	gan shen zi	500
 肝舒胶囊	gan shu jiao nang	500
+肝舒乐颗粒	gan shu le ke li	500
 肝舒宁颗粒	gan shu ning ke li	500
 肝舒片	gan shu pian	500
 肝爽颗粒	gan shuang ke li	500
@@ -2301,6 +2537,7 @@ columns:
 高丽清心丸	gao li qing xin wan	500
 高力清心丸	gao li qing xin wan	500
 高山红景天口服液	gao shan hong jing tian kou fu ye	100
+高血压速降丸	gao xue ya su jiang wan	100
 膏药咀	gao yao ju	500
 葛蒡合剂	ge bang he ji	500
 葛根芩连胶囊	ge gen qin lian jiao nang	100
@@ -2337,13 +2574,13 @@ columns:
 更年安胶囊	geng nian an jiao nang	500
 更年安片	geng nian an pian	500
 更年安丸	geng nian an wan	500
+更年乐胶囊	geng nian le jiao nang	500
+更年乐片	geng nian le pian	500
 更年灵胶囊	geng nian ling jiao nang	500
 更年灵片	geng nian ling pian	500
 更年宁	geng nian ning	500
 更年舒片	geng nian shu pian	500
 更年欣胶囊	geng nian xin jiao nang	500
-更年乐胶囊	geng nian 乐 jiao nang	500
-更年乐片	geng nian 乐片	500
 更衣胶囊	geng yi jiao nang	500
 更衣片	geng yi pian	500
 宫方润肠栓	gong fang run chang shuan	500
@@ -2391,6 +2628,7 @@ columns:
 固本益肠胶囊	gu ben yi chang jiao nang	100
 固本益肠片	gu ben yi chang pian	500
 固本止咳膏	gu ben zhi ke gao	500
+骨参片	gu can pian	500
 固肠胶囊	gu chang jiao nang	500
 固肠止泻胶囊	gu chang zhi xie jiao nang	100
 固肠止泻丸	gu chang zhi xie wan	500
@@ -2467,10 +2705,10 @@ columns:
 骨折再生丸	gu zhe zai sheng wan	500
 臌症丸	gu zheng wan	500
 骨质宁搽剂	gu zhi ning cha ji	500
-骨参片	gu 参片	500
 瓜蒌皮注射液	gua lou pi zhu she ye	100
 瓜蒌片	gua lou pian	500
 瓜霜退热灵胶囊	gua shuang tui re ling jiao nang	100
+冠参片	guan can pian	500
 贯防感冒片	guan fang gan mao pian	500
 贯黄感冒胶囊	guan huang gan mao jiao nang	100
 贯黄感冒颗粒	guan huang gan mao ke li	100
@@ -2484,10 +2722,10 @@ columns:
 关节止痛膏	guan jie zhi tong gao	500
 冠脉康胶囊	guan mai kang jiao nang	500
 冠脉康片	guan mai kang pian	500
+冠脉乐片	guan mai le pian	500
 冠脉宁胶囊	guan mai ning jiao nang	500
 冠脉宁片	guan mai ning pian	500
 冠脉通片	guan mai tong pian	500
-冠脉乐片	guan mai 乐片	500
 冠通片	guan tong pian	500
 关通舒胶囊	guan tong shu jiao nang	500
 关通舒口服液	guan tong shu kou fu ye	100
@@ -2528,6 +2766,9 @@ columns:
 广羚散	guang ling san	500
 光明盐四味胶囊	guang ming yan si wei jiao nang	100
 广枣通脉胶囊	guang zao tong mai jiao nang	100
+归柏化瘀胶囊	gui bai hua yu jiao nang	100
+归参补血片	gui can bu xue pian	500
+桂附地黄片	gui fu de huang pian	500
 桂附地黄胶囊	gui fu di huang jiao nang	100
 桂附地黄颗粒	gui fu di huang ke li	100
 桂附地黄口服液	gui fu di huang kou fu ye	100
@@ -2581,6 +2822,7 @@ columns:
 桂蒲肾清胶囊	gui pu shen qing jiao nang	100
 桂蒲肾清片	gui pu shen qing pian	500
 归芪补血口服液	gui qi bu xue kou fu ye	100
+龟芪参口服液	gui qi can kou fu ye	100
 归芪活血胶囊	gui qi huo xue jiao nang	100
 归芪颗粒	gui qi ke li	500
 归芪口服液	gui qi kou fu ye	500
@@ -2591,7 +2833,6 @@ columns:
 归芪养血糖浆	gui qi yang xue tang jiang	100
 归芪养血益气口服液	gui qi yang xue yi qi kou fu ye	100
 龟芪壮骨颗粒	gui qi zhuang gu ke li	100
-龟芪参口服液	gui qi 参 kou fu ye	100
 桂茸枸杞酒	gui rong gou qi jiu	500
 桂茸固本丸	gui rong gu ben wan	500
 龟茸壮骨片	gui rong zhuang gu pian	500
@@ -2618,19 +2859,25 @@ columns:
 桂枝颗粒	gui zhi ke li	500
 过岗龙片	guo gang long pian	500
 国公酒	guo gong jiu	500
-哈敦海鲁木勒十三味丸	ha dun hai lu 木勒 shi san wei wan	100
-哈敦海鲁木勒九味丸	ha dun hai lu 木勒九味 wan	100
+哈敦海鲁木勒九味丸	ha dun hai lu mu le jiu wei wan	100
+哈敦海鲁木勒十三味丸	ha dun hai lu mu le shi san wei wan	100
 蛤杞白术胶囊	ha qi bai zhu jiao nang	100
 哈日十二味散	ha ri shi er wei san	100
 海贝胃疡胶囊	hai bei wei yang jiao nang	100
 海丹胶囊	hai dan jiao nang	500
+咳感康口服液	hai gan kang kou fu ye	100
 海甘胃片	hai gan wei pian	500
 海狗丸	hai gou wan	500
 海桂胶囊	hai gui jiao nang	500
 海蛤散	hai ha san	500
+还精煎口服液	hai jing jian kou fu ye	100
 海菊颗粒	hai ju ke li	500
+咳康含片	hai kang han pian	500
+咳克平胶囊	hai ke ping jiao nang	500
 海昆肾喜胶囊	hai kun shen xi jiao nang	100
 海利升注射液	hai li sheng zhu she ye	100
+咳立停糖浆	hai li ting tang jiang	500
+咳灵胶囊	hai ling jiao nang	500
 海龙蛤蚧口服液	hai long ge jie kou fu ye	100
 海龙胶	hai long jiao	500
 海龙胶颗粒	hai long jiao ke li	500
@@ -2645,13 +2892,18 @@ columns:
 海马香草酒	hai ma xiang cao jiu	500
 海墨止血胶囊	hai mo zhi xue jiao nang	100
 海墨止血片	hai mo zhi xue pian	500
+咳宁颗粒	hai ning ke li	500
+咳平胶囊	hai ping jiao nang	500
 海麒舒肝胶囊	hai qi shu gan jiao nang	100
+咳清胶囊	hai qing jiao nang	500
 海茸益肾胶囊	hai rong yi shen jiao nang	100
 还少丹	hai shao dan	500
 还少胶囊	hai shao jiao nang	500
 海蛇痹宁胶囊	hai she bi ning jiao nang	100
 海蛇天麻酒	hai she tian ma jiu	500
 海蛇药酒	hai she yao jiu	500
+咳速停胶囊	hai su ting jiao nang	500
+咳速停糖浆	hai su ting tang jiang	500
 海天益肾胶囊	hai tian yi shen jiao nang	100
 海洋胃药	hai yang wei yao	500
 海洋胃药丸	hai yang wei yao wan	500
@@ -2672,9 +2924,10 @@ columns:
 寒水石小灰散	han shui shi xiao hui san	100
 汉桃叶片	han tao ye pian	500
 汉桃叶软胶囊	han tao ye ruan jiao nang	100
-寒痛乐熨剂	han tong 乐熨剂	500
+寒痛乐熨剂	han tong le yu ji	500
 寒泻片	han xie pian	500
 汉禹止喘酒	han yu zhi chuan jiu	500
+行气活血颗粒	hang qi huo xue ke li	100
 蒿白伤湿气雾剂	hao bai shang shi qi wu ji	100
 蚝贝钙片(咀嚼片)	hao bei gai pian ju jue pian	100
 蒿蓝感冒颗粒	hao lan gan mao ke li	100
@@ -2790,6 +3043,8 @@ columns:
 虎标红万金油	hu biao hong wan jin you	100
 虎标黄金油	hu biao huang jin you	500
 虎标万金油	hu biao wan jin you	500
+虎参软膏	hu can ruan gao	500
+虎地肠溶胶囊	hu de chang rong jiao nang	100
 护肝布祖热颗粒	hu gan bu zu re ke li	100
 护肝胶囊	hu gan jiao nang	500
 护肝颗粒	hu gan ke li	500
@@ -2854,14 +3109,14 @@ columns:
 华容口服液	hua rong kou fu ye	500
 花蕊石止血散	hua rui shi zhi xue san	100
 华沙利胆丸	hua sha li dan wan	500
-华山参滴丸	hua shan 参 di wan	500
-华山参气雾剂	hua shan 参 qi wu ji	100
-华山参片	hua shan 参片	500
+华山参滴丸	hua shan can di wan	500
+华山参片	hua shan can pian	500
+华山参气雾剂	hua shan can qi wu ji	100
 花蛇解痒胶囊	hua she jie yang jiao nang	100
 花蛇解痒片	hua she jie yang pian	500
 化湿败毒颗粒	hua shi bai du ke li	100
 化痰平喘片	hua tan ping chuan pian	500
-化痰消咳片	hua tan 消咳片	500
+化痰消咳片	hua tan xiao hai pian	500
 花藤子颗粒	hua teng zi ke li	500
 华佗风痛宝胶囊	hua tuo feng tong bao jiao nang	100
 华佗风痛宝片	hua tuo feng tong bao pian	100
@@ -2896,12 +3151,18 @@ columns:
 獾油搽剂	huan you cha ji	500
 獾油软膏	huan you ruan gao	500
 还原固精丸	huan yuan gu jing wan	500
+黄柏八味片(沙日毛都-8)	huang bai ba wei pian sha ri mao dou	20
+黄柏八味散	huang bai ba wei san	500
+黄柏果油软胶囊	huang bai guo you ruan jiao nang	100
+黄柏片	huang bai pian	500
 黄柏胶囊	huang bo jiao nang	500
 黄疸肝炎丸	huang dan gan yan wan	500
 黄丹胶囊	huang dan jiao nang	500
 黄疸茵陈颗粒	huang dan yin chen ke li	100
 黄疸茵陈片	huang dan yin chen pian	500
 黄道益活络油	huang dao yi huo luo you	100
+黄地养血口服液	huang de yang xue kou fu ye	100
+黄地养阴颗粒	huang de yang yin ke li	100
 黄莪胶囊	huang e jiao nang	500
 黄根片	huang gen pian	500
 黄公烧伤膏	huang gong shao shang gao	500
@@ -2985,6 +3246,7 @@ columns:
 惠血生胶囊	hui xue sheng jiao nang	500
 惠血生片	hui xue sheng pian	500
 混元丸	hun yuan wan	500
+藿参补肾酒	huo can bu shen jiu	500
 藿胆滴丸	huo dan di wan	500
 藿胆片	huo dan pian	500
 藿胆丸	huo dan wan	500
@@ -3025,10 +3287,12 @@ columns:
 藿香正气水	huo xiang zheng qi shui	500
 藿香正气丸	huo xiang zheng qi wan	500
 活心丸	huo xin wan	500
+活血调经丸	huo xue diao jing wan	500
 活血跌打丸	huo xue die da wan	500
 活血风寒膏	huo xue feng han gao	500
 活血风湿膏	huo xue feng shi gao	500
 活血健骨片	huo xue jian gu pian	500
+活血降浊口服液	huo xue jiang zhuo kou fu ye	100
 活血胶囊	huo xue jiao nang	500
 活血解毒丸	huo xue jie du wan	500
 活血接骨散	huo xue jie gu san	500
@@ -3050,7 +3314,6 @@ columns:
 活血止痛散	huo xue zhi tong san	500
 活血壮筋胶囊	huo xue zhuang jin jiao nang	100
 活血壮筋丸	huo xue zhuang jin wan	500
-活血降浊口服液	huo xue 降浊 kou fu ye	100
 藿阳补肾胶囊	huo yang bu shen jiao nang	100
 济川煎颗粒	ji chuan jian ke li	500
 棘豆消痒洗剂	ji dou xiao yang xi ji	100
@@ -3124,9 +3387,11 @@ columns:
 健步强身丸	jian bu qiang shen wan	500
 健步丸	jian bu wan	500
 健步壮骨丸	jian bu zhuang gu wan	500
+建参片	jian can pian	500
 健儿疳积散	jian er gan ji san	500
 健儿膏	jian er gao	500
 健儿口服液	jian er kou fu ye	500
+健儿乐颗粒	jian er le ke li	500
 健儿片	jian er pian	500
 健儿强骨颗粒	jian er qiang gu ke li	100
 健儿清解液	jian er qing jie ye	500
@@ -3139,12 +3404,12 @@ columns:
 健儿药片	jian er yao pian	500
 健儿药丸	jian er yao wan	500
 健儿止泻颗粒	jian er zhi xie ke li	100
-健儿乐颗粒	jian er 乐 ke li	500
 减肥胶囊	jian fei jiao nang	500
 减肥通圣片	jian fei tong sheng pian	500
 健肺丸	jian fei wan	500
 健妇胶囊	jian fu jiao nang	500
 健妇丸	jian fu wan	500
+健肝乐颗粒	jian gan le ke li	500
 健肝灵胶囊	jian gan ling jiao nang	500
 健肝灵片	jian gan ling pian	500
 健肝片	jian gan pian	500
@@ -3240,6 +3505,8 @@ columns:
 姜黄通络胶囊	jiang huang tong luo jiao nang	100
 姜颗粒	jiang ke li	500
 姜流浸膏	jiang liu jin gao	500
+降酶灵胶囊	jiang mei ling jiao nang	500
+降酶灵片	jiang mei ling pian	500
 江南卷柏片	jiang nan juan bai pian	500
 姜脑止痛搽剂	jiang nao zhi tong cha ji	100
 降气定喘丸	jiang qi ding chuan wan	500
@@ -3278,6 +3545,8 @@ columns:
 降脂通便胶囊	jiang zhi tong bian jiao nang	100
 降脂通络软胶囊	jiang zhi tong luo ruan jiao nang	100
 降脂通脉胶囊	jiang zhi tong mai jiao nang	100
+降浊颗粒	jiang zhuo ke li	500
+降浊祛瘀颗粒	jiang zhuo qu yu ke li	100
 绞股蓝总苷滴丸	jiao gu lan zong gan di wan	100
 绞股蓝总苷分散片	jiao gu lan zong gan fen san pian	100
 绞股蓝总苷胶囊	jiao gu lan zong gan jiao nang	100
@@ -3291,6 +3560,8 @@ columns:
 洁白胶囊	jie bai jiao nang	500
 洁白片	jie bai pian	500
 洁白丸	jie bai wan	500
+桔贝合剂	jie bei he ji	500
+桔贝止咳祛痰片	jie bei zhi ke qu tan pian	100
 解表清肺丸	jie biao qing fei wan	500
 解表清金散	jie biao qing jin san	500
 解表追风丸	jie biao zhui feng wan	500
@@ -3350,6 +3621,7 @@ columns:
 结石通胶囊	jie shi tong jiao nang	500
 结石通片	jie shi tong pian	500
 解暑片	jie shu pian	500
+桔香袪暑和胃茶	jie xiang qu shu he wei cha	100
 解心痛胶囊	jie xin tong jiao nang	500
 解心痛片	jie xin tong pian	500
 洁阴康洗液	jie yin kang xi ye	500
@@ -3362,10 +3634,13 @@ columns:
 解郁肝舒胶囊	jie yu gan shu jiao nang	100
 解郁和肝丸	jie yu he gan wan	500
 解郁丸	jie yu wan	500
+桔远止咳片	jie yuan zhi ke pian	500
 金百洗剂	jin bai xi ji	500
 金贝痰咳清颗粒	jin bei tan ke qing ke li	100
 金萆通淋颗粒	jin bi tong lin ke li	100
 金不换膏	jin bu huan gao	500
+金参润喉合剂	jin can run hou he ji	100
+金参疏肝胶囊	jin can shu gan jiao nang	100
 金蝉止痒胶囊	jin chan zhi yang jiao nang	100
 金蝉止痒颗粒	jin chan zhi yang ke li	100
 金刺参九正合剂	jin ci shen jiu zheng he ji	100
@@ -3416,6 +3691,8 @@ columns:
 金果饮	jin guo yin	500
 金果饮咽喉片	jin guo yin yan hou pian	100
 金海清咽袋泡茶	jin hai qing yan dai pao cha	100
+金咳息胶囊	jin hai xi jiao nang	500
+金咳息颗粒	jin hai xi ke li	500
 金蒿解热颗粒	jin hao jie re ke li	100
 金红颗粒	jin hong ke li	500
 金红片	jin hong pian	500
@@ -3489,6 +3766,7 @@ columns:
 金牡感冒片	jin mu gan mao pian	500
 金牌白凤丸	jin pai bai feng wan	500
 金牌风油精	jin pai feng you jing	500
+金朴消积颗粒	jin piao xiao ji ke li	100
 金蒲胶囊	jin pu jiao nang	500
 金芪降糖胶囊	jin qi jiang tang jiao nang	100
 金芪降糖颗粒	jin qi jiang tang ke li	100
@@ -3534,8 +3812,8 @@ columns:
 金鳝消渴颗粒	jin shan xiao ke ke li	100
 筋伤宁湿敷剂	jin shang ning shi fu ji	100
 金石感冒茶	jin shi gan mao cha	500
+近视乐眼药水	jin shi le yan yao shui	100
 金石清热颗粒	jin shi qing re ke li	100
-近视乐眼药水	jin shi 乐 yan yao shui	100
 金术跌打丸	jin shu die da wan	500
 金薯叶止血合剂	jin shu ye zhi xue he ji	100
 金水宝胶囊	jin shui bao jiao nang	500
@@ -3546,7 +3824,7 @@ columns:
 金酸萍片	jin suan ping pian	500
 金酸萍糖浆	jin suan ping tang jiang	500
 金锁固精丸	jin suo gu jing wan	500
-金锁昆都尔片	jin suo 昆都尔片	100
+金锁昆都尔片	jin suo kun dou er pian	100
 金糖宁胶囊	jin tang ning jiao nang	500
 金藤清痹颗粒	jin teng qing bi ke li	100
 金天格胶囊	jin tian ge jiao nang	500
@@ -3585,8 +3863,6 @@ columns:
 金栀咽喉袋泡茶	jin zhi yan hou dai pao cha	100
 金珠烧伤搽剂	jin zhu shao shang cha ji	100
 金朱止泻片	jin zhu zhi xie pian	500
-金咳息胶囊	jin 咳息 jiao nang	500
-金咳息颗粒	jin 咳息 ke li	500
 经带宁胶囊	jing dai ning jiao nang	500
 京都念慈菴蜜炼川贝枇杷膏	jing du nian ci mi lian chuan bei pi pa gao	20
 荆防败毒丸	jing fang bai du wan	500
@@ -3608,9 +3884,9 @@ columns:
 精苓合剂	jing ling he ji	500
 精苓口服液	jing ling kou fu ye	500
 静灵口服液	jing ling kou fu ye	500
+精杞参胶囊	jing qi can jiao nang	500
 精芪颗粒	jing qi ke li	500
-精杞参胶囊	jing qi 参 jiao nang	500
-精芪双参胶囊	jing qi 双参 jiao nang	100
+精芪双参胶囊	jing qi shuang can jiao nang	100
 经前安片	jing qian an pian	500
 经前舒颗粒	jing qian shu ke li	500
 景参益气颗粒	jing shen yi qi ke li	100
@@ -3646,6 +3922,10 @@ columns:
 经血宁胶囊	jing xue ning jiao nang	500
 颈腰康胶囊	jing yao kang jiao nang	500
 荆银颗粒	jing yin ke li	500
+景志安神胶囊	jing zhi an shen jiao nang	100
+景志安神颗粒	jing zhi an shen ke li	100
+景志安神口服液	jing zhi an shen kou fu ye	100
+景志安神片	jing zhi an shen pian	500
 精制狗皮膏	jing zhi gou pi gao	500
 精制冠心胶囊	jing zhi guan xin jiao nang	100
 精制冠心颗粒	jing zhi guan xin ke li	100
@@ -3729,10 +4009,10 @@ columns:
 橘红枇杷胶囊	ju hong pi pa jiao nang	100
 橘红枇杷片	ju hong pi pa pian	500
 橘红片	ju hong pian	500
+橘红痰咳颗粒	ju hong tan hai ke li	100
 橘红痰咳煎膏	ju hong tan ke jian gao	100
 橘红痰咳泡腾片	ju hong tan ke pao teng pian	100
 橘红痰咳液	ju hong tan ke ye	500
-橘红痰咳颗粒	ju hong tan 咳 ke li	100
 橘红丸	ju hong wan	500
 菊花七味胶囊	ju hua qi wei jiao nang	100
 菊蓝抗流感胶囊	ju lan kang liu gan jiao nang	100
@@ -3884,6 +4164,7 @@ columns:
 克感额日敦片	ke gan e ri dun pian	100
 克感利咽颗粒	ke gan li yan ke li	100
 克感利咽口服液	ke gan li yan kou fu ye	100
+克咳片	ke hai pian	500
 克癀胶囊	ke huang jiao nang	500
 克咳胶囊	ke ke jiao nang	500
 渴乐宁胶囊	ke le ning jiao nang	500
@@ -3916,7 +4197,7 @@ columns:
 克痒敏醑	ke yang min xu	500
 克痒舒洗液	ke yang shu xi ye	500
 克银丸	ke yin wan	500
-克咳片	ke 咳片	500
+壳脂胶囊	ke zhi jiao nang	500
 孔圣枕中丸	kong sheng zhen zhong wan	500
 控涎丸	kong xian wan	500
 口鼻清喷雾剂	kou bi qing pen wu ji	100
@@ -3936,6 +4217,8 @@ columns:
 口炎清颗粒	kou yan qing ke li	500
 口炎清片	kou yan qing pian	500
 口咽清丸(阮氏上清丸)	kou yan qing wan ruan shi shang qing wan	20
+苦柏散	ku bai san	500
+苦柏止痒洗液	ku bai zhi yang xi ye	100
 苦胆草胶囊	ku dan cao jiao nang	500
 苦胆草片	ku dan cao pian	500
 苦胆片	ku dan pian	500
@@ -3970,6 +4253,7 @@ columns:
 宽胸舒气化滞丸	kuan xiong shu qi hua zhi wan	100
 宽中老蔻丸	kuan zhong lao kou wan	500
 宽中顺气丸	kuan zhong shun qi wan	500
+溃得康颗粒	kui de kang ke li	500
 溃平宁胶囊	kui ping ning jiao nang	500
 溃平宁颗粒	kui ping ning ke li	500
 溃疡胶囊	kui yang jiao nang	500
@@ -4007,8 +4291,8 @@ columns:
 兰草片	lan cao pian	500
 榄葱茶	lan cong cha	500
 蓝荷明合剂	lan he ming he ji	500
+兰花咳宁片	lan hua hai ning pian	500
 蓝花药	lan hua yao	500
-兰花咳宁片	lan hua 咳宁片	500
 烂积丸	lan ji wan	500
 蓝蒲解毒片	lan pu jie du pian	500
 蓝芪降脂合剂	lan qi jiang zhi he ji	100
@@ -4030,6 +4314,13 @@ columns:
 勒马回胶囊	le ma hui jiao nang	500
 勒马回片	le ma hui pian	500
 勒马回注射液	le ma hui zhu she ye	100
+乐脉分散片	le mai fen san pian	500
+乐脉胶囊	le mai jiao nang	500
+乐脉颗粒	le mai ke li	500
+乐脉片	le mai pian	500
+乐脉丸	le mai wan	500
+乐孕宁颗粒	le yun ning ke li	500
+乐孕宁口服液	le yun ning kou fu ye	100
 雷公藤多苷片	lei gong teng duo gan pian	100
 雷公藤片	lei gong teng pian	500
 雷公藤双层片	lei gong teng shuang ceng pian	100
@@ -4053,6 +4344,7 @@ columns:
 利胆舒胶囊	li dan shu jiao nang	500
 利胆止痛胶囊	li dan zhi tong jiao nang	100
 利胆止痛片	li dan zhi tong pian	500
+黎峒丸	li dong wan	500
 利儿康合剂	li er kang he ji	500
 利儿康口服液	li er kang kou fu ye	100
 利尔眠胶囊	li er mian jiao nang	500
@@ -4082,7 +4374,7 @@ columns:
 利湿化瘀栓	li shi hua yu shuan	500
 利石通口服液	li shi tong kou fu ye	100
 利舒康胶囊	li shu kang jiao nang	500
-沥水调脂胶囊	li shui 调脂 jiao nang	100
+沥水调脂胶囊	li shui diao zhi jiao nang	100
 痢速宁片	li su ning pian	500
 痢特敏胶囊	li te min jiao nang	500
 痢特敏颗粒	li te min ke li	500
@@ -4096,17 +4388,19 @@ columns:
 理中片	li zhong pian	500
 理中丸	li zhong wan	500
 理中丸(党参理中丸)	li zhong wan dang shen li zhong wan	100
+连柏烧伤软膏	lian bai shao shang ruan gao	100
 莲必治注射液	lian bi zhi zhu she ye	100
+连参通淋片	lian can tong lin pian	500
 莲胆消炎滴丸	lian dan xiao yan di wan	100
 莲胆消炎胶囊	lian dan xiao yan jiao nang	100
 莲胆消炎颗粒	lian dan xiao yan ke li	100
 莲胆消炎片	lian dan xiao yan pian	500
 连番止泻胶囊	lian fan zhi xie jiao nang	100
 莲花峰茶	lian hua feng cha	500
+连花清咳片	lian hua qing hai pian	500
 连花清瘟胶囊	lian hua qing wen jiao nang	100
 连花清瘟颗粒	lian hua qing wen ke li	100
 连花清瘟片	lian hua qing wen pian	500
-连花清咳片	lian hua qing 咳片	500
 连蒲双清胶囊	lian pu shuang qing jiao nang	100
 连蒲双清片	lian pu shuang qing pian	500
 莲芪胶囊	lian qi jiao nang	500
@@ -4126,7 +4420,6 @@ columns:
 莲芝消炎胶囊	lian zhi xiao yan jiao nang	100
 莲芝消炎片	lian zhi xiao yan pian	500
 莲芝消炎软胶囊	lian zhi xiao yan ruan jiao nang	100
-连参通淋片	lian 参通 lin pian	500
 梁财信跌打丸	liang cai xin die da wan	100
 良附滴丸	liang fu di wan	500
 良附软胶囊	liang fu ruan jiao nang	500
@@ -4221,10 +4514,10 @@ columns:
 灵芝颗粒	ling zhi ke li	500
 灵芝口服液	ling zhi kou fu ye	500
 灵芝片	ling zhi pian	500
+灵芝双参口服液	ling zhi shuang can kou fu ye	100
 灵芝糖浆	ling zhi tang jiang	500
 灵芝益寿胶囊	ling zhi yi shou jiao nang	100
 灵芝茵陈胶囊	ling zhi yin chen jiao nang	100
-灵芝双参口服液	ling zhi 双参 kou fu ye	100
 羚珠散	ling zhu san	500
 羚竺散	ling zhu san	500
 流感茶	liu gan cha	500
@@ -4288,6 +4581,8 @@ columns:
 癃闭舒胶囊	long bi shu jiao nang	500
 癃闭舒片	long bi shu pian	500
 癃闭通胶囊	long bi tong jiao nang	500
+龙参补益膏	long can bu yi gao	500
+龙参补益颗粒	long can bu yi ke li	100
 龙胆酊	long dan ding	500
 龙丹通络胶囊	long dan tong luo jiao nang	100
 龙胆泻肝胶囊	long dan xie gan jiao nang	100
@@ -4348,6 +4643,7 @@ columns:
 鹿丹芪胶囊	lu dan qi jiao nang	500
 潞党参膏滋	lu dang shen gao zi	500
 潞党参口服液	lu dang shen kou fu ye	100
+鹿地益元酒	lu de yi yuan jiu	500
 芦根枇杷叶颗粒	lu gen pi pa ye ke li	100
 鹿骨胶	lu gu jiao	500
 芦荟珍珠胶囊	lu hui zhen zhu jiao nang	100
@@ -4408,6 +4704,7 @@ columns:
 罗汉果止咳胶囊	luo han guo zhi ke jiao nang	100
 罗汉果止咳片	luo han guo zhi ke pian	100
 罗汉果止咳糖浆	luo han guo zhi ke tang jiang	100
+落花参片	luo hua can pian	500
 裸花紫珠分散片	luo hua zi zhu fen san pian	100
 裸花紫珠合剂	luo hua zi zhu he ji	100
 裸花紫珠胶囊	luo hua zi zhu jiao nang	100
@@ -4415,7 +4712,6 @@ columns:
 裸花紫珠片	luo hua zi zhu pian	500
 裸花紫珠软胶囊	luo hua zi zhu ruan jiao nang	100
 裸花紫珠栓	luo hua zi zhu shuan	500
-落花参片	luo hua 参片	500
 罗黄降压片	luo huang jiang ya pian	500
 罗己降压片	luo ji jiang ya pian	500
 萝藤安神片	luo teng an shen pian	500
@@ -4444,8 +4740,8 @@ columns:
 马栗种子提取物片	ma li zhong zi ti qu wu pian	100
 玛木然止泻胶囊	ma mu ran zhi xie jiao nang	100
 马钱子散	ma qian zi san	500
+麻芩消咳颗粒	ma qin xiao hai ke li	100
 麻芩止咳糖浆	ma qin zhi ke tang jiang	100
-麻芩消咳颗粒	ma qin 消咳 ke li	100
 麻仁合剂	ma ren he ji	500
 麻仁胶囊	ma ren jiao nang	500
 麻仁软胶囊	ma ren ruan jiao nang	500
@@ -4487,11 +4783,11 @@ columns:
 麦神开胃口服液	mai shen kai wei kou fu ye	100
 脉舒胶囊	mai shu jiao nang	500
 脉舒平袋泡茶	mai shu ping dai pao cha	100
+麦味地黄片	mai wei de huang pian	500
 麦味地黄合剂	mai wei di huang he ji	100
 麦味地黄胶囊	mai wei di huang jiao nang	100
 麦味地黄口服液	mai wei di huang kou fu ye	100
 麦味地黄丸	mai wei di huang wan	500
-麦味地黄片	mai wei 地 huang pian	500
 脉血康肠溶片	mai xue kang chang rong pian	100
 脉血康胶囊	mai xue kang jiao nang	500
 麦芽片	mai ya pian	500
@@ -4524,6 +4820,7 @@ columns:
 毛鸡补血酒	mao ji bu xue jiu	500
 毛鸡药酒	mao ji yao jiu	500
 猫爪草胶囊	mao zhua cao jiao nang	500
+玫参补肾口服液	mei can bu shen kou fu ye	100
 玫瑰花口服液	mei gui hua kou fu ye	100
 玫瑰花糖膏	mei gui hua tang gao	500
 玫果口服液	mei guo kou fu ye	500
@@ -4612,10 +4909,20 @@ columns:
 脑安片	nao an pian	500
 脑安软胶囊	nao an ruan jiao nang	500
 蛲虫药膏	nao chong yao gao	500
+脑得生袋泡茶	nao de sheng dai pao cha	100
 脑得生胶囊	nao de sheng jiao nang	500
+脑得生咀嚼片	nao de sheng ju jue pian	100
+脑得生颗粒	nao de sheng ke li	500
 脑得生片	nao de sheng pian	500
+脑得生丸	nao de sheng wan	500
 脑康泰胶囊	nao kang tai jiao nang	500
 脑康泰片	nao kang tai pian	500
+脑乐静	nao le jing	500
+脑乐静胶囊	nao le jing jiao nang	500
+脑乐静颗粒	nao le jing ke li	500
+脑乐静口服液	nao le jing kou fu ye	100
+脑乐静片	nao le jing pian	500
+脑乐静糖浆	nao le jing tang jiang	500
 脑力宝丸	nao li bao wan	500
 脑力静胶囊	nao li jing jiao nang	500
 脑力静颗粒	nao li jing ke li	500
@@ -4755,9 +5062,9 @@ columns:
 暖宫孕子片	nuan gong yun zi pian	500
 暖宫孕子丸	nuan gong yun zi wan	500
 暖脐膏	nuan qi gao	500
-暖胃舒乐胶囊	nuan wei 舒乐 jiao nang	100
-暖胃舒乐颗粒	nuan wei 舒乐 ke li	100
-暖胃舒乐片	nuan wei 舒乐片	500
+暖胃舒乐胶囊	nuan wei shu le jiao nang	100
+暖胃舒乐颗粒	nuan wei shu le ke li	100
+暖胃舒乐片	nuan wei shu le pian	500
 诺迪康胶囊	nuo di kang jiao nang	500
 诺迪康颗粒	nuo di kang ke li	500
 诺迪康口服液	nuo di kang kou fu ye	100
@@ -4820,6 +5127,7 @@ columns:
 偏瘫复原丸	pian tan fu yuan wan	500
 片仔癀	pian zai huang	500
 片仔癀胶囊	pian zai huang jiao nang	500
+朴沉化郁丸	piao chen hua yu wan	500
 平安丸	ping an wan	500
 平喘抗炎胶囊	ping chuan kang yan jiao nang	100
 平喘益气颗粒	ping chuan yi qi ke li	100
@@ -4833,6 +5141,7 @@ columns:
 平消片	ping xiao pian	500
 平眩胶囊	ping xuan jiao nang	500
 平痔胶囊	ping zhi jiao nang	500
+蒲参胶囊	pu can jiao nang	500
 蒲地蓝消炎胶囊	pu di lan xiao yan jiao nang	100
 蒲地蓝消炎口服液	pu di lan xiao yan kou fu ye	100
 蒲地蓝消炎片	pu di lan xiao yan pian	100
@@ -4850,12 +5159,19 @@ columns:
 朴实颗粒	pu shi ke li	500
 蒲郁胶囊	pu yu jiao nang	500
 蒲元和胃胶囊	pu yuan he wei jiao nang	100
+芪柏养心口服液	qi bai yang xin kou fu ye	100
 七宝美髯胶囊	qi bao mei ran jiao nang	100
 七宝美髯颗粒	qi bao mei ran ke li	100
 七宝美髯口服液	qi bao mei ran kou fu ye	100
 七宝美髯丸	qi bao mei ran wan	500
 芪贝胶囊	qi bei jiao nang	500
 七鞭回春乐胶囊	qi bian hui chun le jiao nang	100
+芪参补气胶囊	qi can bu qi jiao nang	100
+杞参补肾颗粒	qi can bu shen ke li	100
+芪参补血口服液	qi can bu xue kou fu ye	100
+七参连湿疹膏	qi can lian shi zhen gao	100
+芪参通络胶囊	qi can tong luo jiao nang	100
+芪参益气滴丸	qi can yi qi di wan	100
 芪丹通络颗粒	qi dan tong luo ke li	100
 芪丹通脉片	qi dan tong mai pian	500
 芪冬养血胶囊	qi dong yang xue jiao nang	100
@@ -4881,6 +5197,7 @@ columns:
 芪甲利肺胶囊	qi jia li fei jiao nang	100
 芪胶升白胶囊	qi jiao sheng bai jiao nang	100
 芪胶调经颗粒	qi jiao tiao jing ke li	100
+杞菊地黄片	qi ju de huang pian	500
 杞菊地黄合剂	qi ju di huang he ji	100
 杞菊地黄胶囊	qi ju di huang jiao nang	100
 杞菊地黄口服液	qi ju di huang kou fu ye	100
@@ -4928,6 +5245,7 @@ columns:
 气痛丸	qi tong wan	500
 七味刺榆颗粒	qi wei ci yu ke li	100
 七味苁蓉酒	qi wei cong rong jiu	500
+七味地骨胶囊	qi wei de gu jiao nang	100
 七味都气丸	qi wei du qi wan	500
 七味肝胆清胶囊	qi wei gan dan qing jiao nang	100
 七味肝胆清颗粒	qi wei gan dan qing ke li	100
@@ -4954,7 +5272,6 @@ columns:
 七味血病丸	qi wei xue bing wan	500
 七味养心健脾胶囊	qi wei yang xin jian pi jiao nang	100
 七味益气胶囊	qi wei yi qi jiao nang	100
-七味地骨胶囊	qi wei 地骨 jiao nang	100
 芪仙补肾胶囊	qi xian bu shen jiao nang	100
 芪香益肾颗粒	qi xiang yi shen ke li	100
 七星茶	qi xing cha	500
@@ -4999,12 +5316,6 @@ columns:
 七珠健胃茶	qi zhu jian wei cha	500
 七子补肾酒	qi zi bu shen jiu	500
 七子填精口服液	qi zi tian jing kou fu ye	100
-芪参补气胶囊	qi 参 bu qi jiao nang	100
-芪参补血口服液	qi 参 bu xue kou fu ye	100
-芪参通络胶囊	qi 参 tong luo jiao nang	100
-芪参益气滴丸	qi 参 yi qi di wan	100
-七参连湿疹膏	qi 参连 shi zhen gao	100
-芪柏养心口服液	qi 柏 yang xin kou fu ye	100
 千柏鼻炎胶囊	qian bai bi yan jiao nang	100
 千柏鼻炎片	qian bai bi yan pian	500
 千草脑脉通合剂	qian cao nao mai tong he ji	100
@@ -5057,10 +5368,13 @@ columns:
 前列通瘀片	qian lie tong yu pian	500
 前列消胶囊	qian lie xiao jiao nang	500
 前列欣胶囊	qian lie xin jiao nang	500
+茜女胶囊	qian nv jiao nang	500
 千山活血膏	qian shan huo xue gao	500
 千喜胶囊	qian xi jiao nang	500
 千喜片	qian xi pian	500
 乾元丸	qian yuan wan	500
+茜芷胶囊	qian zhi jiao nang	500
+茜芷片	qian zhi pian	500
 千紫红胶囊	qian zi hong jiao nang	500
 千紫红颗粒	qian zi hong ke li	500
 千紫红片	qian zi hong pian	500
@@ -5117,6 +5431,8 @@ columns:
 强阳保肾丸	qiang yang bao shen wan	500
 强腰壮骨膏	qiang yao zhuang gu gao	500
 羌月乳膏	qiang yue ru gao	500
+鞘蕊苏胶囊	qiao rui su jiao nang	500
+鞘蕊苏口服液	qiao rui su kou fu ye	100
 翘栀牙痛颗粒	qiao zhi ya tong ke li	100
 芩暴红止咳分散片	qin bao hong zhi ke fen san pian	100
 芩暴红止咳合剂	qin bao hong zhi ke he ji	100
@@ -5149,6 +5465,7 @@ columns:
 芩芷鼻炎糖浆	qin zhi bi yan tang jiang	100
 清艾条	qing ai tiao	500
 情安喘定片	qing an chuan ding pian	500
+青柏洁身洗液	qing bai jie shen xi ye	100
 清痹通络药酒	qing bi tong luo yao jiu	100
 清便丸	qing bian wan	500
 清肠通便胶囊	qing chang tong bian jiao nang	100
@@ -5200,6 +5517,8 @@ columns:
 青果丸	qing guo wan	500
 青果止嗽丸	qing guo zhi sou wan	500
 青蛤散	qing ha san	500
+清咳平喘颗粒	qing hai ping chuan ke li	100
+清咳散	qing hai san	500
 青蒿鳖甲片	qing hao bie jia pian	500
 青蒿油软胶囊	qing hao you ruan jiao nang	100
 清喉利咽颗粒	qing hou li yan ke li	100
@@ -5214,6 +5533,8 @@ columns:
 清火栀麦胶囊	qing huo zhi mai jiao nang	100
 清火栀麦片	qing huo zhi mai pian	500
 清火栀麦丸	qing huo zhi mai wan	500
+清降片	qing jiang pian	500
+清降丸	qing jiang wan	500
 清解颗粒	qing jie ke li	500
 清解片	qing jie pian	500
 清解退热颗粒	qing jie tui re ke li	100
@@ -5370,14 +5691,14 @@ columns:
 清咽丸	qing yan wan	500
 清咽抑火丸	qing yan yi huo wan	500
 清咽饮茶	qing yan yin cha	500
-青阳参片	qing yang 参片	500
+青阳参片	qing yang can pian	500
 青叶胆胶囊	qing ye dan jiao nang	500
 青叶胆片	qing ye dan pian	500
 清胰利胆颗粒	qing yi li dan ke li	100
 清胰利胆片	qing yi li dan pian	500
 清胰利胆丸	qing yi li dan wan	500
 清音丸	qing yin wan	500
-庆余辟瘟丹	qing yu 辟 wen dan	500
+庆余辟瘟丹	qing yu bi wen dan	500
 清燥润肺合剂	qing zao run fei he ji	100
 清脂胶囊	qing zhi jiao nang	500
 清浊祛毒丸	qing zhuo qu du wan	500
@@ -5458,6 +5779,7 @@ columns:
 全天麻片	quan tian ma pian	500
 泉州百草曲	quan zhou bai cao qu	500
 泉州茶饼	quan zhou cha bing	500
+然降多吉胶囊	ran jiang duo ji jiao nang	100
 热毒宁注射液	re du ning zhu she ye	100
 热毒平胶囊	re du ping jiao nang	500
 热毒平颗粒	re du ping ke li	500
@@ -5527,7 +5849,9 @@ columns:
 日晒防治膏	ri shai fang zhi gao	500
 日舒安湿巾	ri shu an shi jin	500
 日舒安洗液	ri shu an xi ye	500
+茸参益肾胶囊	rong can yi shen jiao nang	100
 蓉丹口服液	rong dan kou fu ye	500
+茸地益肾口服液	rong de yi shen kou fu ye	100
 茸地益肾胶囊	rong di yi shen jiao nang	100
 蓉蛾益肾口服液	rong e yi shen kou fu ye	100
 荣发胶囊	rong fa jiao nang	500
@@ -5535,8 +5859,8 @@ columns:
 茸蛤益肾合剂	rong ha yi shen he ji	100
 茸坤丸	rong kun wan	500
 茸杞补肾健脾茶	rong qi bu shen jian pi cha	100
+蓉杞参胶囊	rong qi can jiao nang	500
 茸芪益肾口服液	rong qi yi shen kou fu ye	100
-蓉杞参胶囊	rong qi 参 jiao nang	500
 茸蓉补肾口服液	rong rong bu shen kou fu ye	100
 茸参补肾胶囊	rong shen bu shen jiao nang	100
 茸术口服液	rong shu kou fu ye	500
@@ -5551,8 +5875,6 @@ columns:
 茸血补心丸	rong xue bu xin wan	500
 茸萸补肾口服液	rong yu bu shen kou fu ye	100
 蓉芝益肾合剂	rong zhi yi shen he ji	100
-茸参益肾胶囊	rong 参益 shen jiao nang	100
-茸地益肾口服液	rong 地益 shen kou fu ye	100
 柔肝健脾口服液	rou gan jian pi kou fu ye	100
 柔肝解毒口服液	rou gan jie du kou fu ye	100
 柔肝解毒片	rou gan jie du pian	500
@@ -5659,17 +5981,22 @@ columns:
 腮腺宁糊剂	sai xian ning hu ji	500
 腮腺炎片	sai xian yan pian	500
 塞雪风湿胶囊	sai xue feng shi jiao nang	100
+三拗片	san ao pian	500
 三白草肝炎颗粒	san bai cao gan yan ke li	100
 三白草肝炎糖浆	san bai cao gan yan tang jiang	100
 三宝胶囊	san bao jiao nang	500
 三宝片	san bao pian	500
-三痹热宝熨剂	san bi re bao 熨剂	100
+三痹热宝熨剂	san bi re bao yu ji	100
 三鞭补酒	san bian bu jiu	500
 三鞭胶囊	san bian jiao nang	500
 三鞭酒	san bian jiu	500
 三鞭参茸固本丸	san bian shen rong gu ben wan	100
 三鞭温阳胶囊	san bian wen yang jiao nang	100
 三才封髓丸	san cai feng sui wan	500
+三参降脂液	san can jiang zhi ye	500
+三参芪口服液	san can qi kou fu ye	100
+三参通脉合剂	san can tong mai he ji	100
+三参益气口服液	san can yi qi kou fu ye	100
 三层茴香丸	san ceng hui xiang wan	500
 三臣胶囊	san chen jiao nang	500
 三臣散	san chen san	500
@@ -5720,6 +6047,7 @@ columns:
 三龙跌打酒	san long die da jiu	500
 三鹿温肾丸	san lu wen shen wan	500
 三妙丸	san miao wan	500
+三七参蜂口服液	san qi can feng kou fu ye	100
 三七丹参胶囊	san qi dan shen jiao nang	100
 三七丹参颗粒	san qi dan shen ke li	100
 三七丹参片	san qi dan shen pian	500
@@ -5749,7 +6077,6 @@ columns:
 三七止血胶囊	san qi zhi xue jiao nang	100
 三七止血咀嚼片	san qi zhi xue ju jue pian	100
 三七止血片	san qi zhi xue pian	500
-三七参蜂口服液	san qi 参蜂 kou fu ye	100
 三清胶囊	san qing jiao nang	500
 三清片	san qing pian	500
 三仁合剂	san ren he ji	500
@@ -5799,7 +6126,6 @@ columns:
 三子散	san zi san	500
 三子止咳膏	san zi zhi ke gao	500
 三子止咳胶囊	san zi zhi ke jiao nang	100
-三参芪口服液	san 参芪 kou fu ye	100
 桑葛降脂丸	sang ge jiang zhi wan	500
 桑姜感冒胶囊	sang jiang gan mao jiao nang	100
 桑姜感冒片	sang jiang gan mao pian	500
@@ -5864,6 +6190,7 @@ columns:
 山蜡梅叶胶囊	shan la mei ye jiao nang	100
 山蜡梅叶颗粒	shan la mei ye ke li	100
 山蜡梅叶片	shan la mei ye pian	500
+山腊梅叶清感茶	shan la mei ye qing gan cha	100
 山莨菪麝香膏	shan lang dang she xiang gao	100
 山龙药酒	shan long yao jiu	500
 山绿茶降压胶囊	shan lv cha jiang ya jiao nang	100
@@ -5878,8 +6205,8 @@ columns:
 山香圆含片	shan xiang yuan han pian	500
 山香圆颗粒	shan xiang yuan ke li	500
 山香圆片	shan xiang yuan pian	500
+山药参芪丸	shan yao can qi wan	500
 山药丸	shan yao wan	500
-山药参芪丸	shan yao 参芪 wan	500
 山楂冲剂	shan zha chong ji	500
 山楂调中丸	shan zha diao zhong wan	500
 山楂茯苓颗粒	shan zha fu ling ke li	100
@@ -5901,10 +6228,10 @@ columns:
 山庄降脂片	shan zhuang jiang zhi pian	500
 伤痹通酊	shang bi tong ding	500
 伤风感冒茶(伤风感冒冲剂)	shang feng gan mao cha shang feng gan mao chong ji	20
+伤风咳茶	shang feng hai cha	500
 伤风净喷雾剂	shang feng jing pen wu ji	100
 伤风停胶囊	shang feng ting jiao nang	500
 伤风停片	shang feng ting pian	500
-伤风咳茶	shang feng 咳茶	500
 伤复欣喷雾剂	shang fu xin pen wu ji	100
 伤疖膏	shang jie gao	500
 伤筋正骨酊	shang jin zheng gu ding	500
@@ -5918,6 +6245,7 @@ columns:
 伤可贴	shang ke tie	500
 伤科万花油	shang ke wan hua you	500
 伤科壮骨膏	shang ke zhuang gu gao	500
+伤乐气雾剂	shang le qi wu ji	500
 上清胶囊	shang qing jiao nang	500
 上清片	shang qing pian	500
 上清丸	shang qing wan	500
@@ -5956,6 +6284,7 @@ columns:
 烧烫伤膏	shao tang shang gao	500
 绍兴大补酒	shao xing da bu jiu	500
 少阳感冒颗粒	shao yang gan mao ke li	100
+蛇参胶囊	she can jiao nang	500
 蛇床子总香豆素软膏	she chuang zi zong xiang dou su ruan gao	100
 舌慈解毒口服液	she ci jie du kou fu ye	100
 蛇胆半夏片	she dan ban xia pian	500
@@ -6027,9 +6356,8 @@ columns:
 麝香追风膏	she xiang zhui feng gao	500
 麝香追风止痛膏	she xiang zhui feng zhi tong gao	100
 麝雄至宝丸	she xiong zhi bao wan	500
-蛇脂参黄软膏	she zhi 参黄 ruan gao	100
+蛇脂参黄软膏	she zhi can huang ruan gao	100
 麝珠明目滴眼液	she zhu ming mu di yan ye	100
-蛇参胶囊	she 参 jiao nang	500
 神安胶囊	shen an jiao nang	500
 肾安胶囊	shen an jiao nang	500
 肾安片	shen an pian	500
@@ -6262,6 +6590,8 @@ columns:
 升提颗粒	sheng ti ke li	500
 生血宝合剂	sheng xue bao he ji	500
 生血宝颗粒	sheng xue bao ke li	500
+升血调元颗粒	sheng xue diao yuan ke li	100
+升血调元汤	sheng xue diao yuan tang	500
 生血复元口服液	sheng xue fu yuan kou fu ye	100
 升血膏	sheng xue gao	500
 生血康合剂	sheng xue kang he ji	500
@@ -6271,8 +6601,6 @@ columns:
 生血片	sheng xue pian	500
 生血丸	sheng xue wan	500
 升血小板胶囊	sheng xue xiao ban jiao nang	100
-升血调元颗粒	sheng xue 调元 ke li	100
-升血调元汤	sheng xue 调元 tang	500
 升阳十一味丸	sheng yang shi yi wei wan	100
 圣·约翰草提取物片	sheng yue han cao ti qu wu pian	100
 十八味补肾益气口服液	shi ba wei bu shen yi qi kou fu ye	100
@@ -6281,10 +6609,10 @@ columns:
 十八味诃子利尿胶囊	shi ba wei he zi li niao jiao nang	100
 十八味诃子利尿丸	shi ba wei he zi li niao wan	100
 十八味诃子丸	shi ba wei he zi wan	100
+十八味降香丸	shi ba wei jiang xiang wan	100
 十八味欧曲丸	shi ba wei ou qu wan	100
 十八味欧曲珍宝丸	shi ba wei ou qu zhen bao wan	100
 十八味人参补气膏	shi ba wei ren shen bu qi gao	100
-十八味降香丸	shi ba 味降 xiang wan	100
 施保利通片	shi bao li tong pian	500
 食道平散	shi dao ping san	500
 十滴水	shi di shui	500
@@ -6357,7 +6685,7 @@ columns:
 十三味菥蓂胶囊	shi san wei xi mi jiao nang	100
 十三味菥蓂丸	shi san wei xi mi wan	100
 十三味辛夷滴鼻剂	shi san wei xin yi di bi ji	100
-十四味羚牛角丸	shi si wei ling niu 角丸	100
+十四味羚牛角丸	shi si wei ling niu jiao wan	100
 十四味羌活风湿酒	shi si wei qiang huo feng shi jiu	100
 十四味疏肝胶囊	shi si wei shu gan jiao nang	100
 十味蒂达胶囊	shi wei di da jiao nang	100
@@ -6376,6 +6704,7 @@ columns:
 十味乳香胶囊	shi wei ru xiang jiao nang	100
 十味乳香散	shi wei ru xiang san	500
 十味乳香丸	shi wei ru xiang wan	500
+十味手参散	shi wei shou can san	500
 十味溪黄草颗粒	shi wei xi huang cao ke li	100
 十味香鹿胶囊	shi wei xiang lu jiao nang	100
 十味消食散	shi wei xiao shi san	500
@@ -6383,7 +6712,6 @@ columns:
 十味玉泉胶囊	shi wei yu quan jiao nang	100
 十味玉泉片	shi wei yu quan pian	500
 十味止咳片	shi wei zhi ke pian	500
-十味手参散	shi wei 手参 san	500
 十五味沉香丸	shi wu wei chen xiang wan	100
 十五味黑药胶囊	shi wu wei hei yao jiao nang	100
 十五味黑药丸	shi wu wei hei yao wan	100
@@ -6403,7 +6731,7 @@ columns:
 湿消丸(七消丸)	shi xiao wan qi xiao wan	100
 食消饮	shi xiao yin	500
 石辛含片	shi xin han pian	500
-石杏痰咳片	shi xing tan 咳片	500
+石杏痰咳片	shi xing tan hai pian	500
 湿疡气雾剂	shi yang qi wu ji	500
 湿痒洗液	shi yang xi ye	500
 时疫救急丸	shi yi jiu ji wan	500
@@ -6436,7 +6764,7 @@ columns:
 首乌延寿颗粒	shou wu yan shou ke li	100
 首乌延寿片	shou wu yan shou pian	500
 寿星补汁	shou xing bu zhi	500
-手掌参三十七味丸	shou zhang 参 san shi qi wei wan	100
+手掌参三十七味丸	shou zhang can san shi qi wei wan	100
 首志健脑颗粒	shou zhi jian nao ke li	100
 舒安卫生栓	shu an wei sheng shuan	500
 舒肠口服液	shu chang kou fu ye	500
@@ -6482,6 +6810,7 @@ columns:
 舒冠颗粒	shu guan ke li	500
 舒冠片	shu guan pian	500
 舒冠通糖浆	shu guan tong tang jiang	500
+舒咳枇杷糖浆	shu hai pi pa tang jiang	100
 舒筋除湿胶囊	shu jin chu shi jiao nang	100
 舒筋跌打膏	shu jin die da gao	500
 舒筋定痛胶囊	shu jin ding tong jiao nang	100
@@ -6507,6 +6836,9 @@ columns:
 舒康凝胶剂	shu kang ning jiao ji	500
 舒康贴膏	shu kang tie gao	500
 舒康洗液	shu kang xi ye	500
+舒乐搽剂	shu le cha ji	500
+舒乐康胶囊	shu le kang jiao nang	500
+舒乐热熨剂	shu le re yu ji	500
 薯莨片	shu liang pian	500
 舒列安胶囊	shu lie an jiao nang	500
 舒灵喉片	shu ling hou pian	500
@@ -6552,6 +6884,13 @@ columns:
 暑症片	shu zheng pian	500
 舒痔丸	shu zhi wan	500
 双百口服液	shuang bai kou fu ye	500
+双参安神合剂	shuang can an shen he ji	100
+双参补肾口服液	shuang can bu shen kou fu ye	100
+双参补肾助阳胶囊	shuang can bu shen zhu yang jiao nang	100
+双参刺五加口服液	shuang can ci wu jia kou fu ye	100
+双参活血通络颗粒	shuang can huo xue tong luo ke li	100
+双参颗粒	shuang can ke li	500
+双参益神颗粒	shuang can yi shen ke li	100
 双刺杞口服液	shuang ci qi kou fu ye	100
 双丹膏	shuang dan gao	500
 双丹胶囊	shuang dan jiao nang	500
@@ -6625,7 +6964,7 @@ columns:
 双羊喉痹通颗粒	shuang yang hou bi tong ke li	100
 双阳益肾口服液	shuang yang yi shen kou fu ye	100
 双蚁祛湿通络胶囊	shuang yi qu shi tong luo jiao nang	100
-双子参洗液	shuang zi 参 xi ye	500
+双子参洗液	shuang zi can xi ye	500
 睡安胶囊	shui an jiao nang	500
 睡安片	shui an pian	500
 水陆二味片	shui lu er wei pian	500
@@ -6719,7 +7058,7 @@ columns:
 搜风理肺丸	sou feng li fei wan	500
 搜风顺气丸	sou feng shun qi wan	500
 苏冰滴丸	su bing di wan	500
-苏菲咳糖浆	su fei 咳 tang jiang	500
+苏菲咳糖浆	su fei hai tang jiang	500
 苏肝合剂	su gan he ji	500
 速感宁胶囊	su gan ning jiao nang	500
 苏合丸	su he wan	500
@@ -6767,6 +7106,7 @@ columns:
 太子金颗粒	tai zi jin ke li	500
 痰喘半夏颗粒	tan chuan ban xia ke li	100
 痰喘片	tan chuan pian	500
+痰咳清片	tan hai qing pian	500
 痰净片	tan jing pian	500
 痰咳净滴丸	tan ke jing di wan	500
 痰咳净片	tan ke jing pian	500
@@ -6775,9 +7115,10 @@ columns:
 痰热清注射液	tan re qing zhu she ye	100
 檀香清肺二十味丸	tan xiang qing fei er shi wei wan	100
 痰饮丸	tan yin wan	500
-痰咳清片	tan 咳 qing pian	500
 烫疮油	tang chuang you	500
 烫火散	tang huo san	500
+糖乐胶囊	tang le jiao nang	500
+糖乐片	tang le pian	500
 糖脉康胶囊	tang mai kang jiao nang	500
 糖脉康颗粒	tang mai kang ke li	500
 糖脉康片	tang mai kang pian	500
@@ -6785,9 +7126,9 @@ columns:
 糖尿乐片	tang niao le pian	500
 糖尿灵片	tang niao ling pian	500
 烫伤油	tang shang you	500
+糖泰得合剂	tang tai de he ji	500
 糖维胶囊	tang wei jiao nang	500
 糖脂宁胶囊	tang zhi ning jiao nang	500
-糖泰得合剂	tang 泰得 he ji	500
 桃红颗粒	tao hong ke li	500
 桃红清血片	tao hong qing xue pian	500
 桃红清血丸	tao hong qing xue wan	500
@@ -6803,8 +7144,10 @@ columns:
 体外培育牛黄	ti wai pei yu niu huang	100
 体虚感冒合剂	ti xu gan mao he ji	100
 天贝百合丸	tian bei bai he wan	500
+天参胶囊	tian can jiao nang	500
 天蚕胶囊	tian can jiao nang	500
 天蚕片	tian can pian	500
+天参益气胶囊	tian can yi qi jiao nang	100
 天蚕镇痛片	tian can zhen tong pian	500
 天草颗粒	tian cao ke li	500
 天蟾胶囊	tian chan jiao nang	500
@@ -6812,11 +7155,12 @@ columns:
 天丹通络片	tian dan tong luo pian	500
 天蛾补肾口服液	tian e bu shen kou fu ye	100
 天凤胃痛散	tian feng wei tong san	500
-天佛参口服液	tian fo 参 kou fu ye	100
+天佛参口服液	tian fo can kou fu ye	100
 天癸更年软胶囊	tian gui geng nian ruan jiao nang	100
 天癸口服液	tian gui kou fu ye	500
 天和追风膏	tian he zhui feng gao	500
 天胡荽愈肝片	tian hu sui yu gan pian	100
+天黄参消渴口服液	tian huang can xiao ke kou fu ye	100
 天黄猴枣散	tian huang hou zao san	500
 田基黄胶囊	tian ji huang jiao nang	500
 田基黄颗粒	tian ji huang ke li	500
@@ -6915,10 +7259,11 @@ columns:
 铁帚清浊丸	tie zhou qing zhuo wan	500
 葶贝胶囊	ting bei jiao nang	500
 葶苈草颗粒(肠炎干糖浆)	ting li cao ke li chang yan gan tang jiang	20
-葶苈降血脂胶囊	ting li 降血脂 jiao nang	100
-葶苈降血脂颗粒	ting li 降血脂 ke li	100
-葶苈降血脂片	ting li 降血脂 pian	100
+葶苈降血脂胶囊	ting li jiang xue zhi jiao nang	100
+葶苈降血脂颗粒	ting li jiang xue zhi ke li	100
+葶苈降血脂片	ting li jiang xue zhi pian	100
 痛安注射液	tong an zhu she ye	500
+童宝乐片	tong bao le pian	500
 通痹胶囊	tong bi jiao nang	500
 通鼻抗感剂	tong bi kang gan ji	500
 通痹片	tong bi pian	500
@@ -6953,6 +7298,7 @@ columns:
 痛克搽剂	tong ke cha ji	500
 痛可宁注射液	tong ke ning zhu she ye	100
 痛可舒喷雾剂	tong ke shu pen wu ji	100
+通乐颗粒	tong le ke li	500
 通淋胶囊	tong lin jiao nang	500
 通淋片	tong lin pian	500
 通络补肾酒	tong luo bu shen jiu	500
@@ -7025,7 +7371,7 @@ columns:
 通宣理肺丸	tong xuan li fei wan	500
 痛血康胶囊	tong xue kang jiao nang	500
 通幽润燥丸	tong you run zao wan	500
-通滞埃提勒菲力沙那片	tong zhi ai 提勒菲力 sha na pian	100
+通滞埃提勒菲力沙那片	tong zhi ai ti le fei li sha na pian	100
 通之舒胶囊	tong zhi shu jiao nang	500
 通滞苏润江胶囊	tong zhi su run jiang jiao nang	100
 通滞苏润江片	tong zhi su run jiang pian	100
@@ -7105,6 +7451,10 @@ columns:
 微达康膏	wei da kang gao	500
 微达康颗粒	wei da kang ke li	500
 微达康口服液	wei da kang kou fu ye	100
+胃得安胶囊	wei de an jiao nang	500
+胃得安片	wei de an pian	500
+胃得康胶囊	wei de kang jiao nang	500
+胃得康片	wei de kang pian	500
 维尔康胶囊	wei er kang jiao nang	500
 胃尔康片	wei er kang pian	500
 维儿康洗液	wei er kang xi ye	500
@@ -7164,7 +7514,7 @@ columns:
 胃舒止痛片	wei shu zhi tong pian	500
 胃苏颗粒	wei su ke li	500
 胃苏泡腾片	wei su pao teng pian	500
-维他参颗粒	wei ta 参 ke li	500
+维他参颗粒	wei ta can ke li	500
 胃泰和胶囊	wei tai he jiao nang	500
 胃泰胶囊	wei tai jiao nang	500
 胃太平胶囊	wei tai ping jiao nang	500
@@ -7222,12 +7572,12 @@ columns:
 温肾前列片	wen shen qian lie pian	500
 温肾全鹿丸	wen shen quan lu wan	500
 温肾苏拉甫片	wen shen su la fu pian	100
+温胃降逆颗粒	wen wei jiang ni ke li	100
 温胃舒胶囊	wen wei shu jiao nang	500
 温胃舒颗粒	wen wei shu ke li	500
 温胃舒泡腾片	wen wei shu pao teng pian	100
 温胃舒片	wen wei shu pian	500
 温胃止痛膏	wen wei zhi tong gao	500
-温胃降逆颗粒	wen wei 降逆 ke li	100
 稳心胶囊	wen xin jiao nang	500
 稳心颗粒	wen xin ke li	500
 稳心片	wen xin pian	500
@@ -7240,10 +7590,14 @@ columns:
 翁沥通颗粒	weng li tong ke li	500
 翁沥通片	weng li tong pian	500
 卧龙散	wo long san	500
+五柏参洗液	wu bai can xi ye	500
 乌贝胶囊	wu bei jiao nang	500
 乌贝颗粒	wu bei ke li	500
 乌贝散	wu bei san	500
 无比山药丸	wu bi shan yao wan	500
+五参安神口服液	wu can an shen kou fu ye	100
+五参芪口服液	wu can qi kou fu ye	100
+五参芪苓丸	wu can qi ling wan	500
 蜈黛软膏	wu dai ruan gao	500
 乌丹降脂颗粒	wu dan jiang zhi ke li	100
 无敌丹胶囊	wu di dan jiao nang	500
@@ -7284,7 +7638,10 @@ columns:
 乌鸡洋参胶囊	wu ji yang shen jiao nang	100
 乌鸡养血糖浆	wu ji yang xue tang jiang	100
 乌鸡增乳胶囊	wu ji zeng ru jiao nang	100
+五加参蛤蚧精	wu jia can ge jie jing	100
 五加参归芪精	wu jia can gui qi jing	100
+五加参精	wu jia can jing	500
+五加参颗粒	wu jia can ke li	500
 五加更年胶囊	wu jia geng nian jiao nang	100
 五加更年颗粒	wu jia geng nian ke li	100
 五加更年片	wu jia geng nian pian	500
@@ -7293,10 +7650,7 @@ columns:
 五加芪菊颗粒	wu jia qi ju ke li	100
 五加茸血口服液	wu jia rong xue kou fu ye	100
 五加生化胶囊	wu jia sheng hua jiao nang	100
-五加参蛤蚧精	wu jia 参 ge jie jing	100
-五加参颗粒	wu jia 参 ke li	500
-五加参精	wu jia 参精	500
-五加双参片	wu jia 双参片	500
+五加双参片	wu jia shuang can pian	500
 乌金活血止痛胶囊	wu jin huo xue zhi tong jiao nang	100
 乌金活血止痛片	wu jin huo xue zhi tong pian	100
 乌金胶囊	wu jin jiao nang	500
@@ -7330,9 +7684,9 @@ columns:
 乌梅人丹	wu mei ren dan	500
 五面星除湿酊	wu mian xing chu shi ding	100
 五妙水仙膏	wu miao shui xian gao	500
+乌杞调脂口服液	wu qi diao zhi kou fu ye	100
 乌芪胶囊	wu qi jiao nang	500
 鹜芪口服液	wu qi kou fu ye	500
-乌杞调脂口服液	wu qi 调脂 kou fu ye	100
 五仁醇胶囊	wu ren chun jiao nang	500
 五仁醇软胶囊	wu ren chun ruan jiao nang	100
 五仁润肠丸	wu ren run chang wan	500
@@ -7394,14 +7748,13 @@ columns:
 五子衍宗软胶囊	wu zi yan zong ruan jiao nang	100
 五子衍宗丸	wu zi yan zong wan	500
 五子益肾酒	wu zi yi shen jiu	500
-五参芪口服液	wu 参芪 kou fu ye	100
-五参芪苓丸	wu 参芪 ling wan	500
 息喘丸	xi chuan wan	500
 矽肺宁片	xi fei ning pian	500
 熄风通络头痛片	xi feng tong luo tou tong pian	100
 西瓜霜	xi gua shuang	500
 西瓜霜清咽含片	xi gua shuang qing yan han pian	100
 西瓜霜润喉片	xi gua shuang run hou pian	100
+息咳糖浆	xi hai tang jiang	500
 西汉古酒	xi han gu jiu	500
 西汉养生口服液	xi han yang sheng kou fu ye	100
 西红花十六味散	xi hong hua shi liu wei san	100
@@ -7426,6 +7779,7 @@ columns:
 硒杞补肝合剂	xi qi bu gan he ji	100
 西青果茶	xi qing guo cha	500
 西青果颗粒	xi qing guo ke li	500
+息伤乐酊	xi shang le ding	500
 豨桐胶囊	xi tong jiao nang	500
 豨桐丸	xi tong wan	500
 豨莶风湿胶囊	xi xian feng shi jiao nang	100
@@ -7446,8 +7800,6 @@ columns:
 西园喉药散(喷剂)	xi yuan hou yao san pen ji	100
 豨蛭络达胶囊	xi zhi luo da jiao nang	100
 喜字阿胶	xi zi e jiao	500
-息伤乐酊	xi 伤乐 ding	500
-息咳糖浆	xi 咳 tang jiang	500
 夏枯草膏	xia ku cao gao	500
 夏枯草胶囊	xia ku cao jiao nang	500
 夏枯草颗粒	xia ku cao ke li	500
@@ -7470,11 +7822,12 @@ columns:
 下消丸	xia xiao wan	500
 狭叶红景天片	xia ye hong jing tian pian	100
 苋菜黄连素胶囊	xian cai huang lian su jiao nang	100
+仙参口服液	xian can kou fu ye	500
 仙蟾片	xian chan pian	500
 显齿蛇葡萄总黄酮含片	xian chi she pu tao zong huang tong han pian	100
 仙蛾酒	xian e jiu	500
 仙方活命片	xian fang huo ming pian	500
-仙骨参芪口服液	xian gu 参芪 kou fu ye	100
+仙骨参芪口服液	xian gu can qi kou fu ye	100
 仙桂胶囊	xian gui jiao nang	500
 仙黄胶囊	xian huang jiao nang	500
 仙黄颗粒	xian huang ke li	500
@@ -7541,6 +7894,7 @@ columns:
 橡皮生肌膏	xiang pi sheng ji gao	500
 香青百草油搽剂	xiang qing bai cao you cha ji	100
 湘曲	xiang qu	500
+香砂参术茶	xiang sha can shu cha	500
 香砂和胃丸	xiang sha he wei wan	500
 香砂和中丸	xiang sha he zhong wan	500
 香砂理中丸	xiang sha li zhong wan	500
@@ -7559,10 +7913,10 @@ columns:
 香砂养胃软胶囊	xiang sha yang wei ruan jiao nang	100
 香砂养胃丸	xiang sha yang wei wan	500
 香砂枳术丸	xiang sha zhi shu wan	500
-香砂参术茶	xiang sha 参术 cha	500
 香芍颗粒	xiang shao ke li	500
 香石双解袋泡茶	xiang shi shuang jie dai pao cha	100
 香松通络油	xiang song tong luo you	500
+香苏调胃片	xiang su diao wei pian	500
 香苏正胃丸	xiang su zheng wei wan	500
 香藤胶囊	xiang teng jiao nang	500
 香通片	xiang tong pian	500
@@ -7600,11 +7954,13 @@ columns:
 消痤丸	xiao cuo wan	500
 小儿白贝止咳糖浆	xiao er bai bei zhi ke tang jiang	100
 小儿百部止咳糖浆	xiao er bai bu zhi ke tang jiang	100
+小儿百乐片	xiao er bai le pian	500
 小儿百寿丸	xiao er bai shou wan	500
 小儿百效片	xiao er bai xiao pian	500
 小儿保安丸	xiao er bao an wan	500
 小儿宝泰康颗粒	xiao er bao tai kang ke li	100
 小儿鼻炎片	xiao er bi yan pian	500
+小儿参术健脾丸	xiao er can shu jian pi wan	100
 小儿柴桂退热颗粒	xiao er chai gui tui re ke li	100
 小儿柴桂退热口服液	xiao er chai gui tui re kou fu ye	100
 小儿柴芩清解颗粒	xiao er chai qin qing jie ke li	100
@@ -7647,6 +8003,7 @@ columns:
 小儿感冒退热糖浆	xiao er gan mao tui re tang jiang	100
 小儿肝炎颗粒	xiao er gan yan ke li	100
 小儿功劳止泻颗粒	xiao er gong lao zhi xie ke li	100
+小儿广朴止泻口服液	xiao er guang piao zhi xie kou fu ye	100
 小儿和胃丸	xiao er he wei wan	500
 小儿和胃消食片	xiao er he wei xiao shi pian	100
 小儿葫芦散	xiao er hu lu san	500
@@ -7785,6 +8142,7 @@ columns:
 小儿喜食片	xiao er xi shi pian	500
 小儿喜食糖浆	xiao er xi shi tang jiang	100
 小儿香橘丸	xiao er xiang ju wan	500
+小儿消咳片	xiao er xiao hai pian	500
 小儿消积化虫散	xiao er xiao ji hua chong san	100
 小儿消积驱虫散	xiao er xiao ji qu chong san	100
 小儿消积丸	xiao er xiao ji wan	500
@@ -7829,15 +8187,16 @@ columns:
 小儿珠珀散	xiao er zhu po san	500
 小儿紫贝宣肺糖浆	xiao er zi bei xuan fei tang jiang	100
 小儿紫草丸	xiao er zi cao wan	500
-小儿参术健脾丸	xiao er 参术 jian pi wan	100
-小儿广朴止泻口服液	xiao er 广朴 zhi xie kou fu ye	100
-小儿消咳片	xiao er 消咳片	500
-小儿百乐片	xiao er 百乐 pian	500
 消疯散	xiao feng san	500
 消风止痛宁	xiao feng zhi tong ning	500
 消风止痛宁胶囊	xiao feng zhi tong ning jiao nang	100
 消风止痒颗粒	xiao feng zhi yang ke li	100
 消癥扶正口服液	xiao fu zheng kou fu ye	100
+消咳胶囊	xiao hai jiao nang	500
+消咳颗粒	xiao hai ke li	500
+消咳片	xiao hai pian	500
+消咳平喘口服液	xiao hai ping chuan kou fu ye	100
+消咳糖浆	xiao hai tang jiang	500
 消核膏	xiao he gao	500
 消核片	xiao he pian	500
 小活络片	xiao huo luo pian	500
@@ -7920,8 +8279,8 @@ columns:
 消栓通络颗粒	xiao shuan tong luo ke li	100
 消栓通络片	xiao shuan tong luo pian	500
 消栓再造丸	xiao shuan zai zao wan	500
+消痰咳片	xiao tan hai pian	500
 消痰益康(糖浆)	xiao tan yi kang tang jiang	100
-消痰咳片	xiao tan 咳片	500
 消糖灵胶囊	xiao tang ling jiao nang	500
 消糖灵颗粒	xiao tang ling ke li	500
 消糖灵片	xiao tang ling pian	500
@@ -8083,6 +8442,7 @@ columns:
 心舒宝片	xin shu bao pian	500
 心舒胶囊	xin shu jiao nang	500
 心舒静吸入剂	xin shu jing xi ru ji	100
+心舒乐片	xin shu le pian	500
 心舒宁胶囊	xin shu ning jiao nang	500
 心舒宁片	xin shu ning pian	500
 心舒丸	xin shu wan	500
@@ -8137,12 +8497,12 @@ columns:
 杏苏止咳口服液	xing su zhi ke kou fu ye	100
 杏苏止咳软胶囊	xing su zhi ke ruan jiao nang	100
 杏苏止咳糖浆	xing su zhi ke tang jiang	100
+杏菀止咳颗粒	xing wan zhi ke ke li	100
 杏香兔耳风胶囊	xing xiang tu er feng jiao nang	100
 杏香兔耳风颗粒	xing xiang tu er feng ke li	100
 杏香兔耳风片	xing xiang tu er feng pian	100
 杏香兔耳风软胶囊	xing xiang tu er feng ruan jiao nang	100
 醒消丸	xing xiao wan	500
-杏菀止咳颗粒	xing 菀 zhi ke ke li	100
 熊胆川贝口服液	xiong dan chuan bei kou fu ye	100
 熊胆滴丸	xiong dan di wan	500
 熊胆跌打膏	xiong dan die da gao	500
@@ -8165,21 +8525,21 @@ columns:
 芎香通脉滴丸	xiong xiang tong mai di wan	100
 芎芷痛瘀散	xiong zhi tong yu san	500
 芎芷止痛颗粒	xiong zhi zhi tong ke li	100
+续参酒	xu can jiu	500
 续断壮骨胶囊	xu duan zhuang gu jiao nang	100
 虚汗停胶囊	xu han ting jiao nang	500
 虚汗停颗粒	xu han ting ke li	500
 虚汗停糖浆	xu han ting tang jiang	500
 虚寒胃痛胶囊	xu han wei tong jiao nang	100
 虚寒胃痛颗粒	xu han wei tong ke li	100
-续参酒	xu 参酒	500
 宣肺败毒颗粒	xuan fei bai du ke li	100
 宣肺止嗽合剂	xuan fei zhi sou he ji	100
 玄归滴丸	xuan gui di wan	500
 玄驹胶囊	xuan ju jiao nang	500
 玄驹片	xuan ju pian	500
+玄麦甘桔含片	xuan mai gan jie han pian	100
+玄麦甘桔胶囊	xuan mai gan jie jiao nang	100
 玄麦甘桔颗粒	xuan mai gan jie ke li	100
-玄麦甘桔含片	xuan mai 甘桔 han pian	100
-玄麦甘桔胶囊	xuan mai 甘桔 jiao nang	100
 癣宁搽剂	xuan ning cha ji	500
 玄七健骨片	xuan qi jian gu pian	500
 玄芪口服液	xuan qi kou fu ye	500
@@ -8284,10 +8644,13 @@ columns:
 牙痛停滴丸	ya tong ting di wan	500
 牙痛药水	ya tong yao shui	500
 牙痛一粒丸	ya tong yi li wan	500
+延参健胃胶囊	yan can jian wei jiao nang	100
 延丹胶囊	yan dan jiao nang	500
 延丹胃舒胶囊	yan dan wei shu jiao nang	100
 延丹益心胶囊	yan dan yi xin jiao nang	100
 岩果止咳液	yan guo zhi ke ye	500
+芫蒿护肝胶囊	yan hao hu gan jiao nang	100
+芫蒿护肝片	yan hao hu gan pian	500
 咽喉宁喷雾剂	yan hou ning pen wu ji	100
 咽喉清喉滴丸	yan hou qing hou di wan	100
 咽喉清喉片	yan hou qing hou pian	500
@@ -8295,6 +8658,7 @@ columns:
 咽喉消炎丸	yan hou xiao yan wan	500
 延胡胃安胶囊	yan hu wei an jiao nang	100
 岩黄连注射液	yan huang lian zhu she ye	100
+延寄参胶囊	yan ji can jiao nang	500
 炎见宁片	yan jian ning pian	500
 咽康滴丸	yan kang di wan	500
 咽康含片	yan kang han pian	500
@@ -8334,6 +8698,7 @@ columns:
 延枳丹胶囊	yan zhi dan jiao nang	500
 洋参保肺颗粒	yang can bao fei ke li	100
 洋参保肺口服液	yang can bao fei kou fu ye	100
+阳参益肾胶囊	yang can yi shen jiao nang	100
 阳春合剂	yang chun he ji	500
 阳春胶囊	yang chun jiao nang	500
 阳春口服液	yang chun kou fu ye	500
@@ -8392,6 +8757,7 @@ columns:
 养血当归颗粒	yang xue dang gui ke li	100
 养血当归软胶囊	yang xue dang gui ruan jiao nang	100
 养血当归糖浆	yang xue dang gui tang jiang	100
+养血调经膏	yang xue diao jing gao	500
 养血固本胶囊	yang xue gu ben jiao nang	100
 养血口服液	yang xue kou fu ye	500
 养血清脑颗粒	yang xue qing nao ke li	100
@@ -8479,6 +8845,10 @@ columns:
 一把抓	yi ba zhua	500
 益白尿通颗粒	yi bai niao tong ke li	100
 益鼻喷雾剂	yi bi pen wu ji	500
+蚁参护肝口服液	yi can hu gan kou fu ye	100
+薏参胶囊	yi can jiao nang	500
+蚁参蠲痹胶囊	yi can juan bi jiao nang	100
+蚁参药酒	yi can yao jiu	500
 蚁陈固涩口服液	yi chen gu se kou fu ye	100
 益胆胶囊	yi dan jiao nang	500
 益胆片	yi dan pian	500
@@ -8502,6 +8872,9 @@ columns:
 乙肝解毒胶囊	yi gan jie du jiao nang	100
 乙肝解毒丸	yi gan jie du wan	500
 益肝颗粒	yi gan ke li	500
+益肝乐胶囊	yi gan le jiao nang	500
+宜肝乐颗粒	yi gan le ke li	500
+益肝乐颗粒	yi gan le ke li	500
 益肝灵滴丸	yi gan ling di wan	500
 益肝灵分散片	yi gan ling fen san pian	100
 乙肝灵胶囊	yi gan ling jiao nang	500
@@ -8708,14 +9081,12 @@ columns:
 益中生血胶囊	yi zhong sheng xue jiao nang	100
 益中生血片	yi zhong sheng xue pian	500
 一柱天酒	yi zhu tian jiu	500
-蚁参护肝口服液	yi 参 hu gan kou fu ye	100
-蚁参蠲痹胶囊	yi 参 juan bi jiao nang	100
-蚁参药酒	yi 参 yao jiu	500
 茵白肝炎胶囊	yin bai gan yan jiao nang	100
 茵白肝炎颗粒	yin bai gan yan ke li	100
 银贝止咳颗粒	yin bei zhi ke ke li	100
 银冰含片	yin bing han pian	500
 银冰消痤酊	yin bing xiao cuo ding	500
+银参通络胶囊	yin can tong luo jiao nang	100
 银柴合剂	yin chai he ji	500
 银柴颗粒	yin chai ke li	500
 茵陈酒	yin chen jiu	500
@@ -8755,6 +9126,7 @@ columns:
 银黄软胶囊	yin huang ruan jiao nang	500
 银黄丸	yin huang wan	500
 银黄注射液	yin huang zhu she ye	500
+银桔利咽含片	yin jie li yan han pian	100
 银菊感冒片	yin ju gan mao pian	500
 银菊清解片	yin ju qing jie pian	500
 银菊清咽颗粒	yin ju qing yan ke li	100
@@ -8935,6 +9307,9 @@ columns:
 玉竹膏	yu zhu gao	500
 玉竹高龄酒	yu zhu gao ling jiu	500
 玉竹颗粒	yu zhu ke li	500
+鸢都感冒颗粒	yuan dou gan mao ke li	100
+鸢都寒痹药酒料	yuan dou han bi yao jiu liao	100
+鸢都寒痹液	yuan dou han bi ye	500
 元和正胃片	yuan he zheng wei pian	500
 元胡胃舒胶囊	yuan hu wei shu jiao nang	100
 元胡胃舒片	yuan hu wei shu pian	500
@@ -8956,9 +9331,6 @@ columns:
 远志酊	yuan zhi ding	500
 远志流浸膏	yuan zhi liu jin gao	500
 远志糖浆	yuan zhi tang jiang	500
-鸢都感冒颗粒	yuan 都 gan mao ke li	100
-鸢都寒痹药酒料	yuan 都 han bi yao jiu liao	100
-鸢都寒痹液	yuan 都 han bi ye	500
 月白珍珠散	yue bai zhen zhu san	500
 月光宝鹏丸	yue guang bao peng wan	500
 月见草油乳	yue jian cao you ru	500
@@ -9003,6 +9375,8 @@ columns:
 云芝菌胶囊	yun zhi jun jiao nang	500
 云芝糖肽胶囊	yun zhi tang tai jiao nang	100
 云芝糖肽颗粒	yun zhi tang tai ke li	100
+仔花感冒胶囊	zai hua gan mao jiao nang	100
+仔花感冒片	zai hua gan mao pian	500
 再造生血胶囊	zai zao sheng xue jiao nang	100
 再造生血片	zai zao sheng xue pian	500
 再造丸	zai zao wan	500
@@ -9010,6 +9384,7 @@ columns:
 脏连丸	zang lian wan	500
 藏青果喉片	zang qing guo hou pian	500
 皂白散	zao bai san	500
+枣参安神胶囊	zao can an shen jiao nang	100
 枣参合剂	zao can he ji	500
 枣仁安神胶囊	zao ren an shen jiao nang	100
 枣仁安神颗粒	zao ren an shen ke li	100
@@ -9034,7 +9409,7 @@ columns:
 增液口服液	zeng ye kou fu ye	500
 扎冲十三味丸	zha chong shi san wei wan	100
 楂麦健脾颗粒	zha mai jian pi ke li	100
-楂明调脂颗粒	zha ming 调脂 ke li	100
+楂明调脂颗粒	zha ming diao zhi ke li	100
 楂曲平胃合剂	zha qu ping wei he ji	100
 湛江蟾蜍膏	zhan jiang chan chu gao	500
 展筋活血散	zhan jin huo xue san	500
@@ -9140,7 +9515,7 @@ columns:
 正糖胶囊	zheng tang jiao nang	500
 正天胶囊	zheng tian jiao nang	500
 正天丸	zheng tian wan	500
-正天宗牌洋参丸	zheng tian zong pai 洋参丸	100
+正天宗牌洋参丸	zheng tian zong pai yang can wan	100
 正胃胶囊	zheng wei jiao nang	500
 正胃片	zheng wei pian	500
 正心降脂片	zheng xin jiang zhi pian	500
@@ -9148,7 +9523,10 @@ columns:
 正心泰颗粒	zheng xin tai ke li	500
 正心泰片	zheng xin tai pian	500
 正元胶囊	zheng yuan jiao nang	500
+知柏地黄片	zhi bai de huang pian	500
+知柏地黄胶囊	zhi bai di huang jiao nang	100
 知柏地黄颗粒	zhi bai di huang ke li	100
+知柏地黄口服液	zhi bai di huang kou fu ye	100
 知柏地黄丸	zhi bai di huang wan	500
 至宝灵芝酒	zhi bao ling zhi jiu	500
 至宝三鞭胶囊	zhi bao san bian jiao nang	100
@@ -9184,7 +9562,10 @@ columns:
 治感佳片	zhi gan jia pian	500
 治感灵颗粒	zhi gan ling ke li	500
 痔根断片	zhi gen duan pian	500
-止红肠辟丸	zhi hong chang 辟丸	500
+治咳枇杷合剂	zhi hai pi pa he ji	100
+治咳枇杷露	zhi hai pi pa lu	500
+治咳片	zhi hai pian	500
+止红肠辟丸	zhi hong chang bi wan	500
 治红丸	zhi hong wan	500
 痔疾栓	zhi ji shuan	500
 痔疾洗液	zhi ji xi ye	500
@@ -9331,7 +9712,6 @@ columns:
 止痒酊	zhi yang ding	500
 止痒消炎水	zhi yang xiao yan shui	500
 栀子金花丸	zhi zi jin hua wan	500
-治咳片	zhi 咳片	500
 中风安口服液	zhong feng an kou fu ye	100
 中风回春胶囊	zhong feng hui chun jiao nang	100
 中风回春颗粒	zhong feng hui chun ke li	100
@@ -9351,6 +9731,8 @@ columns:
 肿节风片	zhong jie feng pian	500
 肿节风软胶囊	zhong jie feng ruan jiao nang	100
 肿节风注射液	zhong jie feng zhu she ye	100
+仲景胃灵胶囊	zhong jing wei ling jiao nang	100
+仲景胃灵片	zhong jing wei ling pian	500
 仲景胃灵丸	zhong jing wei ling wan	500
 中满分消丸	zhong man fen xiao wan	500
 众生胶囊	zhong sheng jiao nang	500
@@ -9469,6 +9851,8 @@ columns:
 紫丹活血片	zi dan huo xue pian	500
 紫丹银屑胶囊	zi dan yin xie jiao nang	100
 紫丹银屑颗粒	zi dan yin xie ke li	100
+紫地宁血颗粒	zi de ning xue ke li	100
+紫地宁血散	zi de ning xue san	500
 紫灯胶囊	zi deng jiao nang	500
 紫灯片	zi deng pian	500
 子宫锭	zi gong ding	500
@@ -9480,11 +9864,12 @@ columns:
 紫花烧伤软膏	zi hua shao shang ruan gao	100
 紫花油	zi hua you	500
 紫椒癣酊	zi jiao xuan ding	500
+紫桔止咳糖浆	zi jie zhi ke tang jiang	100
 紫蔻丸	zi kou wan	500
 紫苓胶囊	zi ling jiao nang	500
 紫龙金片	zi long jin pian	500
 紫楼胃康胶囊	zi lou wei kang jiao nang	100
-紫芪克咳口服液	zi qi ke 咳 kou fu ye	100
+紫芪克咳口服液	zi qi ke hai kou fu ye	100
 紫前膏	zi qian gao	500
 滋肾健脑颗粒	zi shen jian nao ke li	100
 滋肾宁神丸	zi shen ning shen wan	500
@@ -9526,388 +9911,3 @@ columns:
 左金片	zuo jin pian	500
 左金丸	zuo jin wan	500
 坐珠达西	zuo zhu da xi	500
-三参降脂液	三参 jiang zhi ye	500
-三参通脉合剂	三参 tong mai he ji	100
-三参益气口服液	三参 yi qi kou fu ye	100
-三拗片	三拗 pian	500
-东乐膏	东乐膏	500
-乐孕宁颗粒	乐孕宁 ke li	500
-乐孕宁口服液	乐孕宁 kou fu ye	100
-乐脉分散片	乐脉 fen san pian	500
-乐脉胶囊	乐脉 jiao nang	500
-乐脉颗粒	乐脉 ke li	500
-乐脉丸	乐脉 wan	500
-乐脉片	乐脉片	500
-五参安神口服液	五参 an shen kou fu ye	100
-五柏参洗液	五柏参 xi ye	500
-仔花感冒胶囊	仔花 gan mao jiao nang	100
-仔花感冒片	仔花 gan mao pian	500
-仙参口服液	仙参 kou fu ye	500
-仲景胃灵胶囊	仲景 wei ling jiao nang	100
-仲景胃灵片	仲景 wei ling pian	500
-伤乐气雾剂	伤乐 qi wu ji	500
-健肝乐颗粒	健肝乐 ke li	500
-儿咳糖浆	儿咳 tang jiang	500
-养血调经膏	养血调经 gao	500
-冠参片	冠参片	500
-冬菀止咳颗粒	冬菀 zhi ke ke li	100
-参茯胶囊	参 fu jiao nang	500
-参茯益气安神合剂	参 fu yi qi an shen he ji	100
-参灵通络胶囊	参 ling tong luo jiao nang	100
-参三七伤药	参 san qi shang yao	500
-参三七伤药胶囊	参 san qi shang yao jiao nang	100
-参三七伤药片	参 san qi shang yao pian	100
-参麝活络丸	参 she huo luo wan	500
-参一胶囊	参一 jiao nang	500
-参七散结丸	参七 san jie wan	500
-参七乳泰片	参七乳泰片	500
-参七心疏片	参七心 shu pian	500
-参丹活血胶囊	参丹 huo xue jiao nang	100
-参丹散结胶囊	参丹 san jie jiao nang	100
-参乌安神口服液	参乌 an shen kou fu ye	100
-参乌健脑胶囊	参乌 jian nao jiao nang	100
-参乌益肾片	参乌益 shen pian	500
-参仙壮肾胶囊	参仙壮 shen jiao nang	100
-参仙片	参仙片	500
-参倍固肠胶囊	参倍 gu chang jiao nang	100
-参味补肾合剂	参味 bu shen he ji	100
-参地益阴胶囊	参地益 yin jiao nang	100
-参坤养血胶囊	参坤 yang xue jiao nang	100
-参坤养血颗粒	参坤 yang xue ke li	100
-参坤养血口服液	参坤 yang xue kou fu ye	100
-参威口服液	参威 kou fu ye	500
-参子合剂	参子 he ji	500
-参归生发酊	参归 sheng fa ding	500
-参归养血口服液	参归 yang xue kou fu ye	100
-参归养血片	参归 yang xue pian	500
-参景养阴胶囊	参景 yang yin jiao nang	100
-参术儿康糖浆	参术 er kang tang jiang	100
-参术健脾丸	参术 jian pi wan	500
-参术健中口服液	参术 jian zhong kou fu ye	100
-参术止带糖浆	参术止 dai tang jiang	100
-参枝苓口服液	参枝苓 kou fu ye	100
-参枣健脑口服液	参枣 jian nao kou fu ye	100
-参柏舒心胶囊	参柏 shu xin jiao nang	100
-参柏舒心颗粒	参柏 shu xin ke li	100
-参柏洗液	参柏 xi ye	500
-参柏舒阴洗液	参柏舒阴 xi ye	100
-参柴肝康片	参柴 gan kang pian	500
-参柴肝康软胶囊	参柴 gan kang ruan jiao nang	100
-参柴胶囊	参柴 jiao nang	500
-参柴颗粒	参柴 ke li	500
-参桂补气养血口服液	参桂 bu qi yang xue kou fu ye	100
-参桂胶囊	参桂 jiao nang	500
-参桂调经丸	参桂 tiao jing wan	500
-参桂养荣丸	参桂 yang rong wan	500
-参桂再造丸	参桂 zai zao wan	500
-参梅健胃胶囊	参梅 jian wei jiao nang	100
-参棘软膏	参棘 ruan gao	500
-参歧肠泰合剂	参歧 chang tai he ji	100
-参泽舒肝胶囊	参泽舒肝 jiao nang	100
-参牛胶囊	参牛 jiao nang	500
-参玉补气酒	参玉 bu qi jiu	500
-参田胶囊	参田 jiao nang	500
-参白化痔胶囊	参白 hua zhi jiao nang	100
-参百宁神口服液	参百宁神 kou fu ye	100
-参皇软膏	参皇 ruan gao	500
-参竹精胶囊	参竹 jing jiao nang	500
-参竹精片	参竹 jing pian	500
-参精补肾胶囊	参精 bu shen jiao nang	100
-参精固本丸	参精 gu ben wan	500
-参精止渴丸	参精 zhi ke wan	500
-参红祛瘀散结胶囊	参红 qu yu san jie jiao nang	100
-参维冻干蜂王浆片	参维 dong gan feng wang jiang pian	100
-参胶胶囊	参胶 jiao nang	500
-参芍胶囊	参芍 jiao nang	500
-参芎胶囊	参芎 jiao nang	500
-参芝安神口服液	参芝 an shen kou fu ye	100
-参芪博力康片	参芪 bo li kang pian	100
-参芪阿胶胶囊	参芪 e jiao jiao nang	100
-参芪阿胶颗粒	参芪 e jiao ke li	100
-参芪儿康口服液	参芪 er kang kou fu ye	100
-参芪二仙片	参芪 er xian pian	500
-参芪复脉颗粒	参芪 fu mai ke li	100
-参芪扶正丸	参芪 fu zheng wan	500
-参芪肝康胶囊	参芪 gan kang jiao nang	100
-参芪肝康片	参芪 gan kang pian	500
-参芪膏	参芪 gao	500
-参芪蛤蚧补浆	参芪 ge jie bu jiang	100
-参芪花粉片	参芪 hua fen pian	500
-参芪降糖片	参芪 jiang tang pian	500
-参芪咀嚼片	参芪 ju jue pian	500
-参芪口服液	参芪 kou fu ye	500
-参芪鹿茸口服液	参芪 lu rong kou fu ye	100
-参芪沙棘合剂	参芪 sha ji he ji	100
-参芪山药膏	参芪 shan yao gao	500
-参芪升阳补血胶囊	参芪 sheng yang bu xue jiao nang	100
-参芪首乌补汁	参芪 shou wu bu zhi	100
-参芪糖浆	参芪 tang jiang	500
-参芪丸	参芪 wan	500
-参芪王浆养血口服液	参芪 wang jiang yang xue kou fu ye	100
-参芪温阳栓	参芪 wen yang shuan	500
-参芪温阳阴道膨胀栓	参芪 wen yang yin dao peng zhang shuan	100
-参芪乌鸡养血膏	参芪 wu ji yang xue gao	100
-参芪五味子胶囊	参芪 wu wei zi jiao nang	100
-参芪五味子颗粒	参芪 wu wei zi ke li	100
-参芪五味子片	参芪 wu wei zi pian	100
-参芪五味子糖浆	参芪 wu wei zi tang jiang	100
-参芪消渴胶囊	参芪 xiao ke jiao nang	100
-参芪消渴颗粒	参芪 xiao ke ke li	100
-参芪益肺丸	参芪 yi fei wan	500
-参芪益母颗粒	参芪 yi mu ke li	100
-参芪益气酒	参芪 yi qi jiu	500
-参芪云芝颗粒	参芪 yun zhi ke li	100
-参芪力得康片	参芪 力得 kang pian	100
-参花消渴茶	参花 xiao ke cha	500
-参苏补肾胶囊	参苏 bu shen jiao nang	100
-参苏胶囊	参苏 jiao nang	500
-参苏口服液	参苏 kou fu ye	500
-参苏宣肺丸	参苏 xuan fei wan	500
-参苏片	参苏片	500
-参苑益气补肾胶囊	参苑 yi qi bu shen jiao nang	100
-参茜固经颗粒	参茜 gu jing ke li	100
-参茸补血酒	参茸补血酒	500
-参莲颗粒	参莲 ke li	500
-参葛补肾胶囊	参葛 bu shen jiao nang	100
-参蓉健腰酒	参蓉 jian yao jiu	500
-参蓝口服液	参蓝 kou fu ye	500
-参藿温肾胶囊	参藿温 shen jiao nang	100
-参虎解毒丸	参虎 jie du wan	500
-参蛇偏瘫胶囊	参蛇 pian tan jiao nang	100
-参蛇花痔疮膏	参蛇花 zhi chuang gao	100
-参蛤胶囊	参蛤 jiao nang	500
-参蛭活血胶囊	参蛭 huo xue jiao nang	100
-参蛾助阳合剂	参蛾 zhu yang he ji	100
-参贝北瓜膏	参贝 bei gua gao	500
-参贝北瓜颗粒	参贝 bei gua ke li	100
-参贝陈皮	参贝 chen pi	500
-参贝咳喘丸	参贝 ke chuan wan	500
-参贝止咳颗粒	参贝 zhi ke ke li	100
-参郁宁神片	参郁宁 shen pian	500
-参阳片	参阳片	500
-参附强心丸	参附 qiang xin wan	500
-参附脱毒胶囊	参附 tuo du jiao nang	100
-参雄温阳胶囊	参雄 wen yang jiao nang	100
-参鞭补肾合剂	参鞭 bu shen he ji	100
-参鹿补膏	参鹿 bu gao	500
-参鹿补片	参鹿 bu pian	500
-参鹿补虚胶囊	参鹿 bu xu jiao nang	100
-参鹿茶	参鹿 cha	500
-参鹿扶正合剂	参鹿 fu zheng he ji	100
-参鹿扶正片	参鹿 fu zheng pian	500
-参鹿健肺胶囊	参鹿 jian fei jiao nang	100
-参鹿强身丸	参鹿 qiang shen wan	500
-参鹿健肾口服液	参鹿健 shen kou fu ye	100
-参鹿膏	参鹿膏	500
-参麦地黄丸	参麦 di huang wan	500
-参麦颗粒	参麦 ke li	500
-参麦止嗽糖浆	参麦止 sou tang jiang	100
-参黄消渴胶囊	参黄 xiao ke jiao nang	100
-参黄养阴胶囊	参黄 yang yin jiao nang	100
-参龙补肾胶囊	参龙 bu shen jiao nang	100
-参龙虫草益肾胶囊	参龙 chong cao yi shen jiao nang	100
-参龙养血膏	参龙 yang xue gao	500
-参龟补肾口服液	参龟 bu shen kou fu ye	100
-参龟固本酒	参龟 gu ben jiu	500
-双参安神合剂	双参 an shen he ji	100
-双参补肾口服液	双参 bu shen kou fu ye	100
-双参补肾助阳胶囊	双参 bu shen zhu yang jiao nang	100
-双参刺五加口服液	双参 ci wu jia kou fu ye	100
-双参活血通络颗粒	双参 huo xue tong luo ke li	100
-双参颗粒	双参 ke li	500
-双参益神颗粒	双参益 shen ke li	100
-咳克平胶囊	咳克平 jiao nang	500
-咳宁颗粒	咳宁 ke li	500
-咳平胶囊	咳平 jiao nang	500
-咳康含片	咳康 han pian	500
-咳感康口服液	咳感康 kou fu ye	100
-咳清胶囊	咳清 jiao nang	500
-咳灵胶囊	咳灵 jiao nang	500
-咳立停糖浆	咳立 ting tang jiang	500
-咳速停胶囊	咳速 ting jiao nang	500
-咳速停糖浆	咳速 ting tang jiang	500
-地黄叶总苷胶囊	地 huang ye zong gan jiao nang	100
-地牡宁神口服液	地 mu ning shen kou fu ye	100
-地仲强骨胶囊	地仲 qiang gu jiao nang	100
-地冬参膏	地冬 参膏	500
-地奥心血康颗粒	地奥心血康 ke li	100
-地奥心血康口服液	地奥心血康 kou fu ye	100
-地奥心血康片	地奥心血康 pian	100
-地奥心血康胶囊	地奥心血康胶囊	100
-地奥心血康软胶囊	地奥心血康软胶囊	100
-地贞颗粒	地贞 ke li	500
-地骨降糖丸	地骨 jiang tang wan	500
-地麦消渴胶囊	地麦 xiao ke jiao nang	100
-壳脂胶囊	壳 zhi jiao nang	500
-天参胶囊	天参 jiao nang	500
-天参益气胶囊	天参 yi qi jiao nang	100
-天黄参消渴口服液	天黄参 xiao ke kou fu ye	100
-妇乐胶囊	妇乐 jiao nang	500
-妇乐颗粒	妇乐 ke li	500
-妇乐糖浆	妇乐 tang jiang	500
-妇乐片	妇乐片	500
-妇得康泡沫剂	妇得康 pao mo ji	100
-宜肝乐颗粒	宜肝乐 ke li	500
-山腊梅叶清感茶	山腊 mei ye qing gan cha	100
-延参健胃胶囊	延参 jian wei jiao nang	100
-延寄参胶囊	延寄参 jiao nang	500
-建参片	建参片	500
-归参补血片	归参 bu xue pian	500
-归柏化瘀胶囊	归柏 hua yu jiao nang	100
-得生片	得 sheng pian	500
-得生丸	得 sheng wan	500
-心舒乐片	心舒乐片	500
-感咳双清胶囊	感咳 shuang qing jiao nang	100
-景志安神片	景 zhi an shen pian	500
-景志安神胶囊	景志 an shen jiao nang	100
-景志安神颗粒	景志 an shen ke li	100
-景志安神口服液	景志 an shen kou fu ye	100
-朝阳胶囊	朝阳 jiao nang	500
-朝阳丸	朝阳 wan	500
-朴沉化郁丸	朴沉化 yu wan	500
-杞参补肾颗粒	杞参 bu shen ke li	100
-杞菊地黄片	杞菊地 huang pian	500
-枣参安神胶囊	枣参 an shen jiao nang	100
-柏花草胶囊	柏 hua cao jiao nang	500
-柏子养心胶囊	柏子 yang xin jiao nang	100
-柏子养心片	柏子 yang xin pian	500
-柏子滋心丸	柏子 zi xin wan	500
-柏栀祛湿喷雾剂	柏栀 qu shi pen wu ji	100
-柏栀祛湿洗液	柏栀 qu shi xi ye	100
-柏洁洗剂	柏洁 xi ji	500
-柏艾胶囊	柏艾 jiao nang	500
-柏芪降糖胶囊	柏芪 jiang tang jiao nang	100
-柏芷洗剂	柏芷 xi ji	500
-柏黄静神丸	柏黄静 shen wan	500
-桂附地黄片	桂附地 huang pian	500
-桔贝合剂	桔贝 he ji	500
-桔贝止咳祛痰片	桔贝 zhi ke qu tan pian	100
-桔远止咳片	桔远 zhi ke pian	500
-桔香袪暑和胃茶	桔香 qu shu he wei cha	100
-槟藿痛风合剂	槟 huo tong feng he ji	100
-治咳枇杷合剂	治咳 pi pa he ji	100
-治咳枇杷露	治咳 pi pa lu	500
-活血调经丸	活血调经 wan	500
-消咳胶囊	消咳 jiao nang	500
-消咳颗粒	消咳 ke li	500
-消咳平喘口服液	消咳 ping chuan kou fu ye	100
-消咳糖浆	消咳 tang jiang	500
-消咳片	消咳片	500
-清咳平喘颗粒	清咳 ping chuan ke li	100
-清咳散	清咳 san	500
-清降丸	清降 wan	500
-清降片	清降片	500
-溃得康颗粒	溃得康 ke li	500
-澳泰乐胶囊	澳泰乐 jiao nang	500
-澳泰乐片	澳泰乐片	500
-然降多吉胶囊	然降 duo ji jiao nang	100
-玫参补肾口服液	玫参 bu shen kou fu ye	100
-甘参胶囊	甘参 jiao nang	500
-甘桔清咽颗粒	甘桔 qing yan ke li	100
-甘桔止咳糖浆	甘桔 zhi ke tang jiang	100
-白柏胶囊	白柏 jiao nang	500
-百咳宁片	百咳 ning pian	500
-百咳宁颗粒	百咳宁 ke li	500
-百咳静颗粒	百咳静 ke li	500
-百地滋阴丸	百地 zi yin wan	500
-百柏搽剂	百柏 cha ji	500
-益肝乐胶囊	益肝乐 jiao nang	500
-益肝乐颗粒	益肝乐 ke li	500
-知柏地黄胶囊	知柏 di huang jiao nang	100
-知柏地黄口服液	知柏 di huang kou fu ye	100
-知柏地黄片	知柏地 huang pian	500
-童宝乐片	童宝乐片	500
-糖乐胶囊	糖乐 jiao nang	500
-糖乐片	糖乐片	500
-紫地宁血散	紫地 ning xue san	500
-紫地宁血颗粒	紫地宁血 ke li	100
-紫桔止咳糖浆	紫桔 zhi ke tang jiang	100
-肝乐欣胶囊	肝乐欣 jiao nang	500
-肝复乐胶囊	肝复乐 jiao nang	500
-肝复乐片	肝复乐片	500
-肝得乐胶囊	肝得乐 jiao nang	500
-肝舒乐颗粒	肝舒乐 ke li	500
-胃得康片	胃得 kang pian	500
-胃得安胶囊	胃得安 jiao nang	500
-胃得安片	胃得安片	500
-胃得康胶囊	胃得康 jiao nang	500
-胆乐胶囊	胆乐 jiao nang	500
-脑乐静	脑乐静	500
-脑乐静胶囊	脑乐静 jiao nang	500
-脑乐静颗粒	脑乐静 ke li	500
-脑乐静口服液	脑乐静 kou fu ye	100
-脑乐静糖浆	脑乐静 tang jiang	500
-脑乐静片	脑乐静片	500
-脑得生丸	脑得 sheng wan	500
-脑得生袋泡茶	脑得生 dai pao cha	100
-脑得生咀嚼片	脑得生 ju jue pian	100
-脑得生颗粒	脑得生 ke li	500
-舒乐搽剂	舒乐 cha ji	500
-舒乐热熨剂	舒乐 热熨剂	500
-舒乐康胶囊	舒乐康 jiao nang	500
-舒咳枇杷糖浆	舒咳 pi pa tang jiang	100
-芙朴感冒胶囊	芙朴 gan mao jiao nang	100
-芙朴感冒颗粒	芙朴 gan mao ke li	100
-芫蒿护肝胶囊	芫蒿 hu gan jiao nang	100
-芫蒿护肝片	芫蒿 hu gan pian	500
-苦柏止痒洗液	苦柏 zhi yang xi ye	100
-苦柏散	苦柏散	500
-茜女胶囊	茜 nv jiao nang	500
-茜芷胶囊	茜芷 jiao nang	500
-茜芷片	茜芷片	500
-蒲参胶囊	蒲参 jiao nang	500
-薏参胶囊	薏参 jiao nang	500
-藏降脂胶囊	藏 jiang zhi jiao nang	500
-藏茵陈胶囊	藏 yin chen jiao nang	500
-藏茵陈颗粒	藏 yin chen ke li	500
-藏茵陈片	藏 yin chen pian	500
-藏茄流浸膏	藏茄 liu jin gao	500
-藿参补肾酒	藿参 bu shen jiu	500
-虎参软膏	虎参 ruan gao	500
-虎地肠溶胶囊	虎地 chang rong jiao nang	100
-蚕参健脾颗粒	蚕参 jian pi ke li	100
-蜂参益气锭	蜂参 yi qi ding	500
-行气活血颗粒	行气活血 ke li	100
-补血调经片	补血调经 pian	500
-调中四消丸	调中 si xiao wan	500
-调元大补二十五味汤散	调元 da bu er shi wu wei tang san	100
-调经活血胶囊	调经活血 jiao nang	100
-调经活血片	调经活血片	500
-调经补血丸	调经补血丸	500
-调肝和胃丸	调肝 he wei wan	500
-调胃丹	调胃 dan	500
-调胃消滞丸	调胃 xiao zhi wan	500
-调脂片	调脂片	500
-贝参平喘胶囊	贝参 ping chuan jiao nang	100
-贝桔止咳糖浆	贝桔 zhi ke tang jiang	100
-辟瘟片	辟 wen pian	500
-还精煎口服液	还 jing jian kou fu ye	100
-连柏烧伤软膏	连柏 shao shang ruan gao	100
-通乐颗粒	通乐 ke li	500
-都梁丸	都 liang wan	500
-重感灵胶囊	重感灵 jiao nang	500
-金参润喉合剂	金参 run hou he ji	100
-金参疏肝胶囊	金参 shu gan jiao nang	100
-金朴消积颗粒	金朴 xiao ji ke li	100
-银参通络胶囊	银参 tong luo jiao nang	100
-银桔利咽含片	银桔 li yan han pian	100
-阳参益肾胶囊	阳参益 shen jiao nang	100
-降浊颗粒	降浊 ke li	500
-降浊祛瘀颗粒	降浊 qu yu ke li	100
-降酶灵胶囊	降酶 ling jiao nang	500
-降酶灵片	降酶 ling pian	500
-青柏洁身洗液	青柏 jie shen xi ye	100
-鞘蕊苏胶囊	鞘蕊 su jiao nang	500
-鞘蕊苏口服液	鞘蕊 su kou fu ye	100
-香苏调胃片	香苏调 wei pian	500
-高血压速降丸	高血压速降丸	100
-鹿地益元酒	鹿地益 yuan jiu	500
-黄地养血口服液	黄地 yang xue kou fu ye	100
-黄地养阴颗粒	黄地 yang yin ke li	100
-黄柏八味片(沙日毛都-8)	黄柏 ba wei pian sha ri mao 都	20
-黄柏八味散	黄柏 ba wei san	500
-黄柏果油软胶囊	黄柏 guo you ruan jiao nang	100
-黄柏片	黄柏 pian	500
-黎峒丸	黎峒 wan	500
-龙参补益膏	龙参 bu yi gao	500
-龙参补益颗粒	龙参 bu yi ke li	100
