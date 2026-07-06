@@ -36,8 +36,16 @@ PATCH_FUNC = r"""static bool process_key_sequence(RimeApi* rime, RimeSessionId s
       keycode = (unsigned char)*p;
       p++;
     }
-    if (!rime->process_key(session_id, keycode, mask))
-      return false;
+    {
+      Bool ok = rime->process_key(session_id, keycode, mask);
+      if (!ok) {
+        char current_schema[256] = {0};
+        rime->get_current_schema(session_id, current_schema, sizeof(current_schema));
+        fprintf(stderr, "process_key(%d,%d) FAILED session=%d schema=[%s]\n",
+                keycode, mask, (int)session_id, current_schema);
+        return false;
+      }
+    }
   }
   return true;
 }
@@ -70,6 +78,16 @@ def main():
     content = content.replace(
         'rime->simulate_key_sequence(session_id, line.c_str())',
         'process_key_sequence(rime, session_id, line.c_str())'
+    )
+
+    # fix traits to read env vars (rime does not read them automatically)
+    content = content.replace(
+        'traits.app_name = "rime.console";',
+        'traits.app_name = "rime.console";\n'
+        '  const char* env_shared = getenv("RIME_SHARED_DATA_DIR");\n'
+        '  if (env_shared) traits.shared_data_dir = env_shared;\n'
+        '  const char* env_user = getenv("RIME_USER_DATA_DIR");\n'
+        '  if (env_user) traits.user_data_dir = env_user;'
     )
 
     with open(path, 'w') as f:
