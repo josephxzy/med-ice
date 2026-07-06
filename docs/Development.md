@@ -236,4 +236,4 @@ default.yaml → schema → dict 索引 → import_tables → 实际词库文件
 | `test.yml` | PR / workflow_dispatch | Lint → Build → Smoke |
 | `release.yml` | push main / tag / workflow_dispatch | Lint → Build → Smoke → 打包 → Release/Nightly |
 
-CI 中冒烟测试的 rime 工具链（deployer + api_console + lua 插件）全部从源码构建，缓存 `/opt/rime-cli` 加速后续运行。Lua 插件使用 Debian 预编译的 `librime-lua.so`，通过 `ENABLE_EXTERNAL_PLUGINS=ON` 加载。
+CI 中冒烟测试的 rime 工具链（deployer + api_console + lua 插件）全部从源码构建，缓存 `/opt/rime-cli` 加速后续运行。Lua 插件通过将 `librime-lua` 源码放入 `plugins/lua/` 由 cmake 自动发现并同步编译，避免版本不兼容。
