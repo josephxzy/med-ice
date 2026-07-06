@@ -50,7 +50,9 @@ jobs:
             libboost-regex-dev libleveldb-dev libmarisa-dev libopencc-dev \
             libyaml-cpp-dev libgoogle-glog-dev liblua5.4-dev
           git clone --depth 1 https://github.com/rime/librime.git /tmp/librime-src
-          git clone --depth 1 https://github.com/rime/librime-lua.git /tmp/librime-src/plugins/lua
+          curl -fsSL https://github.com/rime/librime-lua/archive/refs/heads/master.tar.gz | \
+            tar xz -C /tmp/librime-src/plugins/
+          mv /tmp/librime-src/plugins/librime-lua-master /tmp/librime-src/plugins/lua
           python3 tool/build/smoke/patch_api_console.py /tmp/librime-src/tools/rime_api_console.cc
           cmake -B /tmp/librime-src/build \
             -DCMAKE_BUILD_TYPE=Release \
