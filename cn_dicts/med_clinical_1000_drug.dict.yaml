@@ -1,0 +1,1013 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 临床常用的 1000 种药物
+# https://pediatr.dxy.cn/article/668866（丁香园）
+#
+---
+name: traditional_chinese_medicine
+version: "2026-07-06"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+
+...
+# +_+
+阿巴卡韦	a ba ka wei	500
+阿苯达唑	a ben da zuo	500
+阿达帕林	a da pa lin	500
+阿法骨化醇	a fa gu hua chun	500
+阿伐斯汀	a fa si ting	500
+阿桔片	a jie pian	500
+阿卡波糖	a ka bo tang	500
+阿克拉霉素	a ke la mei su	500
+阿仑膦酸钠	a lun lin suan na	500
+阿罗洛尔	a luo luo er	500
+阿洛西林	a luo xi lin	500
+阿米洛利	a mi luo li	500
+阿米三嗪萝巴新片	a mi san qin luo ba xin pian	100
+阿米替林	a mi ti lin	500
+阿莫罗芬	a mo luo fen	500
+阿莫西林	a mo xi lin	500
+阿莫西林克拉维酸钾	a mo xi lin ke la wei suan jia	100
+阿莫西林钠氟氯西林	a mo xi lin na fu lv xi lin	100
+阿莫西林舒巴坦钠	a mo xi lin shu ba tan na	100
+阿那曲唑	a na qu zuo	500
+阿普林定	a pu lin ding	500
+阿扑吗啡	a pu ma fei	500
+阿普唑仑	a pu zuo lun	500
+阿奇霉素	a qi mei su	500
+阿嗪米特	a qin mi te	500
+阿曲库铵	a qu ku an	500
+阿柔比星	a rou bi xing	500
+阿司咪唑	a si mi zuo	500
+阿司匹林	a si pi lin	500
+阿糖胞苷	a tang bao gan	500
+阿替洛尔	a ti luo er	500
+阿替普酶	a ti pu mei	500
+阿托品	a tuo pin	500
+阿魏酸	a wei suan	500
+阿昔洛韦	a xi luo wei	500
+阿昔莫司	a xi mo si	500
+爱普列特	ai pu lie te	500
+艾司洛尔	ai si luo er	500
+艾司唑仑	ai si zuo lun	500
+埃索美拉唑镁	ai suo mei la zuo mei	100
+氨苯蝶啶	an ben die ding	500
+氨苯砜	an ben feng	500
+氨苄西林	an bian xi lin	500
+氨苄西林氯唑西林	an bian xi lin lv zuo xi lin	100
+氨苄西林钠舒巴坦	an bian xi lin na shu ba tan	100
+氨茶碱	an cha jian	500
+氨碘肽	an dian tai	500
+胺碘酮	an dian tong	500
+氨丁三醇	an ding san chun	500
+氨基比林	an ji bi lin	500
+氨基己酸	an ji ji suan	500
+氨基葡萄糖	an ji pu tao tang	500
+氨基酸	an ji suan	500
+氨甲苯酸	an jia ben suan	500
+氨甲环酸	an jia huan suan	500
+氨力农	an li nong	500
+氨鲁米特	an lu mi te	500
+氨氯地平	an lv di ping	500
+氨曲南	an qu nan	500
+安他唑啉	an ta zuo lin	500
+氨肽素	an tai su	500
+氨糖美辛	an tang mei xin	500
+安息香酊	an xi xiang ding	500
+氨溴索	an xiu suo	500
+昂丹司琼	ang dan si qiong	500
+奥布卡因	ao bu ka yin	500
+奥氮平	ao dan ping	500
+奥卡西平	ao ka xi ping	500
+奥拉西坦	ao la xi tan	500
+奥美拉唑	ao mei la zuo	500
+奥曲肽	ao qu tai	500
+奥沙利铂	ao sha li bo	500
+奥沙西泮	ao sha xi pan	500
+奥司他韦	ao si ta wei	500
+奥替溴铵	ao ti xiu an	500
+奥昔布宁	ao xi bu ning	500
+奥硝唑	ao xiao zuo	500
+奥扎格雷	ao zha ge lei	500
+巴氯芬	ba lv fen	500
+巴曲酶	ba qu mei	500
+白消安	bai xiao an	500
+班布特罗	ban bu te luo	500
+斑蝥素	ban mao su	500
+胞磷胆碱	bao lin dan jian	500
+包醛氧淀粉	bao quan yang dian fen	500
+贝美格	bei mei ge	500
+贝那普利	bei na pu li	500
+贝诺酯	bei nuo zhi	500
+倍他洛尔	bei ta luo er	500
+倍他米松	bei ta mi song	500
+倍他司汀	bei ta si ting	500
+苯巴比妥	ben ba bi tuo	500
+苯丙醇	ben bing chun	500
+苯丙哌林	ben bing pai lin	500
+苯丙酸诺龙	ben bing suan nuo long	500
+苯丁酸氮芥	ben ding suan dan jie	500
+苯海拉明	ben hai la ming	500
+苯海索	ben hai suo	500
+苯甲酸	ben jia suan	500
+苯甲酸雌二醇	ben jia suan ci er chun	100
+苯妥英钠	ben tuo ying na	500
+苯西卤铵	ben xi lu an	500
+苯溴马隆	ben xiu ma long	500
+苯乙双胍	ben yi shuang gua	500
+苯扎贝特	ben zha bei te	500
+苯唑西林	ben zuo xi lin	500
+吡贝地尔	bi bei di er	500
+吡格列酮	bi ge lie tong	500
+比卡鲁胺	bi ka lu an	500
+吡喹酮	bi kui tong	500
+吡拉西坦	bi la xi tan	500
+吡硫醇	bi liu chun	500
+吡罗昔康	bi luo xi kang	500
+蓖麻油	bi ma you	500
+吡嘧司特钾	bi mi si te jia	500
+吡诺克辛	bi nuo ke xin	500
+吡嗪酰胺	bi qin xian an	500
+吡柔比星	bi rou bi xing	500
+比索洛尔	bi suo luo er	500
+苄星青霉素	bian xing qing mei su	500
+标准桃金娘油	biao zhun tao jin niang you	100
+别嘌醇	bie piao chun	500
+丙氨酰谷氨酰胺	bing an xian gu an xian an	100
+丙吡胺	bing bi an	500
+丙磺舒	bing huang shu	500
+丙卡特罗	bing ka te luo	500
+丙硫氧嘧啶	bing liu yang mi ding	500
+丙硫异烟胺	bing liu yi yan an	500
+丙米嗪	bing mi qin	500
+丙泊酚	bing po fen	500
+丙酸倍氯米松	bing suan bei lv mi song	100
+丙酸氟替卡松	bing suan fu ti ka song	100
+丙酸睾酮	bing suan gao tong	500
+丙酸氯倍他索	bing suan lv bei ta suo	100
+丙戊酸钠	bing wu suan na	500
+丙戊酰胺	bing wu xian an	500
+伯氨喹	bo an kui	500
+玻璃酸酶	bo li suan mei	500
+波替单抗	bo ti dan kang	500
+布比卡因	bu bi ka yin	500
+布地奈德	bu di nai de	500
+布桂嗪	bu gui qin	500
+布林佐胺	bu lin zuo an	500
+布洛芬	bu luo fen	500
+布美他尼	bu mei ta ni	500
+茶苯海明	cha ben hai ming	500
+茶碱	cha jian	500
+长春地辛	chang chun di xin	500
+长春碱	chang chun jian	500
+长春瑞宾	chang chun rui bin	500
+长春新碱	chang chun xin jian	500
+肠内营养剂	chang nei ying yang ji	500
+重酒石酸卡巴拉汀	chong jiu shi suan ka ba la ting	100
+重组牛碱性成纤维细胞生长因子	chong zu niu jian xing cheng xian wei xi bao sheng zhang yin zi	20
+重组人白介素-11	chong zu ren bai jie su	100
+重组人白介素－2	chong zu ren bai jie su	100
+重组人表皮生长因子	chong zu ren biao pi sheng zhang yin zi	100
+重组人生长激素	chong zu ren sheng zhang ji su	100
+重组人P53腺病毒	chong zu ren xian bing du	100
+穿琥宁	chuan hu ning	500
+川芎嗪	chuan xiong qin	500
+垂体后叶	chui ti hou ye	500
+雌二醇	ci er chun	500
+雌激素	ci ji su	500
+次没食子酸铋	ci mo shi zi suan bi	100
+雌莫司汀	ci mo si ting	500
+雌三醇	ci san chun	500
+次硝酸铋	ci xiao suan bi	500
+促肝细胞生长素-	cu gan xi bao sheng zhang su	100
+促皮质素	cu pi zhi su	500
+醋酸钙	cu suan gai	500
+醋硝香豆素	cu xiao xiang dou su	500
+达肝素	da gan su	500
+大观霉素	da guan mei su	500
+达那唑	da na zuo	500
+蛋氨酸胆碱	dan an suan dan jian	500
+氮甲	dan jia	500
+氮芥	dan jie	500
+丹参酮	dan shen tong	500
+单唾液酸四己糖神经节苷脂钠盐	dan tuo ye suan si ji tang shen jing jie gan zhi na yan	20
+单硝酸异山梨酯	dan xiao suan yi shan li zhi	100
+胆影葡胺	dan ying pu an	500
+氮卓斯汀	dan zhuo si ting	500
+地奥司明	di ao si ming	500
+地巴唑	di ba zuo	500
+地蒽酚	di en fen	500
+地芬尼多	di fen ni duo	500
+地芬诺酯	di fen nuo zhi	500
+低分子量肝素	di fen zi liang gan su	100
+地高辛	di gao xin	500
+地氯雷他定	di lv lei ta ding	500
+地匹福林	di pi fu lin	500
+地屈孕酮	di qu yun tong	500
+地塞米松	di sai mi song	500
+地西泮	di xi pan	500
+地衣芽胞杆菌活菌制剂	di yi ya bao gan jun huo jun zhi ji	100
+碘苯酯	dian ben zhi	500
+碘比醇	dian bi chun	500
+碘酊	dian ding	500
+碘番酸	dian fan suan	500
+淀粉酶	dian fen mei	500
+碘佛醇	dian fo chun	500
+碘苷	dian gan	500
+碘甘油	dian gan you	500
+碘海醇	dian hai chun	500
+碘化油	dian hua you	500
+碘解磷定	dian jie lin ding	500
+碘帕醇	dian pa chun	500
+碘普罗胺	dian pu luo an	500
+颠茄	dian qie	500
+碘塞罗宁	dian sai luo ning	500
+靛玉红	dian yu hong	500
+丁丙诺啡	ding bing nuo fei	500
+丁咯地尔	ding luo di er	500
+丁螺环酮	ding luo huan tong	500
+丁酸氢化可的松	ding suan qing hua ke di song	100
+丁香罗勒油	ding xiang luo le you	500
+东莨菪碱	dong lang dang jian	500
+毒毛花苷	du mao hua gan	500
+对氨基水杨酸钠	dui an ji shui yang suan na	100
+对乙酰氨基酚	dui yi xian an ji fen	100
+多巴胺	duo ba an	500
+多巴酚丁胺	duo ba fen ding an	500
+多巴丝肼	duo ba si jing	500
+多磺酸粘多糖	duo huang suan zhan duo tang	100
+多奈哌齐	duo nai pai qi	500
+多潘立酮	duo pan li tong	500
+多柔比星	duo rou bi xing	500
+多塞平	duo sai ping	500
+多沙普仑	duo sha pu lun	500
+多沙唑嗪	duo sha zuo qin	500
+多索茶碱	duo suo cha jian	500
+多西环素	duo xi huan su	500
+多烯磷脂酰胆碱	duo xi lin zhi xian dan jian	100
+多烯酸乙酯	duo xi suan yi zhi	500
+多西他赛	duo xi ta sai	500
+多西紫杉醇	duo xi zi shan chun	500
+多粘菌素	duo zhan jun su	500
+厄贝沙坦	e bei sha tan	500
+厄他培南	e ta pei nan	500
+恩氟烷	en fu wan	500
+恩他卡朋	en ta ka peng	500
+恩替卡韦	en ti ka wei	500
+法莫替丁	fa mo ti ding	500
+法舒地尔	fa shu di er	500
+伐昔洛韦	fa xi luo wei	500
+泛昔洛韦	fan xi luo wei	500
+泛影葡胺	fan ying pu an	500
+放线菌素	fang xian jun su	500
+非洛地平	fei luo di ping	500
+非那雄胺	fei na xiong an	500
+非诺贝特	fei nuo bei te	500
+酚苄明	fen bian ming	500
+酚磺乙胺	fen huang yi an	500
+奋乃静	fen nai jing	500
+酚酞	fen tai	500
+芬太尼	fen tai ni	500
+酚妥拉明	fen tuo la ming	500
+氟胞嘧啶	fu bao mi ding	500
+氟达拉滨	fu da la bin	500
+氟伐他汀	fu fa ta ting	500
+复方莪术油栓	fu fang e shu you shuan	100
+复方甘草（片、膏）	fu fang gan cao pian gao	100
+复方氯己定	fu fang lv ji ding	500
+复方硼砂	fu fang peng sha	500
+复方溴丙胺太林铝镁	fu fang xiu bing an tai lin lv mei	100
+氟芬那酸	fu fen na suan	500
+氟奋乃静	fu fen nai jing	500
+伏格列波糖	fu ge lie bo tang	500
+氟甲松龙	fu jia song long	500
+氟康唑	fu kang zuo	500
+伏立康唑	fu li kang zuo	500
+氟罗沙星	fu luo sha xing	500
+氟氯西林	fu lv xi lin	500
+富马酸亚铁	fu ma suan ya tie	500
+氟马西尼	fu ma xi ni	500
+辅酶	fu mei	500
+辅酶1010	fu mei	100
+福美坦	fu mei tan	500
+福莫司汀	fu mo si ting	500
+福莫特罗	fu mo te luo	500
+呋喃妥因	fu nan tuo yin	500
+呋喃唑酮	fu nan zuo tong	500
+氟尿嘧啶	fu niao mi ding	500
+氟哌啶醇	fu pai ding chun	500
+氟哌利多	fu pai li duo	500
+氟哌噻吨	fu pai sai dun	500
+氟哌噻吨美利曲辛	fu pai sai dun mei li qu xin	100
+氟轻松	fu qing song	500
+呋塞米	fu sai mi	500
+氟他胺	fu ta an	500
+夫西地酸	fu xi di suan	500
+氟西泮	fu xi pan	500
+氟西汀	fu xi ting	500
+福辛普利	fu xin pu li	500
+钆喷酸葡胺	ga pen suan pu an	500
+钆双胺	ga shuang an	500
+盖胃平	gai wei ping	500
+甘氨双唑钠	gan an shuang zuo na	500
+甘铋镁	gan bi mei	500
+甘草酸单铵	gan cao suan dan an	500
+甘草酸二铵	gan cao suan er an	500
+甘草甜素	gan cao tian su	500
+干酵母	gan jiao mu	500
+肝浸膏	gan jin gao	500
+甘磷酰芥	gan lin xian jie	500
+甘露醇	gan lu chun	500
+甘露聚糖肽	gan lu ju tang tai	500
+干扰素	gan rao su	500
+肝素	gan su	500
+甘油	gan you	500
+甘油果糖	gan you guo tang	500
+甘油磷酸钠	gan you lin suan na	500
+甘油氯化钠	gan you lv hua na	500
+高锰酸钾	gao meng suan jia	500
+格拉司琼	ge la si qiong	500
+格列本脲	ge lie ben niao	500
+格列吡嗪	ge lie bi qin	500
+格列喹酮	ge lie kui tong	500
+格列美脲	ge lie mei niao	500
+格列齐特	ge lie qi te	500
+戈舍瑞林	ge she rui lin	500
+更昔洛韦	geng xi luo wei	500
+谷氨酸	gu an suan	500
+谷氨酰胺	gu an xian an	500
+谷胱甘肽	gu guang gan tai	500
+骨化三醇	gu hua san chun	500
+谷维素	gu wei su	500
+胱氨酸	guang an suan	500
+鲑降钙素	gui jiang gai su	500
+鬼臼毒素	gui jiu du su	500
+桂利嗪	gui li qin	500
+桂哌齐特	gui pai qi te	500
+果糖	guo tang	500
+果糖二磷酸钠	guo tang er lin suan na	100
+过氧苯甲酰	guo yang ben jia xian	500
+过氧化氢	guo yang hua qing	500
+哈西奈德	ha xi nai de	500
+蒿甲醚	hao jia mi	500
+核酪	he lao	500
+核糖核酸	he tang he suan	500
+核糖霉素	he tang mei su	500
+红霉素	hong mei su	500
+红细胞生成素	hong xi bao sheng cheng su	100
+β-胡萝卜素	hu luo bo su	100
+琥珀酸亚铁	hu po suan ya tie	500
+琥珀酰明胶	hu po xian ming jiao	500
+琥乙红霉素	hu yi hong mei su	500
+华法林	hua fa lin	500
+环孢素	huan bao su	500
+环吡酮胺	huan bi tong an	500
+环丙沙星	huan bing sha xing	500
+环磷酰胺	huan lin xian an	500
+环磷腺苷	huan lin xian gan	500
+环酯红霉素	huan zhi hong mei su	500
+磺胺醋酰钠	huang an cu xian na	500
+磺胺甲噁唑	huang an jia zuo	500
+磺胺甲噁唑-甲氧苄啶	huang an jia zuo jia yang bian ding	100
+磺胺嘧啶	huang an mi ding	500
+磺胺嘧啶锌	huang an mi ding xin	500
+磺胺嘧啶银	huang an mi ding yin	500
+黄体酮	huang ti tong	500
+黄酮哌酯	huang tong pai zhi	500
+茴拉西坦	hui la xi tan	500
+茴三硫	hui san liu	500
+吉法酯	ji fa zhi	500
+吉非罗齐	ji fei luo qi	500
+吉非替尼	ji fei ti ni	500
+肌苷	ji gan	500
+吉米沙星	ji mi sha xing	500
+己酸羟孕酮	ji suan qiang yun tong	500
+己酮可可碱	ji tong ke ke jian	500
+己烯雌酚	ji xi ci fen	500
+吉西他滨	ji xi ta bin	500
+甲氨蝶呤	jia an die ling	500
+加贝酯	jia bei zhi	500
+甲苯磺丁脲	jia ben huang ding niao	500
+甲苯咪唑	jia ben mi zuo	500
+甲地孕酮	jia di yun tong	500
+甲砜霉素	jia feng mei su	500
+甲睾酮	jia gao tong	500
+甲钴胺	jia gu an	500
+甲基多巴	jia ji duo ba	500
+加兰他敏	jia lan ta min	500
+甲氯芬酯	jia lv fen zhi	500
+甲萘氢醌	jia nai qing kun	500
+甲泼尼龙	jia po ni long	500
+甲羟孕酮	jia qiang yun tong	500
+甲巯咪唑	jia qiu mi zuo	500
+加替沙星	jia ti sha xing	500
+甲硝唑	jia xiao zuo	500
+甲氧氯普胺	jia yang lv pu an	500
+甲氧那明	jia yang na ming	500
+甲氧沙林	jia yang sha lin	500
+甲异靛	jia yi dian	500
+甲状腺	jia zhuang xian	500
+间羟胺	jian qiang an	500
+降纤酶	jiang xian mei	500
+降压灵	jiang ya ling	500
+角菜酸酯	jiao cai suan zhi	500
+胶体果胶铋	jiao ti guo jiao bi	500
+金刚烷胺	jin gang wan an	500
+金霉素	jin mei su	500
+金诺芬	jin nuo fen	500
+精氨酸	jing an suan	500
+聚肌胞	ju ji bao	500
+聚甲酚磺醛	ju jia fen huang quan	500
+聚维酮碘	ju wei tong dian	500
+聚乙二醇	ju yi er chun	500
+枸橼酸铋钾	ju yuan suan bi jia	500
+枸橼酸钙	ju yuan suan gai	500
+枸橼酸钾	ju yuan suan jia	500
+卡巴胆碱	ka ba dan jian	500
+卡比多巴	ka bi duo ba	500
+卡铂	ka bo	500
+卡波姆	ka bo mu	500
+卡马西平	ka ma xi ping	500
+卡莫氟	ka mo fu	500
+卡莫司汀	ka mo si ting	500
+卡那霉素	ka na mei su	500
+卡培他滨	ka pei ta bin	500
+卡泊芬净	ka po fen jing	500
+卡泊三醇	ka po san chun	500
+卡前列甲酯	ka qian lie jia zhi	500
+卡前列素氨丁三醇	ka qian lie su an ding san chun	100
+卡替洛尔	ka ti luo er	500
+卡托普利	ka tuo pu li	500
+卡维地洛	ka wei di luo	500
+开塞露	kai sai lu	500
+坎地沙坦酯	kan di sha tan zhi	500
+抗Tac单抗	kang dan kang	100
+糠酸莫米松	kang suan mo mi song	500
+抗血友病球蛋白	kang xue you bing qiu dan bai	100
+糠甾醇	kang zai chun	500
+可待因	ke dai yin	500
+可的松	ke di song	500
+克拉霉素	ke la mei su	500
+可乐定	ke le ding	500
+克林霉素	ke lin mei su	500
+克林霉素磷酸酯	ke lin mei su lin suan zhi	100
+克仑特罗	ke lun te luo	500
+克罗米通	ke luo mi tong	500
+克霉唑	ke mei zuo	500
+枯草杆菌、肠球菌二联活菌..	ku cao gan jun chang qiu jun er lian huo jun	20
+喹硫平	kui liu ping	500
+奎尼丁	kui ni ding	500
+奎宁	kui ning	500
+拉贝洛尔	la bei luo er	500
+拉米夫定	la mi fu ding	500
+拉莫三嗪	la mo san qin	500
+拉坦前列素	la tan qian lie su	500
+拉西地平	la xi di ping	500
+拉氧头孢	la yang tou bao	500
+来氟米特	lai fu mi te	500
+赖诺普利	lai nuo pu li	500
+来曲唑	lai qu zuo	500
+兰索拉唑	lan suo la zuo	500
+劳拉西泮	lao la xi pan	500
+乐卡地平	le ka di ping	500
+雷贝拉唑	lei bei la zuo	500
+雷公藤多苷	lei gong teng duo gan	500
+雷洛昔芬	lei luo xi fen	500
+雷米普利	lei mi pu li	500
+雷尼替丁	lei ni ti ding	500
+利巴韦林	li ba wei lin	500
+利多卡因	li duo ka yin	500
+利福定	li fu ding	500
+利福平	li fu ping	500
+利福昔明	li fu xi ming	500
+利培酮	li pei tong	500
+利托那韦	li tuo na wei	500
+利妥昔单抗	li tuo xi dan kang	500
+粒细胞集落刺激因子	li xi bao ji luo ci ji yin zi	100
+粒细胞巨噬细胞集落刺激因子	li xi bao ju shi xi bao ji luo ci ji yin zi	20
+利血平	li xue ping	500
+联苯苄唑	lian ben bian zuo	500
+联苯双酯	lian ben shuang zhi	500
+链激酶	lian ji mei	500
+链霉素	lian mei su	500
+亮丙瑞林	liang bing rui lin	500
+两性霉素	liang xing mei su	500
+林旦	lin dan	500
+膦甲酸钠	lin jia suan na	500
+磷霉素	lin mei su	500
+磷酸氢钾	lin suan qing jia	500
+磷酸氢钠	lin suan qing na	500
+硫必利	liu bi li	500
+硫代硫酸钠	liu dai liu suan na	500
+柳氮磺吡啶	liu dan huang bi ding	500
+硫利达嗪	liu li da qin	500
+硫鸟嘌呤	liu niao piao ling	500
+硫普罗宁	liu pu luo ning	500
+硫酸钡	liu suan bei	500
+硫酸镁	liu suan mei	500
+硫酸钠	liu suan na	500
+硫酸锌	liu suan xin	500
+硫糖铝	liu tang lv	500
+流行性感冒疫苗	liu xing xing gan mao yi miao	100
+硫唑嘌呤	liu zuo piao ling	500
+芦丁	lu ding	500
+炉甘石	lu gan shi	500
+卤米松	lu mi song	500
+洛贝林	luo bei lin	500
+洛铂	luo bo	500
+洛度沙胺	luo du sha an	500
+洛伐他汀	luo fa ta ting	500
+罗格列酮	luo ge lie tong	500
+罗红霉素	luo hong mei su	500
+罗库溴铵	luo ku xiu an	500
+洛美沙星	luo mei sha xing	500
+洛莫司汀	luo mo si ting	500
+螺内酯	luo nei zhi	500
+洛哌丁胺	luo pai ding an	500
+罗哌卡因	luo pai ka yin	500
+洛索洛芬	luo suo luo fen	500
+氯胺酮	lv an tong	500
+氯苯那敏	lv ben na min	500
+氯吡格雷	lv bi ge lei	500
+氯丙那林	lv bing na lin	500
+氯丙嗪	lv bing qin	500
+氯氮平	lv dan ping	500
+氯法齐明	lv fa qi ming	500
+氯化铵	lv hua an	500
+氯化钙	lv hua gai	500
+氯化琥珀胆碱	lv hua hu po dan jian	100
+氯化钾	lv hua jia	500
+氯化钠	lv hua na	500
+氯解磷定	lv jie lin ding	500
+氯喹	lv kui	500
+氯喹那多-普罗雌烯	lv kui na duo pu luo ci xi	100
+氯雷他定	lv lei ta ding	500
+氯膦酸二钠	lv lin suan er na	500
+铝镁加	lv mei jia	500
+氯霉素	lv mei su	500
+氯美扎酮	lv mei zha tong	500
+氯米芬	lv mi fen	500
+氯米帕明	lv mi pa ming	500
+氯诺昔康	lv nuo xi kang	500
+氯普噻吨	lv pu sai dun	500
+氯沙坦钾	lv sha tan jia	500
+铝酸铋	lv suan bi	500
+铝碳酸镁	lv tan suan mei	500
+氯硝西泮	lv xiao xi pan	500
+氯唑沙宗	lv zuo sha zong	500
+氯唑西林	lv zuo xi lin	500
+吗啡	ma fei	500
+麻黄碱	ma huang jian	500
+吗氯贝胺	ma lv bei an	500
+马普替林	ma pu ti lin	500
+吗替麦考酚酯	ma ti mai kao fen zhi	100
+麦角胺咖啡因	mai jiao an ka fei yin	100
+麦角新碱	mai jiao xin jian	500
+毛果芸香碱	mao guo yun xiang jian	500
+美法仑	mei fa lun	500
+煤焦油	mei jiao you	500
+美罗培南	mei luo pei nan	500
+美洛昔康	mei luo xi kang	500
+美洛西林	mei luo xi lin	500
+美沙拉嗪	mei sha la qin	500
+美沙酮	mei sha tong	500
+美司钠	mei si na	500
+美托洛尔	mei tuo luo er	500
+美西律	mei xi lv	500
+美辛唑酮	mei xin zuo tong	500
+门冬氨酸钾镁	men dong an suan jia mei	100
+门冬氨酸鸟氨酸	men dong an suan niao an suan	100
+门冬酰胺酶	men dong xian an mei	500
+孟鲁司特钠	meng lu si te na	500
+蒙脱石	meng tuo shi	500
+咪达普利	mi da pu li	500
+咪达唑仑	mi da zuo lun	500
+糜蛋白酶	mi dan bai mei	500
+米氮平	mi dan ping	500
+米多君	mi duo jun	500
+米非司酮	mi fei si tong	500
+米格来宁	mi ge lai ning	500
+咪康唑	mi kang zuo	500
+咪喹莫特	mi kui mo te	500
+米力农	mi li nong	500
+米诺地尔	mi nuo di er	500
+米诺环素	mi nuo huan su	500
+米索前列醇	mi suo qian lie chun	500
+米托蒽醌	mi tuo en kun	500
+咪唑立宾	mi zuo li bin	500
+咪唑斯汀	mi zuo si ting	500
+莫雷西嗪	mo lei xi qin	500
+莫匹罗星	mo pi luo xing	500
+莫沙必利	mo sha bi li	500
+莫西沙星	mo xi sha xing	500
+木香铝镁	mu xiang lv mei	500
+纳洛酮	na luo tong	500
+纳米炭	na mi tan	500
+萘丁美酮	nai ding mei tong	500
+奈非那韦	nai fei na wei	500
+萘甲唑啉	nai jia zuo lin	500
+萘甲唑林	nai jia zuo lin	500
+萘普生	nai pu sheng	500
+奈替米星	nai ti mi xing	500
+奈韦拉平	nai wei la ping	500
+尼尔雌醇	ni er ci chun	500
+尼卡地平	ni ka di ping	500
+尼可刹米	ni ke sha mi	500
+尼麦角林	ni mai jiao lin	500
+尼美舒利	ni mei shu li	500
+尼莫地平	ni mo di ping	500
+尼莫司汀	ni mo si ting	500
+尼群地平	ni qun di ping	500
+尿促性素	niao cu xing su	500
+尿激酶	niao ji mei	500
+凝血酶	ning xue mei	500
+凝血酶原复合物	ning xue mei yuan fu he wu	100
+凝血因子VIIa	ning xue yin zi	100
+诺氟沙星	nuo fu sha xing	500
+帕罗西汀	pa luo xi ting	500
+帕米膦酸二钠	pa mi lin suan er na	100
+帕尼培南	pa ni pei nan	500
+帕珠沙星	pa zhu sha xing	500
+哌泊塞嗪	pai bo sai qin	500
+哌甲酯	pai jia zhi	500
+哌库溴铵	pai ku xiu an	500
+哌喹	pai kui	500
+哌拉西林	pai la xi lin	500
+哌拉西林三唑巴坦	pai la xi lin san zuo ba tan	100
+哌拉西林舒巴坦	pai la xi lin shu ba tan	100
+哌嗪	pai qin	500
+哌替啶	pai ti ding	500
+哌唑嗪	pai zuo qin	500
+泮库溴铵	pan ku xiu an	500
+泮托拉唑	pan tuo la zuo	500
+培哚普利	pei duo pu li	500
+培氟沙星	pei fu sha xing	500
+培高利特	pei gao li te	500
+喷托维林	pen tuo wei lin	500
+喷昔洛韦	pen xi luo wei	500
+硼酸	peng suan	500
+匹维溴铵	pi wei xiu an	500
+平阳霉素	ping yang mei su	500
+泼尼松	po ni song	500
+泼尼松龙	po ni song long	500
+普伐他汀	pu fa ta ting	500
+普拉睾酮	pu la gao tong	500
+普拉洛芬	pu la luo fen	500
+普鲁卡因	pu lu ka yin	500
+普鲁卡因青霉素	pu lu ka yin qing mei su	100
+普罗布考	pu luo bu kao	500
+普罗雌烯	pu luo ci xi	500
+普罗碘铵	pu luo dian an	500
+普罗帕酮	pu luo pa tong	500
+扑米酮	pu mi tong	500
+普萘洛尔	pu nai luo er	500
+葡醛内酯	pu quan nei zhi	500
+葡醛酸钠	pu quan suan na	500
+普适泰	pu shi tai	500
+葡萄糖	pu tao tang	500
+葡萄糖酸钙	pu tao tang suan gai	500
+葡萄糖酸锑钠	pu tao tang suan ti na	100
+葡萄糖酸锌	pu tao tang suan xin	500
+葡萄糖酸亚铁	pu tao tang suan ya tie	100
+齐多夫定	qi duo fu ding	500
+前列地尔	qian lie di er	500
+羟苯磺酸钙	qiang ben huang suan gai	500
+羟苄唑	qiang bian zuo	500
+羟基脲	qiang ji niao	500
+羟甲烟胺	qiang jia yan an	500
+羟甲唑啉	qiang jia zuo lin	500
+羟考酮	qiang kao tong	500
+羟氯喹	qiang lv kui	500
+羟嗪	qiang qin	500
+羟喜树碱	qiang xi shu jian	500
+羟乙基淀粉	qiang yi ji dian fen	500
+羟乙膦酸钠	qiang yi lin suan na	500
+庆大霉素	qing da mei su	500
+青蒿琥酯	qing hao hu zhi	500
+氢化可的松	qing hua ke di song	500
+氢氯噻嗪	qing lv sai qin	500
+青霉胺	qing mei an	500
+青霉素	qing mei su	500
+青霉素钾	qing mei su jia	500
+氢氧化铝	qing yang hua lv	500
+巯嘌呤	qiu piao ling	500
+秋水仙碱	qiu shui xian jian	500
+去氨加压素	qu an jia ya su	500
+曲安奈德	qu an nai de	500
+曲安西龙	qu an xi long	500
+曲吡那敏	qu bi na min	500
+曲伏前列素	qu fu qian lie su	500
+去甲斑蝥素	qu jia ban mao su	500
+去甲肾上腺素	qu jia shen shang xian su	100
+去甲万古霉素	qu jia wan gu mei su	100
+曲克芦丁	qu ke lu ding	500
+去氯羟嗪	qu lv qiang qin	500
+曲马多	qu ma duo	500
+曲美布汀	qu mei bu ting	500
+曲美他嗪	qu mei ta qin	500
+曲匹布通	qu pi bu tong	500
+曲普利啶	qu pu li ding	500
+曲普瑞林	qu pu rui lin	500
+去羟肌苷	qu qiang ji gan	500
+去氢胆酸	qu qing dan suan	500
+去铁胺	qu tie an	500
+曲妥珠单抗	qu tuo zhu dan kang	500
+去氧氟尿苷	qu yang fu niao gan	500
+去氧肾上腺素	qu yang shen shang xian su	100
+去乙酰毛花苷	qu yi xian mao hua gan	100
+曲唑酮	qu zuo tong	500
+炔雌醇	que ci chun	500
+炔诺酮	que nuo tong	500
+人免疫球蛋白	ren mian yi qiu dan bai	100
+人血白蛋白	ren xue bai dan bai	500
+人乙型肝炎免疫球蛋白	ren yi xing gan yan mian yi qiu dan bai	100
+绒促性素	rong cu xing su	500
+柔红霉素	rou hong mei su	500
+鞣酸加压素	rou suan jia ya su	500
+乳果糖	ru guo tang	500
+乳酶生	ru mei sheng	500
+乳酸菌素	ru suan jun su	500
+乳酸钠	ru suan na	500
+瑞芬太尼	rui fen tai ni	500
+赛庚啶	sai geng ding	500
+塞来昔布	sai lai xi bu	500
+赛洛唑啉	sai luo zuo lin	500
+噻氯匹定	sai lv pi ding	500
+噻吗洛尔	sai ma luo er	500
+噻奈普汀	sai nai pu ting	500
+塞替派	sai ti pai	500
+色甘酸钠	se gan suan na	500
+沙丁胺醇	sha ding an chun	500
+鲨肝醇	sha gan chun	500
+沙格雷酯	sha ge lei zhi	500
+沙奎那韦	sha kui na wei	500
+沙利度胺	sha li du an	500
+沙美特罗	sha mei te luo	500
+山莨菪碱	shan lang dang jian	500
+山梨醇铁	shan li chun tie	500
+舍曲林	she qu lin	500
+肾上腺素	shen shang xian su	500
+生长抑素	sheng zhang yi su	500
+石杉碱甲	shi shan jian jia	500
+舒必利	shu bi li	500
+舒芬太尼	shu fen tai ni	500
+鼠李铋镁,	shu li bi mei	500
+舒林酸	shu lin suan	500
+双环醇	shuang huan chun	500
+双氯非那胺	shuang lv fei na an	500
+双氯芬酸钾	shuang lv fen suan jia	500
+双氯芬酸钠	shuang lv fen suan na	500
+双嘧达莫	shuang mi da mo	500
+双歧杆菌活菌	shuang qi gan jun huo jun	100
+双羟萘酸噻嘧啶	shuang qiang nai suan sai mi ding	100
+双氢可待因	shuang qing ke dai yin	500
+双氢麦角胺	shuang qing mai jiao an	500
+双氢青蒿素	shuang qing qing hao su	500
+水飞蓟宾	shui fei ji bin	500
+水杨酸	shui yang suan	500
+顺铂	shun bo	500
+司可巴比妥	si ke ba bi tuo	500
+司来吉兰	si lai ji lan	500
+丝裂霉素	si lie mei su	500
+司莫司汀	si mo si ting	500
+司帕沙星	si pa sha xing	500
+司他夫定	si ta fu ding	500
+司坦唑醇	si tan zuo chun	500
+酸锂	suan li	500
+缩宫素	suo gong su	500
+羧甲基纤维素钠	suo jia ji xian wei su na	100
+羧甲司坦	suo jia si tan	500
+索他洛尔	suo ta luo er	500
+他卡西醇	ta ka xi chun	500
+他克莫司	ta ke mo si	500
+他莫昔芬	ta mo xi fen	500
+酞丁安	tai ding an	500
+坦洛新	tan luo xin	500
+碳酸钙	tan suan gai	500
+碳酸氢钠	tan suan qing na	500
+特布他林	te bu ta lin	500
+特拉唑嗪	te la zuo qin	500
+替勃龙	ti bo long	500
+蹄甲多肽	ti jia duo tai	500
+替加氟	ti jia fu	500
+替加色罗	ti jia se luo	500
+替卡西林	ti ka xi lin	500
+替卡西林钠克拉维酸钾	ti ka xi lin na ke la wei suan jia	100
+替考拉宁	ti kao la ning	500
+替罗非班	ti luo fei ban	500
+替米沙坦	ti mi sha tan	500
+替尼泊苷	ti ni bo gan	500
+替普瑞酮	ti pu rui tong	500
+替硝唑	ti xiao zuo	500
+天麻素	tian ma su	500
+酮康唑	tong kang zuo	500
+α-酮酸	tong suan	500
+酮替芬	tong ti fen	500
+头孢氨苄	tou bao an bian	500
+头孢吡肟	tou bao bi wo	500
+头孢丙烯	tou bao bing xi	500
+头孢地尼	tou bao di ni	500
+头孢呋辛	tou bao fu xin	500
+头孢克洛	tou bao ke luo	500
+头孢克肟	tou bao ke wo	500
+头孢拉定	tou bao la ding	500
+头孢硫脒	tou bao liu mi	500
+头孢美唑	tou bao mei zuo	500
+头孢米诺	tou bao mi nuo	500
+头孢尼西	tou bao ni xi	500
+头孢哌酮	tou bao pai tong	500
+头孢哌酮舒巴坦	tou bao pai tong shu ba tan	100
+头孢泊肟酯	tou bao po wo zhi	500
+头孢羟氨苄	tou bao qiang an bian	500
+头孢曲松	tou bao qu song	500
+头孢他啶	tou bao ta ding	500
+头孢他美酯	tou bao ta mei zhi	500
+头孢替安	tou bao ti an	500
+头孢妥仑匹酯	tou bao tuo lun pi zhi	100
+头孢西丁	tou bao xi ding	500
+头孢唑林	tou bao zuo lin	500
+头孢唑肟	tou bao zuo wo	500
+头孢地秦	tou bao 地秦	500
+透明质酸钠	tou ming zhi suan na	500
+托吡卡胺	tuo bi ka an	500
+托吡酯	tuo bi zhi	500
+妥布霉素	tuo bu mei su	500
+托拉塞米	tuo la sai mi	500
+托尼萘酸	tuo ni nai suan	500
+拓扑替康	tuo pu ti kang	500
+托瑞米芬	tuo rui mi fen	500
+托特罗定	tuo te luo ding	500
+托烷司琼	tuo wan si qiong	500
+万古霉素	wan gu mei su	500
+维胺酯	wei an zhi	500
+胃蛋白酶	wei dan bai mei	500
+维库溴铵	wei ku xiu an	500
+维拉帕米	wei la pa mi	500
+维酶素	wei mei su	500
+维生素	wei sheng su	500
+维生素A	wei sheng su	500
+维生素AD	wei sheng su	500
+维生素B1	wei sheng su	500
+维生素B2	wei sheng su	500
+维生素B4	wei sheng su	500
+维生素B6	wei sheng su	500
+维生素C	wei sheng su	500
+维生素D2	wei sheng su	500
+维生素D3	wei sheng su	500
+维生素E	wei sheng su	500
+维生素B 12	wei sheng su	100
+维生素K1、	wei sheng su	100
+维生素烟酸酯	wei sheng su yan suan zhi	100
+维酸	wei suan	500
+维替泊芬	wei ti po fen	500
+文拉法辛	wen la fa xin	500
+乌苯美司	wu ben mei si	500
+乌拉地尔	wu la di er	500
+乌洛托品	wu luo tuo pin	500
+乌司他丁	wu si ta ding	500
+戊酸雌二醇	wu suan ci er chun	500
+戊乙奎醚	wu yi kui mi	500
+细胞色素	xi bao se su	500
+西吡氯铵	xi bi lv an	500
+烯丙雌醇	xi bing ci chun	500
+烯丙吗啡	xi bing ma fei	500
+西地碘	xi di dian	500
+硒酵母	xi jiao mu	500
+西拉普利	xi la pu li	500
+西罗莫司	xi luo mo si	500
+西洛他唑	xi luo ta zuo	500
+西咪替丁	xi mi ti ding	500
+西索米星	xi suo mi xing	500
+西酞普兰	xi tai pu lan	500
+西替利嗪	xi ti li qin	500
+西妥昔单抗	xi tuo xi dan kang	500
+腺苷蛋氨酸	xian gan dan an suan	500
+腺苷钴胺	xian gan gu an	500
+纤维蛋白原	xian wei dan bai yuan	500
+纤维蛋白粘合剂	xian wei dan bai zhan he ji	100
+香菇多糖	xiang gu duo tang	500
+硝苯地平	xiao ben di ping	500
+小檗胺	xiao bo an	500
+小檗碱	xiao bo jian	500
+消化酶	xiao hua mei	500
+硝卡芥	xiao ka jie	500
+小诺米星	xiao nuo mi xing	500
+硝普钠	xiao pu na	500
+硝酸甘油	xiao suan gan you	500
+硝酸异山梨酯	xiao suan yi shan li zhi	100
+硝西泮	xiao xi pan	500
+缬沙坦	xie sha tan	500
+辛伐他汀	xin fa ta ting	500
+新霉素	xin mei su	500
+新斯的明	xin si di ming	500
+熊去氧胆酸	xiong qu yang dan suan	500
+胸腺肽	xiong xian tai	500
+胸腺肽α1	xiong xian tai	500
+胸腺五肽	xiong xian wu tai	500
+溴吡斯的明	xiu bi si de ming	500
+溴己新	xiu ji xin	500
+溴米因	xiu mi yin	500
+溴莫尼定	xiu mo ni ding	500
+溴隐亭	xiu yin ting	500
+亚胺培南	ya an pei nan	500
+亚甲蓝	ya jia lan	500
+亚硫酸氢钠甲萘醌	ya liu suan qing na jia nai kun	100
+亚砷酸	ya shen suan	500
+亚硝酸钠	ya xiao suan na	500
+亚硝酸异戊酯	ya xiao suan yi wu zhi	100
+亚叶酸钙	ya ye suan gai	500
+烟酸	yan suan	500
+盐酸表柔比星	yan suan biao rou bi xing	100
+盐酸利托君	yan suan li tuo jun	500
+烟酰胺	yan xian an	500
+氧氟沙星	yang fu sha xing	500
+氧化锌	yang hua xin	500
+药用炭	yao yong tan	500
+叶酸	ye suan	500
+乙胺丁醇	yi an ding chun	500
+乙胺嘧啶	yi an mi ding	500
+乙胺嗪	yi an qin	500
+依巴斯汀	yi ba si ting	500
+伊班膦酸钠	yi ban lin suan na	500
+异丙嗪	yi bing qin	500
+异丙肾上腺素	yi bing shen shang xian su	100
+异丙托溴铵	yi bing tuo xiu an	500
+依达拉奉	yi da la feng	500
+胰岛素	yi dao su	500
+依地酸钙钠	yi di suan gai na	500
+依非韦伦	yi fei wei lun	500
+异氟烷	yi fu wan	500
+乙琥胺	yi hu an	500
+异环磷酰胺	yi huan lin xian an	500
+胰激肽原酶	yi ji tai yuan mei	500
+依降钙素	yi jiang gai su	500
+益康唑	yi kang zuo	500
+益康唑曲安奈德	yi kang zuo qu an nai de	100
+伊立替康	yi li ti kang	500
+胰酶	yi mei	500
+依美斯汀	yi mei si ting	500
+依米丁	yi mi ding	500
+依那普利	yi na pu li	500
+依诺沙星	yi nuo sha xing	500
+异帕米星	yi pa mi xing	500
+乙哌立松	yi pai li song	500
+伊曲康唑	yi qu kang zuo	500
+依沙吖啶	yi sha a ding	500
+抑肽酶	yi tai mei	500
+依替米星	yi ti mi xing	500
+依托红霉素	yi tuo hong mei su	500
+依托咪酯	yi tuo mi zhi	500
+依托泊苷	yi tuo po gan	500
+异维酸	yi wei suan	500
+异戊巴比妥	yi wu ba bi tuo	500
+依西美坦	yi xi mei tan	500
+乙酰胺	yi xian an	500
+乙酰半胱氨酸	yi xian ban guang an suan	100
+乙酰唑胺	yi xian zuo an	500
+异烟肼	yi yan jing	500
+吲达帕胺	yin da pa an	500
+茚地那韦	yin di na wei	500
+吲哚菁绿	yin duo jing lv	500
+吲哚美辛	yin duo mei xin	500
+蚓激酶	yin ji mei	500
+荧光素钠	ying guang su na	500
+罂粟碱	ying su jian	500
+硬脂酸红霉素	ying zhi suan hong mei su	100
+右美沙芬	you mei sha fen	500
+右旋糖酐	you xuan tang gan	500
+右旋糖酐铁	you xuan tang gan tie	500
+鱼肝油酸钠	yu gan you suan na	500
+鱼精蛋白	yu jing dan bai	500
+鱼石脂	yu shi zhi	500
+孕三烯酮	yun san xi tong	500
+藻酸双酯钠	zao suan shuang zhi na	500
+造影剂	zao ying ji	500
+扎来普隆	zha lai pu long	500
+扎鲁司特	zha lu si te	500
+粘菌素	zhan jun su	500
+樟柳碱	zhang liu jian	500
+樟脑	zhang nao	500
+蔗糖铁	zhe tang tie	500
+脂肪乳	zhi fang ru	500
+制霉素	zhi mei su	500
+猪肺磷脂	zhu fei lin zhi	500
+转移因子	zhuan yi yin zi	500
+紫杉醇	zi shan chun	500
+唑吡坦	zuo bi tan	500
+左布比卡因	zuo bu bi ka yin	500
+左布诺洛尔	zuo bu nuo luo er	500
+左甲状腺素钠	zuo jia zhuang xian su na	100
+左卡巴斯汀	zuo ka ba si ting	500
+左卡尼汀	zuo ka ni ting	500
+唑来膦酸	zuo lai lin suan	500
+佐匹克隆	zuo pi ke long	500
+左炔诺孕酮	zuo que nuo yun tong	500
+左西替利嗪	zuo xi ti li qin	500
+左旋多巴	zuo xuan duo ba	500
+左旋咪唑	zuo xuan mi zuo	500
+左氧氟沙星	zuo yang fu sha xing	500
+地尔硫	地尔硫	500
