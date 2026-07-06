@@ -40,7 +40,7 @@ jobs:
         uses: actions/cache@v5
         with:
           path: /opt/rime-cli
-          key: rime-cli-v5-${{ runner.os }}-${{ runner.arch }}
+          key: rime-cli-v6-${{ runner.os }}-${{ runner.arch }}
 
       - name: Build rime CLI tools
         if: steps.cache-rime.outputs.cache-hit != 'true'
@@ -62,6 +62,11 @@ jobs:
           cmake --build /tmp/librime-src/build -j$(nproc)
           sudo cmake --install /tmp/librime-src/build
           sudo cp /tmp/librime-src/build/bin/rime_api_console /opt/rime-cli/bin/
+
+      - name: Install runtime dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgoogle-glog0v6t64 libleveldb1d libmarisa0 libopencc1.1 libyaml-cpp0.8
 
       - name: Configure rime CLI environment
         run: |
