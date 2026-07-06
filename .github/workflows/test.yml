@@ -48,16 +48,19 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y cmake libboost-dev libboost-filesystem-dev \
             libboost-regex-dev libleveldb-dev libmarisa-dev libopencc-dev \
-            libyaml-cpp-dev libgoogle-glog-dev
+            libyaml-cpp-dev libgoogle-glog-dev librime-plugin-lua
           git clone --depth 1 https://github.com/rime/librime.git /tmp/librime-src
           python3 tool/build/smoke/patch_api_console.py /tmp/librime-src/tools/rime_api_console.cc
           cmake -B /tmp/librime-src/build \
             -DCMAKE_BUILD_TYPE=Release \
             -DBUILD_TEST=OFF \
+            -DENABLE_EXTERNAL_PLUGINS=ON \
             -DCMAKE_INSTALL_PREFIX=/opt/rime-cli \
             /tmp/librime-src
           cmake --build /tmp/librime-src/build -j$(nproc)
           sudo cmake --install /tmp/librime-src/build
+          sudo mkdir -p /opt/rime-cli/lib/rime-plugins
+          sudo cp /usr/lib/x86_64-linux-gnu/rime-plugins/librime-lua.so /opt/rime-cli/lib/rime-plugins/
           sudo cp /tmp/librime-src/build/bin/rime_api_console /opt/rime-cli/bin/
 
       - name: Configure rime CLI environment
