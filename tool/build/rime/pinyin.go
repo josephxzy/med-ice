@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"log"
+	"math"
 	"os"
 	"path"
 	"strconv"
@@ -416,9 +417,12 @@ func generatePinyin(s string) string {
 			continue
 		}
 
-		// 其他的不处理，直接返回汉字
-
-		r += word + " "
+		// 其他的，逐字取首个读音作为近似注音
+		for _, char := range word {
+			if pys := hanziPinyin[string(char)]; len(pys) > 0 {
+				r += pys[0] + " "
+			}
+		}
 	}
 
 	return strings.TrimSpace(r)
@@ -459,7 +463,8 @@ func SetMedWeight(dictName, dictPath string) {
 	log.Printf("  权重: %s", path.Base(dictPath))
 }
 
-// normalizeMergedWeight 将 med_merged 的教材词频线性归一化到 [100, 10000]
+// normalizeMergedWeight 将 med_merged 的教材词频用对数归一化到 [200, 5000]
+// 对数变换压缩极端值，避免大量低频词堆在底部
 func normalizeMergedWeight(lines []string) {
 	// 第一遍：找最小和最大权重
 	oldMin, oldMax := 0, 0
@@ -503,8 +508,10 @@ func normalizeMergedWeight(lines []string) {
 		if err != nil || oldWeight <= 0 {
 			continue
 		}
-		// 线性映射：[oldMin, oldMax] → [100, 10000]
-		newWeight := 100 + (oldWeight-oldMin)*9900/(oldMax-oldMin)
+		// 对数映射：log10(oldWeight) → [200, 5000]
+		logOld := math.Log10(float64(oldWeight))
+		logMax := math.Log10(float64(oldMax))
+		newWeight := 200 + int(logOld*4800/logMax)
 		lines[i] = fmt.Sprintf("%s\t%s\t%d", parts[0], parts[1], newWeight)
 	}
 }
