@@ -179,12 +179,16 @@ resolve_cli_commands() {
     deployer_path="$(command -v rime_deployer || true)"
     api_console_path="$(command -v rime_api_console || true)"
     [[ -n "${deployer_path}" ]] || fail "RIME_CLI_URL is not set and local rime_deployer was not found in PATH"
-    [[ -n "${api_console_path}" ]] || fail "RIME_CLI_URL is not set and local rime_api_console was not found in PATH"
+    if [[ -z "${api_console_path}" ]]; then
+      log_warn "rime_api_console not found, input tests will be skipped" >&2
+    fi
     log_step "using local rime cli commands from PATH" >&2
   fi
 
   [[ -x "${deployer_path}" ]] || fail "rime_deployer is not executable: ${deployer_path}"
-  [[ -x "${api_console_path}" ]] || fail "rime_api_console is not executable: ${api_console_path}"
+  if [[ -n "${api_console_path}" ]]; then
+    [[ -x "${api_console_path}" ]] || fail "rime_api_console is not executable: ${api_console_path}"
+  fi
   printf '%s\n%s\n' "${deployer_path}" "${api_console_path}"
 }
 
