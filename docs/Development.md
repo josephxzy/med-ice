@@ -1,136 +1,239 @@
 # 开发指南
 
+## 项目架构
+
+```
+src/                           # 源文件（按功能分类）
+├── schema/*.schema.yaml       # 输入方案
+├── dict/
+│   ├── cn/*.dict.yaml         # 中文词库源文件
+│   ├── en/*.yaml / *.txt      # 英文词库源文件
+│   └── *.dict.yaml            # 词库索引（声明 import_tables）
+├── opencc/                    # OpenCC 映射（Emoji 等）
+├── lua/                       # Lua 扩展脚本
+├── config/                    # 全局配置文件
+├── recipes/                   # Plum 安装配方
+└── patches/                   # 定制补丁
+
+tool/
+├── build/                     # 构建脚本 & 工具（Go）
+│   ├── main.go                # 构建入口
+│   ├── rime/                  # 核心模块
+│   └── smoke/                 # 冒烟测试
+├── pdf-to-dict/               # PDF → 词库工具
+├── sogou-med-dict/            # 搜狗医学词库工具
+└── dict-merge/                # 词库合并工具
+```
+
+## 快速开始
+
+```bash
+# 完整构建（需 Go 1.24+，约 90 秒）
+make -C tool/build build
+
+# 代码检查（需 yamllint + luacheck）
+make -C tool/build lint
+
+# 冒烟测试（Linux，需要 librime 运行环境）
+SMOKE_ALLOW_DESTRUCTIVE=1 make -C tool/build smoke
+```
+
 ## 构建流程
 
-`src/` 为源文件目录（按功能分类），`tool/build/out/` 为构建产物（扁平 Rime 部署结构）。
+`make -C tool/build build` 执行以下步骤：
+
+| 步骤 | 说明 |
+|------|------|
+| 1. 复制 | `src/` → `tool/build/out/`，schema、dict、config、lua、opencc 等直接复制 |
+| 2. Emoji | `src/opencc/emoji-map.txt` → 生成 `out/opencc/emoji.txt` |
+| 3. 中英混合 | `src/dict/en/cn_en.txt` → 生成 8 种双拼方案的 `en_dicts/cn_en_*.txt` |
+| 4. 注音 | 为 `NeedPinyin` 标记的词库（ext + 所有 med_\*）自动补充拼音 |
+| 5. 权重 | 为 `NeedWeight` 标记的词库统一设置默认权重 |
+| 6. 检查 | 校验词库格式、注音正确性、错别字、多音字 |
+| 7. 排序去重 | 按拼音排序、去重，重写 `fixColumnsHeader` |
+
+### 构建产物处理方式
+
+| 处理方式 | 文件 |
+|----------|------|
+| 直接复制 | `src/schema/*`、`src/config/*`、`src/lua/**`、`src/dict/*.dict.yaml`、OpenCC 数据 |
+| 排序 + 去重 | 8105、base、ext、tencent、med_\* 等词库 |
+| 注音 | ext、med_\* 词库（自动补全拼音） |
+| 源文件生成 | Emoji 映射、中英混合词库 |
+
+## 词库制作工具
+
+med-ice 提供了一套从原始数据到 Rime 词库的完整工具链。
+
+### pdf-to-dict：PDF 教材 → 医学词库
+
+从可编辑 PDF 提取医学术语，支持批量处理、多后端并发分词、断点续转。
+
+```bash
+cd tool/pdf-to-dict
+python run.py                    # 交互式运行
+python main.py run --help        # CLI 查看选项
+python main.py test --help       # 测试命令
+```
+
+**五阶段流水线**（`pipeline/`）：
+
+| 阶段 | 模块 | 功能 |
+|------|------|------|
+| Phase 1 | `ph1_extract.py` | PDF → TXT 文本提取 |
+| Phase 2 | `ph2_segment.py` | 分词（支持阿里 NLP、Ollama LLM 等多后端） |
+| Phase 3 | `ph3_filter.py` | 基于词性、词长、停用词等规则过滤 |
+| Phase 4 | `ph4_decompose.py` | 长词拆解为子术语 |
+| Phase 5 | `ph5_dict.py` | 自动注音并输出 Rime .dict.yaml 格式 |
+
+**多后端支持**（`backends/`）：阿里云 NLP、本地 LLM（Ollama）。
+
+### sogou-med-dict：搜狗医学细胞词库
+
+```bash
+cd tool/sogou-med-dict
+```
+
+| 工具 | 功能 |
+|------|------|
+| `sogou-downloader/` | 从搜狗官网批量下载医学分类细胞词库（`.scel`） |
+| `scel2txt/` | 将 `.scel` 格式转换为纯文本词条，供构建工具进一步处理 |
+
+### dict-merge：多词库合并去重
+
+将多个 `.dict.yaml` 词库合并为一个，去重时保留较高权重。
+
+```bash
+cd tool/dict-merge
+# 1. 将要合并的词库文件放入 in/ 目录
+# 2. 运行合并
+python merge.py
+# 3. 合并结果输出到 out/merged.dict.yaml
+```
+
+合并规则：同一词条在多个文件中出现时，取最大权重。最终结果按权重降序、文本升序排列。
+
+## 冒烟测试
+
+冒烟测试通过 `rime_deployer` + `rime_api_console` 验证输入方案的正确性。
+
+### 测试用例
+
+测试用例定义在 `tool/build/smoke/cases/` 下，格式为 TSV：
+
+```
+case_id	schema_id	key_sequence	expected_text
+基础：中文输入	rime_ice	wusongpinyin{space}	雾凇拼音
+```
+
+按键序列使用 Rime 标准语法：`{space}`、`{Return}`、`{Down}`、`{Control+Shift+Return}` 等。
+
+### 运行测试
+
+```bash
+# 本地运行（需先执行 make build 生成 out/ 目录）
+SMOKE_ALLOW_DESTRUCTIVE=1 make -C tool/build smoke
+
+# 单独测试某个输入案例
+cd tool/build/out
+rime_deployer --build . .
+RIME_SHARED_DATA_DIR=. RIME_USER_DATA_DIR=. rime_api_console
+# > select schema rime_ice
+# > wusongpinyin{space}
+# > exit
+```
+
+### CI 中的冒烟测试
+
+CI 不使用外部预编译包，而是从源码构建整个测试环境：
+
+1. 安装编译依赖（cmake、boost、leveldb、marisa、opencc、yaml-cpp 等）
+2. 从 `github.com/rime/librime` 克隆源码
+3. `patch_api_console.py` 注入两个关键修复：
+    - 将已废弃的 `simulate_key_sequence` 替换为 `process_key` 调用
+    - 在 `traits` 中设置 `shared_data_dir` / `user_data_dir`（librime 不读取环境变量）
+4. 加载 Debian 预编译的 `librime-lua.so` 插件（外部插件模式）
+5. 编译 → 运行 smoke
+
+## 新增词库
+
+1. 在 `src/dict/cn/` 下创建 `mywords.dict.yaml`：
+
+```yaml
+# Rime dictionary
+# encoding: utf-8
+---
+name: mywords
+version: "1"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+...
+# +_+
+词汇	ci hui	100
+```
+
+2. 如需挂载到输入方案，在 `src/dict/med_ice.dict.yaml` 或 `rime_ice.dict.yaml` 的 `import_tables` 中添加：
+
+```yaml
+import_tables:
+  - cn_dicts/mywords
+```
+
+3. 运行构建：
 
 ```bash
 make -C tool/build build
 ```
 
-执行以下管线（约 90 秒完成）：
+构建脚本会自动发现、复制、注音、排序、去重新文件。
 
-```
-src/                           tool/build/out/
-├── dict/cn/*.dict.yaml  ───→  cn_dicts/    (排序 + 去重 + 注音 + 权重)
-├── dict/en/en.dict.yaml ───→  en_dicts/    (排序 + 去重)
-├── dict/en/cn_en.txt    ───→  en_dicts/cn_en*.txt  (生成所有双拼方案)
-├── opencc/emoji-map.txt  ───→ opencc/emoji.txt    (生成 Emoji 映射)
-├── schema/*.schema.yaml  ───→ *.schema.yaml        (直接复制)
-├── config/*              ───→ *.yaml, *.txt         (直接复制)
-├── lua/**                ───→ lua/                  (直接复制)
-├── dict/*.dict.yaml      ───→ *.dict.yaml           (直接复制)
-├── recipes/recipe.yaml   ───→ recipe.yaml           (直接复制)
-├── opencc/*.json, *.txt  ───→ opencc/               (直接复制)
-└── ../LICENSE            ───→ LICENSE               (直接复制)
-```
+## 新增输入方案
 
-### 构建产物处理方式
+1. 在 `src/schema/` 下创建 `my_schema.schema.yaml`
+2. 在 `src/config/default.yaml` 的 `schema_list` 中添加
+3. 如果是新词库，在方案或词库索引中声明 `import_tables`
+4. 运行构建
 
-| 处理方式 | 涉及文件 |
-|---|---|
-| 直接复制 | `src/schema/*`, `src/config/*`, `src/lua/**`, `src/opencc/emoji.json`, `src/opencc/others.txt`, `src/dict/*.dict.yaml`, `src/recipes/recipe.yaml`, `LICENSE` |
-| 排序 + 去重 | `src/dict/cn/8105.dict.yaml`, `src/dict/cn/41448.dict.yaml`, `src/dict/cn/base.dict.yaml`, `src/dict/en/en.dict.yaml` |
-| 注音 + 权重 + 排序 | `src/dict/cn/ext.dict.yaml`, `src/dict/cn/tencent.dict.yaml` |
-| 源文件生成 | `src/opencc/emoji-map.txt` → `emoji.txt`; `src/dict/en/cn_en.txt` → 9 个 `cn_en_*.txt` |
+## 新增 Lua 脚本
 
-## 配置文件引用链
+1. 在 `src/lua/` 下创建 `.lua` 文件
+2. 在 schema 中引用：
+   - `lua_translator@*文件名` — 翻译器（产生候选）
+   - `lua_filter@*文件名` — 过滤器（修改候选）
+   - `lua_processor@*文件名` — 处理器（响应按键）
+3. 运行 `make -C tool/build build`
 
-详见 [配置引用链](./ConfigReference.md)。
+## 构建核心库
 
-构建脚本 `tool/build/rime/config.go` 沿此引用链自动发现文件依赖，不需要在 Go 代码中硬编码文件名：
+`tool/build/rime/` 下的 Go 模块：
+
+| 文件 | 功能 |
+|------|------|
+| `config.go` | 解析 YAML，从 schema/dict 自动发现文件依赖（无需硬编码文件名） |
+| `rime.go` | 路径管理、词库词集加载、全局变量 |
+| `check.go` | 词库校验：格式、注音、错别字、多音字 |
+| `sort.go` | 排序、去重、columns header 自动修正 |
+| `pinyin.go` | 半自动注音（基于 gojieba 分词 + 结巴词库拼音映射） |
+| `cn_en.go` | 中英混输词库生成（8 种双拼方案） |
+| `emoji.go` | Emoji 映射生成与校验 |
+| `polyphone.go` | 多音字检查 |
+
+### 配置文件引用链
+
+构建脚本沿以下链自动发现依赖：
 
 ```
 default.yaml → schema → dict 索引 → import_tables → 实际词库文件
 ```
 
-## 构建命令
-
-```bash
-# 完整构建（需要 Go 1.24+）
-make -C tool/build build
-
-# 代码检查（需要 yamllint + luacheck）
-make -C tool/build lint
-
-# 仅检查 YAML
-make -C tool/build lint-yaml
-
-# 仅检查 Lua
-make -C tool/build lint-lua
-
-# 冒烟测试（需要 rime-cli，Linux 环境）
-make -C tool/build smoke
-
-# 冒烟测试（本地运行，跳过破坏性清理确认）
-SMOKE_ALLOW_DESTRUCTIVE=1 make -C tool/build smoke
-```
-
-## 冒烟测试
-
-冒烟测试通过 `rime_deployer` + `rime_api_console` 验证配置完整性和功能正确性。
-
-测试用例在 `tool/build/smoke/cases/rime_ice/input_cases.tsv` 中，格式为：
-
-```
-case_id	schema_id	key_sequence	expected_text
-```
-
-添加新功能后，应在此文件中加入对应的测试用例。CI 中每次推送和 PR 都会自动运行。
-
-## Plum 安装配方
-
-项目提供多个 Plum 配方用于自动化安装：
-
-| 配方 | 用途 |
-|------|------|
-| `src/recipes/full` | 完整安装 |
-| `src/recipes/cn_dicts` | 仅中文词库 |
-| `src/recipes/en_dicts` | 仅英文词库 |
-| `src/recipes/all_dicts` | 所有词库 + OpenCC |
-| `src/recipes/opencc` | 仅 OpenCC 映射 |
-| `src/recipes/config` | 方案切换 + 双拼适配 |
-| `src/recipes/grammar` | 万象语法模型 |
-| `src/recipes/no_lua_schema` | Lua-free 方案 |
-| `src/recipes/reverse_tone` | 反查音调 |
-
-> 注意：项目重构后采用 src/ → tool/build/out/ 架构，plum 安装暂时不可用。推荐从 [Release 页面](https://github.com/josephxzy/med-ice/releases) 下载 `full.zip`。
-
-## 新增词库
-
-1. 在 `src/dict/cn/` 下创建 `mywords.dict.yaml`
-2. 在 `rime_ice.dict.yaml` 的 `import_tables` 中添加 `- cn_dicts/mywords`
-3. 运行 `make -C tool/build build`
-
-构建脚本会自动发现、复制、排序、去重新文件。详见 [自定义字典](./CustomDict.md)。
-
-## 新增 Lua 脚本
-
-1. 在 `src/lua/` 下创建 `.lua` 文件
-2. 在 schema 中引用（`lua_translator@*文件名` 或 `lua_filter@*文件名`）
-3. 运行 `make -C tool/build build`
-
-详见 [自定义 Lua 脚本](./CustomLua.md)。Translator 和 Filter 的 API 不同，注意区分。
-
-## 构建核心库 (`tool/build/rime/`)
-
-| 文件 | 功能 |
-|------|------|
-| `config.go` | YAML 解析，从 schema/dict 自动发现文件依赖 |
-| `rime.go` | 路径管理、工具函数、核心变量 |
-| `check.go` | 词库校验（格式、注音、错别字） |
-| `sort.go` | 排序、去重 |
-| `pinyin.go` | 半自动注音（基于 gojieba） |
-| `cn_en.go` | 中英混输词库生成（7 种双拼方案） |
-| `emoji.go` | Emoji 映射生成与校验 |
-| `polyphone.go` | 多音字检查 |
-| `others.go` | 临时/调试工具 |
-
 ## CI/CD
 
 | 工作流 | 触发条件 | 功能 |
-|------|------|------|
-| `release.yml` | push main / tag / workflow_dispatch | Lint → Build → Smoke → Pack → Release |
-| `test.yml` | pull_request / workflow_dispatch | Lint → Build → Smoke |
+|--------|----------|------|
+| `test.yml` | PR / workflow_dispatch | Lint → Build → Smoke |
+| `release.yml` | push main / tag / workflow_dispatch | Lint → Build → Smoke → 打包 → Release/Nightly |
 
-CI 冒烟测试从 librime 源码编译 `rime_deployer` + `rime_api_console`，并通过 Debian 预编译的 `librime-lua.so` 插件提供 Lua 支持。`simulate_key_sequence` 在新版 librime 中已废弃，`tool/build/smoke/patch_api_console.py` 在编译前将其替换为 `process_key` 调用。
+CI 中冒烟测试的 rime 工具链（deployer + api_console + lua 插件）全部从源码构建，缓存 `/opt/rime-cli` 加速后续运行。Lua 插件使用 Debian 预编译的 `librime-lua.so`，通过 `ENABLE_EXTERNAL_PLUGINS=ON` 加载。
