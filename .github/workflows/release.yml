@@ -60,8 +60,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y cmake libboost-dev libboost-filesystem-dev \
-            libleveldb-dev libmarisa-dev libopencc-dev libyaml-cpp-dev \
-            libgoogle-glog-dev
+            libboost-regex-dev libleveldb-dev libmarisa-dev libopencc-dev \
+            libyaml-cpp-dev libgoogle-glog-dev
           git clone --depth 1 https://github.com/rime/librime.git /tmp/librime-src
           cmake -B /tmp/librime-src/build \
             -DCMAKE_BUILD_TYPE=Release \
