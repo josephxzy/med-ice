@@ -6,6 +6,8 @@
     "max": 15
   },
 
+  "min_freq": 1,
+
   "stop_words": [
     "是在", "各种", "分为", "包括", "称为", "相关", "以及", "两者",
     "位于", "具有", "可以", "参与", "形成", "经过", "主要",
@@ -34,7 +36,9 @@
     {"pattern": "^[0-9]+[个种次回型]$", "description": "阿拉伯数字+量词（18种、71型）"},
     {"pattern": "^[0-9]+世纪$", "description": "N世纪"},
     {"pattern": "^[0-9]+[年月]$", "description": "N年/N月"},
-    {"pattern": ".*[～~].*", "description": "含范围符号～~"}
+    {"pattern": ".*[～~].*", "description": "含范围符号～~"},
+    {"pattern": "^为[\\u4e00-\\u9fff]{2,}$", "description": "为+名词/动词短语（为病进、为本期）"},
+    {"pattern": "^[也所][\\u4e00-\\u9fff]+$", "description": "也/所+内容（也可导致、所引起）"}
   ],
 
   "include": [

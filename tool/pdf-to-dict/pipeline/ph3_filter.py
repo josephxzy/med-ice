@@ -84,6 +84,7 @@ def filter_terms(input_path, output_path, config_path=None):
 
     stop_words = set(cfg.get("stop_words", []))
     require_cjk = cfg.get("require_cjk", True)
+    min_freq = cfg.get("min_freq", 0)
 
     exclude_rules = compile_rules(cfg.get("exclude", []))
     include_rules = compile_rules(cfg.get("include", []))
@@ -97,10 +98,16 @@ def filter_terms(input_path, output_path, config_path=None):
     filtered = {}
     rejected = []  # (word, count, reason)
     stats = {"total": total_before, "length": 0, "stop_words": 0,
-             "exclude": 0, "include": 0, "cjk": 0, "passed": 0}
+             "exclude": 0, "include": 0, "cjk": 0, "freq": 0, "passed": 0}
 
     for word, count in terms.items():
-        # 1. 长度
+        # 1. 频次
+        if min_freq > 0 and count < min_freq:
+            stats["freq"] += 1
+            rejected.append((word, count, f"freq: {count} < min({min_freq})"))
+            continue
+
+        # 2. 长度
         wlen = len(word)
         if wlen < min_len:
             stats["length"] += 1
@@ -188,6 +195,7 @@ def main():
     passed = stats["passed"]
     total = stats["total"]
     print(f"  过滤: {total} → {passed} ({100*passed/max(total,1):.0f}%)")
+    print(f"    频次过低: {stats.get('freq', 0)}")
     print(f"    长度超限: {stats['length']}")
     print(f"    停用词:   {stats['stop_words']}")
     print(f"    正则排除: {stats['exclude']}")

@@ -107,7 +107,8 @@ python run.py --reset-config         # 恢复全部默认配置
 python main.py config show concurrency
 python main.py config set concurrency max_parallel_books 3
 python main.py config set concurrency segment.llm 20
-python main.py config set concurrency decompose 10
+python main.py config set concurrency decompose.batch 10
+python main.py config set concurrency decompose.workers 3
 ```
 
 ### 分词后端
@@ -165,7 +166,7 @@ python pipeline/ph2_segment.py operate/out/教材/教材.txt -o out.json --backe
 python pipeline/ph3_filter.py out.json -o out.json
 
 # 阶段 4: AI 子词分解
-python pipeline/ph4_decompose.py out.json -o decompose.json
+python pipeline/ph4_decompose.py out.json -o decompose.json --batch 10 --workers 3
 
 # 阶段 5: 词频 → dict.yaml
 python pipeline/ph5_dict.py out.json --name med_教材 --out-dir operate/out/教材

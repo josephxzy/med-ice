@@ -1,34 +1,50 @@
 # -*- coding: utf-8 -*-
 """
-词条分解工具 — 用 DeepSeek 判断 4+ 字词是否可以拆分为独立子词。
-输出可用于 ph5_dict.py 的 decompose_words 替代方案。
+词条分解工具 — 用 DeepSeek 批量判断 4+ 字词是否可拆分为独立子词。
+每批 N 个词合并为一次 LLM 请求，降低 prompt token 占比。并发数控制并行请求量。
 
 用法：
   python ph4_decompose.py terms.json -o decompose.json
-  python ph4_decompose.py terms.json -o decompose.json --batch 10
+  python ph4_decompose.py terms.json -o decompose.json --batch 10 --workers 3
 """
 
 import argparse
 import json
 import os
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # pdf-to-dict/
-from pipeline.term_decompose import decompose
+from pipeline.term_decompose import decompose, decompose_batch
 from utils.state import safewrite as state_safewrite
 
-
-def ask_decompose(word):
-    try:
-        return decompose(word)
-    except Exception as e:
-        print(f"  [错误] {word}: {e}", file=sys.stderr)
-        return []
+MAX_RETRIES = 3
+RETRY_BASE_DELAY = 2
 
 
-def decompose_terms(terms, batch_size=5, state_file=None):
-    """对 4+ 字词进行 AI 分解，分批提交避免一次性积压所有 future。"""
+def ask_batch(words):
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            return decompose_batch(words)
+        except Exception as e:
+            if attempt == MAX_RETRIES:
+                print(f"  [重试{MAX_RETRIES}次失败] 降级为单条请求...", file=sys.stderr)
+                results = {}
+                for w in words:
+                    try:
+                        r = decompose(w)
+                        results[w] = r
+                    except Exception as e2:
+                        print(f"  [放弃] {w}: {e2}", file=sys.stderr)
+                return results
+            delay = RETRY_BASE_DELAY * attempt
+            print(f"  [重试 {attempt}/{MAX_RETRIES}] {delay}s 后重试...", file=sys.stderr)
+            time.sleep(delay)
+
+
+def decompose_terms(terms, words_per_batch=10, workers=3, state_file=None):
+    """对 4+ 字词进行批量 AI 分解。words_per_batch 控制每请求词数，workers 控制并行请求数。"""
     candidates = [(w, c) for w, c in terms if len(w) >= 4]
     if not candidates:
         return {}
@@ -44,48 +60,47 @@ def decompose_terms(terms, batch_size=5, state_file=None):
         })
 
     total = len(candidates)
-    print(f"待分解: {total} 个 4+ 字词")
+    print(f"待分解: {total} 个 4+ 字词（每批 {words_per_batch} 词, {workers} 并行）")
     _report(0, total, 0)
+
+    # 分批
+    batches = []
+    for i in range(0, total, words_per_batch):
+        batch = candidates[i:i + words_per_batch]
+        batches.append([w for w, _ in batch])
+
     results = {}
     completed = 0
-    chunk_size = batch_size * 2
 
-    executor = ThreadPoolExecutor(max_workers=batch_size)
+    executor = ThreadPoolExecutor(max_workers=workers)
     try:
-        for start in range(0, total, chunk_size):
-            batch = candidates[start:start + chunk_size]
-            future_map = {executor.submit(ask_decompose, w): w for w, _ in batch}
-            futures_list = list(future_map.keys())
-            for fut in as_completed(futures_list):
-                word = future_map[fut]
-                try:
-                    subs = fut.result()
-                    if subs:
-                        results[word] = subs
-                        print(f"  {word} → {' '.join(subs)}")
-                except Exception as e:
-                    print(f"  [错误] {word}: {e}", file=sys.stderr)
-                completed += 1
-                if completed % 10 == 0 or completed == total:
-                    print(f"  进度: {completed}/{total}")
-                    _report(completed, total, len(results))
-            batch_end = min(start + chunk_size, total)
-            print(f"  批次: {batch_end}/{total}")
+        future_map = {executor.submit(ask_batch, b): b for b in batches}
+        for fut in as_completed(future_map):
+            batch_results = fut.result()
+            for word, result in batch_results.items():
+                subs = result.get("subs", [])
+                if subs:
+                    results[word] = result
+                    prefix = "[DROP] " if result.get("drop") else ""
+                    print(f"  {prefix}{word} → {' '.join(subs)}")
+            batch_words = future_map[fut]
+            completed += len(batch_words)
+            if completed % 50 == 0 or completed == total:
+                print(f"  进度: {completed}/{total}")
+                _report(completed, total, len(results))
     finally:
         executor.shutdown(wait=False)
-
-    if completed < total:
-        print(f"\n  警告: 仅完成 {completed}/{total}，仍有 {total - completed} 项未处理", file=sys.stderr)
 
     print(f"\n可分解: {len(results)}/{total}")
     return results
 
 
 def main():
-    parser = argparse.ArgumentParser(description="词条 AI 分解")
+    parser = argparse.ArgumentParser(description="词条 AI 批量分解")
     parser.add_argument("input", help="输入 _terms.json 或词频文件")
     parser.add_argument("-o", "--output", required=True, help="输出分解结果 JSON")
-    parser.add_argument("--batch", type=int, default=5, help="并发数（默认 5）")
+    parser.add_argument("--batch", type=int, default=10, help="每请求词数（默认 10）")
+    parser.add_argument("--workers", type=int, default=3, help="并行请求数（默认 3）")
     parser.add_argument("--state-file", default=None,
                         help=".pipeline_state.json 路径（向编排器汇报进度）")
     args = parser.parse_args()
@@ -99,7 +114,7 @@ def main():
     terms = [(w, c) for w, c in data.get("terms", {}).items()]
 
     total = len(terms)
-    results = decompose_terms(terms, args.batch, args.state_file)
+    results = decompose_terms(terms, args.batch, args.workers, args.state_file)
 
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False)

@@ -506,6 +506,18 @@ func normalizeMergedWeight(lines []string) {
 		}
 		oldWeight, err := strconv.Atoi(parts[2])
 		if err != nil || oldWeight <= 0 {
+			// 源词频为 0 的条目按字数赋底限权重
+			charCount := utf8.RuneCountInString(parts[0])
+			var weight int
+			switch {
+			case charCount <= 5:
+				weight = 50
+			case charCount <= 10:
+				weight = 20
+			default:
+				weight = 5
+			}
+			lines[i] = fmt.Sprintf("%s\t%s\t%d", parts[0], parts[1], weight)
 			continue
 		}
 		// 对数映射：log10(oldWeight) → [200, 5000]

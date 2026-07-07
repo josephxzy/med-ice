@@ -431,12 +431,15 @@ class PipelineOrchestrator:
             print(f"    → 跳过")
             return
 
-        concurrency = self.cm.get("concurrency", "decompose") or 5
+        words_per_batch = self.cm.get("concurrency", "decompose", "batch") or 10
+        workers = self.cm.get("concurrency", "decompose", "workers") or 3
         state_path = decompose_file + ".state.json"
 
         step_args = [
             sys.executable, DECOMPOSE_SCRIPT, terms_file,
-            "-o", decompose_file, "--batch", str(concurrency),
+            "-o", decompose_file,
+            "--batch", str(words_per_batch),
+            "--workers", str(workers),
             "--state-file", state_path,
         ]
 
@@ -504,10 +507,15 @@ class PipelineOrchestrator:
                 terms_data = json.load(f)
             with open(decompose_file, "r", encoding="utf-8") as f:
                 decomp = json.load(f)
-            for word, subs in decomp.items():
+            for word, result in decomp.items():
+                subs = result.get("subs", [])
+                if not subs:
+                    continue
                 count = terms_data["terms"].get(word, 1)
                 for sub in subs:
                     terms_data["terms"][sub] = terms_data["terms"].get(sub, 0) + count
+                if result.get("drop"):
+                    terms_data["terms"].pop(word, None)
             merged = terms_file[:-len("_terms.json")] + "_decomposed_terms.json"
             with open(merged, "w", encoding="utf-8") as f:
                 json.dump(terms_data, f, ensure_ascii=False)

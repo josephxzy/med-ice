@@ -83,31 +83,54 @@ def _test_decompose(args):
 
     # Import decompose logic
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # pdf-to-dict/
-    from pipeline.term_decompose import decompose
+    from pipeline.term_decompose import decompose, decompose_batch
 
     llm_config = {"base_url": base_url, "api_key": api_key, "model": model,
                    "system_prompt": cfg.get("system_prompt", ""),
                    "user_prompt": cfg.get("user_prompt", "{}")}
 
-    print(f"\n词条分解测试")
+    print(f"\n词条分解测试（空格分隔多个词条可批量测试）")
     print("输入 4+ 字中文词条测试（回车退出）:")
 
     while True:
         try:
-            word = input("> ").strip()
+            line = input("> ").strip()
         except (EOFError, KeyboardInterrupt):
             print()
             break
-        if not word:
+        if not line:
             break
-        if len(word) < 4:
-            print("  需要 4 个字以上")
-            continue
+        words = line.split()
+        if not words:
+            break
         try:
-            subs = decompose(word, llm_config=llm_config)
-            if subs:
-                print(f"  可拆分: {' '.join(subs)}")
+            if len(words) == 1:
+                word = words[0]
+                if len(word) < 4:
+                    print("  需要 4 个字以上")
+                    continue
+                result = decompose(word, llm_config=llm_config)
+                subs = result.get("subs", [])
+                if subs:
+                    prefix = "[DROP] " if result.get("drop") else ""
+                    print(f"  {prefix}{word} → {' '.join(subs)}")
+                else:
+                    print(f"  {word} → 不可拆分")
             else:
-                print(f"  不可拆分")
+                valid = [w for w in words if len(w) >= 4]
+                if not valid:
+                    print("  需要 4 个字以上")
+                    continue
+                if len(valid) < len(words):
+                    print(f"  跳过 {len(words) - len(valid)} 个短词")
+                results = decompose_batch(valid, llm_config=llm_config)
+                for w in valid:
+                    r = results.get(w, {"subs": [], "drop": False})
+                    subs = r.get("subs", [])
+                    if subs:
+                        prefix = "[DROP] " if r.get("drop") else ""
+                        print(f"  {prefix}{w} → {' '.join(subs)}")
+                    else:
+                        print(f"  {w} → 不可拆分")
         except Exception as e:
             print(f"  错误: {e}")
